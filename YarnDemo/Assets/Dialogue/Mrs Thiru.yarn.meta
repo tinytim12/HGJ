@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 7bfdc307b8e96c147bd45ec20ee8d644
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Mrs Thiru-Thiru-0
+  - Mrs Thiru-Thiru-1
+  - Mrs Thiru-Thiru-2
+  - Mrs Thiru-Thiru-3
+  - Mrs Thiru-Thiru-4
+  - Mrs Thiru-Thiru-5
+  - Mrs Thiru-Thiru-6
+  - Mrs Thiru-Thiru-7
+  - Mrs Thiru-Thiru-8
+  - Mrs Thiru-Thiru-9
+  - Mrs Thiru-Thiru-10
+  - Mrs Thiru-Thiru-11
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

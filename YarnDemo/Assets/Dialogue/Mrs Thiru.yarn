@@ -1,0 +1,22 @@
+title: Thiru
+tags: 
+colorID: 0
+position: 232,-219
+---
+Mrs Thiru: I called you here to talk about your grades.
+
+Mrs Thiru: You haven’t been handing in homework on time. If you maintain this, how are you supposed to learn anything?
+
+-> I'm sorry
+    MC: Sorry Mrs Thiru, I will hand in my homework next time.
+    Mrs Thiru: Okay. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:
+
+-> Let’s discuss
+    MC: Mrs Thiru, I want to improve. But I’m stressed from the workload.
+    Mrs Thiru: Okay. What don’t you understand - 
+    Mrs Thiru: Do you have any other commitments that are important to you? CCA, perhaps?
+    MC: No, not really. It’s just… I know I'm supposed to study, but it's so hard to motivate myself to...
+
+-> I don’t care
+    MC: ...
+===
