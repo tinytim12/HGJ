@@ -1,10 +1,8 @@
 title: Mrs Thiru Mon
 tags: 
 colorID: 0
-position: 404,-729
+position: 194,-766
 ---
-
-
 Mrs Thiru: I called you here to talk about your grades.
 
 Mrs Thiru: You haven’t been handing in homework on time. If you maintain this, how are you supposed to learn anything?
@@ -16,7 +14,7 @@ Mrs Thiru: You haven’t been handing in homework on time. If you maintain this,
 title: Sorry
 tags: 
 colorID: 0
-position: 175,-403
+position: -35,-440
 ---
 MC: Sorry Mrs Thiru, I will hand in my homework next time.
 Mrs Thiru: Okay. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:
@@ -24,7 +22,7 @@ Mrs Thiru: Okay. The test is in 2 days’ time. I’ll repeat all the topics you
 title: Discuss
 tags: 
 colorID: 0
-position: 391,-387
+position: 181,-424
 ---
 MC: Mrs Thiru, I want to improve. But I’m stressed from the workload.
 Mrs Thiru: Okay. What don’t you understand - 
@@ -34,14 +32,14 @@ MC: No, not really. It’s just… I know I'm supposed to study, but it's so har
 title: Nothing
 tags: 
 colorID: 0
-position: 630,-384
+position: 420,-421
 ---
 MC: ...
 ===
 title: Mrs Thiru Tue
 tags: 
 colorID: 0
-position: 347,31
+position: 250,-37
 ---
 Mrs Thiru: How’s your preparation for the test?
 [[ Not prepared |Not prepared]] ]] //if you chose aggressive with mum
@@ -51,7 +49,7 @@ Mrs Thiru: How’s your preparation for the test?
 title: Not prepared
 tags: 
 colorID: 0
-position: 30,332
+position: -76,321
 ---
 MC: I… didn’t really prepare.
 Mrs Thiru is taken aback. //emotionThiru surprised
@@ -68,7 +66,7 @@ Still, you know yourself best, right?
 title: SomewhatPrepared
 tags: 
 colorID: 0
-position: 349,347
+position: 243,336
 ---
 MC: Well, it’s… I’m trying my best. I made a deal with my mum.
 MC: if I do well, she won’t force me to attend new tuition classes.
@@ -80,7 +78,7 @@ You leave her office, cautiously optimistic.
 title: Prepared
 tags: 
 colorID: 0
-position: 734,346
+position: 628,335
 ---
 MC: It’s going to start in a while, when I meet my tutor today.
 Mrs Thiru: Oh? You engaged a private tutor? //emotionThiru surprised
