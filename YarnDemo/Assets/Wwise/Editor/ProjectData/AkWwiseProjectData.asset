@@ -12,14 +12,195 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c2df9e196044f2e9c798707c2ea9b5, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: d52d5be01b58a848ba4236975fbae797
+    GuidInternal: 
+    m_lastTime: -8586052293874775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 591b9b870fe46345ab9ee59111f55358
+    GuidInternal: 
+    m_lastTime: -8586052260254775808
+    List:
+    - name: Ambience
+      guid: 361f28b244539e49a26975dc2f60ef82
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Ambience
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/Ambience
+    - name: Dialogue
+      guid: 1df7322da74b5743a981aae777ad9e49
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Dialogue
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/Dialogue
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus
+    - name: Music
+      guid: bcbfff86b2ccaa41a2ce0041614b81a7
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/Music
+    - name: SFX
+      guid: ecde8df3535cf940af8a8f47a9349947
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 97a0fd9e780ae74697bc041d8670cc73
+    GuidInternal: 
+    m_lastTime: -8586052182984775808
+    List:
+    - name: Main
+      guid: 0cab1af0bf0d434fab85159b8d5c7e8b
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit/Main
+    - name: Music
+      guid: 37b7c21a98a06f48bcada0511007ec7d
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit/Music
+  EventWwu:
+  - PhysicalPath: Events/Ambience.wwu
+    ParentPath: Default Work Unit/Ambience
+    guid: dc0681408f2f0043b9a554bbb53a60d1
+    GuidInternal: 
+    m_lastTime: -8586052259754775808
+    List: []
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 302da69fe126c247991a411589dbf652
+    GuidInternal: 
+    m_lastTime: -8586052259754775808
+    List: []
+  - PhysicalPath: Events/Dialogue.wwu
+    ParentPath: Default Work Unit/Dialogue
+    guid: a29b490f0bd72a47a54e2815e43b8121
+    GuidInternal: 
+    m_lastTime: -8586052260094775808
+    List: []
+  - PhysicalPath: Events/Music.wwu
+    ParentPath: Default Work Unit/Music
+    guid: d3a3603d8affa7498b40c28047ec374d
+    GuidInternal: 
+    m_lastTime: -8586052260004775808
+    List: []
+  - PhysicalPath: Events/Phone.wwu
+    ParentPath: Default Work Unit/SFX/Phone
+    guid: 05771d45f7c6194bae158ad2446de914
+    GuidInternal: 
+    m_lastTime: -8586052187874775808
+    List:
+    - name: Phone_Typing_Start
+      guid: 75a1cfe320c92845822ca7ab1da58a51
+      id: 1019347030
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Phone
+        ObjectType: 12
+      - ElementName: Phone_Typing_Start
+        ObjectType: 3
+      Path: Default Work Unit/SFX/Phone/Phone_Typing_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Phone_Typing_Stop
+      guid: 57b81cb226b6d747ba9913487721ccaa
+      id: 1714883926
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Phone
+        ObjectType: 12
+      - ElementName: Phone_Typing_Stop
+        ObjectType: 3
+      Path: Default Work Unit/SFX/Phone/Phone_Typing_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events/SFX.wwu
+    ParentPath: Default Work Unit/SFX
+    guid: b64f5d31612d12469b5d2ffd934e9efd
+    GuidInternal: 
+    m_lastTime: -8586052188114775808
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: a1e958df99694c4988cb342afe0982c2
+    GuidInternal: 
+    m_lastTime: -8586052293874775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e7712faafc28ed4196ee9103c9edd31a
+    GuidInternal: 
+    m_lastTime: -8586052293874775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: f29bced4ab3e1e4288f54d77e3337b62
+    GuidInternal: 
+    m_lastTime: -8586052293874775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 94221cc92cef6341946b7ab68ccd6d99
+    GuidInternal: 
+    m_lastTime: -8586052293874775808
+    List: []
   ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
