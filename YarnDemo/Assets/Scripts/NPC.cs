@@ -26,6 +26,7 @@ SOFTWARE.
 
 using UnityEngine;
 
+
 namespace Yarn.Unity.Example {
     /// attached to the non-player characters, and stores the name of the Yarn
     /// node that should be run when you talk to them.
@@ -41,14 +42,22 @@ namespace Yarn.Unity.Example {
         private Collider2D collider;
 
         [Header("Optional")]
-        public YarnProgram scriptToLoad;
+        public YarnProgram scriptToLoad1;
+        public YarnProgram scriptToLoad2;
+        public YarnProgram scriptToLoad3;
 
         void Start() {
-            if (scriptToLoad != null) {
+            if (scriptToLoad1 != null) {
                 dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
-                dialogueRunner.Add(scriptToLoad);
+                if (GameObject.Find("GameController").GetComponent<GameController>().getDay() == 1) {
+                    dialogueRunner.Add(scriptToLoad1);
+                }
+                
             }
+           
             collider = gameObject.GetComponent<Collider2D>();
+
+            Invoke("CheckPlayer", 5);
 
         }
 
@@ -56,6 +65,13 @@ namespace Yarn.Unity.Example {
             Debug.Log("Done");
             collider.enabled = false;
             dialogueRunner.StartDialogue(talkToNode);
+        }
+
+        void CheckPlayer() {
+            Debug.Log("Hey!");
+            if (gameObject.name == "Player") {
+                dialogueRunner.StartDialogue(talkToNode);
+            }
         }
     }
 
