@@ -540,9 +540,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: MC
-  talkToNode: MC
-  scriptToLoad: {fileID: 2480198943629176163, guid: f5b808034ef88d94283e12566d36cca4,
-    type: 3}
+  talkToNode: Monologue
+  scriptToLoad1: {fileID: 0}
+  scriptToLoad2: {fileID: 0}
+  scriptToLoad3: {fileID: 0}
 --- !u!4 &1284451086
 Transform:
   m_ObjectHideFlags: 0
