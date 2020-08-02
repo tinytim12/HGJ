@@ -1,7 +1,7 @@
-title: Thiru
+title: Mrs Thiru Mon
 tags: 
 colorID: 0
-position: 81,-364
+position: 404,-729
 ---
 Mrs Thiru: I called you here to talk about your grades.
 
@@ -14,7 +14,7 @@ Mrs Thiru: You haven’t been handing in homework on time. If you maintain this,
 title: Sorry
 tags: 
 colorID: 0
-position: -238,-68
+position: 175,-403
 ---
 MC: Sorry Mrs Thiru, I will hand in my homework next time.
 Mrs Thiru: Okay. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:
@@ -22,7 +22,7 @@ Mrs Thiru: Okay. The test is in 2 days’ time. I’ll repeat all the topics you
 title: Discuss
 tags: 
 colorID: 0
-position: 38,-51
+position: 391,-387
 ---
 MC: Mrs Thiru, I want to improve. But I’m stressed from the workload.
 Mrs Thiru: Okay. What don’t you understand - 
@@ -32,7 +32,59 @@ MC: No, not really. It’s just… I know I'm supposed to study, but it's so har
 title: Nothing
 tags: 
 colorID: 0
-position: 304,-69
+position: 630,-384
 ---
 MC: ...
+===
+title: Mrs Thiru Tue
+tags: 
+colorID: 0
+position: 347,31
+---
+Mrs Thiru: How’s your preparation for the test?
+[[ Not prepared |Not prepared]] ]] //if you chose aggressive with mum
+[[ Somewhat prepared: |SomewhatPrepared]] ]] //if you chose neutral with mum
+[[ Prepared |Prepared]] ]] //if you chose to be passive with mum
+===
+title: Not prepared
+tags: 
+colorID: 0
+position: 30,332
+---
+MC: I… didn’t really prepare.
+Mrs Thiru is taken aback. //emotionThiru surprised
+You cannot meet her glance.
+Mrs Thiru: “Is everything okay at home?”
+You want to tell her about that argument you and mom had.
+But yet, there’s still that level of doubt and distrust…
+What will she say? Can anything she say help?
+MC: Yeah, everything is fine.
+Mrs Thiru: Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” //emotionThiru disappointed
+As you walk out of her office, you can’t help but feel like you disappointed Mrs Thiru.
+Still, you know yourself best, right?
+===
+title: SomewhatPrepared
+tags: 
+colorID: 0
+position: 349,347
+---
+MC: Well, it’s… I’m trying my best. I made a deal with my mum.
+MC: if I do well, she won’t force me to attend new tuition classes.
+You catch a glimmer of amusement in Mrs Thiru’s eye. //emotionThiru amused
+Mrs Thiru: That’s some good motivation… I’m glad you’ve decided to take charge of your own learning. But if you really do need some help preparing, do reach out to me.
+Mrs Thiru smiles kindly at you. Her wording makes you feel somewhat better than anything your parents have told you.
+You leave her office, cautiously optimistic.
+===
+title: Prepared
+tags: 
+colorID: 0
+position: 734,346
+---
+MC: It’s going to start in a while, when I meet my tutor today.
+Mrs Thiru: Oh? You engaged a private tutor? //emotionThiru surprised
+It’s too late for Mrs Thiru to hide the tone of discontent in her voice.
+Mrs Thiru: Well that’s good, at least you’re getting a little extra help.
+Mrs Thiru: As a teacher, I’ve always thought private tuition to be extra, but every student is different and learns at a different pace.
+Mrs Thiru: Hope you’ll grasp the learning material well for the test tomorrow.
+You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
 ===
