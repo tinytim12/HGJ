@@ -13,9 +13,27 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PHONE_NOTIFICATION_START = 2200656914U;
+        static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
         static const AkUniqueID PHONE_TYPING_STOP = 1714883926U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace TITLE_OR_BG
+        {
+            static const AkUniqueID GROUP = 2931003939U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BG_MUSIC = 2619506084U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TITLE_MUSIC = 309205993U;
+            } // namespace STATE
+        } // namespace TITLE_OR_BG
+
+    } // namespace STATES
 
     namespace BANKS
     {
