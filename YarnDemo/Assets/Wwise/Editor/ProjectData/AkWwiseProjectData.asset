@@ -203,5 +203,6 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /HGJ_Wwise
+  - /HGJ_Wwise/Events
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
