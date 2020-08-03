@@ -1,0 +1,126 @@
+title: Start
+tags: 
+colorID: 8
+position: 413,-232
+---
+After a long day at school, you’re finally home.
+
+Your parents aren’t, however.
+
+Both Dad and Mom are working, and they usually don’t come back until after sunset.
+
+Sometimes, you don’t even get to see them before going to sleep.
+
+That, however, doesn’t mean they can’t communicate with you...
+
+*opens phone UI*
+
+Mom: “Your teacher called me today in the afternoon about your grades… didn’t you promise me you’ll work harder?”
+
+Mom: “We need to have a proper discussion about this.”
+
+Mom: “I don’t want to nag at you, but if you don’t work hard, you suffer in life.”
+
+Mom: “You only have to juggle with school for now. When you grow up, there are so many other things you need to think about - taxes, housing, healthcare... ”
+
+Mom: *shows a photo of our city scape*
+
+Mom: “Singapore didn’t come this far without our forefathers’ immense hard work.”
+
+Mom: “Dad and I just want you to know that we work so hard to give you a better shot than us at a brighter future… If you need more tuition, we give it to you. But you have to hold up your end of the bargain.”
+
+Your fingers are trembling, though you can’t tell if it’s through rage or fear.
+
+[[ answer: |Grades are not everything.]] ]]
+[[ answer: |Please believe me when I say this...]] ]]
+[[ answer: |Okay mom I will go for that tuition class.]] ]]
+===
+title: Grades are not everything.
+tags: 
+colorID: 0
+position: 533,-452
+---
+<<set mom_standyourground to 1>>
+
+MC: “Maybe dad and you shouldn’t pin your hopes on me. I’m not your puppet.”
+
+MC: “And If I still can’t do well, then maybe I should explore other paths.”
+
+Mom is typing…
+
+Mom: “If you can’t even do this one path well, how will you succeed elsewhere? Grades are not everything, but for now, they are… You don’t understand it now, but when you grow up, you will.”
+
+Mom: “And no more of this nonsense again. We’ve already discussed this so many times.”
+
+Mom: “Just get decent grades, is that too much to ask for?”
+
+Dad is typing…
+
+Dad: “We just want you to be a good student.”
+
+You lock your phone and throw it aside.
+
+You’re fuming mad at your mom, even if you can’t show it to her.
+
+She didn’t even bother to understand your struggle...
+
+[[ answer: |homework day 1]] ]]
+===
+title: Please believe me when I say this...
+tags: 
+colorID: 0
+position: 753,-452
+---
+<<set mom_negotiate to 1>>
+(moodPhone: tense)
+
+MC: “I know how hard you and papa work. ”
+
+MC: “Just give me a bit more time to get my grades back up.”
+
+MC: “I promise I’ll work hard. Don’t sign me up for extra tuition. I can do it myself.”
+
+Mom: “It’s been 3 months since the last term exam. You need help.”
+
+MC: “Just give me another chance to prove myself in the coming test. If it doesn’t work, you can sign me up for the tuition class. That’s a fair deal, isn’t it?”
+
+Mom: “Okay. If the grades are still bad, you’re doing it my way.”
+
+You lock your phone and start charging it.
+
+The expectations are high. Perhaps, unreasonably so?
+
+[[ answer: |homework day 1]] ]]
+===
+title: Okay mom I will go for that tuition class.
+tags: 
+colorID: 0
+position: 973,-452
+---
+<<set mom_submit to 1>>
+
+MC: “I want to be better.”
+
+Mom: “I’m not a monster you know. I’m glad you understand... This tutor is the daughter of one of my colleague’s friends who graduated from a top school. She will teach you chemistry exam tactics.”
+
+Mom: “I know this means you have less time to play. But this is all for your own good. You need to learn to do things at the right time. Besides, you can’t make a living off of playing.”
+
+Mom: “The only way through this system is by sacrifice and hard work. You have to remember that.”
+
+You lock your phone.
+
+With a dejected sigh, you toss it aside.
+
+What have you sacrificed?
+
+What more are you willing to sacrifice?
+
+[[ answer: |homework day 1]] ]]
+===
+title: homework day 1
+tags: 
+colorID: 0
+position: 653,-672
+---
+You are given 15s/30s/1m to do this worksheet. Go!
+===

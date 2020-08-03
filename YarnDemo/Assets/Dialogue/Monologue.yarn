@@ -3,12 +3,9 @@ tags:
 colorID: 0
 position: -9,-422
 ---
-<<if getDay("GameController") is 1>>
     MC: “Reward for Work, Work for Reward”.
     MC: This is one of our guiding principles.
     MC: If you work hard enough, you climb the ladder.
     MC: At least, that’s how we’d like to have it.
-<<else>>
     MC: Okay.
-<<endif>>
 ===
