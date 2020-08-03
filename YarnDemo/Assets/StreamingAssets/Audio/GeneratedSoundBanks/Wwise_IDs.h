@@ -13,8 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID BG = 1870080928U;
-        static const AkUniqueID MAIN_MENU = 2005704188U;
+        static const AkUniqueID BG_MUSIC = 2619506084U;
+        static const AkUniqueID MAIN_MENU_MUSIC = 3399698792U;
         static const AkUniqueID PHONE_NOTIFICATION_START = 2200656914U;
         static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
@@ -63,7 +63,6 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
-        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
     namespace BUSSES
