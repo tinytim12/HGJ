@@ -14,9 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BG_MUSIC = 2619506084U;
-        static const AkUniqueID BG_MUSIC_STOP = 2839607491U;
         static const AkUniqueID MAIN_MENU_MUSIC = 3399698792U;
-        static const AkUniqueID MAIN_MENU_MUSIC_STOP = 2602603591U;
         static const AkUniqueID PHONE_NOTIFICATION_START = 2200656914U;
         static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
