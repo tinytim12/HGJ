@@ -5,8 +5,8 @@ using Yarn.Unity;
 
 public class WwAudioManager : MonoBehaviour
 {
-    public string MainMenu = "Main_menu";
-    public string BG = "BG";
+    public string MainMenu = "Main_menu_music";
+    public string BG = "BG_music";
     // Start is called before the first frame update
     void Start()
     {
