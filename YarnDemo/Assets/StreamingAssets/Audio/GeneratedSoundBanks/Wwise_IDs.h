@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BG = 1870080928U;
+        static const AkUniqueID MAIN_MENU = 2005704188U;
         static const AkUniqueID PHONE_NOTIFICATION_START = 2200656914U;
         static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
@@ -21,17 +23,39 @@ namespace AK
 
     namespace STATES
     {
-        namespace TITLE_OR_BG
+        namespace MENU_OR_BG
         {
-            static const AkUniqueID GROUP = 2931003939U;
+            static const AkUniqueID GROUP = 879329718U;
 
             namespace STATE
             {
-                static const AkUniqueID BG_MUSIC = 2619506084U;
+                static const AkUniqueID BG = 1870080928U;
+                static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID TITLE_MUSIC = 309205993U;
             } // namespace STATE
-        } // namespace TITLE_OR_BG
+        } // namespace MENU_OR_BG
+
+        namespace MON
+        {
+            static const AkUniqueID GROUP = 1082004789U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MONOLOGUE = 3368367120U;
+                static const AkUniqueID MRS_THIRU = 63700100U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MON
+
+        namespace TUE
+        {
+            static const AkUniqueID GROUP = 644653865U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace TUE
 
     } // namespace STATES
 
