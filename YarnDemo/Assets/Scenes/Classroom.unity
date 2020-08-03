@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45dfeaf0a42b6643b86e025d01d1940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: 0
 --- !u!4 &230830354
 Transform:
   m_ObjectHideFlags: 0
@@ -721,6 +720,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c858211a36e44c32b4803041033c786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &693054946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3367439976219179393, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 357.8627
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 287.9246
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -130.60817
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367439977023392529, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e02aa7143c6def340bb2d3e143962f6a, type: 3}
 --- !u!1 &769391233
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +1071,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Character Name
   talkToNode: 
-  scriptToLoad: {fileID: 0}
+  scriptToLoad1: {fileID: 0}
+  scriptToLoad2: {fileID: 0}
+  scriptToLoad3: {fileID: 0}
 --- !u!212 &924307001
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1739,7 +1814,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Ship
   talkToNode: Ship
-  scriptToLoad: {fileID: 11400000, guid: 24f22b038d584445ba4f43344cc5733d, type: 3}
+  scriptToLoad1: {fileID: 0}
+  scriptToLoad2: {fileID: 0}
+  scriptToLoad3: {fileID: 0}
 --- !u!1 &1963979678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,8 +1926,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Thiru
   talkToNode: Thiru
-  scriptToLoad: {fileID: 2480198943629176163, guid: 7bfdc307b8e96c147bd45ec20ee8d644,
+  scriptToLoad1: {fileID: 2480198943629176163, guid: 7bfdc307b8e96c147bd45ec20ee8d644,
     type: 3}
+  scriptToLoad2: {fileID: 0}
+  scriptToLoad3: {fileID: 0}
 --- !u!4 &1963979682
 Transform:
   m_ObjectHideFlags: 0
