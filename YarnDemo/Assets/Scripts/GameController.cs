@@ -31,4 +31,12 @@ public class GameController : MonoBehaviour {
     public int getDay() {
         return day;
     }
+
+    [YarnCommand("changeScene")]
+    public void changeScene() {
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Classroom") {
+            SceneManager.LoadScene("Corridor");
+        }
+    }
 }

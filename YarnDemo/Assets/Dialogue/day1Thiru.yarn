@@ -1,0 +1,87 @@
+title: Thiru
+tags: 
+colorID: 0
+position: 1063,22
+---
+
+<<set $name to "Test">>
+
+“Reward for Work, Work for Reward”.
+
+This is one of our guiding principles.
+
+If you work hard enough, you climb the ladder.
+
+At least, that’s how we’d like to have it.
+
+MONDAY
+
+Class has ended.
+
+Yet, at the request of your teacher, here you are, at her cubicle.
+
+Mrs Thiru motions to you to sit. Better than the other teachers who would have let you stand. (emotionThiru: concerned)
+
+Mrs Thiru: “{$name}, I called you here to talk about your grades.”
+
+Mrs Thiru: “You haven’t been handing in homework on time. If you maintain this, how are you supposed to learn anything?”
+
+[[ Sorry Mrs Thiru |Sorry]]
+
+[[I want to improve|I]]
+
+[[You say nothing.|You]]
+===
+
+title: Sorry
+tags: 
+colorID: 3
+position: 641,16
+---
+MC: “I will hand in my homework next time.” 
+Yet, even that sounded reluctant.
+Mrs Thiru looks caught off-guard, for perhaps even the slightest moment.
+She probably wasn’t expecting such a quick and easy reply from you.
+Yet, she recovers her composure.
+“Okay, {$name}. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:”
+She quickly goes through the content again, but very briefly.
+You’ve got some elbow grease waiting for you at home.
+<<changeScene GameController>>
+===
+title: I
+tags: 
+colorID: 0
+position: 1403,-198
+---
+
+MC: “But I’m stressed from the workload.”
+Thiru: “Okay. What don’t you understand - ”
+She catches herself before she continues. 
+This isn’t a problem of understanding the content, after all.
+If it was that simple, it would have been possible for all her students to score, too.
+Thiru: “Do you have any other commitments that are important to you? CCA, perhaps?”
+MC: “No, not really. It’s just… I know I'm supposed to study, but it's so hard to motivate myself to...”
+Mrs Thiru looks at you with understanding in her eyes.
+Is that a glimpse of sorrow you detect? Probably not.
+Yet, as she gives some generic advice about proper time management, you can feel it ring hollow.
+<<changeScene GameController>>
+===
+title: You
+tags: 
+colorID: 0
+position: 1623,-198
+---
+title: You say nothing.
+tags: 
+colorID: 3
+position: 1194,91
+---
+It’s easier.
+Mrs Thiru: “Is everything alright? You can always tell me if anything is the matter at home.”
+You cannot bear to stare into her eyes.
+Perhaps it’s the disappointment in her gaze that puts you off.
+A few moments of awkward silence pass.
+You wish you had the courage to tell her that you don’t want to study, that you didn’t ask to be born into this life.
+You leave her office, no better than when you entered it.
+<<changeScene GameController>>
+===

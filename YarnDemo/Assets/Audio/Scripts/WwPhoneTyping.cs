@@ -14,6 +14,7 @@ public class WwPhoneTyping : MonoBehaviour
     public void PhoneTyping()
     {
         AkSoundEngine.PostEvent(PhoneStart, gameObject);
+        DialogueUI = FindObjectOfType<Yarn.Unity.DialogueRunner>().GetComponent<DialogueUI>();
         DialogueUI.textSpeed = 0f;
         
     }

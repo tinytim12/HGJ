@@ -107,6 +107,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3367439977023392529}
+  - {fileID: 5204264784589982011}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -352,3 +353,63 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &9074574845505781035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5204264784589982011}
+  - component: {fileID: 4796837127218851208}
+  m_Layer: 0
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5204264784589982011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074574845505781035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3367439976219179395}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4796837127218851208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074574845505781035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891365bf9562bec47bd5ad6236dc1dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: 0}
+  ThiruSurprisedS: {fileID: 0}
+  ThiruConcernedS: {fileID: 0}
+  ThiruDisappointedS: {fileID: 0}
+  ThiruAmusedS: {fileID: 0}
+  JamesTiredS: {fileID: 0}
+  JamesDisappointedS: {fileID: 0}
+  JamesWorriedS: {fileID: 0}
+  JamesHopefulS: {fileID: 0}
+  SitiHappyS: {fileID: 0}
+  SitiAnnoyedS: {fileID: 0}
+  SitiWorriedS: {fileID: 0}
+  SitiHopefulS: {fileID: 0}
+  PhoneTenseS: {fileID: 0}
+  PhoneDullS: {fileID: 0}
+  PhoneRelaxedS: {fileID: 0}
+  PhoneHopefulS: {fileID: 0}
