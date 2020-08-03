@@ -224,7 +224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45dfeaf0a42b6643b86e025d01d1940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: 0
 --- !u!4 &230830354
 Transform:
   m_ObjectHideFlags: 0
@@ -1811,7 +1810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Thiru
   talkToNode: Thiru
-  scriptToLoad1: {fileID: 0}
+  scriptToLoad1: {fileID: 2480198943629176163, guid: d6f4133f2f67bf840891df40c85bed09,
+    type: 3}
   scriptToLoad2: {fileID: 0}
   scriptToLoad3: {fileID: 0}
 --- !u!4 &1963979682

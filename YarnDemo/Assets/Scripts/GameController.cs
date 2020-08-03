@@ -38,5 +38,8 @@ public class GameController : MonoBehaviour {
         if (scene.name == "Classroom") {
             SceneManager.LoadScene("Corridor");
         }
+        if (scene.name == "Corridor") {
+            SceneManager.LoadScene("Home");
+        }
     }
 }

@@ -1,0 +1,69 @@
+title: Canteen
+tags: 
+colorID: 0
+position: 657,-183
+---
+You walk down to the canteen and settle next to your friend for a meal.
+
+<<if approach_siti is 1>> 
+
+Siti barely has time to eat her food.
+
+Putting aside her utensils every few seconds, she responds to a text on her phone. You recognise it as one of the higher end models.
+
+MC: “So, this new CCA… seems like it’s quite busy, isn’t it?”
+
+Siti: “I wish these texts were from the CCA... It’s this private tutor. He won’t stop messaging me past year papers and practice questions!“ (emotionSiti: annoyed)
+
+Siti: “I just feel so overwhelmed with everything you know, balancing CCAs, volunteering, leadership activities and school work... I just want to drop this tuition.”
+
+Finally, a kindred (sort of) spirit. What will you advise her to do?
+
+[[ answer: |But the test is tomorrow]] ]]
+[[ answer: |Perhaps you should]] ]]
+
+<<endif>>
+
+
+<<endif>>
+===
+title: But the test is tomorrow
+tags: 
+colorID: 0
+position: 779,-403
+---
+<<set continuetuition_siti to 1>>
+
+MC: “how about dropping it after?” 
+Siti: “Yeah, but I feel quite well-prepared for it already…”
+Siti: “Well, I guess I can’t take this risk. It’s better to be safe than sorry right?”
+You nod. You don’t necessarily agree that tuition is the best way, but the alternatives didn’t seem too appealing.
+
+[[ answer: |The school bell rings as students pack up to go home.]] ]]
+===
+title: Perhaps you should
+tags: 
+colorID: 0
+position: 999,-403
+---
+<<set droptuition_siti to 1>>
+
+MC: “It’ll give you some room to breathe.”
+Siti: “Wait, really?” (emotionSiti: hopeful)
+MC: “It’s stressing you out, isn’t it?”
+MC: “Besides, if there’s one person in this class who is ready for the test, it’s definitely you.”
+Siti: “I guess you’re right. I do feel quite well-prepared for the test.”
+Siti: “If there’s one opportunity for me to voice my thoughts to my parents, it’s now.”
+Siti: “They really do believe that tuition equals better grades, which equal better job opportunities… I get it, but it gets stale, you know?”
+Siti: “Shouldn’t there be more to learning than just tuition classes?”
+You nod, concurring with the grandiose notion of a fun way to learn without the pressure of having to take an excessive amount of tuition classes...
+
+[[ answer: |The school bell rings as students pack up to go home.]] ]]
+===
+title: The school bell rings as students pack up to go home.
+tags: 
+colorID: 0
+position: 899,-623
+---
+Empty Text
+===

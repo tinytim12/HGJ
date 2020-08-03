@@ -46,9 +46,9 @@ You think of the tuition classes that your mom has been pressuring you to attend
 Suddenly, you don’t feel so much pity for yourself.
 Your complaints, valid as they are, pale next to James’.
 After a hearty meal, both of you head home.
-
+<<changeScene GameController>>
 ===
-title: Sorry James
+title: Sorry
 tags: 
 colorID: 2
 position: 1339,-301
@@ -59,4 +59,5 @@ James: “Yeah, sure, of course.” (emotionJames: disappointment)
 
 James bites his lips, walks off with his hands fidgeting about in his pockets.
 
+<<changeScene GameController>>
 ===
