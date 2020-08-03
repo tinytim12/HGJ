@@ -31,9 +31,9 @@ Mom: “Dad and I just want you to know that we work so hard to give you a bette
 
 Your fingers are trembling, though you can’t tell if it’s through rage or fear.
 
-[[Grades are not everything.|Grades are not everything.
-[[Please believe me when I say this...|Please believe me when I say this...]]
-[[Okay mom I will go for that tuition class.|Okay mom I will go for that tuition class.]]
+[[ answer: |Grades are not everything.]] ]]
+[[ answer: |Please believe me when I say this...]] ]]
+[[ answer: |Okay mom I will go for that tuition class.]] ]]
 ===
 title: Grades are not everything.
 tags: 
@@ -72,7 +72,7 @@ colorID: 0
 position: 753,-452
 ---
 <<set mom_negotiate to 1>>
-<<PhoneTense GameController>>
+(moodPhone: tense)
 
 MC: “I know how hard you and papa work. ”
 

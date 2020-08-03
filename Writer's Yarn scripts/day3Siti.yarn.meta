@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 131e705d3d4486547b3199c258f0d2dc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 6 at position 20:\nmismatched input 'is'
+    expecting '('\r\n<<if approach_siti is 1>> \r\r\n                   ^^"
+  baseLanguage: {instanceID: 0}
+  localizations: []
