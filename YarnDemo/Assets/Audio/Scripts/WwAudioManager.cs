@@ -5,7 +5,6 @@ using Yarn.Unity;
 
 public class WwAudioManager : MonoBehaviour
 {
-    public GameObject MusicManager;
     public string MainMenu = "Main_menu";
     public string BG = "BG";
     // Start is called before the first frame update
@@ -22,12 +21,12 @@ public class WwAudioManager : MonoBehaviour
 
     public void MainMenuMusic()
     {
-        AkSoundEngine.PostEvent(MainMenu, MusicManager);
+        AkSoundEngine.PostEvent(MainMenu, gameObject);
     }
 
     public void BGMusic()
     {
-        AkSoundEngine.PostEvent(BG, MusicManager);
+        AkSoundEngine.PostEvent(BG, gameObject);
     }
 
 }
