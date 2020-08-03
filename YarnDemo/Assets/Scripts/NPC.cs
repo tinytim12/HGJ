@@ -57,7 +57,7 @@ namespace Yarn.Unity.Example {
            
             collider = gameObject.GetComponent<Collider2D>();
 
-            Invoke("CheckPlayer", 5);
+            Invoke("CheckPlayer", 1);
 
         }
 

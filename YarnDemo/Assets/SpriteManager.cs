@@ -99,7 +99,7 @@ public class SpriteManager : MonoBehaviour
 
     [YarnCommand("PhoneTense")]
     public void PhoneTense() {
-
+        Debug.Log("PhoneTense");
     }
 
     [YarnCommand("PhoneDull")]

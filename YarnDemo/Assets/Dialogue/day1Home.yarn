@@ -1,19 +1,8 @@
-title: Start
+title: Phone
 tags: 
 colorID: 8
 position: 413,-232
 ---
-After a long day at school, you’re finally home.
-
-Your parents aren’t, however.
-
-Both Dad and Mom are working, and they usually don’t come back until after sunset.
-
-Sometimes, you don’t even get to see them before going to sleep.
-
-That, however, doesn’t mean they can’t communicate with you...
-
-*opens phone UI*
 
 Mom: “Your teacher called me today in the afternoon about your grades… didn’t you promise me you’ll work harder?”
 
@@ -31,16 +20,16 @@ Mom: “Dad and I just want you to know that we work so hard to give you a bette
 
 Your fingers are trembling, though you can’t tell if it’s through rage or fear.
 
-[[Grades are not everything.|Grades are not everything.
-[[Please believe me when I say this...|Please believe me when I say this...]]
-[[Okay mom I will go for that tuition class.|Okay mom I will go for that tuition class.]]
+[[Grades are not everything.|Grades]]
+[[Please believe me when I say this...|Please]]
+[[Okay mom I will go for that tuition class.|Okay]]
 ===
-title: Grades are not everything.
+title: Grades
 tags: 
 colorID: 0
 position: 533,-452
 ---
-<<set mom_standyourground to 1>>
+<<set $mom_standyourground to 1>>
 
 MC: “Maybe dad and you shouldn’t pin your hopes on me. I’m not your puppet.”
 
@@ -64,14 +53,14 @@ You’re fuming mad at your mom, even if you can’t show it to her.
 
 She didn’t even bother to understand your struggle...
 
-[[ answer: |homework day 1]] ]]
+[[ answer: |homework]]
 ===
-title: Please believe me when I say this...
+title: Please
 tags: 
 colorID: 0
 position: 753,-452
 ---
-<<set mom_negotiate to 1>>
+<<set $mom_negotiate to 1>>
 <<PhoneTense GameController>>
 
 MC: “I know how hard you and papa work. ”
@@ -90,14 +79,14 @@ You lock your phone and start charging it.
 
 The expectations are high. Perhaps, unreasonably so?
 
-[[ answer: |homework day 1]] ]]
+[[ answer: |homework]]
 ===
-title: Okay mom I will go for that tuition class.
+title: Okay
 tags: 
 colorID: 0
 position: 973,-452
 ---
-<<set mom_submit to 1>>
+<<set $mom_submit to 1>>
 
 MC: “I want to be better.”
 
@@ -115,9 +104,9 @@ What have you sacrificed?
 
 What more are you willing to sacrifice?
 
-[[ answer: |homework day 1]] ]]
+[[ answer: |homework]] ]]
 ===
-title: homework day 1
+title: homework
 tags: 
 colorID: 0
 position: 653,-672
