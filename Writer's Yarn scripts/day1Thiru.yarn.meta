@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d6f4133f2f67bf840891df40c85bed09
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-SG
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 14 at position 3:\nmismatched input ']'
+    expecting FORMAT_FUNCTION_EXPRESSION_START\r\n[b]MONDAY[/b]\r\r\n  ^"
+  baseLanguage: {instanceID: 0}
+  localizations: []
