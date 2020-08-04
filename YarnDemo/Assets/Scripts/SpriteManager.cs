@@ -26,6 +26,8 @@ public class SpriteManager : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
+    public Sprite Classroom;
+
     void Start()
     {
         
