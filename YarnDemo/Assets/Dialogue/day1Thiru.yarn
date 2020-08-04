@@ -26,9 +26,9 @@ Mrs Thiru: “{$name}, I called you here to talk about your grades.”
 
 Mrs Thiru: “You haven’t been handing in homework on time. If you maintain this, how are you supposed to learn anything?”
 
-[[ Sorry Mrs Thiru |Sorry]]
+[[ Sorry Mrs Thiru|Sorry]]
 
-[[I want to improve|I]]
+[[I want to improve.|I]]
 
 [[You say nothing.|You]]
 ===
