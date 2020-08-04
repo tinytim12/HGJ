@@ -9,15 +9,15 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 
 So deceptively simple, yet worrying, at the same time.
 
-[[ answer: |Confident]] ]]
-[[ answer: |Defeated]] ]]
+[[ Confident | Confident]] ]]
+[[ Defeated |Defeated]] ]]
 ===
 title: Confident
 tags: 
 colorID: 0
 position: 267,-540
 ---
-<< if mom_happy is 1 >>
+<< if $mom_happy is 1 >>
 
 MC: “I think I did well. I could answer most of the questions...”
 Mom: “Good to hear!”
@@ -27,9 +27,10 @@ MC: “...”
 You open your mouth to rebut, but quickly decide against it - it’ll only lead to an argument about how fortunate you are for having parents who care. You struggle to recall what’s left of your happy memories with your parents…
 Perhaps, someday when you grow up, they’ll see the success in you that they have drilled in your head to aspire towards. Perhaps, you should be thankful, maybe far into the future when you’re actually a “successful person”...
 … whatever that means.
+[[ ending: |ending]]
 
 
-<< if mom_angry is 1 >>
+<< if $mom_angry is 1 >>
 MC: “I think I did well. I could answer most of the questions...”
 Mom: “When you say that, your results always end up otherwise.”
 MC: “Mom, please believe me. The test was okay. If the results are lousy, we’ll talk again.”
@@ -38,14 +39,14 @@ MC: “There’s always something you have to nitpick me on. Why can’t you jus
 You realise that this probably isn’t the best thing to say.
 And as your mom types a long message, definitely intended to lecture you over WhatsApp, you throw your phone aside and sigh.
 
-[[ answer: |ending]] ]]
+[[ ending: |ending]]
 ===
 title: Defeated
 tags: 
 colorID: 0
 position: 487,-540
 ---
-<< if mom_angry is 1 >>
+<< if $mom_angry is 1 >>
 
 MC: “It didn’t go well. I’ll do better next time, I promise.”
 Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
@@ -54,7 +55,7 @@ MC: “...”
 Maybe mom is right.
 Who knows?
 Only time will tell.
-
+[[ ending: |ending]]
 
 << if mom_happy is 1 >>
 MC: “I’m sorry mom, I really tried but the questions were too tricky.”
@@ -73,7 +74,7 @@ Well, some things just don’t change.
 Mom has always been a tad abrasive.
 But it was nice to see Dad finally have the time to step up for you.
 
-[[ answer: |ending]] ]]
+[[ ending: |ending]]
 ===
 title: ending
 tags: 
