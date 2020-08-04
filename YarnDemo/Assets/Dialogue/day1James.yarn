@@ -22,6 +22,8 @@ tags:
 colorID: 2
 position: 1120,-301
 ---
+<<changeScene GameController>>
+
 MC: “Sure, James. Don’t worry about it. Come, let’s eat together.”
 
 James: “Thank you so much!”
