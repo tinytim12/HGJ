@@ -377,7 +377,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9074574845505781035}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -397,10 +397,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sprite: {fileID: 0}
-  ThiruSurprisedS: {fileID: 0}
-  ThiruConcernedS: {fileID: 0}
-  ThiruDisappointedS: {fileID: 0}
-  ThiruAmusedS: {fileID: 0}
+  ThiruSurprisedS: {fileID: 21300000, guid: b09dcb449dbb92f4eaba6317d1adac3b, type: 3}
+  ThiruConcernedS: {fileID: 21300000, guid: 4b8648d2f82ee8a48949b5c3c54a7ec9, type: 3}
+  ThiruDisappointedS: {fileID: 21300000, guid: 0500a7bbf771206438da7fae7d0793e9, type: 3}
+  ThiruAmusedS: {fileID: 21300000, guid: 2e562d1260b53af45baac600f764ddcf, type: 3}
   JamesTiredS: {fileID: 0}
   JamesDisappointedS: {fileID: 0}
   JamesWorriedS: {fileID: 0}
@@ -413,3 +413,4 @@ MonoBehaviour:
   PhoneDullS: {fileID: 0}
   PhoneRelaxedS: {fileID: 0}
   PhoneHopefulS: {fileID: 0}
+  spriteRenderer: {fileID: 0}

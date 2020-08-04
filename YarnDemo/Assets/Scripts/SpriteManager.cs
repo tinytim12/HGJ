@@ -7,10 +7,10 @@ public class SpriteManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Sprite;
-    public Texture2D ThiruSurprisedS;
-    public Texture2D ThiruConcernedS;
-    public Texture2D ThiruDisappointedS;
-    public Texture2D ThiruAmusedS;
+    public Sprite ThiruSurprisedS;
+    public Sprite ThiruConcernedS;
+    public Sprite ThiruDisappointedS;
+    public Sprite ThiruAmusedS;
     public Texture2D JamesTiredS;
     public Texture2D JamesDisappointedS;
     public Texture2D JamesWorriedS;
@@ -24,6 +24,8 @@ public class SpriteManager : MonoBehaviour
     public Texture2D PhoneRelaxedS;
     public Texture2D PhoneHopefulS;
 
+    public SpriteRenderer spriteRenderer;
+
     void Start()
     {
         
@@ -35,26 +37,31 @@ public class SpriteManager : MonoBehaviour
         
     }
 
+    [YarnCommand("NoSprite")]
+    public void NoSprite() {
+        spriteRenderer.sprite = null;
+    }
 
     [YarnCommand("ThiruSurprised")]
     public void ThiruSurprised() {
-        
+        spriteRenderer.sprite = ThiruSurprisedS;
     }
 
     [YarnCommand("ThiruConcerned")]
     public void ThiruConcerned() {
-
+        Debug.Log("Sprite Called");
+        spriteRenderer.sprite = ThiruConcernedS;
     }
 
     [YarnCommand("ThiruDisappointed")]
     public void ThiruDisappointed() {
-
+        spriteRenderer.sprite = ThiruDisappointedS;
     }
 
 
     [YarnCommand("ThiruAmused")]
     public void ThiruAmused() {
-
+        spriteRenderer.sprite = ThiruAmusedS;
     }
 
     [YarnCommand("JamesTired")]
