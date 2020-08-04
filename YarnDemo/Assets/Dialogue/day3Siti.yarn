@@ -1,0 +1,137 @@
+title: Start
+tags: 
+colorID: 0
+position: 326,-296
+---
+<<if $approach_siti is 1>> 
+
+    << if $droptuition_siti is 1>> 
+
+        As one of the top students in your class, you’d expect that Siti wouldn’t be too concerned about the test.
+
+        Yet, she still frowns as you sit next to her for lunch. <<SitiAnnoyed GameController>>
+
+        MC: “What’s wrong, Siti?”
+
+        Siti: “My parents signed me up for English tuition...”
+
+        MC: “But… you topped the school cohort for English!” 
+
+        Siti: “It doesn’t matter to them. Now, my only free afternoon - Tuesday - is gone. They didn’t even bother asking me about it.”
+
+
+        [[ I had an argument with my parents about tuition too... | arguetuition ]]
+        [[ That is less than ideal. | notideal ]]
+
+    <<endif>>
+
+    << if if continuetuition_siti is 1>> 
+
+        Siti looks more relaxed today.
+
+        You’re not seeing the same enthusiastic girl who encouraged you to join her new CCA.
+
+        As you sit next to her, she smiles weakly at you.
+
+        Siti: “I did it… I told my parents I didn’t need an English tutor.”
+
+        Siti: “They didn’t handle it so well at first, but I made enough noise that they eventually listened.”
+
+        Siti: “If my parents could be swayed, then perhaps there’s hope for others too.”
+
+        Siti: “Do you think it’s possible that one day, we’ll be rid of this whole tuition business?”
+
+
+        [[ Maybe if everyone worked hard... | workhard ]]
+        [[ I think the issue is a little more complex... | complex ]] ]]
+
+    <<endif>>
+
+<<endif>>
+===
+title: I had an argument with my parents about tuition too...
+tags: 
+colorID: 0
+position: 445,-523
+---
+MC: “...”
+MC: “I know you’re strong, Siti. Perhaps treat it as extra practice?”
+Siti sighs. <<SitiWorried GameController>>
+Siti: “I guess… but I would rather spend that time on my CCA. I wonder how much more of this I can tahan.”
+You fall silent.
+This doesn’t sound like the Siti you met on Monday.
+She had sounded hopeful.
+
+[[ You look at the time and realise you need to head home. | headhome ]]
+===
+title: That is less than ideal.
+tags: 
+colorID: 0
+position: 665,-523
+---
+MC: “I guess talking to your parents is not an option.”
+Siti laughs, but her chortle is void of humor.
+Siti: “If only it was that easy…”
+Siti: “I wish there was someone else to talk to, someone who can actually help.”
+MC: “Have you tried talking to the school counsellor?”
+Siti: “But… only kids who actually need help go to her, right?”
+MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
+Siti hesitates a little. <<SitiWorried GameController>>
+MC: “She’s paid to listen to your problems anyway.” 
+Siti chuckles a little. <<SitiAmused GameController>>
+
+[[ You look at the time and realise you need to head home. | headhome ]]
+===
+title: Maybe if everyone worked hard...
+tags: 
+colorID: 0
+position: 885,-523
+---
+MC: “and took charge of their own studies.”
+Siti: “… but is hard work alone enough?”
+Siti: “Some people still struggle no matter the amount of effort they put in.” <<SitiWorried GameController>>
+MC: “... the system isn’t entirely meritocratic, not so much like in the past.”
+Siti: “Now every parent who can afford an advantage for his or her kid would gladly do so. The kid who has a less fortunate parent… loses out.”
+You’re reminded of your own struggle against your parents.
+Siti might come from a more prosperous family than you, but in the long run…
+Are the two of you so different? 
+And, what about kids who were not dealt such a good hand in life?
+MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance too.”
+Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” <<SitiHopeful GameController>>
+You resist scoffing at that.
+If we can’t even influence our own parents...
+MC: “They are still very much valid. I’m glad you freed up some time for yourself Siti. You deserve some rest too.”
+As Siti leaves the canteen, you realise that in 3 short days you learned so much about her.
+So much more than when she was in class.
+She wasn’t just at the top of the mountain.
+She was struggling to breathe on top, too.
+
+[[ You look at the time and realise you need to head home. | headhome ]]
+===
+title: I think the issue is a little more complex...
+tags: 
+colorID: 0
+position: 1105,-523
+---
+MC: “Academic pathways are still, for the most part, prided as guarantees to job security and success, as compared to alternative ones. As long as that mentality exists, I doubt we can bid goodbye to that business.” 
+Siti: “But it’s better now than in the past right? We can choose to pursue a practical diploma in a polytechnic or continue on the academic pathway in junior college.”
+MC: “Technically, those options are available. But, mentally, people are still closed off towards their kids choosing that route.”
+Siti: “But…”
+Siti falls silent. <<SitiWorried GameController>>
+She couldn’t understand, could she?
+But who could blame her? You, whose parents insist on getting tuition for you?
+How are we to filter out an issue that runs in our blood?
+
+[[ You look at the time and realise you need to head home. | headhome ]]
+===
+title: You look at the time and realise you need to head home.
+tags: 
+colorID: 0
+position: 565,-743
+---
+You’re home again. Opening your WhatsApp chat, you’re greeted by a question from your mom.
+
+“How was the test today?”
+
+So deceptively simple, yet worrying, at the same time.
+===

@@ -12,8 +12,6 @@ Mom: “I don’t want to nag at you, but if you don’t work hard, you suffer i
 
 Mom: “You only have to juggle with school for now. When you grow up, there are so many other things you need to think about - taxes, housing, healthcare... ”
 
-Mom: *shows a photo of our city scape*
-
 Mom: “Singapore didn’t come this far without our forefathers’ immense hard work.”
 
 Mom: “Dad and I just want you to know that we work so hard to give you a better shot than us at a brighter future… If you need more tuition, we give it to you. But you have to hold up your end of the bargain.”
@@ -53,6 +51,8 @@ You’re fuming mad at your mom, even if you can’t show it to her.
 
 She didn’t even bother to understand your struggle...
 
+<<changeScene GameController>>
+
 [[ answer: |homework]]
 ===
 title: Please
@@ -79,6 +79,8 @@ You lock your phone and start charging it.
 
 The expectations are high. Perhaps, unreasonably so?
 
+<<changeScene GameController>>
+
 [[ answer: |homework]]
 ===
 title: Okay
@@ -103,6 +105,8 @@ With a dejected sigh, you toss it aside.
 What have you sacrificed?
 
 What more are you willing to sacrifice?
+
+<<changeScene GameController>>
 
 [[ answer: |homework]] ]]
 ===

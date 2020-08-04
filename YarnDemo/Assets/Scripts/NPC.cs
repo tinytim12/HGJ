@@ -69,7 +69,7 @@ namespace Yarn.Unity.Example {
 
         void CheckPlayer() {
             Debug.Log("Hey!");
-            if (gameObject.name == "Player") {
+            if (gameObject.name == "Player" | gameObject.name == "Thiru") {
                 dialogueRunner.StartDialogue(talkToNode);
             }
         }

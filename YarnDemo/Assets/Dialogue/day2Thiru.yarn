@@ -1,0 +1,88 @@
+title: Day02
+tags: 
+colorID: 0
+position: 172,-255
+---
+Another long day at school.
+
+Another day of lessons, homework, assignments, worksheets flies by.
+
+Mrs Thiru is still concerned about you, even though she seems to have forgotten what you’d said to her yesterday.
+
+With your class of 40 students occupying all of her time, can you really blame her?
+
+Thiru: “How’s your preparation for the test?” <<ThiruConcerned GameController>>
+
+<<if $mom_standyourground is 1>> 
+
+    MC: “I… didn’t really prepare.”
+
+    Mrs Thiru is taken aback. <<ThiruSurprised GameController>>
+
+    You cannot meet her glance.
+
+    Thiru: “Is everything okay at home?”
+
+    You want to tell her about that argument you and mom had.
+
+    But yet, there’s still that level of doubt and distrust…
+
+    What will she say? Can anything she say help?
+
+    MC: “Yeah, everything is fine.”
+
+    Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” <<ThiruDisappointed GameController>>
+
+    As you walk out of her office, you can’t help but feel like you disappointed Mrs Thiru.
+
+    Still, you know yourself best, right?
+
+ <<changeScene GameController>>
+
+<<endif>> 
+
+<< if $mom_negotiate is 1>> 
+
+    MC: “Well, it’s… I’m trying my best. I made a deal with my mum.”
+
+    MC: “if I do well, she won’t force me to attend new tuition classes.”
+
+    You catch a glimmer of amusement in Mrs Thiru’s eye. <<ThiruAmused GameController>>
+
+    Mrs Thiru: “That’s some good motivation… I’m glad you’ve decided to take charge of your own learning. But if you really do need some help preparing, do reach out to me.” 
+
+    Mrs Thiru smiles kindly at you. Her wording makes you feel somewhat better than anything your parents have told you.
+
+    You leave her office, cautiously optimistic.
+
+    <<changeScene GameController>>
+
+<<endif>>
+
+<< if $mom_submit is 1>> 
+
+    MC: “I’m going to meet with my tutor today.”
+
+    Mrs Thiru: “Oh? You engaged a private tutor?” <<ThiruSurprised GameController>>
+
+    It’s too late for Mrs Thiru to hide the tone of discontent in her voice.
+
+    Mrs Thiru: “Well that’s good, at least you’re getting a little extra help.”
+
+    Mrs Thiru: “As a teacher, I’ve always thought private tuition to be extra, but every student is different and learns at a different pace.”
+
+    Mrs Thiru: “Hope you’ll grasp the learning material well for the test tomorrow.” << ThiruAmused GameController >>
+
+    You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
+
+    <<changeScene GameController>>
+<<endif>>
+
+===
+title: Canteen
+tags: 
+colorID: 0
+position: 292,-475
+---
+You walk down to the canteen and settle next to your friend for a meal.
+===

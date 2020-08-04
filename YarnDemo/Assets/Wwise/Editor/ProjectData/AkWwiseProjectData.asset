@@ -165,8 +165,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/SFX/Phone/Phone_Typing_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events/SFX.wwu
     ParentPath: Default Work Unit/SFX
     guid: b64f5d31612d12469b5d2ffd934e9efd
@@ -201,6 +201,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586052293874775808
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /HGJ_Wwise
+  - /HGJ_Wwise/Events
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

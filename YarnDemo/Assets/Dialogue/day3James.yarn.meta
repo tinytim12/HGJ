@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cda55cfa42c013c47831a4b681f484d4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-SG
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 6 at position 21:\nmismatched input 'is'
+    expecting '('\r\n<<if approach_james is 1>> \r\r\n                    ^^"
+  baseLanguage: {instanceID: 0}
+  localizations: []

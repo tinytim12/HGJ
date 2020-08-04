@@ -1,0 +1,139 @@
+title: The school bell rings as students pack up to go home.
+tags: 
+colorID: 0
+position: 429,-260
+---
+Crashing down on the couch in your living room, you check your family WhatsApp chat.
+
+Surprisingly, it is quiet, with only the remnants of your mom’s scolding from yesterday on it.
+
+But you get a new message:
+
+Dad: “Hey kid. Sorry about what happened yesterday…”
+
+Dad: “Mom and I have been really busy with work…”
+
+<<if $mom_standyourground is 1>> 
+
+    Dad: “I know mom can be a little forceful.” 
+
+    Dad: “But she cares for you. You’ve got to understand where she comes from. She is working hard to give you everything you have now.”
+
+    [[ I thought about it yesterday. | thoughtyest ]] ]]
+    [[ She does not understand where I come from… | nounderstand ]] ]]
+
+<<endif>> 
+
+<< if $mom_negotiate is 1>> 
+
+    Dad: “I heard you have a test tomorrow...are you ready?”
+
+    [[ I hope I can do well. | ihope ]]
+    [[ Not really... | notreally ]] ]]
+
+<<endif>>
+
+<< if $mom_submit is 1>> 
+
+    Dad: “just wanted to ask if tuition went well today… there’s gonna be more work for you.”
+
+    [[ Thanks dad. | thanksdad ]]
+    [[ Sighs | Sighs ]]
+
+<<endif>>
+
+===
+title: I thought about it yesterday.
+tags: 
+colorID: 0
+position: 549,-480
+---
+MC: “I will apologise to mom.”
+MC: “But I still hope she understands where I come from.”
+Dad: “I know... That hopelessness, hatred.... Well, use it as fuel to study.”
+Dad: “The sooner you graduate, the sooner you get a job, the more independent you’ll be.”
+Dad: “Okay kid, gotta bounce. See you soon”
+And now, time to spend 10 minutes crafting a message for your mom.
+Will she even see it? And how will she respond when she does?
+Internally, you cringe a bit as you type a generic apology. But it fits your purposes well.
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: She does not understand where I come from…
+tags: 
+colorID: 0
+position: 769,-480
+---
+MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
+Dad: “You have to try and understand. She was being angry. She didn’t know what she was saying. If you offer peace first, she’ll take it.”
+MC: “So I have to apologise for what she says when she’s angry?”
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: I hope I can do well.
+tags: 
+colorID: 0
+position: 989,-480
+---
+MC: "I really tried this time.”
+Dad: “That’s good :)”
+Dad: “Go sleep early. All the best!”
+You smile a little as you lock your phone.
+Yet, you wonder why dad didn’t show you support like this yesterday.
+Or 3 months ago when your last exam got you ripped apart by mom.
+Was he really too busy for you?
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: Not really...
+tags: 
+colorID: 0
+position: 1209,-480
+---
+MC: “The more I study, the more confused I get… :(”
+Dad: “ :( ”
+Dad: “I know you always try to do your best. Dad is still proud of you no matter what okay?”
+You smile a little as you lock your phone.
+Yet, you wonder why dad didn’t do this yesterday.
+Or 3 months ago when your last exam got you ripped apart by mom.
+Was he really too busy for you?
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: Thanks dad.
+tags: 
+colorID: 0
+position: 1429,-480
+---
+MC: “I’ll be fine.”
+MC: “Hopefully I can get better grades and not disappoint mom again...”
+Dad: “that’s good, that’s good.”
+Dad: “All the best kiddo! Do us proud :)”
+You lock your phone.
+Closing your eyes, you summon your mental strength to keep going.
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: Sighs
+tags: 
+colorID: 0
+position: 1649,-480
+---
+MC: “But what can I do?”
+MC: “I’m trying really hard to like it, but I don’t. It’s in the way of things I really want to do.”
+Dad: “I really want to take a break, but I can’t because I have to earn money for the family. You have to learn that in life, we often don’t get to do the things we like.”
+Dad: “If you had listened to your mom, perhaps you’ll have understood this already. She knows what’s best for you.”
+You don’t even wanna continue this.
+You lock your phone, and throw it aside.
+Why can’t your parents ever see how tough it is to be a student?
+Did they forget?
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: homework2
+tags: 
+colorID: 0
+position: 669,-700
+---
+After talking to dad, it’s time to do your homework. The stakes are raised this time!
+===

@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1019347030	Phone_Typing_Start			\Default Work Unit\SFX\Phone\Phone_Typing_Start	
+	1714883926	Phone_Typing_Stop			\Default Work Unit\SFX\Phone\Phone_Typing_Stop	
+	1777606602	Phone_Notification_Stop			\Default Work Unit\SFX\Phone\Phone_Notification_Stop	
+	2200656914	Phone_Notification_Start			\Default Work Unit\SFX\Phone\Phone_Notification_Start	
+	2619506084	BG_music			\Default Work Unit\Music\BG\BG_music	
+	3399698792	Main_menu_music			\Default Work Unit\Music\Main menu\Main_menu_music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	879329718	Menu_or_BG			\Default Work Unit\Music\Menu_or_BG	
+	1082004789	Mon			\Default Work Unit\Music\Mon	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_or_BG			
+	1870080928	BG	Menu_or_BG			
+	2607556080	Menu	Menu_or_BG			
+	63700100	Mrs_Thiru	Mon			
+	748895195	None	Mon			
+	3368367120	Monologue	Mon			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	66002388	Monologue_115bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Monologue_115bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\01 Monologue_Mon\Monologue_115bpm_6-8\Monologue_115bpm_6-8		2604824
+	120780929	SFX_Phone_Typing03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing03		612144
+	214167873	Heritage Jam_Title Music	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Main Menu\Heritage Jam_Title Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\Menu Music\Menu Music\Heritage Jam_Title Music		11641408
+	623589535	SFX_Phone_Typing01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing01		518144
+	771453085	SFX_Phone_Typing02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing02		552144
+	784727234	Phone_Notification	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification		117694
+
