@@ -1,4 +1,4 @@
-title: Actual Test
+title: ActualTest
 tags: 
 colorID: 0
 position: 1005,-317
@@ -11,9 +11,9 @@ Let’s go. (You have 15s/30s/1m to complete the test, same format as the homewo
 
 The test has just ended. Your favourite period of the day is here!
 
-[[ answer: |Day 3]] ]]
+[[ Let's meet our friends! |Day3 ]]
 ===
-title: Day 3
+title: Day3
 tags: 
 colorID: 0
 position: 1125,-537
