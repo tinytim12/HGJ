@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/Maskedsound/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Music/Game Audio/WWise/HGJ_Wwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/Maskedsound/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Music/Game Audio/WWise/HGJ_Wwise/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Maskedsound/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/GIT/HGJ/YarnDemo/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Maskedsound/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Music/Game Audio/WWise/HGJ_Wwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2619506084" Name="BG_music" ObjectPath="\Events\Default Work Unit\Music\BG\BG_music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="66002388" Language="SFX">
+							<ShortName>BG Music\Monologue_115bpm_6-8.wav</ShortName>
+							<Path>SFX/BG Music/Monologue_115bpm_6-8_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{992D2F01-4D80-4FF2-B318-683D7EF3C20B}">
+							<Media>
+								<File Id="66002388"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3399698792" Name="Main_menu_music" ObjectPath="\Events\Default Work Unit\Music\Main menu\Main_menu_music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="214167873" Language="SFX">
+							<ShortName>Main Menu\Heritage Jam_Title Music.wav</ShortName>
+							<Path>SFX/Main Menu/Heritage Jam_Title Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2200656914" Name="Phone_Notification_Start" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Notification_Start" DurationType="OneShot" DurationMin="1.223065" DurationMax="1.225895">
+					<IncludedMemoryFiles>
+						<File Id="784727234" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Notification.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Notification_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1777606602" Name="Phone_Notification_Stop" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Notification_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1019347030" Name="Phone_Typing_Start" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Typing_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="120780929" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Typing03.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Typing03_10C4C929.wem</Path>
+						</File>
+						<File Id="623589535" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Typing01.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Typing01_10C4C929.wem</Path>
+						</File>
+						<File Id="771453085" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Typing02.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Typing02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1714883926" Name="Phone_Typing_Stop" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Typing_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="66002388" Language="SFX">
+					<ShortName>BG Music\Monologue_115bpm_6-8.wav</ShortName>
+					<Path>SFX/BG Music/Monologue_115bpm_6-8_D79FB2B7.wem</Path>
+				</File>
+				<File Id="120780929" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Typing03.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Typing03_10C4C929.wem</Path>
+				</File>
+				<File Id="214167873" Language="SFX">
+					<ShortName>Main Menu\Heritage Jam_Title Music.wav</ShortName>
+					<Path>SFX/Main Menu/Heritage Jam_Title Music_D79FB2B7.wem</Path>
+				</File>
+				<File Id="623589535" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Typing01.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Typing01_10C4C929.wem</Path>
+				</File>
+				<File Id="771453085" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Typing02.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Typing02_10C4C929.wem</Path>
+				</File>
+				<File Id="784727234" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Notification.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Notification_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="879329718" Name="Menu_or_BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\None"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\Menu"/>
+						<State Id="1870080928" Name="BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\BG"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1082004789" Name="Mon" ObjectPath="\States\Default Work Unit\Music\Mon">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\None"/>
+						<State Id="63700100" Name="Mrs_Thiru" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru"/>
+						<State Id="3368367120" Name="Monologue" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
