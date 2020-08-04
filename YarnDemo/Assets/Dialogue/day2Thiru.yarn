@@ -37,7 +37,7 @@ Thiru: “How’s your preparation for the test?” <<ThiruConcerned GameControl
 
     Still, you know yourself best, right?
 
- [[ answer: |Canteen]] ]]
+ <<changeScene GameController>>
 
 <<endif>> 
 
@@ -55,7 +55,7 @@ Thiru: “How’s your preparation for the test?” <<ThiruConcerned GameControl
 
     You leave her office, cautiously optimistic.
 
-    [[ answer: |Canteen]] ]]
+    <<changeScene GameController>>
 
 <<endif>>
 
@@ -75,16 +75,16 @@ Thiru: “How’s your preparation for the test?” <<ThiruConcerned GameControl
 
     You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
 
-    [[ answer: |Canteen]] ]]
+    <<changeScene GameController>>
 <<endif>>
 
 <<endif>>
-    [[ answer: |Canteen]] ]]
+
 ===
 title: Canteen
 tags: 
 colorID: 0
 position: 292,-475
 ---
-Empty Text
+You walk down to the canteen and settle next to your friend for a meal.
 ===
