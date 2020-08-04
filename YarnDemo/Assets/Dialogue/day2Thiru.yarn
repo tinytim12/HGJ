@@ -1,4 +1,4 @@
-title: Day 02
+title: Day02
 tags: 
 colorID: 0
 position: 172,-255
@@ -11,13 +11,13 @@ Mrs Thiru is still concerned about you, even though she seems to have forgotten 
 
 With your class of 40 students occupying all of her time, can you really blame her?
 
-Thiru: “How’s your preparation for the test?” (emotionThiru: concerned)
+Thiru: “How’s your preparation for the test?” <<ThiruConcerned GameController>>
 
-<<if mom_standyourground is 1>> 
+<<if $mom_standyourground is 1>> 
 
     MC: “I… didn’t really prepare.”
 
-    Mrs Thiru is taken aback. (emotionThiru: surprised)
+    Mrs Thiru is taken aback. <<ThiruSurprised GameController>>
 
     You cannot meet her glance.
 
@@ -31,7 +31,7 @@ Thiru: “How’s your preparation for the test?” (emotionThiru: concerned)
 
     MC: “Yeah, everything is fine.”
 
-    Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” (emotionThiru: disappointed)
+    Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” <<ThiruDisappointed GameController>>
 
     As you walk out of her office, you can’t help but feel like you disappointed Mrs Thiru.
 
@@ -41,13 +41,13 @@ Thiru: “How’s your preparation for the test?” (emotionThiru: concerned)
 
 <<endif>> 
 
-<< if mom_negotiate is 1>> 
+<< if $mom_negotiate is 1>> 
 
     MC: “Well, it’s… I’m trying my best. I made a deal with my mum.”
 
     MC: “if I do well, she won’t force me to attend new tuition classes.”
 
-    You catch a glimmer of amusement in Mrs Thiru’s eye. (emotionThiru: amused)
+    You catch a glimmer of amusement in Mrs Thiru’s eye. <<ThiruAmused GameController>>
 
     Mrs Thiru: “That’s some good motivation… I’m glad you’ve decided to take charge of your own learning. But if you really do need some help preparing, do reach out to me.” 
 
@@ -59,11 +59,11 @@ Thiru: “How’s your preparation for the test?” (emotionThiru: concerned)
 
 <<endif>>
 
-<< if mom_submit is 1>> 
+<< if $mom_submit is 1>> 
 
     MC: “I’m going to meet with my tutor today.”
 
-    Mrs Thiru: “Oh? You engaged a private tutor?” (emotionThiru: surprised)
+    Mrs Thiru: “Oh? You engaged a private tutor?” <<ThiruSurprised GameController>>
 
     It’s too late for Mrs Thiru to hide the tone of discontent in her voice.
 
@@ -71,7 +71,7 @@ Thiru: “How’s your preparation for the test?” (emotionThiru: concerned)
 
     Mrs Thiru: “As a teacher, I’ve always thought private tuition to be extra, but every student is different and learns at a different pace.”
 
-    Mrs Thiru: “Hope you’ll grasp the learning material well for the test tomorrow.”
+    Mrs Thiru: “Hope you’ll grasp the learning material well for the test tomorrow.” << ThiruAmused GameController >>
 
     You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
 
