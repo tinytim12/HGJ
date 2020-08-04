@@ -48,7 +48,6 @@ position: 326,-296
     <<endif>>
 
 <<endif>>
-<<endif>>
 ===
 title: I had an argument with my parents about tuition too...
 tags: 
@@ -63,7 +62,7 @@ You fall silent.
 This doesn’t sound like the Siti you met on Monday.
 She had sounded hopeful.
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
 title: That is less than ideal.
 tags: 
@@ -81,14 +80,14 @@ Siti hesitates a little. <<SitiWorried GameController>>
 MC: “She’s paid to listen to your problems anyway.” 
 Siti chuckles a little. <<SitiAmused GameController>>
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
 title: Maybe if everyone worked hard...
 tags: 
 colorID: 0
 position: 885,-523
 ---
-MC: “and took charge of their own studies...”
+MC: “and took charge of their own studies.”
 Siti: “… but is hard work alone enough?”
 Siti: “Some people still struggle no matter the amount of effort they put in.” <<SitiWorried GameController>>
 MC: “... the system isn’t entirely meritocratic, not so much like in the past.”
@@ -107,7 +106,7 @@ So much more than when she was in class.
 She wasn’t just at the top of the mountain.
 She was struggling to breathe on top, too.
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
 title: I think the issue is a little more complex...
 tags: 
@@ -123,9 +122,9 @@ She couldn’t understand, could she?
 But who could blame her? You, whose parents insist on getting tuition for you?
 How are we to filter out an issue that runs in our blood?
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
-title: You look at the time and realise it is time to head home.
+title: You look at the time and realise you need to head home.
 tags: 
 colorID: 0
 position: 565,-743
