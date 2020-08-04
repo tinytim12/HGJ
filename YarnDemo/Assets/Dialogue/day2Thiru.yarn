@@ -78,8 +78,6 @@ Thiru: “How’s your preparation for the test?” <<ThiruConcerned GameControl
     <<changeScene GameController>>
 <<endif>>
 
-<<endif>>
-
 ===
 title: Canteen
 tags: 
