@@ -19,13 +19,13 @@ Siti: “I just feel so overwhelmed with everything you know, balancing CCAs, vo
 
 Finally, a kindred (sort of) spirit. What will you advise her to do?
 
-[[ But the test is tomorrow | nodrop ]]
-[[ Perhaps you should | drop ]]
+[[ But the test is tomorrow. | nodrop ]]
+[[ Perhaps you should. | drop ]]
 
 <<endif>>
 
 ===
-title: But the test is tomorrow
+title: But the test is tomorrow.
 tags: 
 colorID: 0
 position: 779,-403
@@ -39,7 +39,7 @@ You nod. You don’t necessarily agree that tuition is the best way, but the alt
 
 [[ The school bell rings as students pack up to go home. | hometime ]]
 ===
-title: Perhaps you should
+title: Perhaps you should.
 tags: 
 colorID: 0
 position: 999,-403
