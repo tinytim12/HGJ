@@ -52,7 +52,7 @@ James: “That’s not cliche at all. It’s the kindest thing I’ve heard in s
 James: “I hope this is the start of something better for me… I won’t have to see Mrs Thiru every week, haha.”
 We could all agree that was a small step, but an important goal anyway.
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
 title: Is your dad feeling better?
 tags: 
@@ -75,7 +75,7 @@ James: “Exactly…”
 And just like that, it’s as though he’s aged decades before your eyes.
 Where had the years gone?
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
 title: You must be really tired.
 tags: 
@@ -88,7 +88,7 @@ Deep down, both of you know that’s not the answer.
 How could he be expected to study if he had to help out at home so much?
 This is too much to expect of a teenager...
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
 title: Maybe studying is not the only thing you can do.
 tags: 
@@ -105,9 +105,9 @@ You both walk away from lunch, vaguely optimistic. <<JasonHopeful GameController
 Despite the astronomical odds, you want to hope that everyone gets a fair chance.
 Regardless of the letters or numbers on a paper.
 
-[[ You look at the time and realise it is time to head home. | headhome ]]
+[[ You look at the time and realise you need to head home. | headhome ]]
 ===
-title: You look at the time and realise it is time to head home.
+title: You look at the time and realise you need to head home.
 tags: 
 colorID: 0
 position: 835,-717
