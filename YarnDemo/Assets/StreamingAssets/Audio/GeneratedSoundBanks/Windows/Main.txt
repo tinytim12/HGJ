@@ -1,22 +1,41 @@
 Event	ID	Name			Wwise Object Path	Notes
+	137461965	Staff_room			\Default Work Unit\Ambience\Staff_room	
+	428856256	Staff_room_stop			\Default Work Unit\Ambience\Staff_room_stop	
+	854850843	Living_room_stop			\Default Work Unit\Ambience\Living_room_stop	
 	1019347030	Phone_Typing_Start			\Default Work Unit\SFX\Phone\Phone_Typing_Start	
 	1714883926	Phone_Typing_Stop			\Default Work Unit\SFX\Phone\Phone_Typing_Stop	
 	1777606602	Phone_Notification_Stop			\Default Work Unit\SFX\Phone\Phone_Notification_Stop	
 	2200656914	Phone_Notification_Start			\Default Work Unit\SFX\Phone\Phone_Notification_Start	
 	2619506084	BG_music			\Default Work Unit\Music\BG\BG_music	
+	2839607491	BG_music_stop			\Default Work Unit\Music\BG\BG_music_stop	
+	3355232812	Living_room			\Default Work Unit\Ambience\Living_room	
 	3399698792	Main_menu_music			\Default Work Unit\Music\Main menu\Main_menu_music	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	879329718	Menu_or_BG			\Default Work Unit\Music\Menu_or_BG	
-	1082004789	Mon			\Default Work Unit\Music\Mon	
+	2225504254	Monologue_or_Mrs_Thiru			\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru	
+	2950144597	James_or_Siti			\Default Work Unit\Music\Mon\James_or_Siti	
+	3347180824	Selected_or_not			\Default Work Unit\Music\Mon\Selected_or_not	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Menu_or_BG			
 	1870080928	BG	Menu_or_BG			
 	2607556080	Menu	Menu_or_BG			
-	63700100	Mrs_Thiru	Mon			
-	748895195	None	Mon			
-	3368367120	Monologue	Mon			
+	748895195	None	Monologue_or_Mrs_Thiru			
+	3368367120	Monologue	Monologue_or_Mrs_Thiru			
+	4043819383	Mrs_Thiru_mon	Monologue_or_Mrs_Thiru			
+	126245619	James	James_or_Siti			
+	436113200	Siti	James_or_Siti			
+	748895195	None	James_or_Siti			
+	363882074	Selected	Selected_or_not			
+	748895195	None	Selected_or_not			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	725232568	Dialogue_Volume			\Default Work Unit\Volume\Dialogue_Volume	
+	1006694123	Music_Volume			\Default Work Unit\Volume\Music_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\Volume\SFX_Volume	
+	2901143258	Ambience_Volume			\Default Work Unit\Volume\Ambience_Volume	
+	4179668880	Master_Volume			\Default Work Unit\Volume\Master_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
@@ -26,10 +45,26 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	66002388	Monologue_115bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Monologue_115bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\01 Monologue_Mon\Monologue_115bpm_6-8\Monologue_115bpm_6-8		2604824
+	40769514	Mrs Thiru_choice 3_disappointed_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Mrs Thiru_choice 3_disappointed_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\02 Mrs Thiru_Mon\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 3_disappointed_108bpm_4-4		3929236
+	63651311	SFX_Phone_Notification_Vibrate03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_Vibrate03_74DD6AAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate03		208192
+	66002388	Monologue_115bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Monologue_115bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\01 Monologue_Mon\Monologue_115bpm_6-8\Monologue_115bpm_6-8		2880820
 	120780929	SFX_Phone_Typing03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing03		612144
 	214167873	Heritage Jam_Title Music	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Main Menu\Heritage Jam_Title Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\Menu Music\Menu Music\Heritage Jam_Title Music		11641408
+	280432446	SFX_Phone_Notification_Vibrate02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_Vibrate02_103DCC65.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate02		216192
+	291338911	Mrs Thiru_Day 1_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\02 Mrs Thiru_Mon\Mrs Thiru_Mon\Mrs Thiru_concerned\Mrs Thiru_Day 1_108bpm_4-4		1706876
+	435751986	Mrs Thiru_choice 2_concerned_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\02 Mrs Thiru_Mon\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 2_concerned_108bpm_4-4		3929284
+	513468682	Staff Room	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Ambience\Ambience_Staff Room_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\School\Staff Room		4416192
+	546400724	James_Day 1_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_Day 1_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Tired_Mon\James_Day 1\James_Day 1_85bpm_4-4		2618500
+	568803031	Siti_choice 1_happy_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\04 Siti_Mon\04 Siti_Choices_Mon\Siti_Choices_Segment_Mon\Siti_choice 1_happy_130bpm_6-8		2618500
 	623589535	SFX_Phone_Typing01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing01		518144
+	645410858	Siti_Day 1_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Siti_Day 1_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\04 Siti_Mon\04 Siti_Happy_Mon\Siti_Day 1\Siti_Day 1_130bpm_6-8		1569972
+	692347018	James_choice 1_hopeful_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 1_hopeful_85bpm_4-4		4715684
+	726395424	James_choice 2_disappointed_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 2_disappointed_85bpm_4-4		4715668
+	749487272	James_choice 1_frustrated_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 1_frustrated_85bpm_4-4		4715684
 	771453085	SFX_Phone_Typing02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing02		552144
-	784727234	Phone_Notification	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification		117694
+	844424994	Mrs Thiru_choice 1_hopeful_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\02 Mrs Thiru_Mon\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 1_hopeful_108bpm_4-4		3929220
+	885914092	SFX_Phone_Notification_Vibrate01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_Vibrate01_1C13E6F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate01		216192
+	978080902	Siti_choice 2_hopeful_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\04 Siti_Mon\04 Siti_Choices_Mon\Siti_Choices_Segment_Mon\Siti_choice 2_hopeful_130bpm_6-8		2618516
+	1032996371	Living Room	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Ambience\Ambience_Living Room_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Home\Living Room		7296192
+	1055100629	James_choice 1_hopeful_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 1_hopeful_strings_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 1_hopeful_85bpm_4-4		4715684
 

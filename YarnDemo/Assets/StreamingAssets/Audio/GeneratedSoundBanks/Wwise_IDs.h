@@ -14,15 +14,55 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BG_MUSIC = 2619506084U;
+        static const AkUniqueID BG_MUSIC_STOP = 2839607491U;
+        static const AkUniqueID LIVING_ROOM = 3355232812U;
+        static const AkUniqueID LIVING_ROOM_STOP = 854850843U;
         static const AkUniqueID MAIN_MENU_MUSIC = 3399698792U;
         static const AkUniqueID PHONE_NOTIFICATION_START = 2200656914U;
         static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
         static const AkUniqueID PHONE_TYPING_STOP = 1714883926U;
+        static const AkUniqueID STAFF_ROOM = 137461965U;
+        static const AkUniqueID STAFF_ROOM_STOP = 428856256U;
     } // namespace EVENTS
 
     namespace STATES
     {
+        namespace JAME_FRUSTRATED
+        {
+            static const AkUniqueID GROUP = 3215061757U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FRUSTRATED = 1309079467U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace JAME_FRUSTRATED
+
+        namespace JAMES_CHOICES
+        {
+            static const AkUniqueID GROUP = 2898708738U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DISAPPOINTED = 82996173U;
+                static const AkUniqueID HOPEFUL = 2757808320U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace JAMES_CHOICES
+
+        namespace JAMES_OR_SITI
+        {
+            static const AkUniqueID GROUP = 2950144597U;
+
+            namespace STATE
+            {
+                static const AkUniqueID JAMES = 126245619U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SITI = 436113200U;
+            } // namespace STATE
+        } // namespace JAMES_OR_SITI
+
         namespace MENU_OR_BG
         {
             static const AkUniqueID GROUP = 879329718U;
@@ -35,29 +75,64 @@ namespace AK
             } // namespace STATE
         } // namespace MENU_OR_BG
 
-        namespace MON
+        namespace MONOLOGUE_OR_MRS_THIRU
         {
-            static const AkUniqueID GROUP = 1082004789U;
+            static const AkUniqueID GROUP = 2225504254U;
 
             namespace STATE
             {
                 static const AkUniqueID MONOLOGUE = 3368367120U;
-                static const AkUniqueID MRS_THIRU = 63700100U;
+                static const AkUniqueID MRS_THIRU_MON = 4043819383U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
-        } // namespace MON
+        } // namespace MONOLOGUE_OR_MRS_THIRU
 
-        namespace TUE
+        namespace MRS_THIRU_CHOICES
         {
-            static const AkUniqueID GROUP = 644653865U;
+            static const AkUniqueID GROUP = 2805117609U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CONCERNED = 3074533040U;
+                static const AkUniqueID DISAPPOINTED = 82996173U;
+                static const AkUniqueID HOPEFUL = 2757808320U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MRS_THIRU_CHOICES
+
+        namespace SELECTED_OR_NOT
+        {
+            static const AkUniqueID GROUP = 3347180824U;
 
             namespace STATE
             {
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SELECTED = 363882074U;
             } // namespace STATE
-        } // namespace TUE
+        } // namespace SELECTED_OR_NOT
+
+        namespace SITI_CHOICES
+        {
+            static const AkUniqueID GROUP = 1619247981U;
+
+            namespace STATE
+            {
+                static const AkUniqueID HAPPY = 1427264549U;
+                static const AkUniqueID HOPEFUL = 2757808320U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace SITI_CHOICES
 
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID AMBIENCE_VOLUME = 2901143258U;
+        static const AkUniqueID DIALOGUE_VOLUME = 725232568U;
+        static const AkUniqueID MASTER_VOLUME = 4179668880U;
+        static const AkUniqueID MUSIC_VOLUME = 1006694123U;
+        static const AkUniqueID SFX_VOLUME = 1564184899U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

@@ -15,6 +15,13 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="725232568" Name="Dialogue_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Dialogue_Volume"/>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Music_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\SFX_Volume"/>
+				<GameParameter Id="2901143258" Name="Ambience_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Ambience_Volume"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Master_Volume"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
@@ -23,19 +30,142 @@
 			<IncludedEvents>
 				<Event Id="2619506084" Name="BG_music" ObjectPath="\Events\Default Work Unit\Music\BG\BG_music" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="40769514" Language="SFX">
+							<ShortName>BG Music\Mrs Thiru_choice 3_disappointed_108bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/Mrs Thiru_choice 3_disappointed_108bpm_4-4_D79FB2B7.wem</Path>
+						</File>
 						<File Id="66002388" Language="SFX">
 							<ShortName>BG Music\Monologue_115bpm_6-8.wav</ShortName>
 							<Path>SFX/BG Music/Monologue_115bpm_6-8_D79FB2B7.wem</Path>
 						</File>
+						<File Id="291338911" Language="SFX">
+							<ShortName>BG Music\Mrs Thiru_Day 1_108bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="435751986" Language="SFX">
+							<ShortName>BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="546400724" Language="SFX">
+							<ShortName>BG Music\James_Day 1_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_Day 1_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="568803031" Language="SFX">
+							<ShortName>BG Music\Siti_choice 1_happy_130bpm_6-8.wav</ShortName>
+							<Path>SFX/BG Music/Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem</Path>
+						</File>
+						<File Id="645410858" Language="SFX">
+							<ShortName>BG Music\Siti_Day 1_130bpm_6-8.wav</ShortName>
+							<Path>SFX/BG Music/Siti_Day 1_130bpm_6-8_D79FB2B7.wem</Path>
+						</File>
+						<File Id="692347018" Language="SFX">
+							<ShortName>BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="726395424" Language="SFX">
+							<ShortName>BG Music\James_choice 2_disappointed_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="749487272" Language="SFX">
+							<ShortName>BG Music\James_choice 1_frustrated_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="844424994" Language="SFX">
+							<ShortName>BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="978080902" Language="SFX">
+							<ShortName>BG Music\Siti_choice 2_hopeful_130bpm_6-8.wav</ShortName>
+							<Path>SFX/BG Music/Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1055100629" Language="SFX">
+							<ShortName>BG Music\James_choice 1_hopeful_strings_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice 1_hopeful_strings_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{992D2F01-4D80-4FF2-B318-683D7EF3C20B}">
-							<Media>
-								<File Id="66002388"/>
-							</Media>
+						<SwitchContainer SwitchValue="{0DB2C43D-1F15-403D-905E-36940E948359}">
+							<Children>
+								<SwitchContainer SwitchValue="{EFC8AA5D-A2EB-4EAA-BA68-74A5568B1B27}">
+									<Media>
+										<File Id="66002388"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0EB8CC9B-666F-472C-AA03-C35BB88D9644}">
+							<Children>
+								<SwitchContainer SwitchValue="{EFC8AA5D-A2EB-4EAA-BA68-74A5568B1B27}">
+									<Children>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Media>
+												<File Id="844424994"/>
+												<File Id="435751986"/>
+												<File Id="40769514"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
+											<Media>
+												<File Id="291338911"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{14570E9F-63D3-4546-B045-C9AB411FD837}">
+							<Children>
+								<SwitchContainer SwitchValue="{54B5A74B-FA5C-43D3-93A6-8069C9BB7808}">
+									<Children>
+										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
+											<Media>
+												<File Id="546400724"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Media>
+												<File Id="1055100629"/>
+												<File Id="692347018"/>
+												<File Id="726395424"/>
+												<File Id="749487272"/>
+												<File Id="692347018"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{14570E9F-63D3-4546-B045-C9AB411FD837}">
+							<Children>
+								<SwitchContainer SwitchValue="{AD659958-04EF-462D-9461-E898010E42D2}">
+									<Children>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Media>
+												<File Id="568803031"/>
+												<File Id="978080902"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
+											<Media>
+												<File Id="645410858"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2839607491" Name="BG_music_stop" ObjectPath="\Events\Default Work Unit\Music\BG\BG_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3355232812" Name="Living_room" ObjectPath="\Events\Default Work Unit\Ambience\Living_room" DurationType="OneShot" DurationMin="38.000000" DurationMax="38.000000">
+					<IncludedMemoryFiles>
+						<File Id="1032996371" Language="SFX">
+							<ShortName>Ambience\Ambience_Living Room.wav</ShortName>
+							<Path>SFX/Ambience/Ambience_Living Room_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="854850843" Name="Living_room_stop" ObjectPath="\Events\Default Work Unit\Ambience\Living_room_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3399698792" Name="Main_menu_music" ObjectPath="\Events\Default Work Unit\Music\Main menu\Main_menu_music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="214167873" Language="SFX">
@@ -44,11 +174,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2200656914" Name="Phone_Notification_Start" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Notification_Start" DurationType="OneShot" DurationMin="1.223065" DurationMax="1.225895">
+				<Event Id="2200656914" Name="Phone_Notification_Start" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Notification_Start" DurationType="OneShot" DurationMin="1.082083" DurationMax="1.126300">
 					<IncludedMemoryFiles>
-						<File Id="784727234" Language="SFX">
-							<ShortName>Phone\SFX_Phone_Notification.wav</ShortName>
-							<Path>SFX/Phone/SFX_Phone_Notification_10C4C929.wem</Path>
+						<File Id="63651311" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Notification_Vibrate03.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Notification_Vibrate03_74DD6AAA.wem</Path>
+						</File>
+						<File Id="280432446" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Notification_Vibrate02.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Notification_Vibrate02_103DCC65.wem</Path>
+						</File>
+						<File Id="885914092" Language="SFX">
+							<ShortName>Phone\SFX_Phone_Notification_Vibrate01.wav</ShortName>
+							<Path>SFX/Phone/SFX_Phone_Notification_Vibrate01_1C13E6F1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -70,8 +208,25 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1714883926" Name="Phone_Typing_Stop" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Typing_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="137461965" Name="Staff_room" ObjectPath="\Events\Default Work Unit\Ambience\Staff_room" DurationType="OneShot" DurationMin="0.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="513468682" Language="SFX">
+							<ShortName>Ambience\Ambience_Staff Room.wav</ShortName>
+							<Path>SFX/Ambience/Ambience_Staff Room_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="428856256" Name="Staff_room_stop" ObjectPath="\Events\Default Work Unit\Ambience\Staff_room_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="40769514" Language="SFX">
+					<ShortName>BG Music\Mrs Thiru_choice 3_disappointed_108bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Mrs Thiru_choice 3_disappointed_108bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="63651311" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Notification_Vibrate03.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Notification_Vibrate03_74DD6AAA.wem</Path>
+				</File>
 				<File Id="66002388" Language="SFX">
 					<ShortName>BG Music\Monologue_115bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Monologue_115bpm_6-8_D79FB2B7.wem</Path>
@@ -84,19 +239,82 @@
 					<ShortName>Main Menu\Heritage Jam_Title Music.wav</ShortName>
 					<Path>SFX/Main Menu/Heritage Jam_Title Music_D79FB2B7.wem</Path>
 				</File>
+				<File Id="280432446" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Notification_Vibrate02.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Notification_Vibrate02_103DCC65.wem</Path>
+				</File>
+				<File Id="291338911" Language="SFX">
+					<ShortName>BG Music\Mrs Thiru_Day 1_108bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="435751986" Language="SFX">
+					<ShortName>BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="513468682" Language="SFX">
+					<ShortName>Ambience\Ambience_Staff Room.wav</ShortName>
+					<Path>SFX/Ambience/Ambience_Staff Room_10C4C929.wem</Path>
+				</File>
+				<File Id="546400724" Language="SFX">
+					<ShortName>BG Music\James_Day 1_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_Day 1_85bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="568803031" Language="SFX">
+					<ShortName>BG Music\Siti_choice 1_happy_130bpm_6-8.wav</ShortName>
+					<Path>SFX/BG Music/Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem</Path>
+				</File>
 				<File Id="623589535" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Typing01.wav</ShortName>
 					<Path>SFX/Phone/SFX_Phone_Typing01_10C4C929.wem</Path>
+				</File>
+				<File Id="645410858" Language="SFX">
+					<ShortName>BG Music\Siti_Day 1_130bpm_6-8.wav</ShortName>
+					<Path>SFX/BG Music/Siti_Day 1_130bpm_6-8_D79FB2B7.wem</Path>
+				</File>
+				<File Id="692347018" Language="SFX">
+					<ShortName>BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="726395424" Language="SFX">
+					<ShortName>BG Music\James_choice 2_disappointed_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="749487272" Language="SFX">
+					<ShortName>BG Music\James_choice 1_frustrated_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem</Path>
 				</File>
 				<File Id="771453085" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Typing02.wav</ShortName>
 					<Path>SFX/Phone/SFX_Phone_Typing02_10C4C929.wem</Path>
 				</File>
-				<File Id="784727234" Language="SFX">
-					<ShortName>Phone\SFX_Phone_Notification.wav</ShortName>
-					<Path>SFX/Phone/SFX_Phone_Notification_10C4C929.wem</Path>
+				<File Id="844424994" Language="SFX">
+					<ShortName>BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="885914092" Language="SFX">
+					<ShortName>Phone\SFX_Phone_Notification_Vibrate01.wav</ShortName>
+					<Path>SFX/Phone/SFX_Phone_Notification_Vibrate01_1C13E6F1.wem</Path>
+				</File>
+				<File Id="978080902" Language="SFX">
+					<ShortName>BG Music\Siti_choice 2_hopeful_130bpm_6-8.wav</ShortName>
+					<Path>SFX/BG Music/Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1032996371" Language="SFX">
+					<ShortName>Ambience\Ambience_Living Room.wav</ShortName>
+					<Path>SFX/Ambience/Ambience_Living Room_10C4C929.wem</Path>
+				</File>
+				<File Id="1055100629" Language="SFX">
+					<ShortName>BG Music\James_choice 1_hopeful_strings_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice 1_hopeful_strings_85bpm_4-4_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="725232568" Name="Dialogue_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Dialogue_Volume"/>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Music_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\SFX_Volume"/>
+				<GameParameter Id="2901143258" Name="Ambience_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Ambience_Volume"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Master_Volume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="879329718" Name="Menu_or_BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG">
 					<States>
@@ -105,11 +323,24 @@
 						<State Id="1870080928" Name="BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\BG"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="1082004789" Name="Mon" ObjectPath="\States\Default Work Unit\Music\Mon">
+				<StateGroup Id="2225504254" Name="Monologue_or_Mrs_Thiru" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\None"/>
-						<State Id="63700100" Name="Mrs_Thiru" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru"/>
-						<State Id="3368367120" Name="Monologue" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\None"/>
+						<State Id="3368367120" Name="Monologue" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Monologue"/>
+						<State Id="4043819383" Name="Mrs_Thiru_mon" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Mrs_Thiru_mon"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2950144597" Name="James_or_Siti" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\None"/>
+						<State Id="126245619" Name="James" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\James"/>
+						<State Id="436113200" Name="Siti" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\Siti"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3347180824" Name="Selected_or_not" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not\None"/>
+						<State Id="363882074" Name="Selected" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not\Selected"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
