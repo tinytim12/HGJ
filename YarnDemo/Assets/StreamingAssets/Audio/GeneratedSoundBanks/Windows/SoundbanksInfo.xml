@@ -118,18 +118,46 @@
 								<SwitchContainer SwitchValue="{54B5A74B-FA5C-43D3-93A6-8069C9BB7808}">
 									<Children>
 										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
-											<Media>
-												<File Id="546400724"/>
-											</Media>
+											<Children>
+												<SwitchContainer SwitchValue="{C1A84C48-2158-4287-A72C-D46802795856}">
+													<Children>
+														<SwitchContainer SwitchValue="{8489F07A-EE72-44AE-A3B9-2205CF13AD75}">
+															<Media>
+																<File Id="546400724"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+											</Children>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-											<Media>
-												<File Id="1055100629"/>
-												<File Id="692347018"/>
-												<File Id="726395424"/>
-												<File Id="749487272"/>
-												<File Id="692347018"/>
-											</Media>
+											<Children>
+												<SwitchContainer SwitchValue="{C1A84C48-2158-4287-A72C-D46802795856}">
+													<Children>
+														<SwitchContainer SwitchValue="{8489F07A-EE72-44AE-A3B9-2205CF13AD75}">
+															<Media>
+																<File Id="1055100629"/>
+																<File Id="692347018"/>
+																<File Id="726395424"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+											</Children>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children>
+												<SwitchContainer SwitchValue="{EFF06FEE-306D-4607-A2A2-8669E18770DD}">
+													<Children>
+														<SwitchContainer SwitchValue="{290D31C7-0EEE-4ABA-978D-EB47AABB4358}">
+															<Media>
+																<File Id="749487272"/>
+																<File Id="692347018"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+											</Children>
 										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
@@ -330,11 +358,24 @@
 						<State Id="4043819383" Name="Mrs_Thiru_mon" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Mrs_Thiru_mon"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="2898708738" Name="James_choices" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices\None"/>
+						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices\Hopeful"/>
+						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices\Disappointed"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="2950144597" Name="James_or_Siti" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\None"/>
 						<State Id="126245619" Name="James" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\James"/>
 						<State Id="436113200" Name="Siti" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\Siti"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3215061757" Name="Jame_frustrated" ObjectPath="\States\Default Work Unit\Music\Mon\Jame_frustrated">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Jame_frustrated\None"/>
+						<State Id="1309079467" Name="Frustrated" ObjectPath="\States\Default Work Unit\Music\Mon\Jame_frustrated\Frustrated"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3347180824" Name="Selected_or_not" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not">

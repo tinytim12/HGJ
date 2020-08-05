@@ -14,7 +14,9 @@ Event	ID	Name			Wwise Object Path	Notes
 State Group	ID	Name			Wwise Object Path	Notes
 	879329718	Menu_or_BG			\Default Work Unit\Music\Menu_or_BG	
 	2225504254	Monologue_or_Mrs_Thiru			\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru	
+	2898708738	James_choices			\Default Work Unit\Music\Mon\James_choices	
 	2950144597	James_or_Siti			\Default Work Unit\Music\Mon\James_or_Siti	
+	3215061757	Jame_frustrated			\Default Work Unit\Music\Mon\Jame_frustrated	
 	3347180824	Selected_or_not			\Default Work Unit\Music\Mon\Selected_or_not	
 
 State	ID	Name	State Group			Notes
@@ -24,9 +26,14 @@ State	ID	Name	State Group			Notes
 	748895195	None	Monologue_or_Mrs_Thiru			
 	3368367120	Monologue	Monologue_or_Mrs_Thiru			
 	4043819383	Mrs_Thiru_mon	Monologue_or_Mrs_Thiru			
+	82996173	Disappointed	James_choices			
+	748895195	None	James_choices			
+	2757808320	Hopeful	James_choices			
 	126245619	James	James_or_Siti			
 	436113200	Siti	James_or_Siti			
 	748895195	None	James_or_Siti			
+	748895195	None	Jame_frustrated			
+	1309079467	Frustrated	Jame_frustrated			
 	363882074	Selected	Selected_or_not			
 	748895195	None	Selected_or_not			
 
@@ -60,7 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	645410858	Siti_Day 1_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Siti_Day 1_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\04 Siti_Mon\04 Siti_Happy_Mon\Siti_Day 1\Siti_Day 1_130bpm_6-8		1569972
 	692347018	James_choice 1_hopeful_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 1_hopeful_85bpm_4-4		4715684
 	726395424	James_choice 2_disappointed_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 2_disappointed_85bpm_4-4		4715668
-	749487272	James_choice 1_frustrated_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Choices_Mon\James_Choices_Segment_Mon\James_choice 1_frustrated_85bpm_4-4		4715684
+	749487272	James_choice 1_frustrated_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\03 James_Mon\James_Frustrated_Mon\James_Frustrated\James_choice 1_frustrated_85bpm_4-4		4715684
 	771453085	SFX_Phone_Typing02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Typing02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing02		552144
 	844424994	Mrs Thiru_choice 1_hopeful_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\02 Mrs Thiru_Mon\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 1_hopeful_108bpm_4-4		3929220
 	885914092	SFX_Phone_Notification_Vibrate01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_Vibrate01_1C13E6F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate01		216192
