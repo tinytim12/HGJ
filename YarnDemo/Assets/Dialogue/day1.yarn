@@ -7,13 +7,11 @@ position: 1063,22
 
 <<set $name to "Test">>
 
-“Reward for Work, Work for Reward”.
+Meritocracy has long been prized as one of our garden city's shining principles.
 
-This is one of our guiding principles.
+If you work hard enough, you'll be able to attain success.
 
-If you work hard enough, you climb the ladder.
-
-At least, that’s how we’d like to have it.
+But... how true is that in this day and age?
 
 MONDAY
 
@@ -49,7 +47,7 @@ Yet, she recovers her composure.
 “Okay, {$name}. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:”
 She quickly goes through the content again, but very briefly.
 You’ve got some elbow grease waiting for you at home.
-You steel yourself to dedicate more time to your homework for later. (You have 60 seconds for the homework exercise later.)
+You steel yourself to dedicate more time to your homework at night. (You have 60 seconds for a homework exercise later.)
 [[CorridorDay1]]
 
 ===
@@ -68,8 +66,8 @@ Thiru: “Do you have any other commitments that are important to you? CCA, perh
 MC: “No, not really. It’s just… I know I'm supposed to study, but it's so hard to motivate myself to...”
 Mrs Thiru looks at you with understanding in her eyes.
 Is that a glimpse of sorrow you detect? Probably not.
-Yet, as she gives some generic advice about proper time management, you can feel it ring hollow.
-In the end, you still decide that you’ll allocate the normal amount of time to your homework. (You have 30 seconds for the homework exercise later.)
+Yet, as she gives some generic advice about proper time management, you feel it ring hollow.
+You decide that you’ll allocate a usual amount of attention to your homework at night. (You have 30 seconds for a homework exercise later.)
 [[CorridorDay1]]
 
 ===
@@ -88,9 +86,9 @@ Mrs Thiru: “Is everything alright? You can always tell me if anything is the m
 You cannot bear to stare into her eyes.
 Perhaps it’s the disappointment in her gaze that puts you off.
 A few moments of awkward silence pass.
-You wish you had the courage to tell her that you don’t want to study, that you didn’t ask to be born into this life.
+You wish you had the courage to tell her that you don’t want to study...
 You leave her office, no better than when you entered it.
-The exchange has drained you emotionally. You doubt that you’ll have less time to complete your homework when you inevitably have to do it. (You have 15 seconds for the homework exercise later.)
+The exchange has drained you emotionally. Weary, you decide to allocate less time to complete your homework at night. (You have 15 seconds for a homework exercise later.)
 
 
 [[CorridorDay1]]
@@ -165,9 +163,7 @@ And she keeps going, telling you about all the different programmes she’s thou
 
 Camps, symposiums, debates, so many extracurriculars!
 
-Yet, even as she rattles on, you can’t help but wonder who would sign up for these.
-
-After all, aren’t we still just kids?
+Yet, as she rattles on, you can’t help but wonder who would sign up for these.
 
 [[HomeDay1]]
 
@@ -228,15 +224,13 @@ James: “Thank you so much!”
 
 <<changeScene GameController canteen>>
 
-Over lunch, James starts to complain, even as he devours the char kway teow before him. He fishes out his phone to show you a webpage but could not quite get it to load. His phone notifies him that his prepaid card is empty of value.
+Over lunch, James complains about his work shift as he devours the char kway teow before him. He fishes out his phone to show you a webpage but could not get it to load. His phone notifies him that he has zero value in his prepaid card.
 
 James: “Urgh sorry, I think I forgot to top my card up for my Internet to work...”
 
-James’ phone screen is cracked in more places than you can imagine.
-
 MC: “Why not subscribe to a contract with Starhub or Singtel? They have really good value-for-money deals.”
 
-James scoffs/sighs. (emotionJames: frustration)
+James sighs. (emotionJames: frustration)
 
 James: “...I don’t have the money for it. It’s hard for you to understand.”
 
@@ -273,15 +267,13 @@ position: 413,-232
 
 Mom: “Your teacher called me today in the afternoon about your grades… didn’t you promise me you’ll work harder?”
 
-Mom: “We need to have a proper discussion about this.”
+Mom: “I don’t want to nag at you, but if you don’t work hard, you will suffer in life.”
 
-Mom: “I don’t want to nag at you, but if you don’t work hard, you suffer in life.”
+Mom: “Think about it... our country wouldn't have made it this far without our forefathers’ immense hard work.”
 
 Mom: “You only have to juggle with school for now. When you grow up, there are so many other things you need to think about - taxes, housing, healthcare... ”
 
-Mom: “Singapore didn’t come this far without our forefathers’ immense hard work.”
-
-Mom: “Dad and I just want you to know that we work so hard to give you a better shot than us at a brighter future… If you need more tuition, we give it to you. But you have to hold up your end of the bargain.”
+Mom: “Dad and I just want you to know that we work so hard to give you a better shot than us at a brighter future… If you need more tuition, we will gladly give it to you. But you have to hold up your end of the bargain.”
 
 Your fingers are trembling, though you can’t tell if it’s through rage or fear.
 
@@ -302,11 +294,9 @@ MC: “And If I still can’t do well, then maybe I should explore other paths.�
 
 Mom is typing…
 
-Mom: “If you can’t even do this one path well, how will you succeed elsewhere? Grades are not everything, but for now, they are… You don’t understand it now, but when you grow up, you will.”
+Mom: “We’ve already discussed this so many times.”
 
-Mom: “And no more of this nonsense again. We’ve already discussed this so many times.”
-
-Mom: “Just get decent grades, is that too much to ask for?”
+Mom: “If you can’t even venture this one path well, how will you succeed on others? Yes, grades are not everything. But for now, they are… You may not understand this, but perhaps when you grow up, you will.”
 
 Dad is typing…
 
@@ -314,7 +304,7 @@ Dad: “We just want you to be a good student.”
 
 You lock your phone and throw it aside.
 
-You’re fuming mad at your mom, even if you can’t show it to her.
+You’re fuming mad at your mom.
 
 She didn’t even bother to understand your struggle...
 
@@ -342,7 +332,7 @@ MC: “Just give me another chance to prove myself in the coming test. If it doe
 
 Mom: “Okay. If the grades are still bad, you’re doing it my way.”
 
-You lock your phone and start charging it.
+You lock your phone.
 
 The expectations are high. Perhaps, unreasonably so?
 
@@ -358,9 +348,9 @@ position: 973,-452
 
 MC: “I want to be better.”
 
-Mom: “I’m not a monster you know. I’m glad you understand... This tutor is the daughter of one of my colleague’s friends who graduated from a top school. She will teach you chemistry exam tactics.”
+Mom: “I’m not a monster. I’m glad you understand... This tutor is the daughter of one of my colleague’s friends who graduated from a top school. She knows how best to score in exams.”
 
-Mom: “I know this means you have less time to play. But this is all for your own good. You need to learn to do things at the right time. Besides, you can’t make a living off of playing.”
+Mom: “I know this means you have less time to play. But, this is all for your own good. You have to learn to do things at the right time. Besides, you can’t make a living off of playing.”
 
 Mom: “The only way through this system is by sacrifice and hard work. You have to remember that.”
 
