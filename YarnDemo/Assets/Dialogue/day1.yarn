@@ -49,6 +49,7 @@ Yet, she recovers her composure.
 “Okay, {$name}. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:”
 She quickly goes through the content again, but very briefly.
 You’ve got some elbow grease waiting for you at home.
+You steel yourself to dedicate more time to your homework for later. (You have 60 seconds for the homework exercise later.)
 [[CorridorDay1]]
 
 ===
@@ -68,6 +69,7 @@ MC: “No, not really. It’s just… I know I'm supposed to study, but it's so 
 Mrs Thiru looks at you with understanding in her eyes.
 Is that a glimpse of sorrow you detect? Probably not.
 Yet, as she gives some generic advice about proper time management, you can feel it ring hollow.
+In the end, you still decide that you’ll allocate the normal amount of time to your homework. (You have 30 seconds for the homework exercise later.)
 [[CorridorDay1]]
 
 ===
@@ -88,6 +90,8 @@ Perhaps it’s the disappointment in her gaze that puts you off.
 A few moments of awkward silence pass.
 You wish you had the courage to tell her that you don’t want to study, that you didn’t ask to be born into this life.
 You leave her office, no better than when you entered it.
+The exchange has drained you emotionally. You doubt that you’ll have less time to complete your homework when you inevitably have to do it. (You have 15 seconds for the homework exercise later.)
+
 
 [[CorridorDay1]]
 ===
