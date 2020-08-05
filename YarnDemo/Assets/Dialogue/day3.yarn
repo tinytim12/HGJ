@@ -5,16 +5,15 @@ position: 1005,-317
 ---
 Test day.
 
-Regardless whether you prepared or not, the paper is before you.
+Regardless of how ill-prepared you might be, there is no escape from the test paper before you.
 
-Let’s go. (You have 15s/30s/1m to complete the test, same format as the homework assignments)
+Let’s go. (You have 15s/30s/1m to complete the test.)
 
-(if you scored above 10 questions correct, your mom won't be confrontational with you
-if you scored below 10 questions correct, your mom will be confrontational with you)
+(If you scored less than 10 right, your mom will not be pleased with you.)
 
 The test has just ended. Your favourite period of the day is here!
 
-[[ Let's meet our friends! | Day3Friends ]]
+[[ Let's meet your friends! | Day3Friends ]]
 ===
 title: Day3Friends
 tags: 
@@ -60,7 +59,7 @@ position: 326,-296
 
 
     [[ I had an argument with my parents about tuition too... | SitiDay3.1 ]]
-    [[ That is less than ideal. | SitiDay3.2 ]]
+    [[ That sucks. | SitiDay3.2 ]]
 
 <<endif>>
 
@@ -82,7 +81,7 @@ position: 326,-296
 
 
     [[ Maybe if everyone worked hard... | SitiDay3.3 ]]
-    [[ I think the issue is a little more complex... | SitiDay3.4 ]] ]]
+    [[ The issue is a little more complex... | SitiDay3.4 ]] ]]
 
 <<endif>>
 
@@ -115,7 +114,7 @@ Siti: “If only it was that easy…”
 Siti: “I wish there was someone else to talk to, someone who can actually help.”
 Siti: “Everyone in class thinks I’m arrogant. People like James avoid me, while others want to get into my good books for whatever reason...”
 MC: “Have you tried talking to the school counsellor?”
-Siti: “But… only kids who actually need help go to her, right?”
+Siti: “Only kids who actually need help go to her, right?”
 MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
 Siti hesitates a little. 
 <<SitiWorried GameController>>
@@ -140,16 +139,15 @@ You’re reminded of your own struggle against your parents.
 Siti might come from a more prosperous family than you, but in the long run…
 Are the two of you so different? 
 And, what about kids who were not dealt such a good hand in life?
-Siti: “Look within our class, for instance. James is struggling with schoolwork, but the way he acts makes it clear it’s not his own fault.”
-Siti: “There are things he can’t control.”
-MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance too.”
+Siti: “Look at James... he tries so hard but still struggles with schoolwork, mainly because of things out of his control.”
+MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance.”
 Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” 
 <<SitiHopeful GameController>>
 You resist scoffing at that.
 If we can’t even influence our own parents...
 MC: “They are still very much valid. I’m glad you freed up some time for yourself Siti. You deserve some rest too.”
-As Siti leaves the canteen, you realise that in 3 short days you learned so much about her.
-So much more than when she was in class.
+As Siti leaves the canteen, you realise that you've learned so much about her.
+So much more than who she was in class.
 She wasn’t just at the top of the mountain.
 She was struggling to breathe on top, too.
 
@@ -163,14 +161,10 @@ position: 1105,-523
 MC: “Academic pathways are still, for the most part, prided as guarantees to job security and success, as compared to alternative ones. As long as that mentality exists, I doubt we can bid goodbye to that business.” 
 Siti: “But it’s better now than in the past right? We can choose to pursue a practical diploma in a polytechnic or continue on the academic pathway in junior college.”
 MC: “Technically, those options are available. But, mentally, people are still closed off towards their kids choosing that route.”
-MC: “You could use your CCA to help these people.”
-MC: “What about people like James? Perhaps the route he wants to take is not through school.”
 Siti: “But…”
-Siti falls silent. 
+Siti falls silent next to you as both of you ponder over the issue at hand.
 <<SitiWorried GameController>>
-She couldn’t understand, could she?
-But who could blame her? You, whose parents insist on getting tuition for you?
-How are we to filter out an issue that runs in our blood?
+How do we even begin chanigng a way of thinking that runs in our blood?
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
@@ -183,18 +177,18 @@ position: 326,-296
 
 << if $study_james is 1>> 
 
-    Looks like James remembered to bring his wallet today.
+    It looks like James remembered to bring his wallet today.
 
     You sit next to him, eating a plate of Hokkien mee.
 
-    He seems slightly hopeful today. He’s not frowning, for one. 
+    He seems slightly hopeful today.  
     <<JasonHopeful GameController>>
 
     MC: “Seems like the test went well?” 
 
     James: “Yeah. I could answer most of the questions.”
 
-    James: “I feel bad for not helping my dad out yesterday… but I hope he’s still proud of me.”
+    James: “I feel bad for not helping my dad out yesterday… I hope he’s still proud of me.”
 
     [[ Of course he will be. | JamesDay3.1 ]]
     [[ Is your dad feeling better? | JamesDay3.2 ]]
@@ -210,7 +204,7 @@ position: 326,-296
 
     MC: “Hey James, you okay?”
 
-    James: “barely slept for an hour last night”
+    James: “Barely slept for an hour last night...”
 
     [[ You must be really tired. | James3.3 ]]
     [[ Maybe studying is not the only thing you can do. | James3.4 ]]
@@ -225,10 +219,10 @@ position: 715,-497
 MC: “You’re his son, after all.”
 MC: “I know it’s cliche, but perhaps someday, after all the hard work we put in, we all get to live the lives we aspire to lead.”
 You’re not even convinced by your own statement, how would James feel about it?
-James: “That’s not cliche at all. It’s the kindest thing I’ve heard in school in a while.” 
+James: “That’s the kindest thing I’ve heard in school for a while.” 
 <<JamesHopeful GameController>>
-James: “I hope this is the start of something better for me… I won’t have to see Mrs Thiru every week, haha.”
-We could all agree that was a small step, but an important goal anyway.
+James: “I hope this is the start of something better for me… at least I won’t have to see Mrs Thiru every week, haha.”
+We could all agree that it was a small step, but an important one nevertheless.
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
@@ -266,7 +260,6 @@ James falls silent.
 <<JamesFrustrated GameController>>
 Deep down, both of you know that’s not the answer.
 How could he be expected to study if he had to help out at home so much?
-This is too much to expect of a teenager...
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
@@ -276,7 +269,7 @@ colorID: 0
 position: 1375,-497
 ---
 MC: “Look at the big picture, years down the line, you won’t even remember having taken this test...”
-James: “I screw this one up and I bid my future goodbye. My parents always told me to get a good job with my education so I don’t have to worry about money as much as they are now.”
+James: “I screw this one up and I bid my future goodbye. My parents have always told me to get a good job with my education so I don’t have to worry about money as much as they are now.”
 MC: “... what about beyond the job, like what do you do in your free time?”
 James: “I’m afraid that’s non-existent when you've been dealt lousy cards in life. You have to spend every minute overturning the bad ones.”
 MC: “...”
@@ -300,7 +293,7 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 
 So deceptively simple, yet worrying, at the same time.
 
-(if you scored more than 10 questions right, I think I did well will be your option. If not, It did not go so well)
+(if you scored > 10 questions right, I think I did well will be your option. If not, It did not go so well)
 
 [[ I think I did well | MomDay3.1]] ]]
 [[ It did not go so well |MomDay3.2]] ]]
@@ -359,13 +352,12 @@ MC: “The tuition didn’t really help.”
 Mom: “So now you are blaming it on the tuition?”
 MC: “I don’t mean that, I just…”
 Mom: “Maybe you need to learn from other students... allocate more time to study.”
-Mom: “But tell me, is it so difficult for you to put in a decent effort, get a decent passing grade?”
 Mom: “We are not expecting you to get an A, B, or C...”
+Mom: “Is it so difficult for you to put in a decent effort, get a decent passing grade?”
 Dad: “Dear, please. School is not all entirely about grades.”
-Dad: “Maybe we should start emphasizing other things...”
-Dad: “And listen more to our child.”
+Dad: “Maybe we should start emphasizing other things and listen more to our child.”
 Mom: “You’ve always kept quiet and... now, you’ve decided to speak up and play the good cop card?”
-Mom: “Fine, listen to your dad from now on, but don’t come crying back to me when you fail.”
+Mom: “Fine, listen to your dad, but don’t come crying back to me when you fail.”
 Well, some things just don’t change.
 Mom has always been a tad abrasive.
 But it was nice to see Dad finally have the time to step up for you.
