@@ -39,6 +39,7 @@ public class WwSoundManager : MonoBehaviour
         AkSoundEngine.PostEvent("Staff_room_stop", gameObject); // stops playing staff room ambience
 
         //if at school (canteen)
-        
+        AkSoundEngine.PostEvent("Canteen", gameObject); //plays canteen ambience
+        AkSoundEngine.PostEvent("Canteen_stop", gameObject); //stops canteen ambience
     }
 }
