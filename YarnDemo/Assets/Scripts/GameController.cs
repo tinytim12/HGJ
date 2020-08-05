@@ -8,6 +8,11 @@ using Yarn.Unity;
 public class GameController : MonoBehaviour {
     public int day;
     // Start is called before the first frame update
+    public SpriteRenderer bg;
+
+    public Sprite staffroomBackground;
+    public Sprite canteenBackground;
+    public Sprite corridorBackground;
 
     void Awake() {
         day = 1;
@@ -33,13 +38,15 @@ public class GameController : MonoBehaviour {
     }
 
     [YarnCommand("changeScene")]
-    public void changeScene() {
-        Scene scene = SceneManager.GetActiveScene();
-        if (scene.name == "Classroom") {
-            SceneManager.LoadScene("Corridor");
+    public void changeScene(string background) {
+        if (background == "staffroom") {
+            bg.sprite = staffroomBackground;
         }
-        if (scene.name == "Corridor") {
-            SceneManager.LoadScene("Home");
+        if (background == "canteen") {
+            bg.sprite = canteenBackground;
+        }
+        if (background == "corridor") {
+            bg.sprite = corridorBackground;
         }
     }
 }

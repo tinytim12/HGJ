@@ -86,5 +86,31 @@ Perhaps it’s the disappointment in her gaze that puts you off.
 A few moments of awkward silence pass.
 You wish you had the courage to tell her that you don’t want to study, that you didn’t ask to be born into this life.
 You leave her office, no better than when you entered it.
+<<changeScene GameController canteenBackground>>
+===
+
+title: Player
+tags: 
+colorID: 8
+position: 413,-232
+---
+As you step out of the staff room, you see two of your classmates.
+
+James stands to your right. His brow furrowed, he is staring into the distance. 
+
+James has always been the quiet kid in class. 
+
+He often struggles to keep his grades afloat - even more than you - but is a decent person regardless.
+
+Siti stands to your left. She is excitedly tapping away at her phone.
+
+Siti has it all. Her grades are often top-tier, not to mention the many CCAs and other high-flyer things she does in her free time.
+
+Who will you approach?
+
+[[Approach James | James]]
+[[Approach Siti | Siti]]
+
 <<changeScene GameController>>
+
 ===
