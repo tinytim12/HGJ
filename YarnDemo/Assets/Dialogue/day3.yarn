@@ -9,6 +9,9 @@ Regardless whether you prepared or not, the paper is before you.
 
 Let’s go. (You have 15s/30s/1m to complete the test, same format as the homework assignments)
 
+(if you scored above 10 questions correct, your mom won't be confrontational with you
+if you scored below 10 questions correct, your mom will be confrontational with you)
+
 The test has just ended. Your favourite period of the day is here!
 
 [[ Let's meet our friends! | Day3Friends ]]
@@ -96,6 +99,7 @@ Siti sighs.
 Siti: “I guess… but I would rather spend that time on my CCA. I wonder how much more of this I can tahan.”
 You fall silent.
 This doesn’t sound like the Siti you met on Monday.
+She’s starting to look a little like James, isn’t she? Tired, burdened by something out of her control.
 She had sounded hopeful.
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
@@ -109,6 +113,7 @@ MC: “I guess talking to your parents is not an option.”
 Siti laughs, but her chortle is void of humor.
 Siti: “If only it was that easy…”
 Siti: “I wish there was someone else to talk to, someone who can actually help.”
+Siti: “Everyone in class thinks I’m arrogant. People like James avoid me, while others want to get into my good books for whatever reason...”
 MC: “Have you tried talking to the school counsellor?”
 Siti: “But… only kids who actually need help go to her, right?”
 MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
@@ -135,6 +140,8 @@ You’re reminded of your own struggle against your parents.
 Siti might come from a more prosperous family than you, but in the long run…
 Are the two of you so different? 
 And, what about kids who were not dealt such a good hand in life?
+Siti: “Look within our class, for instance. James is struggling with schoolwork, but the way he acts makes it clear it’s not his own fault.”
+Siti: “There are things he can’t control.”
 MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance too.”
 Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” 
 <<SitiHopeful GameController>>
@@ -156,6 +163,8 @@ position: 1105,-523
 MC: “Academic pathways are still, for the most part, prided as guarantees to job security and success, as compared to alternative ones. As long as that mentality exists, I doubt we can bid goodbye to that business.” 
 Siti: “But it’s better now than in the past right? We can choose to pursue a practical diploma in a polytechnic or continue on the academic pathway in junior college.”
 MC: “Technically, those options are available. But, mentally, people are still closed off towards their kids choosing that route.”
+MC: “You could use your CCA to help these people.”
+MC: “What about people like James? Perhaps the route he wants to take is not through school.”
 Siti: “But…”
 Siti falls silent. 
 <<SitiWorried GameController>>
@@ -290,6 +299,8 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 “How was the test today?”
 
 So deceptively simple, yet worrying, at the same time.
+
+(if you scored more than 10 questions right, I think I did well will be your option. If not, It did not go so well)
 
 [[ I think I did well | MomDay3.1]] ]]
 [[ It did not go so well |MomDay3.2]] ]]
