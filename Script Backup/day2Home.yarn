@@ -13,37 +13,35 @@ Dad: “Hey kid. Sorry about what happened yesterday…”
 
 Dad: “Mom and I have been really busy with work…”
 
-<<if mom_standyourground is 1>> 
+<<if $mom_standyourground is 1>> 
 
     Dad: “I know mom can be a little forceful.” 
 
     Dad: “But she cares for you. You’ve got to understand where she comes from. She is working hard to give you everything you have now.”
 
-    [[ answer: |I thought about it yesterday.]] ]]
-    [[ answer: |She does not understand where I come from…]] ]]
+    [[ I thought about it yesterday. | thoughtyest ]] ]]
+    [[ She does not understand where I come from… | nounderstand ]] ]]
 
 <<endif>> 
 
-<< if mom_negotiate is 1>> 
+<< if $mom_negotiate is 1>> 
 
     Dad: “I heard you have a test tomorrow...are you ready?”
 
-    [[ answer: |I hope I can do well.]] ]]
-    [[ answer: |Not really...]] ]]
+    [[ I hope I can do well. | ihope ]]
+    [[ Not really... | notreally ]] ]]
 
 <<endif>>
 
-<< if mom_submit is 1>> 
+<< if $mom_submit is 1>> 
 
     Dad: “just wanted to ask if tuition went well today… there’s gonna be more work for you.”
 
-    [[ answer: |Thanks dad.]] ]]
-    [[ answer: |Sighs]] ]]
+    [[ Thanks dad. | thanksdad ]]
+    [[ Sighs | Sighs ]]
 
 <<endif>>
 
-
-<<endif>>
 ===
 title: I thought about it yesterday.
 tags: 
@@ -58,8 +56,8 @@ Dad: “Okay kid, gotta bounce. See you soon”
 And now, time to spend 10 minutes crafting a message for your mom.
 Will she even see it? And how will she respond when she does?
 Internally, you cringe a bit as you type a generic apology. But it fits your purposes well.
-<< set mom_angry to 1 >>
-[[ answer: |homework minigame 2]] ]]
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
 ===
 title: She does not understand where I come from…
 tags: 
@@ -69,8 +67,8 @@ position: 769,-480
 MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
 Dad: “You have to try and understand. She was being angry. She didn’t know what she was saying. If you offer peace first, she’ll take it.”
 MC: “So I have to apologise for what she says when she’s angry?”
-<< set mom_angry to 1 >>
-[[ answer: |homework minigame 2]] ]]
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
 ===
 title: I hope I can do well.
 tags: 
@@ -84,8 +82,8 @@ You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t show you support like this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
 Was he really too busy for you?
-<< set mom_happy to 1 >>
-[[ answer: |homework minigame 2]] ]]
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
 ===
 title: Not really...
 tags: 
@@ -99,9 +97,8 @@ You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t do this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
 Was he really too busy for you?
-<< set mom_angry to 1 >>
-
-[[ answer: |homework minigame 2]] ]]
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
 ===
 title: Thanks dad.
 tags: 
@@ -114,8 +111,8 @@ Dad: “that’s good, that’s good.”
 Dad: “All the best kiddo! Do us proud :)”
 You lock your phone.
 Closing your eyes, you summon your mental strength to keep going.
-<< set mom_happy to 1 >>
-[[ answer: |homework minigame 2]] ]]
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
 ===
 title: Sighs
 tags: 
@@ -130,11 +127,10 @@ You don’t even wanna continue this.
 You lock your phone, and throw it aside.
 Why can’t your parents ever see how tough it is to be a student?
 Did they forget?
-<< set mom_happy to 1 >>
-
-[[ answer: |homework minigame 2]] ]]
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
 ===
-title: homework minigame 2
+title: homework2
 tags: 
 colorID: 0
 position: 669,-700

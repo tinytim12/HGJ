@@ -1,4 +1,4 @@
-title: You look at the time and realise it is time to head home.
+title: You look at the time and realise you need to head home.
 tags: 
 colorID: 0
 position: 147,-320
@@ -9,17 +9,17 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 
 So deceptively simple, yet worrying, at the same time.
 
-[[ answer: |Confident]] ]]
-[[ answer: |Defeated]] ]]
+[[ I think I did well | Confident]] ]]
+[[ It did not go so well |Defeated]] ]]
 ===
-title: Confident
+title: I think I did well
 tags: 
 colorID: 0
 position: 267,-540
 ---
-<< if mom_happy is 1 >>
+<< if $mom_happy is 1 >>
 
-MC: “I think I did well. I could answer most of the questions...”
+MC: “I could answer most of the questions...”
 Mom: “Good to hear!”
 MC: “I was pleasantly surprised too.”
 Mom: “So who should you thank for helping you?”
@@ -27,10 +27,11 @@ MC: “...”
 You open your mouth to rebut, but quickly decide against it - it’ll only lead to an argument about how fortunate you are for having parents who care. You struggle to recall what’s left of your happy memories with your parents…
 Perhaps, someday when you grow up, they’ll see the success in you that they have drilled in your head to aspire towards. Perhaps, you should be thankful, maybe far into the future when you’re actually a “successful person”...
 … whatever that means.
+[[ ending: |ending]]
+<<endif>>
 
-
-<< if mom_angry is 1 >>
-MC: “I think I did well. I could answer most of the questions...”
+<< if $mom_angry is 1 >>
+MC: “I could answer most of the questions...”
 Mom: “When you say that, your results always end up otherwise.”
 MC: “Mom, please believe me. The test was okay. If the results are lousy, we’ll talk again.”
 Mom: “I’m not convinced. And this is about your attitude to learn, not just your results.”
@@ -38,23 +39,26 @@ MC: “There’s always something you have to nitpick me on. Why can’t you jus
 You realise that this probably isn’t the best thing to say.
 And as your mom types a long message, definitely intended to lecture you over WhatsApp, you throw your phone aside and sigh.
 
-[[ answer: |ending]] ]]
+[[ ending: |ending]]
+<<endif>>
+
 ===
-title: Defeated
+title: It did not go so well
 tags: 
 colorID: 0
 position: 487,-540
 ---
-<< if mom_angry is 1 >>
+<< if $mom_angry is 1 >>
 
-MC: “It didn’t go well. I’ll do better next time, I promise.”
+MC: “I’ll do better next time, I promise.”
 Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
 Mom: “You will start your private tuition next week.”
 MC: “...”
 Maybe mom is right.
 Who knows?
 Only time will tell.
-
+[[ ending: |ending]]
+<<endif>>
 
 << if mom_happy is 1 >>
 MC: “I’m sorry mom, I really tried but the questions were too tricky.”
@@ -63,17 +67,19 @@ Mom: “So now you are blaming it on the tuition?”
 MC: “I don’t mean that, I just…”
 Mom: “Maybe you need to learn from other students... allocate more time to study.”
 Mom: “But tell me, is it so difficult for you to put in a decent effort, get a decent passing grade?”
-Mom: “We are not even expecting you to get an A, B, or C...”
+Mom: “We are not expecting you to get an A, B, or C...”
 Dad: “Dear, please. School is not all entirely about grades.”
 Dad: “Maybe we should start emphasizing other things...”
 Dad: “And listen more to our child.”
-Mom: “You’ve always kept quiet and only now, you’ve decided to speak up… to play the good cop card?”
+Mom: “You’ve always kept quiet and... now, you’ve decided to speak up and play the good cop card?”
 Mom: “Fine, listen to your dad from now on, but don’t come crying back to me when you fail.”
 Well, some things just don’t change.
 Mom has always been a tad abrasive.
 But it was nice to see Dad finally have the time to step up for you.
 
-[[ answer: |ending]] ]]
+[[ ending: |ending]]
+<<endif>>
+
 ===
 title: ending
 tags: 

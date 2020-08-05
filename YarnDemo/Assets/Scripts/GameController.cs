@@ -14,6 +14,8 @@ public class GameController : MonoBehaviour {
     public Sprite canteenBackground;
     public Sprite corridorBackground;
 
+    public SpriteManager SpriteManager;
+
     void Awake() {
         day = 1;
         DontDestroyOnLoad(this.gameObject);
@@ -39,6 +41,7 @@ public class GameController : MonoBehaviour {
 
     [YarnCommand("changeScene")]
     public void changeScene(string background) {
+        SpriteManager.NoSprite();
         if (background == "staffroom") {
             bg.sprite = staffroomBackground;
         }
@@ -48,5 +51,10 @@ public class GameController : MonoBehaviour {
         if (background == "corridor") {
             bg.sprite = corridorBackground;
         }
+    }
+
+    [YarnCommand("homework")]
+    public void homework() {
+
     }
 }

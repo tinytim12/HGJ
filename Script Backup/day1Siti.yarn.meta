@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1dd76f7af6d42343a63aa6343e790ff
+guid: 4d19805989102cd4b8a193abc04a41fe
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -9,11 +9,31 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-SG
-  stringIDs: []
-  compilationStatus: 0
-  isSuccesfullyCompiled: 0
-  compilationErrorMessage: "Error on line 20 at position 21:\nextraneous input '
-    Siti' expecting ']]'\r\n[[ answer: |Approach Siti]] ]]\r\r\n                   
-    ^^^^^"
-  baseLanguage: {instanceID: 0}
+  stringIDs:
+  - day1Siti-Siti-0
+  - day1Siti-Siti-1
+  - day1Siti-Siti-2
+  - day1Siti-Siti-3
+  - day1Siti-Siti-4
+  - day1Siti-Siti-5
+  - day1Siti-Siti-6
+  - day1Siti-Siti-7
+  - day1Siti-Siti-8
+  - day1Siti-I-9
+  - day1Siti-I-10
+  - day1Siti-I-11
+  - day1Siti-I-12
+  - day1Siti-I-13
+  - day1Siti-I-14
+  - day1Siti-Sorry...-15
+  - day1Siti-Sorry...-16
+  - day1Siti-Sorry...-17
+  - day1Siti-Sorry...-18
+  - day1Siti-Sorry...-19
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: "Error on line 6 at position 21:\nmismatched input 'to'
+    expecting '('\r\n<<set approach_siti to 1>>\r\r\n                    ^^"
+  baseLanguage: {fileID: 7128917941130120860, guid: 4d19805989102cd4b8a193abc04a41fe,
+    type: 3}
   localizations: []

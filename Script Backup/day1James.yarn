@@ -1,38 +1,9 @@
-title: Corridor
-tags: 
-colorID: 8
-position: 659,139
----
-As you step out of the staff room, you see two of your classmates.
-
-James stands to your right. His brow furrowed, he is staring into the distance. 
-
-James has always been the quiet kid in class. 
-
-He often struggles to keep his grades afloat - even more than you - but is a decent person regardless.
-
-Siti stands to your left. She is excitedly tapping away at her phone.
-
-Siti has it all. Her grades are often top-tier, not to mention the many CCAs and other high-flyer things she does in her free time.
-
-Who will you approach?
-
-[[ answer: |Approach Siti]] ]]
-[[ answer: |Approach James]] ]]
-===
-title: Approach Siti
-tags: 
-colorID: 4
-position: 779,-81
----
-
-===
-title: Approach James
+title: James
 tags: 
 colorID: 2
 position: 999,-81
 ---
-<<set approach_james to 1>>
+<<set $approach_james to 1>>
 
 MC: “Hi, James. You good?”
 
@@ -42,21 +13,17 @@ James: “I’m just… so tired. I didn’t earn enough from last night’s shi
 
 James: “Do you have $2 to spare? It’s for lunch... I promise I’ll make it up to you some other time.“
 
-[[ answer: |Actually I do]] ]]
-[[ answer: |Sorry James]] ]]
-===
-title: Living room
-tags: 
-colorID: 0
-position: 1019,-521
----
+[[ Actually I do|Actually ]]
+[[ Sorry James|Sorry]]
 
 ===
-title: Actually I do
+title: Actually
 tags: 
 colorID: 2
 position: 1120,-301
 ---
+<<changeScene GameController>>
+
 MC: “Sure, James. Don’t worry about it. Come, let’s eat together.”
 
 James: “Thank you so much!”
@@ -81,10 +48,9 @@ You think of the tuition classes that your mom has been pressuring you to attend
 Suddenly, you don’t feel so much pity for yourself.
 Your complaints, valid as they are, pale next to James’.
 After a hearty meal, both of you head home.
-
-[[ answer: |Living room]] ]]
+<<changeScene GameController>>
 ===
-title: Sorry James
+title: Sorry
 tags: 
 colorID: 2
 position: 1339,-301
@@ -95,5 +61,5 @@ James: “Yeah, sure, of course.” (emotionJames: disappointment)
 
 James bites his lips, walks off with his hands fidgeting about in his pockets.
 
-[[ answer: |Living room]] ]]
+<<changeScene GameController>>
 ===

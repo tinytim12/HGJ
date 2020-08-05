@@ -1,0 +1,409 @@
+title: Start
+tags: 
+colorID: 0
+position: 1005,-317
+---
+Test day.
+
+Regardless whether you prepared or not, the paper is before you.
+
+Let’s go. (You have 15s/30s/1m to complete the test, same format as the homework assignments)
+
+The test has just ended. Your favourite period of the day is here!
+
+[[ Let's meet our friends! | Day3Friends ]]
+===
+title: Day3Friends
+tags: 
+colorID: 0
+position: 326,-296
+---
+<<if $approach_siti is 1>> 
+
+    [[SitiDay3]]
+    
+<<endif>>
+
+    
+<<if $approach_james is 1>> 
+    [[JamesDay3]]
+
+<<endif>>
+
+===
+
+title: SitiDay3
+tags: 
+colorID: 0
+position: 326,-296
+
+---
+
+<< if $droptuition_siti is 1>> 
+
+    As one of the top students in your class, you’d expect that Siti wouldn’t be too concerned about the test.
+
+    Yet, she still frowns as you sit next to her for lunch. 
+    
+    <<SitiAnnoyed GameController>>
+
+    MC: “What’s wrong, Siti?”
+
+    Siti: “My parents signed me up for English tuition...”
+
+    MC: “But… you topped the school cohort for English!” 
+
+    Siti: “It doesn’t matter to them. Now, my only free afternoon - Tuesday - is gone. They didn’t even bother asking me about it.”
+
+
+    [[ I had an argument with my parents about tuition too... | SitiDay3.1 ]]
+    [[ That is less than ideal. | SitiDay3.2 ]]
+
+<<endif>>
+
+<<if $continuetuition_siti is 1>> 
+
+    Siti looks more relaxed today.
+
+    You’re not seeing the same enthusiastic girl who encouraged you to join her new CCA.
+
+    As you sit next to her, she smiles weakly at you.
+
+    Siti: “I did it… I told my parents I didn’t need an English tutor.”
+
+    Siti: “They didn’t handle it so well at first, but I made enough noise that they eventually listened.”
+
+    Siti: “If my parents could be swayed, then perhaps there’s hope for others too.”
+
+    Siti: “Do you think it’s possible that one day, we’ll be rid of this whole tuition business?”
+
+
+    [[ Maybe if everyone worked hard... | SitiDay3.3 ]]
+    [[ I think the issue is a little more complex... | SitiDay3.4 ]] ]]
+
+<<endif>>
+
+===
+title: SitiDay3.1
+tags: 
+colorID: 0
+position: 445,-523
+---
+MC: “...”
+MC: “I know you’re strong, Siti. Perhaps treat it as extra practice?”
+Siti sighs. 
+<<SitiWorried GameController>>
+Siti: “I guess… but I would rather spend that time on my CCA. I wonder how much more of this I can tahan.”
+You fall silent.
+This doesn’t sound like the Siti you met on Monday.
+She had sounded hopeful.
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: SitiDay3.2
+tags: 
+colorID: 0
+position: 665,-523
+---
+MC: “I guess talking to your parents is not an option.”
+Siti laughs, but her chortle is void of humor.
+Siti: “If only it was that easy…”
+Siti: “I wish there was someone else to talk to, someone who can actually help.”
+MC: “Have you tried talking to the school counsellor?”
+Siti: “But… only kids who actually need help go to her, right?”
+MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
+Siti hesitates a little. 
+<<SitiWorried GameController>>
+MC: “She’s paid to listen to your problems anyway.” 
+Siti chuckles a little. 
+<<SitiAmused GameController>>
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: SitiDay3.3
+tags: 
+colorID: 0
+position: 885,-523
+---
+MC: “and took charge of their own studies.”
+Siti: “… but is hard work alone enough?”
+Siti: “Some people still struggle no matter the amount of effort they put in.” 
+<<SitiWorried GameController>>
+MC: “... the system isn’t entirely meritocratic, not so much like in the past.”
+Siti: “Now every parent who can afford an advantage for his or her kid would gladly do so. The kid who has a less fortunate parent… loses out.”
+You’re reminded of your own struggle against your parents.
+Siti might come from a more prosperous family than you, but in the long run…
+Are the two of you so different? 
+And, what about kids who were not dealt such a good hand in life?
+MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance too.”
+Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” 
+<<SitiHopeful GameController>>
+You resist scoffing at that.
+If we can’t even influence our own parents...
+MC: “They are still very much valid. I’m glad you freed up some time for yourself Siti. You deserve some rest too.”
+As Siti leaves the canteen, you realise that in 3 short days you learned so much about her.
+So much more than when she was in class.
+She wasn’t just at the top of the mountain.
+She was struggling to breathe on top, too.
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: SitiDay3.4
+tags: 
+colorID: 0
+position: 1105,-523
+---
+MC: “Academic pathways are still, for the most part, prided as guarantees to job security and success, as compared to alternative ones. As long as that mentality exists, I doubt we can bid goodbye to that business.” 
+Siti: “But it’s better now than in the past right? We can choose to pursue a practical diploma in a polytechnic or continue on the academic pathway in junior college.”
+MC: “Technically, those options are available. But, mentally, people are still closed off towards their kids choosing that route.”
+Siti: “But…”
+Siti falls silent. 
+<<SitiWorried GameController>>
+She couldn’t understand, could she?
+But who could blame her? You, whose parents insist on getting tuition for you?
+How are we to filter out an issue that runs in our blood?
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: Day3James
+tags: 
+colorID: 0
+position: 326,-296
+
+---
+
+<< if $study_james is 1>> 
+
+    Looks like James remembered to bring his wallet today.
+
+    You sit next to him, eating a plate of Hokkien mee.
+
+    He seems slightly hopeful today. He’s not frowning, for one. 
+    <<JasonHopeful GameController>>
+
+    MC: “Seems like the test went well?” 
+
+    James: “Yeah. I could answer most of the questions.”
+
+    James: “I feel bad for not helping my dad out yesterday… but I hope he’s still proud of me.”
+
+    [[ Of course he will be. | JamesDay3.1 ]]
+    [[ Is your dad feeling better? | JamesDay3.2 ]]
+
+<<endif>>
+
+<< if $work_james is 1>> 
+
+    James looks even more tired than usual. 
+    <<JasonTired GameController>>
+
+    He can barely eat his Hokkien mee without his eyes closing a little.
+
+    MC: “Hey James, you okay?”
+
+    James: “barely slept for an hour last night”
+
+    [[ You must be really tired. | James3.3 ]]
+    [[ Maybe studying is not the only thing you can do. | James3.4 ]]
+
+<<endif>>
+===
+title: JamesDay3.1
+tags: 
+colorID: 0
+position: 715,-497
+---
+MC: “You’re his son, after all.”
+MC: “I know it’s cliche, but perhaps someday, after all the hard work we put in, we all get to live the lives we aspire to lead.”
+You’re not even convinced by your own statement, how would James feel about it?
+James: “That’s not cliche at all. It’s the kindest thing I’ve heard in school in a while.” 
+<<JamesHopeful GameController>>
+James: “I hope this is the start of something better for me… I won’t have to see Mrs Thiru every week, haha.”
+We could all agree that was a small step, but an important goal anyway.
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: JamesDay3.2
+tags: 
+colorID: 0
+position: 935,-497
+---
+James: “It seems worse than before. He refuses to go see a doctor about it.” 
+<<JamesWorried GameController>>
+James: “I don’t think he’ll be able to work for a while.”
+MC: “...”
+MC: “So you’re planning to cover his night shifts?”
+Instantly, you feel like you shouldn’t have said that.
+Was it a sensitive issue for him? 
+Did you consider that perhaps he wouldn’t be okay with talking about it?
+James: “I have to for now. My mom and I are trying to apply for additional government assistance too… but it’s not easy.” 
+James: “The forms are a nightmare to go through. Have you ever heard of Comcare? It’s great, but we’re still left hanging about our application.”
+MC: “What’s that?”
+You have never heard of such a programme.
+Maybe you were lucky enough to not have to.
+James: “Exactly…”
+And just like that, it’s as though he’s aged decades before your eyes.
+Where had the years gone?
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: James3.3
+tags: 
+colorID: 0
+position: 1155,-497
+---
+MC: “Hopefully you’ll have more time to study before the next exam.”
+James falls silent. 
+<<JamesFrustrated GameController>>
+Deep down, both of you know that’s not the answer.
+How could he be expected to study if he had to help out at home so much?
+This is too much to expect of a teenager...
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+title: James3.4
+tags: 
+colorID: 0
+position: 1375,-497
+---
+MC: “Look at the big picture, years down the line, you won’t even remember having taken this test...”
+James: “I screw this one up and I bid my future goodbye. My parents always told me to get a good job with my education so I don’t have to worry about money as much as they are now.”
+MC: “... what about beyond the job, like what do you do in your free time?”
+James: “I’m afraid that’s non-existent when you've been dealt lousy cards in life. You have to spend every minute overturning the bad ones.”
+MC: “...”
+MC: “Whatever your choice is, I’ll be here if you need someone to talk to.”
+You both walk away from lunch, vaguely optimistic. 
+<<JamesHopeful GameController>>
+Despite the astronomical odds, you want to hope that everyone gets a fair chance.
+Regardless of the letters or numbers on a paper.
+
+[[ You look at the time and realise you need to head home. | HomeDay3 ]]
+===
+
+title: HomeDay3
+tags: 
+colorID: 0
+position: 565,-743
+---
+You’re home again. Opening your WhatsApp chat, you’re greeted by a question from your mom.
+
+“How was the test today?”
+
+So deceptively simple, yet worrying, at the same time.
+
+[[ I think I did well | MomDay3.1]] ]]
+[[ It did not go so well |MomDay3.2]] ]]
+===
+title: MomDay3.1
+tags: 
+colorID: 0
+position: 267,-540
+---
+<< if $mom_happy is 1 >>
+
+MC: “I could answer most of the questions...”
+Mom: “Good to hear!”
+MC: “I was pleasantly surprised too.”
+Mom: “So who should you thank for helping you?”
+MC: “...”
+You open your mouth to rebut, but quickly decide against it - it’ll only lead to an argument about how fortunate you are for having parents who care. You struggle to recall what’s left of your happy memories with your parents…
+Perhaps, someday when you grow up, they’ll see the success in you that they have drilled in your head to aspire towards. Perhaps, you should be thankful, maybe far into the future when you’re actually a “successful person”...
+… whatever that means.
+[[ ending: |ending]]
+<<endif>>
+
+<< if $mom_angry is 1 >>
+MC: “I could answer most of the questions...”
+Mom: “When you say that, your results always end up otherwise.”
+MC: “Mom, please believe me. The test was okay. If the results are lousy, we’ll talk again.”
+Mom: “I’m not convinced. And this is about your attitude to learn, not just your results.”
+MC: “There’s always something you have to nitpick me on. Why can’t you just be nice and supportive for once?”
+You realise that this probably isn’t the best thing to say.
+And as your mom types a long message, definitely intended to lecture you over WhatsApp, you throw your phone aside and sigh.
+
+[[ ending: |ending]]
+<<endif>>
+
+===
+title: MomDay3.2
+tags: 
+colorID: 0
+position: 487,-540
+---
+<< if $mom_angry is 1 >>
+
+MC: “I’ll do better next time, I promise.”
+Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
+Mom: “You will start your private tuition next week.”
+MC: “...”
+Maybe mom is right.
+Who knows?
+Only time will tell.
+[[ ending: |ending]]
+<<endif>>
+
+<< if $mom_happy is 1 >>
+MC: “I’m sorry mom, I really tried but the questions were too tricky.”
+MC: “The tuition didn’t really help.”
+Mom: “So now you are blaming it on the tuition?”
+MC: “I don’t mean that, I just…”
+Mom: “Maybe you need to learn from other students... allocate more time to study.”
+Mom: “But tell me, is it so difficult for you to put in a decent effort, get a decent passing grade?”
+Mom: “We are not expecting you to get an A, B, or C...”
+Dad: “Dear, please. School is not all entirely about grades.”
+Dad: “Maybe we should start emphasizing other things...”
+Dad: “And listen more to our child.”
+Mom: “You’ve always kept quiet and... now, you’ve decided to speak up and play the good cop card?”
+Mom: “Fine, listen to your dad from now on, but don’t come crying back to me when you fail.”
+Well, some things just don’t change.
+Mom has always been a tad abrasive.
+But it was nice to see Dad finally have the time to step up for you.
+
+[[ ending: |ending]]
+<<endif>>
+
+===
+title: ending
+tags: 
+colorID: 0
+position: 387,-760
+---
+And thus, we end a tumultuous three days.
+
+Did things fly by too fast? Perhaps.
+
+But school does, too.
+
+Even more so when you’re educated in Singapore.
+
+
+Unlike other Visual Novels, we don’t have a good and bad ending.
+
+We leave it to you to decide whether the ending you got is a good or a bad ending, for yourself and your friend.
+
+Why?
+
+Well, it seems like the good and bad endings are already predetermined.
+
+Anyone who’s been through our system will know.
+
+Our parents constantly tell us to work hard and “succeed in life” but - 
+
+What does that mean?
+
+
+Did we ever stop to ask ourselves?
+
+What does that mean for Siti, who is being pulled apart by so many various commitments?
+
+What does that mean for James, who can’t even afford tuition?
+
+And what does that mean for you, if you think that chasing the rat race is not the way to go?
+
+Meritocracy is an important part of our heritage, definitely.
+
+But please, think about what, and who, we have to sacrifice for it.
+
+END
+===
+

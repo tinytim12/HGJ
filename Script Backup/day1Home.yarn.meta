@@ -12,8 +12,8 @@ ScriptedImporter:
   stringIDs: []
   compilationStatus: 0
   isSuccesfullyCompiled: 0
-  compilationErrorMessage: "Error on line 34 at position 19:\nextraneous input '
-    are not everything.' expecting ']]'\r\n[[ answer: |Grades are not everything.]]
-    ]]\r\r\n                  ^^^^^^^^^^^^^^^^^^^^"
+  compilationErrorMessage: "Error on line 34 at position 36:\nextraneous input '
+    are not everything.' expecting ']]'\r\n[[Grades are not everything.|Grades are
+    not everything.]]\r\r\n                                   ^^^^^^^^^^^^^^^^^^^^"
   baseLanguage: {instanceID: 0}
   localizations: []

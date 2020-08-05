@@ -1,0 +1,354 @@
+title: Start
+tags: 
+colorID: 0
+position: 172,-255
+---
+Another long day at school.
+
+Another day of lessons, homework, assignments, worksheets flies by.
+
+Mrs Thiru is still concerned about you, even though she seems to have forgotten what you’d said to her yesterday.
+
+With your class of 40 students occupying all of her time, can you really blame her?
+
+Thiru: “How’s your preparation for the test?” 
+
+<<ThiruConcerned GameController>>
+
+<<if $mom_standyourground is 1>> 
+
+    MC: “I… didn’t really prepare.”
+
+    Mrs Thiru is taken aback. 
+    
+    <<ThiruSurprised GameController>>
+
+    You cannot meet her glance.
+
+    Thiru: “Is everything okay at home?”
+
+    You want to tell her about that argument you and mom had.
+
+    But yet, there’s still that level of doubt and distrust…
+
+    What will she say? Can anything she say help?
+
+    MC: “Yeah, everything is fine.”
+
+    Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” 
+    
+    <<ThiruDisappointed GameController>>
+
+    As you walk out of her office, you can’t help but feel like you disappointed Mrs Thiru.
+
+    Still, you know yourself best, right?
+
+    [[corridorDay2]]
+
+<<endif>> 
+
+<< if $mom_negotiate is 1>> 
+
+    MC: “Well, it’s… I’m trying my best. I made a deal with my mum.”
+
+    MC: “if I do well, she won’t force me to attend new tuition classes.”
+
+    You catch a glimmer of amusement in Mrs Thiru’s eye. 
+    
+    <<ThiruAmused GameController>>
+
+    Mrs Thiru: “That’s some good motivation… I’m glad you’ve decided to take charge of your own learning. But if you really do need some help preparing, do reach out to me.” 
+
+    Mrs Thiru smiles kindly at you. Her wording makes you feel somewhat better than anything your parents have told you.
+
+    You leave her office, cautiously optimistic.
+
+    [[corridorDay2]]
+
+<<endif>>
+
+<< if $mom_submit is 1>> 
+
+    MC: “I’m going to meet with my tutor today.”
+
+    Mrs Thiru: “Oh? You engaged a private tutor?” 
+    
+    <<ThiruSurprised GameController>>
+
+    It’s too late for Mrs Thiru to hide the tone of discontent in her voice.
+
+    Mrs Thiru: “Well that’s good, at least you’re getting a little extra help.”
+
+    Mrs Thiru: “As a teacher, I’ve always thought private tuition to be extra, but every student is different and learns at a different pace.”
+
+    Mrs Thiru: “Hope you’ll grasp the learning material well for the test tomorrow.” 
+    
+    << ThiruAmused GameController >>
+
+    You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
+
+    [[CanteenDay2]]
+<<endif>>
+
+===
+
+title: CanteenDay2
+tags: 
+colorID: 0
+position: 966,-160
+---
+You walk down to the canteen and settle next to your friend for a meal.
+
+<<if $approach_james is 1>> 
+
+James looks stressed. The weight of all his concerns sinks his shoulders and glance, as he picks at his food.
+
+<<JamesTired GameController>>
+
+MC: “Hey, is everything alright?”
+
+James: “Yeah, it’s just… I have to do another shift at my dad’s workplace tonight.” 
+
+James: “He’s injured, but money’s still gotta be made, right?”
+
+[[ Your dad would not want to see you struggle with his work. | JamesDay2.1 ]]
+[[ The test is not that important anyway. | JamesDay2.2 ]]
+
+<<endif>>
+
+<<if $approach_siti is 1>> 
+
+Siti barely has time to eat her food.
+
+Putting aside her utensils every few seconds, she responds to a text on her phone. You recognise it as one of the higher end models.
+
+MC: “So, this new CCA… seems like it’s quite busy, isn’t it?”
+
+Siti: “I wish these texts were from the CCA... It’s this private tutor. He won’t stop messaging me past year papers and practice questions!“ 
+
+<<SitiAnnoyed GameController>>
+
+Siti: “I just feel so overwhelmed with everything you know, balancing CCAs, volunteering, leadership activities and school work... I just want to drop this tuition.”
+
+Finally, a kindred (sort of) spirit. What will you advise her to do?
+
+[[ But the test is tomorrow. | SitiDay1.1 ]]
+[[ Perhaps you should. | SitiDay1.2 ]]
+
+<<endif>>
+
+===
+
+title: SitiDay1.1
+tags: 
+colorID: 0
+position: 779,-403
+---
+<<set $continuetuition_siti to 1>>
+
+MC: “how about dropping it after?” 
+Siti: “Yeah, but I feel quite well-prepared for it already…”
+Siti: “Well, I guess I can’t take this risk. It’s better to be safe than sorry right?”
+You nod. You don’t necessarily agree that tuition is the best way, but the alternatives didn’t seem too appealing.
+
+[[ The school bell rings as students pack up to go home. | HomeDay2 ]]
+===
+title: SitiDay1.2
+tags: 
+colorID: 0
+position: 999,-403
+---
+<<set $droptuition_siti to 1>>
+
+MC: “It’ll give you some room to breathe.”
+Siti: “Wait, really?” 
+<<SitiHopeful GameController>>
+MC: “It’s stressing you out, isn’t it?”
+MC: “Besides, if there’s one person in this class who is ready for the test, it’s definitely you.”
+Siti: “I guess you’re right. I do feel quite well-prepared for the test.”
+Siti: “If there’s one opportunity for me to voice my thoughts to my parents, it’s now.”
+Siti: “They really do believe that tuition equals better grades, which equal better job opportunities… I get it, but it gets stale, you know?”
+Siti: “Shouldn’t there be more to learning than just tuition classes?”
+You nod, concurring with the grandiose notion of a fun way to learn without the pressure of having to take an excessive amount of tuition classes...
+
+[[ The school bell rings as students pack up to go home. | HomeDay2 ]]
+ ]]
+
+===
+
+title: JamesDay2.1
+tags: 
+colorID: 0
+position: 1086,-380
+---
+<<set $study_james to 1>>
+
+MC: “You have to study for tomorrow’s test. Perhaps, if you study, you can rise above where you are now.”
+James sighs and shakes his head. 
+<<JamesFrustrated GameController>>
+James: “It’s easy for you to say. My dad does not earn enough to cover basic expenses… It’s not a choice, like how you see it.”
+MC: “That is not what I meant - ”
+James: “I don’t see any way to escape this... Why does my life have to be much harder than others?”
+You don’t have an answer.
+MC: “Whatever you choose, I’ll be here for you.”
+
+[[ The school bell rings as students pack up to go home. | HomeDay2 ]]
+===
+title: JamesDay2.2
+tags: 
+colorID: 0
+position: 1306,-380
+---
+<<set $work_james to 1>>
+
+MC: “Besides, if you help your dad out tonight, I’m sure he’ll be really grateful.”
+James: “Yeah, I guess… but I just wish I don’t have to make a choice between school or work.” 
+<<JamesTired GameController>>
+James: “Will that day ever arrive?”
+You don’t have an answer.
+MC: “Whatever you choose, I’ll be here for you.”
+
+[[ The school bell rings as students pack up to go home. | HomeDay2 ]]
+===
+title: HomeDay1
+tags: 
+colorID: 0
+position: 429,-260
+---
+Crashing down on the couch in your living room, you check your family WhatsApp chat.
+
+Surprisingly, it is quiet, with only the remnants of your mom’s scolding from yesterday on it.
+
+But you get a new message:
+
+Dad: “Hey kid. Sorry about what happened yesterday…”
+
+Dad: “Mom and I have been really busy with work…”
+
+<<if $mom_standyourground is 1>> 
+
+    Dad: “I know mom can be a little forceful.” 
+
+    Dad: “But she cares for you. You’ve got to understand where she comes from. She is working hard to give you everything you have now.”
+
+    [[ I thought about it yesterday. | DadDay2.1 ]] ]]
+    [[ She does not understand where I come from… | DadDay2.2 ]] ]]
+
+<<endif>> 
+
+<< if $mom_negotiate is 1>> 
+
+    Dad: “I heard you have a test tomorrow...are you ready?”
+
+    [[ I hope I can do well. | DadDay2.3 ]]
+    [[ Not really... | DadDay2.4 ]] ]]
+
+<<endif>>
+
+<< if $mom_submit is 1>> 
+
+    Dad: “just wanted to ask if tuition went well today… there’s gonna be more work for you.”
+
+    [[ Thanks dad. | DadDay2.5 ]]
+    [[ Sighs | DadDay2.6 ]]
+
+<<endif>>
+
+===
+title: DadDay2.1
+tags: 
+colorID: 0
+position: 549,-480
+---
+MC: “I will apologise to mom.”
+MC: “But I still hope she understands where I come from.”
+Dad: “I know... That hopelessness, hatred.... Well, use it as fuel to study.”
+Dad: “The sooner you graduate, the sooner you get a job, the more independent you’ll be.”
+Dad: “Okay kid, gotta bounce. See you soon”
+And now, time to spend 10 minutes crafting a message for your mom.
+Will she even see it? And how will she respond when she does?
+Internally, you cringe a bit as you type a generic apology. But it fits your purposes well.
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: DadDay2.2
+tags: 
+colorID: 0
+position: 769,-480
+---
+MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
+Dad: “You have to try and understand. She was being angry. She didn’t know what she was saying. If you offer peace first, she’ll take it.”
+MC: “So I have to apologise for what she says when she’s angry?”
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: DadDay2.3
+tags: 
+colorID: 0
+position: 989,-480
+---
+MC: "I really tried this time.”
+Dad: “That’s good :)”
+Dad: “Go sleep early. All the best!”
+You smile a little as you lock your phone.
+Yet, you wonder why dad didn’t show you support like this yesterday.
+Or 3 months ago when your last exam got you ripped apart by mom.
+Was he really too busy for you?
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: DadDay2.4
+tags: 
+colorID: 0
+position: 1209,-480
+---
+MC: “The more I study, the more confused I get… :(”
+Dad: “ :( ”
+Dad: “I know you always try to do your best. Dad is still proud of you no matter what okay?”
+You smile a little as you lock your phone.
+Yet, you wonder why dad didn’t do this yesterday.
+Or 3 months ago when your last exam got you ripped apart by mom.
+Was he really too busy for you?
+<< set $mom_angry to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: DadDay2.5
+tags: 
+colorID: 0
+position: 1429,-480
+---
+MC: “I’ll be fine.”
+MC: “Hopefully I can get better grades and not disappoint mom again...”
+Dad: “that’s good, that’s good.”
+Dad: “All the best kiddo! Do us proud :)”
+You lock your phone.
+Closing your eyes, you summon your mental strength to keep going.
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: DadDay2.6
+tags: 
+colorID: 0
+position: 1649,-480
+---
+MC: “But what can I do?”
+MC: “I’m trying really hard to like it, but I don’t. It’s in the way of things I really want to do.”
+Dad: “I really want to take a break, but I can’t because I have to earn money for the family. You have to learn that in life, we often don’t get to do the things we like.”
+Dad: “If you had listened to your mom, perhaps you’ll have understood this already. She knows what’s best for you.”
+You don’t even wanna continue this.
+You lock your phone, and throw it aside.
+Why can’t your parents ever see how tough it is to be a student?
+Did they forget?
+<< set $mom_happy to 1 >>
+[[ homework minigame 2 | homework2 ]]
+===
+title: homework2
+tags: 
+colorID: 0
+position: 669,-700
+---
+After talking to dad, it’s time to do your homework. The stakes are raised this time!
+
+<<homework GameController>>
+===
+

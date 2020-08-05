@@ -1,31 +1,9 @@
-title: Corridor
-tags: 
-colorID: 8
-position: 659,139
----
-As you step out of the staff room, you see two of your classmates.
-
-James stands to your right. His brow furrowed, he is staring into the distance. 
-
-James has always been the quiet kid in class. 
-
-He often struggles to keep his grades afloat - even more than you - but is a decent person regardless.
-
-Siti stands to your left. She is excitedly tapping away at her phone.
-
-Siti has it all. Her grades are often top-tier, not to mention the many CCAs and other high-flyer things she does in her free time.
-
-Who will you approach?
-
-[[ answer: |Approach Siti]] ]]
-[[ answer: |Approach James]] ]]
-===
-title: Approach Siti
+title: Siti
 tags: 
 colorID: 4
 position: 779,-81
 ---
-<<set approach_siti to 1>>
+<<set $approach_siti to 1>>
 
 MC: “Hey Siti, what’s up?”
 
@@ -38,24 +16,19 @@ Siti: “I’d like to use my own experience to uplift others around me.”
 She giggles and blushes a little.
 Siti: “I know it sounds a little idealistic… you wanna join?”
 
-[[ answer: |I am interested]] ]]
-[[ answer: |Sorry...]] ]]
+[[ I am interested. |  I]]
+[[ Sorry... |Sorry... ]]
 ===
-title: Approach James
-tags: 
-colorID: 0
-position: 999,-81
----
-Empty Text
-===
-title: I am interested
+title: I
 tags: 
 colorID: 4
 position: 899,-301
 ---
 MC: “Actually, I see where you are coming from, drawing from the spirit of community.”
 
-Siti: “Nice! Let me tell you more...” (emotionSiti: happy)
+Siti: “Nice! Let me tell you more...” 
+
+<<SitiHappy GameController>>
 
 And she keeps going, telling you about all the different programmes she’s thought of.
 
@@ -65,7 +38,7 @@ Yet, even as she rattles on, you can’t help but wonder who would sign up for t
 
 After all, aren’t we still just kids?
 
-[[ answer: |Living room]] ]]
+<<changeScene GameController>>
 ===
 title: Sorry...
 tags: 
@@ -76,18 +49,15 @@ MC: “That sounds exciting, but I’m already bogged down by my homework.”
 
 MC: “Mrs Thiru is already scolding me about my grades, haha.”
 
-Siti awkwardly laughs. (emotionSiti: hopeful)
+Siti awkwardly laughs. 
+
+<<SitiHopeful GameController>>
 
 Siti: “Sorry to hear that!” 
 
 Siti: “We’ll try to have a place open for you if you change your mind, though.”
 
-[[ answer: |Living room]] ]]
+<<changeScene GameController>>
+
 ===
-title: Living room
-tags: 
-colorID: 0
-position: 1019,-521
----
-Empty Text
-===
+

@@ -8,11 +8,11 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-SG
   stringIDs: []
   compilationStatus: 0
   isSuccesfullyCompiled: 0
-  compilationErrorMessage: "Error on line 20 at position 17:\nmismatched input 'is'
-    expecting '('\r\n<< if mom_happy is 1 >>\r\n                ^^"
+  compilationErrorMessage: "Error on line 63 at position 17:\nmismatched input 'is'
+    expecting '('\r\n<< if mom_happy is 1 >>\r\r\n                ^^"
   baseLanguage: {instanceID: 0}
   localizations: []

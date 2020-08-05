@@ -47,32 +47,25 @@ namespace Yarn.Unity.Example {
         public YarnProgram scriptToLoad3;
 
         void Start() {
-            if (scriptToLoad1 != null) {
-                dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
-                if (GameObject.Find("GameController").GetComponent<GameController>().getDay() == 1) {
-                    dialogueRunner.Add(scriptToLoad1);
-                }
-                
+            dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+            int day = GameObject.Find("GameController").GetComponent<GameController>().getDay();
+            if (day == 1) {
+                dialogueRunner.Add(scriptToLoad1);
+            } else if (day == 2){
+                dialogueRunner.Add(scriptToLoad2);
+            } else if (day == 3){
+                dialogueRunner.Add(scriptToLoad3);
             }
-           
-            collider = gameObject.GetComponent<Collider2D>();
-
-            Invoke("CheckPlayer", 1);
+        
+            Invoke("Dialogue", 1);
 
         }
 
-        void OnMouseDown() {
-            Debug.Log("Done");
-            collider.enabled = false;
+        void Dialogue() {
             dialogueRunner.StartDialogue(talkToNode);
         }
 
-        void CheckPlayer() {
-            Debug.Log("Hey!");
-            if (gameObject.name == "Player" | gameObject.name == "Thiru") {
-                dialogueRunner.StartDialogue(talkToNode);
-            }
-        }
+
     }
 
 }

@@ -5,9 +5,9 @@ position: 966,-160
 ---
 You walk down to the canteen and settle next to your friend for a meal.
 
-<<if approach_james is 1>> 
+<<if $approach_james is 1>> 
 
-James looks stressed. The weight of all his concerns sinks his shoulders and glance, as he picks at his food. (emotionJames: tired, frustrated)
+James looks stressed. The weight of all his concerns sinks his shoulders and glance, as he picks at his food. <<JamesTired GameController>>
 
 MC: “Hey, is everything alright?”
 
@@ -15,65 +15,43 @@ James: “Yeah, it’s just… I have to do another shift at my dad’s workplac
 
 James: “He’s injured, but money’s still gotta be made, right?”
 
-[[ answer: |Your dad would not want to see you struggle with his work.]] ]]
-[[ answer: |The test is not that important anyway.]] ]]
+[[ Your dad would not want to see you struggle with his work. | nowork ]] ]]
+[[ The test is not that important anyway. | work ]] ]]
 
 <<endif>>
 
-
-<<if approach_siti is 1>> 
-
-Siti barely has time to eat her food.
-
-Putting aside her utensils every few seconds, she responds to a text on her phone. You recognise it as one of the higher end models.
-
-MC: “So, this new CCA… seems like it’s quite busy, isn’t it?”
-
-Siti: “I wish these texts were from the CCA... It’s this private tutor. He won’t stop messaging me past year papers and practice questions!“ (emotionSiti: annoyed)
-
-Siti: “I just feel so overwhelmed with everything you know, balancing CCAs, volunteering, leadership activities and school work... I just want to drop this tuition.”
-
-Finally, a kindred (sort of) spirit. What will you advise her to do?
-
-[[ answer: |But the test is tomorrow]] ]]
-[[ answer: |Perhaps you should]] ]]
-
-<<endif>>
-
-
-<<endif>>
 ===
 title: Your dad would not want to see you struggle with his work.
 tags: 
 colorID: 0
 position: 1086,-380
 ---
-<<set study_james to 1>>
+<<set $study_james to 1>>
 
 MC: “You have to study for tomorrow’s test. Perhaps, if you study, you can rise above where you are now.”
-James sighs and shakes his head. (emotionJames: frustrated)
+James sighs and shakes his head. <<JamesFrustrated GameController>>
 James: “It’s easy for you to say. My dad does not earn enough to cover basic expenses… It’s not a choice, like how you see it.”
 MC: “That is not what I meant - ”
 James: “I don’t see any way to escape this... Why does my life have to be much harder than others?”
 You don’t have an answer.
 MC: “Whatever you choose, I’ll be here for you.”
 
-[[ answer: |The school bell rings as students pack up to go home.]] ]]
+[[ The school bell rings as students pack up to go home. | hometime ]]
 ===
 title: The test is not that important anyway.
 tags: 
 colorID: 0
 position: 1306,-380
 ---
-<<set work_james to 1>>
+<<set $work_james to 1>>
 
 MC: “Besides, if you help your dad out tonight, I’m sure he’ll be really grateful.”
-James: “Yeah, I guess… but I just wish I don’t have to make a choice between school or work.” (emotionJames: tired)
+James: “Yeah, I guess… but I just wish I don’t have to make a choice between school or work.” <<JamesTired GameController>>
 James: “Will that day ever arrive?”
 You don’t have an answer.
 MC: “Whatever you choose, I’ll be here for you.”
 
-[[ answer: |The school bell rings as students pack up to go home.]] ]]
+[[ The school bell rings as students pack up to go home. | hometime ]]
 ===
 title: The school bell rings as students pack up to go home.
 tags: 
