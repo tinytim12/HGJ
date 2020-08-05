@@ -31,9 +31,9 @@ Mrs Thiru: “You haven’t been handing in homework on time. If you maintain th
 
 [[ Sorry Mrs Thiru|ThiruDay1.1]]
 
-[[I want to improve.|ThiruDay2.2]]
+[[I want to improve.|ThiruDay1.2]]
 
-[[You say nothing.|ThiruDay3.3]]
+[[You say nothing.|ThiruDay1.3]]
 ===
 
 title: ThiruDay1.1
@@ -106,6 +106,8 @@ position: 413,-232
 
 As you step out of the staff room, you see two of your classmates.
 
+<<JamesSiti JamesSitiIntro>>
+
 James stands to your right. His brow furrowed, he is staring into the distance. 
 
 James has always been the quiet kid in class. 
@@ -130,9 +132,13 @@ position: 779,-81
 ---
 <<set $approach_siti to 1>>
 
+<<HideJamesSiti JamesSitiIntro>>
+
+<<SitiHappy Sprite>>
+
 MC: “Hey Siti, what’s up?”
 
-Siti whirls around, a pleasant smile on her face. (emotionSiti: happy)
+Siti whirls around, a pleasant smile on her face. 
 
 Siti: “I’m about to start a new CCA.”
 Siti: “It’s a youth leadership programme, meant to bring out the best in every student. ”
@@ -153,7 +159,7 @@ MC: “Actually, I see where you are coming from, drawing from the spirit of com
 
 Siti: “Nice! Let me tell you more...” 
 
-<<SitiHappy GameController>>
+<<SitiHappy JamesSitiIntro>>
 
 And she keeps going, telling you about all the different programmes she’s thought of.
 
@@ -187,16 +193,20 @@ Siti: “We’ll try to have a place open for you if you change your mind, thoug
 
 ===
 
-title: HomeDay1
+title: JamesDay1
 tags: 
 colorID: 2
 position: 999,-81
 ---
 <<set $approach_james to 1>>
 
+<<HideJamesSiti GameController>>
+
+<<JamesTired Sprite>>
+
 MC: “Hi, James. You good?”
 
-James sighs. He waves back, the fatigue in his gesture evident. (emotionJames: tired)
+James sighs. He waves back, the fatigue in his gesture evident. 
 
 James: “I’m just… so tired. I didn’t earn enough from last night’s shift, and I’m worried that I won’t have enough to last me through this week.”
 

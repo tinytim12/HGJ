@@ -11,18 +11,22 @@ public class SpriteManager : MonoBehaviour
     public Sprite ThiruConcernedS;
     public Sprite ThiruDisappointedS;
     public Sprite ThiruAmusedS;
-    public Texture2D JamesTiredS;
-    public Texture2D JamesDisappointedS;
-    public Texture2D JamesWorriedS;
-    public Texture2D JamesHopefulS;
-    public Texture2D SitiHappyS;
-    public Texture2D SitiAnnoyedS;
-    public Texture2D SitiWorriedS;
-    public Texture2D SitiHopefulS;
-    public Texture2D PhoneTenseS;
-    public Texture2D PhoneDullS;
-    public Texture2D PhoneRelaxedS;
-    public Texture2D PhoneHopefulS;
+    public Sprite JamesTiredS;
+    public Sprite JamesEvenMoreTiredS;
+    public Sprite JamesDisappointedS;
+    public Sprite JamesWorriedS;
+    public Sprite JamesHopefulS;
+    public Sprite JamesFrustratedS;
+    public Sprite JamesFrustrationS;
+    public Sprite SitiHappyS;
+    public Sprite SitiAnnoyedS;
+    public Sprite SitiWorried2S;
+    public Sprite SitiWorriedS;
+    public Sprite SitiHopefulS;
+    public Sprite PhoneTenseS;
+    public Sprite PhoneDullS;
+    public Sprite PhoneRelaxedS;
+    public Sprite PhoneHopefulS;
 
     public SpriteRenderer spriteRenderer;
 
@@ -68,42 +72,62 @@ public class SpriteManager : MonoBehaviour
 
     [YarnCommand("JamesTired")]
     public void JamesTired() {
+        spriteRenderer.sprite = JamesTiredS;
+    }
 
+    [YarnCommand("JamesEvenMoreTired")]
+    public void JamesEvenMoreTired() {
+        spriteRenderer.sprite = JamesEvenMoreTiredS;
     }
 
     [YarnCommand("JamesWorried")]
     public void JamesWorried() {
-
+        spriteRenderer.sprite = JamesWorriedS;
     }
 
     [YarnCommand("JamesDisappointed")]
     public void JamesDisappointed() {
-
+        spriteRenderer.sprite = JamesDisappointedS;
     }
 
     [YarnCommand("JamesHopeful")]
     public void JamesHopeful() {
+        spriteRenderer.sprite = JamesHopefulS;
+    }
 
+    [YarnCommand("JamesFrustrated")]
+    public void JamesFrustrated() {
+        spriteRenderer.sprite = JamesFrustratedS;
+    }
+
+    [YarnCommand("JamesFrustration")]
+    public void JamesFrustration() {
+        spriteRenderer.sprite = JamesFrustrationS;
     }
 
     [YarnCommand("SitiHappy")]
     public void SitiHappy() {
-
+        spriteRenderer.sprite = SitiHappyS;
     }
 
     [YarnCommand("SitiAnnoyed")]
     public void SitiAnnoyed() {
+        spriteRenderer.sprite = SitiAnnoyedS;
+    }
 
+    [YarnCommand("SitiWorried2")]
+    public void SitiWorried2() {
+        spriteRenderer.sprite = SitiWorried2S;
     }
 
     [YarnCommand("SitiWorried")]
     public void SitiWorried() {
-
+        spriteRenderer.sprite = SitiWorriedS;
     }
 
     [YarnCommand("SitiHopeful")]
     public void SitiHopeful() {
-
+        spriteRenderer.sprite = SitiHopefulS;
     }
 
     [YarnCommand("PhoneTense")]
