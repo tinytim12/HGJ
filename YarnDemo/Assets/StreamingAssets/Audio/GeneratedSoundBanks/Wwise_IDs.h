@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID BG_MUSIC = 2619506084U;
         static const AkUniqueID BG_MUSIC_STOP = 2839607491U;
+        static const AkUniqueID CANTEEN = 3281032945U;
+        static const AkUniqueID CANTEEN_STOP = 558496020U;
         static const AkUniqueID LIVING_ROOM = 3355232812U;
         static const AkUniqueID LIVING_ROOM_STOP = 854850843U;
         static const AkUniqueID MAIN_MENU_MUSIC = 3399698792U;

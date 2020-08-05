@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	137461965	Staff_room			\Default Work Unit\Ambience\Staff_room	
 	428856256	Staff_room_stop			\Default Work Unit\Ambience\Staff_room_stop	
+	558496020	Canteen_stop			\Default Work Unit\Ambience\Canteen_stop	
 	854850843	Living_room_stop			\Default Work Unit\Ambience\Living_room_stop	
 	1019347030	Phone_Typing_Start			\Default Work Unit\SFX\Phone\Phone_Typing_Start	
 	1714883926	Phone_Typing_Stop			\Default Work Unit\SFX\Phone\Phone_Typing_Stop	
@@ -8,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2200656914	Phone_Notification_Start			\Default Work Unit\SFX\Phone\Phone_Notification_Start	
 	2619506084	BG_music			\Default Work Unit\Music\BG\BG_music	
 	2839607491	BG_music_stop			\Default Work Unit\Music\BG\BG_music_stop	
+	3281032945	Canteen			\Default Work Unit\Ambience\Canteen	
 	3355232812	Living_room			\Default Work Unit\Ambience\Living_room	
 	3399698792	Main_menu_music			\Default Work Unit\Music\Main menu\Main_menu_music	
 

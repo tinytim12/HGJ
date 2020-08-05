@@ -185,6 +185,8 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="2839607491" Name="BG_music_stop" ObjectPath="\Events\Default Work Unit\Music\BG\BG_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3281032945" Name="Canteen" ObjectPath="\Events\Default Work Unit\Ambience\Canteen" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="558496020" Name="Canteen_stop" ObjectPath="\Events\Default Work Unit\Ambience\Canteen_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3355232812" Name="Living_room" ObjectPath="\Events\Default Work Unit\Ambience\Living_room" DurationType="OneShot" DurationMin="38.000000" DurationMax="38.000000">
 					<IncludedMemoryFiles>
 						<File Id="1032996371" Language="SFX">

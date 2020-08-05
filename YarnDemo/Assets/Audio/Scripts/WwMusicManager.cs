@@ -54,27 +54,51 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon"); //sets it to play Mrs Thiru music for mon
 
         //choices
-        //if a choice is selected, will continue playing music until a choice is selected
-        AkSoundEngine.SetState("Selected_or_no", "Selected"); //set the state to selected
+        //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
         //if choice "I'm sorry" is selected set state to hopeful
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Hopeful");
         //if choice "Let's discuss" is selected set state to concerned
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Concerned");
         //if choice "I don't really care" is selected set state to disappointed
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Disappointed");
+        //if a choice is not selected, will continue playing music until a choice is selected
+        AkSoundEngine.SetState("Selected_or_no", "Selected"); //set the state to selected
 
     }
 
+    //will update script again when I've set it up in wwise for tue and wed
     public void JamesMusic()
     {
         //if James is chosen - James music will play
         AkSoundEngine.SetState("James_or_Siti", "James"); //sets state to James
         //choices
-        //if an option is selected, will continue playing James music until a choice is selected
+        //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
         //if choice "Actually I do" is selected set state to hopeful
         AkSoundEngine.SetState("James_choices", "Hopeful");
+        //when line gets to "James scoffs" set state to frustrated
+        AkSoundEngine.SetState("James_frustrated", "Frustrated");
+
         //if choice "I'm sorry, I don't" is selected set state to disappointed
-        AkSoundEngine.SetState("James_choices", "Disappointed"); 
+        AkSoundEngine.SetState("James_choices", "Disappointed");
+
+        //set state to selected when a choice is selected
+        AkSoundEngine.SetState("Selected_or_no", "Selected");
 
     }
+
+    public void SitiMusic()
+    {
+        //if Siti is chosen - Siti music will play
+        AkSoundEngine.SetState("James_or_Siti", "Siti"); //sets state to Siti
+        //choices
+        //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
+        //if choice "I'm interested" set state to happy
+        AkSoundEngine.SetState("Siti_choices", "Happy");
+        //if choice "No, sorry" set state to hopeful
+        AkSoundEngine.SetState("Siti_choices", "Hopeful");
+        //if option is selected, set state to selected
+        AkSoundEngine.SetState("Selected_or_no", "Selected");
+    }
+
+
 }
