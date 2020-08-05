@@ -111,6 +111,8 @@ James: “Yeah, it’s just… I have to do another shift at my dad’s workplac
 
 James: “He’s injured, but money’s still gotta be made, right?”
 
+James: “Can’t be like Siti, who has all the time in the world to do whatever she likes, and still score good grades.”
+
 [[ Your dad would not want to see you struggle with his work. | JamesDay2.1 ]]
 [[ The test is not that important anyway. | JamesDay2.2 ]]
 
@@ -189,6 +191,8 @@ James sighs and shakes his head.
 James: “It’s easy for you to say. My dad does not earn enough to cover basic expenses… It’s not a choice, like how you see it.”
 MC: “That is not what I meant - ”
 James: “I don’t see any way to escape this... Why does my life have to be much harder than others?”
+James: “Look at Siti over there. She’s texting away without a care in the world.” 
+James: “And she can still score high marks for every test. What gives? Was I just born stupider, or poorer, or...”
 You don’t have an answer.
 MC: “Whatever you choose, I’ll be here for you.”
 
@@ -268,6 +272,7 @@ Dad: “Okay kid, gotta bounce. See you soon”
 And now, time to spend 10 minutes crafting a message for your mom.
 Will she even see it? And how will she respond when she does?
 Internally, you cringe a bit as you type a generic apology. But it fits your purposes well.
+In the end, you still decide that you’ll allocate the normal amount of time to your homework. (You have 30 seconds for the homework exercise later.)
 << set $mom_angry to 1 >>
 [[ homework minigame 2 | homework2 ]]
 ===
@@ -279,6 +284,7 @@ position: 769,-480
 MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
 Dad: “You have to try and understand. She was being angry. She didn’t know what she was saying. If you offer peace first, she’ll take it.”
 MC: “So I have to apologise for what she says when she’s angry?”
+The exchange has drained you emotionally. You doubt that you’ll have time to complete your homework when you inevitably have to do it. (You have 15 seconds for the homework exercise later.)
 << set $mom_angry to 1 >>
 [[ homework minigame 2 | homework2 ]]
 ===
@@ -294,6 +300,7 @@ You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t show you support like this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
 Was he really too busy for you?
+In the end, you still decide that you’ll allocate the normal amount of time to your homework. (You have 30 seconds for the homework exercise later.)
 << set $mom_happy to 1 >>
 [[ homework minigame 2 | homework2 ]]
 ===
@@ -309,6 +316,7 @@ You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t do this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
 Was he really too busy for you?
+In the end, you still decide that you’ll allocate the normal amount of time to your homework. (You have 30 seconds for the homework exercise later.)
 << set $mom_angry to 1 >>
 [[ homework minigame 2 | homework2 ]]
 ===
@@ -323,6 +331,7 @@ Dad: “that’s good, that’s good.”
 Dad: “All the best kiddo! Do us proud :)”
 You lock your phone.
 Closing your eyes, you summon your mental strength to keep going.
+You steel yourself to dedicate more time to your homework for later. (You have 60 seconds for the homework exercise later.)
 << set $mom_happy to 1 >>
 [[ homework minigame 2 | homework2 ]]
 ===
@@ -339,6 +348,7 @@ You don’t even wanna continue this.
 You lock your phone, and throw it aside.
 Why can’t your parents ever see how tough it is to be a student?
 Did they forget?
+In the end, you still decide that you’ll allocate the normal amount of time to your homework. (You have 30 seconds for the homework exercise later.)
 << set $mom_happy to 1 >>
 [[ homework minigame 2 | homework2 ]]
 ===
