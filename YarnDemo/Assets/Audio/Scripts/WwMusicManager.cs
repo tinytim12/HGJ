@@ -17,19 +17,17 @@ public class WwMusicManager : MonoBehaviour
        
     }
 
-    [YarnCommand("MainMenuMusic")]
     public void MainMenuMusic()
     {
-        AkSoundEngine.PostEvent("Main_menu_music", gameObject); //plays the music
-        AkSoundEngine.SetState("Menu_or_BG", "Menu"); // plays menu music
+        AkSoundEngine.SetState("Menu_or_BG", "Menu"); // sets it to menu
+        AkSoundEngine.PostEvent("Menu_music", gameObject); //plays the music
         
     }
 
-    [YarnCommand("BGMusic")]
     public void BGMusic()
     {
+        AkSoundEngine.SetState("Menu_or_BG", "BG"); //sets it to BG
         AkSoundEngine.PostEvent("BG_music", gameObject); //plays the music
-        AkSoundEngine.SetState("Menu_or_BG", "BG"); //plays background music
         
     }
 
@@ -42,17 +40,18 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("MonologueMusic")]
     public void MonologueMusic()
     {
-        //need to set "Menu_or_BG" stat to "BG" in order for monologue music to play
+        //need to set "Menu_or_BG" state to "BG" in order for monologue music to play
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Monologue"); // sets it so it plays monologue music
+        //need to put post event after set state
+
     }
 
     //Mrs Thiru Monday
-    //make sure "BG_Music" post event is called
-    //set state to "BG"
+    //make sure "BG_Music" post event is called after setting state to "BG" and after other set states
     public void MrsThiruMusic()
     {
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon"); //sets it to play Mrs Thiru music for mon
-
+        AkSoundEngine.PostEvent("BG_Music", gameObject);
         //choices
         //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
         //if choice "I'm sorry" is selected set state to hopeful
