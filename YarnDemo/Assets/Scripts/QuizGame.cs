@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class QuizGame : MonoBehaviour
@@ -11,8 +13,9 @@ public class QuizGame : MonoBehaviour
 
     //main character thingies, score to be saved, time to be adjusted as per story
     public int score = 0;
-    public float time = 60;
+    public float time;
     public bool timeActive = true;
+    public int fullScore;
 
     //plonk questions here
     public string[] questionsArray = new string[3] { "insert question one here", "insert question two here", "insert question three here" };
@@ -28,6 +31,7 @@ public class QuizGame : MonoBehaviour
 
     public GameObject rightScreen;
     public GameObject wrongScreen;
+    public GameObject endQuiz;
 
     public GameObject timeTextGO;
  
@@ -52,6 +56,8 @@ public class QuizGame : MonoBehaviour
         rightScreen.SetActive(false);
         wrongScreen = GameObject.Find("questionWrong");
         wrongScreen.SetActive(false);
+        endQuiz = GameObject.Find("endQuiz");
+        endQuiz.SetActive(false);
         
         shuffleQNA();
     }
@@ -223,7 +229,13 @@ public class QuizGame : MonoBehaviour
     }
 
     void endGame() {
+        endQuiz.SetActive(true);
+        string message = "Your score is " + score + ". You have " + ((fullScore - score) / questionsArray.Length) + "questions wrong.";
+        endQuiz.transform.GetChild(0).gameObject.GetComponent<Text>().text = message;
+    }
 
+    public void goToSleep() {
+        SceneManager.LoadScene("Classroom");
     }
  
 }
