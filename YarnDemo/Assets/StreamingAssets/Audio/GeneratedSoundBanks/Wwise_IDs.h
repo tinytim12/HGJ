@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID BG_MUSIC_STOP = 2839607491U;
         static const AkUniqueID CANTEEN = 3281032945U;
         static const AkUniqueID CANTEEN_STOP = 558496020U;
+        static const AkUniqueID CHARACTER_DIALOGUE = 3591387107U;
+        static const AkUniqueID CHARACTER_DIALOGUE_STOP = 4036121742U;
         static const AkUniqueID LIVING_ROOM = 3355232812U;
         static const AkUniqueID LIVING_ROOM_STOP = 854850843U;
         static const AkUniqueID MAIN_MENU_MUSIC = 3399698792U;
@@ -126,6 +128,62 @@ namespace AK
         } // namespace SITI_CHOICES
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace CHARACTERS
+        {
+            static const AkUniqueID GROUP = 1557941045U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID JAMES = 126245619U;
+                static const AkUniqueID MRS_THIRU = 63700100U;
+                static const AkUniqueID SITI = 436113200U;
+            } // namespace SWITCH
+        } // namespace CHARACTERS
+
+        namespace JAMES_EMOTION
+        {
+            static const AkUniqueID GROUP = 3250954461U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DISAPPOINTED = 82996173U;
+                static const AkUniqueID FRUSTRATED = 1309079467U;
+                static const AkUniqueID HOPEFUL = 2757808320U;
+                static const AkUniqueID TIRED = 3386657621U;
+                static const AkUniqueID WORRIED = 1063915687U;
+            } // namespace SWITCH
+        } // namespace JAMES_EMOTION
+
+        namespace MRS_THIRU_EMOTION
+        {
+            static const AkUniqueID GROUP = 3724046042U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID AMUSED = 3834882752U;
+                static const AkUniqueID CONCERNED = 3074533040U;
+                static const AkUniqueID DISAPPOINTED = 82996173U;
+                static const AkUniqueID SURPRISED = 2662801688U;
+            } // namespace SWITCH
+        } // namespace MRS_THIRU_EMOTION
+
+        namespace SITI_EMOTION
+        {
+            static const AkUniqueID GROUP = 2168653886U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ANNOYED = 1194639741U;
+                static const AkUniqueID HAPPY = 1427264549U;
+                static const AkUniqueID HOPEFUL = 2757808320U;
+                static const AkUniqueID WORRIED = 1063915687U;
+            } // namespace SWITCH
+        } // namespace SITI_EMOTION
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {

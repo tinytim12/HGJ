@@ -87,9 +87,13 @@
 						<SwitchContainer SwitchValue="{0DB2C43D-1F15-403D-905E-36940E948359}">
 							<Children>
 								<SwitchContainer SwitchValue="{EFC8AA5D-A2EB-4EAA-BA68-74A5568B1B27}">
-									<Media>
-										<File Id="66002388"/>
-									</Media>
+									<Children>
+										<SwitchContainer SwitchValue="{0DB2C43D-1F15-403D-905E-36940E948359}">
+											<Media>
+												<File Id="66002388"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
@@ -98,16 +102,36 @@
 								<SwitchContainer SwitchValue="{EFC8AA5D-A2EB-4EAA-BA68-74A5568B1B27}">
 									<Children>
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-											<Media>
-												<File Id="844424994"/>
-												<File Id="435751986"/>
-												<File Id="40769514"/>
-											</Media>
+											<Children>
+												<SwitchContainer SwitchValue="{4A1A7B12-8A1F-4713-A78D-EF47AD8D501D}">
+													<Media>
+														<File Id="844424994"/>
+														<File Id="435751986"/>
+														<File Id="40769514"/>
+													</Media>
+												</SwitchContainer>
+											</Children>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
-											<Media>
-												<File Id="291338911"/>
-											</Media>
+											<Children>
+												<SwitchContainer SwitchValue="{4A1A7B12-8A1F-4713-A78D-EF47AD8D501D}">
+													<Media>
+														<File Id="291338911"/>
+													</Media>
+												</SwitchContainer>
+											</Children>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
 										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
@@ -132,9 +156,23 @@
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
 											<Children>
-												<SwitchContainer SwitchValue="{C1A84C48-2158-4287-A72C-D46802795856}">
+												<SwitchContainer SwitchValue="{EFF06FEE-306D-4607-A2A2-8669E18770DD}">
 													<Children>
-														<SwitchContainer SwitchValue="{8489F07A-EE72-44AE-A3B9-2205CF13AD75}">
+														<SwitchContainer SwitchValue="{290D31C7-0EEE-4ABA-978D-EB47AABB4358}">
+															<Media>
+																<File Id="749487272"/>
+																<File Id="692347018"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+											</Children>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children>
+												<SwitchContainer SwitchValue="{1D26D5C1-71A1-4508-BE32-CAB8BB0115E9}">
+													<Children>
+														<SwitchContainer SwitchValue="{0076E9D1-047A-4225-B830-4877A3D201B4}">
 															<Media>
 																<File Id="1055100629"/>
 																<File Id="692347018"/>
@@ -148,14 +186,14 @@
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
 											<Children>
 												<SwitchContainer SwitchValue="{EFF06FEE-306D-4607-A2A2-8669E18770DD}">
-													<Children>
-														<SwitchContainer SwitchValue="{290D31C7-0EEE-4ABA-978D-EB47AABB4358}">
-															<Media>
-																<File Id="749487272"/>
-																<File Id="692347018"/>
-															</Media>
-														</SwitchContainer>
-													</Children>
+													<Children/>
+												</SwitchContainer>
+											</Children>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children>
+												<SwitchContainer SwitchValue="{4148B15D-788B-49C9-8216-E7F2754C658E}">
+													<Children/>
 												</SwitchContainer>
 											</Children>
 										</SwitchContainer>
@@ -168,15 +206,32 @@
 								<SwitchContainer SwitchValue="{AD659958-04EF-462D-9461-E898010E42D2}">
 									<Children>
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-											<Media>
-												<File Id="568803031"/>
-												<File Id="978080902"/>
-											</Media>
+											<Children>
+												<SwitchContainer SwitchValue="{F2DD1AF3-E4C1-4165-A043-4E4128F8AD1F}">
+													<Media>
+														<File Id="568803031"/>
+														<File Id="978080902"/>
+													</Media>
+												</SwitchContainer>
+											</Children>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
-											<Media>
-												<File Id="645410858"/>
-											</Media>
+											<Children>
+												<SwitchContainer SwitchValue="{F2DD1AF3-E4C1-4165-A043-4E4128F8AD1F}">
+													<Media>
+														<File Id="645410858"/>
+													</Media>
+												</SwitchContainer>
+											</Children>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
 										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
@@ -185,20 +240,267 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="2839607491" Name="BG_music_stop" ObjectPath="\Events\Default Work Unit\Music\BG\BG_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3281032945" Name="Canteen" ObjectPath="\Events\Default Work Unit\Ambience\Canteen" DurationType="OneShot" DurationMin="19.020500" DurationMax="19.020500">
+				<Event Id="3281032945" Name="Canteen" ObjectPath="\Events\Default Work Unit\Ambience\Canteen" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="654000457" Language="SFX">
 							<ShortName>Ambience\Ambience_Canteen.wav</ShortName>
-							<Path>SFX/Ambience/Ambience_Canteen_10C4C929.wem</Path>
+							<Path>SFX/Ambience/Ambience_Canteen_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="558496020" Name="Canteen_stop" ObjectPath="\Events\Default Work Unit\Ambience\Canteen_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3355232812" Name="Living_room" ObjectPath="\Events\Default Work Unit\Ambience\Living_room" DurationType="OneShot" DurationMin="38.000000" DurationMax="38.000000">
+				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="74720509" Language="SFX">
+							<ShortName>Dialogue\James_tired_01.wav</ShortName>
+							<Path>SFX/Dialogue/James_tired_01_10C4C929.wem</Path>
+						</File>
+						<File Id="150231209" Language="SFX">
+							<ShortName>Dialogue\Siti_happy_03.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_happy_03_10C4C929.wem</Path>
+						</File>
+						<File Id="166172062" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_concerned_03.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_concerned_03_87EEE814.wem</Path>
+						</File>
+						<File Id="186034236" Language="SFX">
+							<ShortName>Dialogue\James_hopeful_02.wav</ShortName>
+							<Path>SFX/Dialogue/James_hopeful_02_10C4C929.wem</Path>
+						</File>
+						<File Id="201990229" Language="SFX">
+							<ShortName>Dialogue\Siti_worried_03.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_worried_03_10C4C929.wem</Path>
+						</File>
+						<File Id="206925658" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_disappointed_01.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_disappointed_01_10C4C929.wem</Path>
+						</File>
+						<File Id="268755454" Language="SFX">
+							<ShortName>Dialogue\Siti_happy_02.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_happy_02_10C4C929.wem</Path>
+						</File>
+						<File Id="273312989" Language="SFX">
+							<ShortName>Dialogue\James_hopeful_01.wav</ShortName>
+							<Path>SFX/Dialogue/James_hopeful_01_10C4C929.wem</Path>
+						</File>
+						<File Id="275634585" Language="SFX">
+							<ShortName>Dialogue\Siti_hopeful_03.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_hopeful_03_10C4C929.wem</Path>
+						</File>
+						<File Id="317812645" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_surprised_02.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_surprised_02_10C4C929.wem</Path>
+						</File>
+						<File Id="363991119" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_concerned_01.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_concerned_01_1DB8D250.wem</Path>
+						</File>
+						<File Id="391889051" Language="SFX">
+							<ShortName>Dialogue\James_disappointed_01.wav</ShortName>
+							<Path>SFX/Dialogue/James_disappointed_01_10C4C929.wem</Path>
+						</File>
+						<File Id="401041285" Language="SFX">
+							<ShortName>Dialogue\James_frustrated_01.wav</ShortName>
+							<Path>SFX/Dialogue/James_frustrated_01_10C4C929.wem</Path>
+						</File>
+						<File Id="431605522" Language="SFX">
+							<ShortName>Dialogue\Siti_annoyed_02.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_annoyed_02_10C4C929.wem</Path>
+						</File>
+						<File Id="435082855" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_concerned_02.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_concerned_02_69AF8EF3.wem</Path>
+						</File>
+						<File Id="504516339" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_surprised_01.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_surprised_01_10C4C929.wem</Path>
+						</File>
+						<File Id="511028233" Language="SFX">
+							<ShortName>Dialogue\James_frustrated_03.wav</ShortName>
+							<Path>SFX/Dialogue/James_frustrated_03_10C4C929.wem</Path>
+						</File>
+						<File Id="526690727" Language="SFX">
+							<ShortName>Dialogue\Siti_hopeful_02.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_hopeful_02_10C4C929.wem</Path>
+						</File>
+						<File Id="556810316" Language="SFX">
+							<ShortName>Dialogue\Siti_worried_02.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_worried_02_10C4C929.wem</Path>
+						</File>
+						<File Id="595249296" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_amused_02.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_amused_02_10C4C929.wem</Path>
+						</File>
+						<File Id="596229375" Language="SFX">
+							<ShortName>Dialogue\James_hopeful_03.wav</ShortName>
+							<Path>SFX/Dialogue/James_hopeful_03_10C4C929.wem</Path>
+						</File>
+						<File Id="624295064" Language="SFX">
+							<ShortName>Dialogue\Siti_annoyed_01.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_annoyed_01_10C4C929.wem</Path>
+						</File>
+						<File Id="648339471" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_amused_01.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_amused_01_10C4C929.wem</Path>
+						</File>
+						<File Id="687078840" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_disappointed_03.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_disappointed_03_10C4C929.wem</Path>
+						</File>
+						<File Id="690544362" Language="SFX">
+							<ShortName>Dialogue\James_tired_02.wav</ShortName>
+							<Path>SFX/Dialogue/James_tired_02_10C4C929.wem</Path>
+						</File>
+						<File Id="722481702" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_amused_03.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_amused_03_10C4C929.wem</Path>
+						</File>
+						<File Id="728963303" Language="SFX">
+							<ShortName>Dialogue\Siti_worried_01.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_worried_01_10C4C929.wem</Path>
+						</File>
+						<File Id="776807800" Language="SFX">
+							<ShortName>Dialogue\James_tired_03.wav</ShortName>
+							<Path>SFX/Dialogue/James_tired_03_10C4C929.wem</Path>
+						</File>
+						<File Id="782449726" Language="SFX">
+							<ShortName>Dialogue\James_disappointed_02.wav</ShortName>
+							<Path>SFX/Dialogue/James_disappointed_02_10C4C929.wem</Path>
+						</File>
+						<File Id="801581992" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_disappointed_02.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_disappointed_02_10C4C929.wem</Path>
+						</File>
+						<File Id="875495006" Language="SFX">
+							<ShortName>Dialogue\Siti_annoyed_03.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_annoyed_03_10C4C929.wem</Path>
+						</File>
+						<File Id="909695388" Language="SFX">
+							<ShortName>Dialogue\Mrs Thiru_surprised_03.wav</ShortName>
+							<Path>SFX/Dialogue/Mrs Thiru_surprised_03_10C4C929.wem</Path>
+						</File>
+						<File Id="937115243" Language="SFX">
+							<ShortName>Dialogue\Siti_happy_01.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_happy_01_10C4C929.wem</Path>
+						</File>
+						<File Id="944229703" Language="SFX">
+							<ShortName>Dialogue\Siti_hopeful_01.wav</ShortName>
+							<Path>SFX/Dialogue/Siti_hopeful_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1026337781" Language="SFX">
+							<ShortName>Dialogue\James_frustrated_02.wav</ShortName>
+							<Path>SFX/Dialogue/James_frustrated_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1034320989" Language="SFX">
+							<ShortName>Dialogue\James_disappointed_03.wav</ShortName>
+							<Path>SFX/Dialogue/James_disappointed_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{835C117E-AA02-4998-8AE3-8A864A3EDF3D}">
+							<Children>
+								<SwitchContainer SwitchValue="{F6C88EA7-78EB-486A-B605-90A2C2307FCA}">
+									<Media>
+										<File Id="391889051"/>
+										<File Id="782449726"/>
+										<File Id="1034320989"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F539D630-B88F-4D24-A54C-7544A9E4946F}">
+									<Media>
+										<File Id="401041285"/>
+										<File Id="1026337781"/>
+										<File Id="511028233"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{14233E7B-4FDE-45E0-B56F-5571D8583228}">
+									<Media>
+										<File Id="273312989"/>
+										<File Id="186034236"/>
+										<File Id="596229375"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{662F27B9-8CE2-488C-9B4C-359528038C42}">
+									<Media>
+										<File Id="74720509"/>
+										<File Id="690544362"/>
+										<File Id="776807800"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0CFC3F62-67B9-4DDE-B1C4-7C519111415D}">
+							<Children>
+								<SwitchContainer SwitchValue="{4942E69A-04AC-4BE2-894E-A394E95C2A7D}">
+									<Media>
+										<File Id="624295064"/>
+										<File Id="431605522"/>
+										<File Id="875495006"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{EFFD8939-2553-4792-9F70-8F8FEEF388A7}">
+									<Media>
+										<File Id="937115243"/>
+										<File Id="268755454"/>
+										<File Id="150231209"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{869AE932-3ED1-4B72-BBE8-0922611F03CB}">
+									<Media>
+										<File Id="944229703"/>
+										<File Id="526690727"/>
+										<File Id="275634585"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{28F6F92C-C13F-4581-8FFA-DB2F12CFF62D}">
+									<Media>
+										<File Id="728963303"/>
+										<File Id="556810316"/>
+										<File Id="201990229"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{55A4B0D5-A8A8-4132-9F40-7798DC7C7F6F}">
+							<Children>
+								<SwitchContainer SwitchValue="{113AB3FF-E501-41F5-A1CC-1EF22D2558CF}">
+									<Media>
+										<File Id="648339471"/>
+										<File Id="595249296"/>
+										<File Id="722481702"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{76965F45-8B33-408C-9EC6-C4B89B1EB6C7}">
+									<Media>
+										<File Id="363991119"/>
+										<File Id="435082855"/>
+										<File Id="166172062"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BAE36E22-91FC-45EF-AD11-D7918E565565}">
+									<Media>
+										<File Id="206925658"/>
+										<File Id="801581992"/>
+										<File Id="687078840"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{AAB373FB-EB70-4209-8447-020D67A5F1F3}">
+									<Media>
+										<File Id="504516339"/>
+										<File Id="317812645"/>
+										<File Id="909695388"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4036121742" Name="Character_dialogue_stop" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3355232812" Name="Living_room" ObjectPath="\Events\Default Work Unit\Ambience\Living_room" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1032996371" Language="SFX">
 							<ShortName>Ambience\Ambience_Living Room.wav</ShortName>
-							<Path>SFX/Ambience/Ambience_Living Room_10C4C929.wem</Path>
+							<Path>SFX/Ambience/Ambience_Living Room_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -211,7 +513,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2200656914" Name="Phone_Notification_Start" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Notification_Start" DurationType="OneShot" DurationMin="1.082083" DurationMax="1.126300">
+				<Event Id="2200656914" Name="Phone_Notification_Start" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Notification_Start" DurationType="OneShot" DurationMin="1.052493" DurationMax="1.157965">
 					<IncludedMemoryFiles>
 						<File Id="63651311" Language="SFX">
 							<ShortName>Phone\SFX_Phone_Notification_Vibrate03.wav</ShortName>
@@ -245,11 +547,11 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1714883926" Name="Phone_Typing_Stop" ObjectPath="\Events\Default Work Unit\SFX\Phone\Phone_Typing_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="137461965" Name="Staff_room" ObjectPath="\Events\Default Work Unit\Ambience\Staff_room" DurationType="OneShot" DurationMin="0.000000" DurationMax="23.000000">
+				<Event Id="137461965" Name="Staff_room" ObjectPath="\Events\Default Work Unit\Ambience\Staff_room" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="513468682" Language="SFX">
 							<ShortName>Ambience\Ambience_Staff Room.wav</ShortName>
-							<Path>SFX/Ambience/Ambience_Staff Room_10C4C929.wem</Path>
+							<Path>SFX/Ambience/Ambience_Staff Room_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -268,13 +570,49 @@
 					<ShortName>BG Music\Monologue_115bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Monologue_115bpm_6-8_D79FB2B7.wem</Path>
 				</File>
+				<File Id="74720509" Language="SFX">
+					<ShortName>Dialogue\James_tired_01.wav</ShortName>
+					<Path>SFX/Dialogue/James_tired_01_10C4C929.wem</Path>
+				</File>
 				<File Id="120780929" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Typing03.wav</ShortName>
 					<Path>SFX/Phone/SFX_Phone_Typing03_10C4C929.wem</Path>
 				</File>
+				<File Id="150231209" Language="SFX">
+					<ShortName>Dialogue\Siti_happy_03.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_happy_03_10C4C929.wem</Path>
+				</File>
+				<File Id="166172062" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_concerned_03.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_concerned_03_87EEE814.wem</Path>
+				</File>
+				<File Id="186034236" Language="SFX">
+					<ShortName>Dialogue\James_hopeful_02.wav</ShortName>
+					<Path>SFX/Dialogue/James_hopeful_02_10C4C929.wem</Path>
+				</File>
+				<File Id="201990229" Language="SFX">
+					<ShortName>Dialogue\Siti_worried_03.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_worried_03_10C4C929.wem</Path>
+				</File>
+				<File Id="206925658" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_disappointed_01.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_disappointed_01_10C4C929.wem</Path>
+				</File>
 				<File Id="214167873" Language="SFX">
 					<ShortName>Main Menu\Heritage Jam_Title Music.wav</ShortName>
 					<Path>SFX/Main Menu/Heritage Jam_Title Music_D79FB2B7.wem</Path>
+				</File>
+				<File Id="268755454" Language="SFX">
+					<ShortName>Dialogue\Siti_happy_02.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_happy_02_10C4C929.wem</Path>
+				</File>
+				<File Id="273312989" Language="SFX">
+					<ShortName>Dialogue\James_hopeful_01.wav</ShortName>
+					<Path>SFX/Dialogue/James_hopeful_01_10C4C929.wem</Path>
+				</File>
+				<File Id="275634585" Language="SFX">
+					<ShortName>Dialogue\Siti_hopeful_03.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_hopeful_03_10C4C929.wem</Path>
 				</File>
 				<File Id="280432446" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Notification_Vibrate02.wav</ShortName>
@@ -284,41 +622,113 @@
 					<ShortName>BG Music\Mrs Thiru_Day 1_108bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem</Path>
 				</File>
+				<File Id="317812645" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_surprised_02.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_surprised_02_10C4C929.wem</Path>
+				</File>
+				<File Id="363991119" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_concerned_01.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_concerned_01_1DB8D250.wem</Path>
+				</File>
+				<File Id="391889051" Language="SFX">
+					<ShortName>Dialogue\James_disappointed_01.wav</ShortName>
+					<Path>SFX/Dialogue/James_disappointed_01_10C4C929.wem</Path>
+				</File>
+				<File Id="401041285" Language="SFX">
+					<ShortName>Dialogue\James_frustrated_01.wav</ShortName>
+					<Path>SFX/Dialogue/James_frustrated_01_10C4C929.wem</Path>
+				</File>
+				<File Id="431605522" Language="SFX">
+					<ShortName>Dialogue\Siti_annoyed_02.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_annoyed_02_10C4C929.wem</Path>
+				</File>
+				<File Id="435082855" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_concerned_02.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_concerned_02_69AF8EF3.wem</Path>
+				</File>
 				<File Id="435751986" Language="SFX">
 					<ShortName>BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem</Path>
 				</File>
+				<File Id="504516339" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_surprised_01.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_surprised_01_10C4C929.wem</Path>
+				</File>
+				<File Id="511028233" Language="SFX">
+					<ShortName>Dialogue\James_frustrated_03.wav</ShortName>
+					<Path>SFX/Dialogue/James_frustrated_03_10C4C929.wem</Path>
+				</File>
 				<File Id="513468682" Language="SFX">
 					<ShortName>Ambience\Ambience_Staff Room.wav</ShortName>
-					<Path>SFX/Ambience/Ambience_Staff Room_10C4C929.wem</Path>
+					<Path>SFX/Ambience/Ambience_Staff Room_D79FB2B7.wem</Path>
+				</File>
+				<File Id="526690727" Language="SFX">
+					<ShortName>Dialogue\Siti_hopeful_02.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_hopeful_02_10C4C929.wem</Path>
 				</File>
 				<File Id="546400724" Language="SFX">
 					<ShortName>BG Music\James_Day 1_85bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/James_Day 1_85bpm_4-4_D79FB2B7.wem</Path>
 				</File>
+				<File Id="556810316" Language="SFX">
+					<ShortName>Dialogue\Siti_worried_02.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_worried_02_10C4C929.wem</Path>
+				</File>
 				<File Id="568803031" Language="SFX">
 					<ShortName>BG Music\Siti_choice 1_happy_130bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem</Path>
+				</File>
+				<File Id="595249296" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_amused_02.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_amused_02_10C4C929.wem</Path>
+				</File>
+				<File Id="596229375" Language="SFX">
+					<ShortName>Dialogue\James_hopeful_03.wav</ShortName>
+					<Path>SFX/Dialogue/James_hopeful_03_10C4C929.wem</Path>
 				</File>
 				<File Id="623589535" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Typing01.wav</ShortName>
 					<Path>SFX/Phone/SFX_Phone_Typing01_10C4C929.wem</Path>
 				</File>
+				<File Id="624295064" Language="SFX">
+					<ShortName>Dialogue\Siti_annoyed_01.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_annoyed_01_10C4C929.wem</Path>
+				</File>
 				<File Id="645410858" Language="SFX">
 					<ShortName>BG Music\Siti_Day 1_130bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Siti_Day 1_130bpm_6-8_D79FB2B7.wem</Path>
 				</File>
+				<File Id="648339471" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_amused_01.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_amused_01_10C4C929.wem</Path>
+				</File>
 				<File Id="654000457" Language="SFX">
 					<ShortName>Ambience\Ambience_Canteen.wav</ShortName>
-					<Path>SFX/Ambience/Ambience_Canteen_10C4C929.wem</Path>
+					<Path>SFX/Ambience/Ambience_Canteen_D79FB2B7.wem</Path>
+				</File>
+				<File Id="687078840" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_disappointed_03.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_disappointed_03_10C4C929.wem</Path>
+				</File>
+				<File Id="690544362" Language="SFX">
+					<ShortName>Dialogue\James_tired_02.wav</ShortName>
+					<Path>SFX/Dialogue/James_tired_02_10C4C929.wem</Path>
 				</File>
 				<File Id="692347018" Language="SFX">
 					<ShortName>BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem</Path>
 				</File>
+				<File Id="722481702" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_amused_03.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_amused_03_10C4C929.wem</Path>
+				</File>
 				<File Id="726395424" Language="SFX">
 					<ShortName>BG Music\James_choice 2_disappointed_85bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="728963303" Language="SFX">
+					<ShortName>Dialogue\Siti_worried_01.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_worried_01_10C4C929.wem</Path>
 				</File>
 				<File Id="749487272" Language="SFX">
 					<ShortName>BG Music\James_choice 1_frustrated_85bpm_4-4.wav</ShortName>
@@ -328,21 +738,57 @@
 					<ShortName>Phone\SFX_Phone_Typing02.wav</ShortName>
 					<Path>SFX/Phone/SFX_Phone_Typing02_10C4C929.wem</Path>
 				</File>
+				<File Id="776807800" Language="SFX">
+					<ShortName>Dialogue\James_tired_03.wav</ShortName>
+					<Path>SFX/Dialogue/James_tired_03_10C4C929.wem</Path>
+				</File>
+				<File Id="782449726" Language="SFX">
+					<ShortName>Dialogue\James_disappointed_02.wav</ShortName>
+					<Path>SFX/Dialogue/James_disappointed_02_10C4C929.wem</Path>
+				</File>
+				<File Id="801581992" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_disappointed_02.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_disappointed_02_10C4C929.wem</Path>
+				</File>
 				<File Id="844424994" Language="SFX">
 					<ShortName>BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="875495006" Language="SFX">
+					<ShortName>Dialogue\Siti_annoyed_03.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_annoyed_03_10C4C929.wem</Path>
 				</File>
 				<File Id="885914092" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Notification_Vibrate01.wav</ShortName>
 					<Path>SFX/Phone/SFX_Phone_Notification_Vibrate01_1C13E6F1.wem</Path>
 				</File>
+				<File Id="909695388" Language="SFX">
+					<ShortName>Dialogue\Mrs Thiru_surprised_03.wav</ShortName>
+					<Path>SFX/Dialogue/Mrs Thiru_surprised_03_10C4C929.wem</Path>
+				</File>
+				<File Id="937115243" Language="SFX">
+					<ShortName>Dialogue\Siti_happy_01.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_happy_01_10C4C929.wem</Path>
+				</File>
+				<File Id="944229703" Language="SFX">
+					<ShortName>Dialogue\Siti_hopeful_01.wav</ShortName>
+					<Path>SFX/Dialogue/Siti_hopeful_01_10C4C929.wem</Path>
+				</File>
 				<File Id="978080902" Language="SFX">
 					<ShortName>BG Music\Siti_choice 2_hopeful_130bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem</Path>
 				</File>
+				<File Id="1026337781" Language="SFX">
+					<ShortName>Dialogue\James_frustrated_02.wav</ShortName>
+					<Path>SFX/Dialogue/James_frustrated_02_10C4C929.wem</Path>
+				</File>
 				<File Id="1032996371" Language="SFX">
 					<ShortName>Ambience\Ambience_Living Room.wav</ShortName>
-					<Path>SFX/Ambience/Ambience_Living Room_10C4C929.wem</Path>
+					<Path>SFX/Ambience/Ambience_Living Room_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1034320989" Language="SFX">
+					<ShortName>Dialogue\James_disappointed_03.wav</ShortName>
+					<Path>SFX/Dialogue/James_disappointed_03_10C4C929.wem</Path>
 				</File>
 				<File Id="1055100629" Language="SFX">
 					<ShortName>BG Music\James_choice 1_hopeful_strings_85bpm_4-4.wav</ShortName>
@@ -364,11 +810,26 @@
 						<State Id="1870080928" Name="BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\BG"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="1619247981" Name="Siti_choices" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices\None"/>
+						<State Id="1427264549" Name="Happy" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices\Happy"/>
+						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices\Hopeful"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="2225504254" Name="Monologue_or_Mrs_Thiru" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\None"/>
 						<State Id="3368367120" Name="Monologue" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Monologue"/>
 						<State Id="4043819383" Name="Mrs_Thiru_mon" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Mrs_Thiru_mon"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2805117609" Name="Mrs_Thiru_choices" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\None"/>
+						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\Hopeful"/>
+						<State Id="3074533040" Name="Concerned" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\Concerned"/>
+						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\Disappointed"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="2898708738" Name="James_choices" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices">
@@ -398,6 +859,40 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1557941045" Name="Characters" ObjectPath="\Switches\Default Work Unit\Dialogue\Characters">
+					<Switches>
+						<Switch Id="63700100" Name="Mrs_Thiru" ObjectPath="\Switches\Default Work Unit\Dialogue\Characters\Mrs_Thiru"/>
+						<Switch Id="126245619" Name="James" ObjectPath="\Switches\Default Work Unit\Dialogue\Characters\James"/>
+						<Switch Id="436113200" Name="Siti" ObjectPath="\Switches\Default Work Unit\Dialogue\Characters\Siti"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2168653886" Name="Siti_emotion" ObjectPath="\Switches\Default Work Unit\Dialogue\Siti_emotion">
+					<Switches>
+						<Switch Id="1427264549" Name="Happy" ObjectPath="\Switches\Default Work Unit\Dialogue\Siti_emotion\Happy"/>
+						<Switch Id="2757808320" Name="Hopeful" ObjectPath="\Switches\Default Work Unit\Dialogue\Siti_emotion\Hopeful"/>
+						<Switch Id="1194639741" Name="Annoyed" ObjectPath="\Switches\Default Work Unit\Dialogue\Siti_emotion\Annoyed"/>
+						<Switch Id="1063915687" Name="Worried" ObjectPath="\Switches\Default Work Unit\Dialogue\Siti_emotion\Worried"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3250954461" Name="James_emotion" ObjectPath="\Switches\Default Work Unit\Dialogue\James_emotion">
+					<Switches>
+						<Switch Id="1309079467" Name="Frustrated" ObjectPath="\Switches\Default Work Unit\Dialogue\James_emotion\Frustrated"/>
+						<Switch Id="3386657621" Name="Tired" ObjectPath="\Switches\Default Work Unit\Dialogue\James_emotion\Tired"/>
+						<Switch Id="82996173" Name="Disappointed" ObjectPath="\Switches\Default Work Unit\Dialogue\James_emotion\Disappointed"/>
+						<Switch Id="2757808320" Name="Hopeful" ObjectPath="\Switches\Default Work Unit\Dialogue\James_emotion\Hopeful"/>
+						<Switch Id="1063915687" Name="Worried" ObjectPath="\Switches\Default Work Unit\Dialogue\James_emotion\Worried"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3724046042" Name="Mrs_Thiru_emotion" ObjectPath="\Switches\Default Work Unit\Dialogue\Mrs_Thiru_emotion">
+					<Switches>
+						<Switch Id="82996173" Name="Disappointed" ObjectPath="\Switches\Default Work Unit\Dialogue\Mrs_Thiru_emotion\Disappointed"/>
+						<Switch Id="3834882752" Name="Amused" ObjectPath="\Switches\Default Work Unit\Dialogue\Mrs_Thiru_emotion\Amused"/>
+						<Switch Id="3074533040" Name="Concerned" ObjectPath="\Switches\Default Work Unit\Dialogue\Mrs_Thiru_emotion\Concerned"/>
+						<Switch Id="2662801688" Name="Surprised" ObjectPath="\Switches\Default Work Unit\Dialogue\Mrs_Thiru_emotion\Surprised"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
