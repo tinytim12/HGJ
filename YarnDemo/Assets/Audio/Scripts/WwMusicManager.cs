@@ -75,8 +75,6 @@ public class WwMusicManager : MonoBehaviour
         //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
         //if choice "Actually I do" is selected set state to hopeful
         AkSoundEngine.SetState("James_choices", "Hopeful");
-        //when line gets to "James scoffs" set state to frustrated
-        AkSoundEngine.SetState("James_frustrated", "Frustrated");
 
         //if choice "I'm sorry, I don't" is selected set state to disappointed
         AkSoundEngine.SetState("James_choices", "Disappointed");
@@ -100,5 +98,8 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.SetState("Selected_or_no", "Selected");
     }
 
+    public void HomeMusic()
+    {
 
+    }
 }
