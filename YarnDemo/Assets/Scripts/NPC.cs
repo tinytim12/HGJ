@@ -56,13 +56,9 @@ namespace Yarn.Unity.Example {
             } else if (day == 3){
                 dialogueRunner.Add(scriptToLoad3);
             }
-        
-            Invoke("Dialogue", 1);
 
-        }
-
-        void Dialogue() {
             dialogueRunner.StartDialogue(talkToNode);
+
         }
 
 

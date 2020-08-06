@@ -3,7 +3,8 @@ tags:
 colorID: 0
 position: 1063,22
 ---
-<<NoSprite Sprite>>
+<<startFadeOut GameController 3>>
+<<wait 3>> 
 
 <<set $name to "Test">>
 
