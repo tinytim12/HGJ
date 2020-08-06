@@ -125,8 +125,6 @@ You walk down to the canteen and settle next to your friend for a meal.
 
 James looks stressed. The weight of all his concerns sinks his shoulders and glance, as he picks at his food.
 
-
-
 <<JamesTired Sprite>>
 <<startFadeIn GameController 1 s>>
 <<wait 1>>
@@ -159,8 +157,6 @@ MC: “Your new CCA working you really hard?"
 
 Siti: “I wish these texts were from my CCA... It’s this private tutor. He won’t stop messaging me about the past year papers and practice questions that I have to do when I get back home!“ 
 
-
-
 Siti: “I just feel so overwhelmed with everything - balancing CCAs, volunteering, engaging in leadership activities and school work... I wish I could drop this tutor.”
 
 [[ But the test is tomorrow. | SitiDay1.1 ]]
@@ -192,8 +188,7 @@ position: 999,-403
 <<set $droptuition_siti to 1>>
 
 MC: “It’ll give you some room to breathe.”
-Siti: “Wait, really?” 
-<<SitiHopeful GameController>>
+Siti: “Wait, really?” <<SitiHopeful Sprite>>
 MC: “It’s stressing you out, isn’t it?”
 MC: “Besides, if there’s one person in this class who is ready for the test, it’s definitely you.”
 Siti: “I guess you’re right. I do feel quite prepared for the test.”
@@ -215,8 +210,7 @@ position: 1086,-380
 <<set $study_james to 1>>
 
 MC: “You have to study for tomorrow’s test. Perhaps, if you study, you can rise above where you are now.”
-James sighs and shakes his head. 
-<<JamesFrustrated GameController>>
+James sighs and shakes his head. <<JamesFrustrated Sprite>>
 James: “It’s easy for you to say. My dad does not earn enough to cover basic expenses… It’s not a choice, like how you see it.”
 MC: “That is not what I meant - ”
 James: “I don’t see any way to escape this... Why does my life have to be much harder than others?”
@@ -235,8 +229,7 @@ position: 1306,-380
 <<set $work_james to 1>>
 
 MC: “Besides, if you help your dad out tonight, I’m sure he’ll be really grateful.”
-James: “Yeah, I guess… I wish I don’t have to make a choice between school or work.” 
-<<JamesTired GameController>>
+James: “Yeah, I guess… I wish I don’t have to make a choice between school or work.” <<JamesTired Sprite>>
 James: “Will that day ever arrive?”
 You don’t have an answer.
 MC: “Whatever you choose, I’ll be here for you.”
