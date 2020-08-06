@@ -21,7 +21,7 @@ namespace AK
         static const AkUniqueID CHARACTER_DIALOGUE_STOP = 4036121742U;
         static const AkUniqueID LIVING_ROOM = 3355232812U;
         static const AkUniqueID LIVING_ROOM_STOP = 854850843U;
-        static const AkUniqueID MAIN_MENU_MUSIC = 3399698792U;
+        static const AkUniqueID MENU_MUSIC = 4055567060U;
         static const AkUniqueID PHONE_NOTIFICATION_START = 2200656914U;
         static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
@@ -32,16 +32,32 @@ namespace AK
 
     namespace STATES
     {
-        namespace JAME_FRUSTRATED
+        namespace HOME_CHOICES
         {
-            static const AkUniqueID GROUP = 3215061757U;
+            static const AkUniqueID GROUP = 2091970017U;
 
             namespace STATE
             {
-                static const AkUniqueID FRUSTRATED = 1309079467U;
+                static const AkUniqueID DULL = 2365384220U;
+                static const AkUniqueID HOPEFUL = 2757808320U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID RELAXED = 1778460554U;
+                static const AkUniqueID TENSE = 391998042U;
             } // namespace STATE
-        } // namespace JAME_FRUSTRATED
+        } // namespace HOME_CHOICES
+
+        namespace HOMEWORK_MINI_GAME
+        {
+            static const AkUniqueID GROUP = 1271655340U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID RUSHED = 1074973636U;
+                static const AkUniqueID TENSE = 391998042U;
+                static const AkUniqueID ZEN = 1247662336U;
+            } // namespace STATE
+        } // namespace HOMEWORK_MINI_GAME
 
         namespace JAMES_CHOICES
         {
@@ -50,6 +66,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID DISAPPOINTED = 82996173U;
+                static const AkUniqueID FRUSTRATED = 1309079467U;
                 static const AkUniqueID HOPEFUL = 2757808320U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
@@ -97,6 +114,7 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID AMUSED = 3834882752U;
                 static const AkUniqueID CONCERNED = 3074533040U;
                 static const AkUniqueID DISAPPOINTED = 82996173U;
                 static const AkUniqueID HOPEFUL = 2757808320U;
@@ -121,9 +139,11 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID ANNOYED = 1194639741U;
                 static const AkUniqueID HAPPY = 1427264549U;
                 static const AkUniqueID HOPEFUL = 2757808320U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WORRIED = 1063915687U;
             } // namespace STATE
         } // namespace SITI_CHOICES
 

@@ -42,6 +42,10 @@
 							<ShortName>BG Music\Mrs Thiru_Day 1_108bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem</Path>
 						</File>
+						<File Id="427986342" Language="SFX">
+							<ShortName>BG Music\James_choice 1_hopeful_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice 1_hopeful_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
 						<File Id="435751986" Language="SFX">
 							<ShortName>BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem</Path>
@@ -58,17 +62,9 @@
 							<ShortName>BG Music\Siti_Day 1_130bpm_6-8.wav</ShortName>
 							<Path>SFX/BG Music/Siti_Day 1_130bpm_6-8_D79FB2B7.wem</Path>
 						</File>
-						<File Id="692347018" Language="SFX">
-							<ShortName>BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4.wav</ShortName>
-							<Path>SFX/BG Music/James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem</Path>
-						</File>
 						<File Id="726395424" Language="SFX">
 							<ShortName>BG Music\James_choice 2_disappointed_85bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem</Path>
-						</File>
-						<File Id="749487272" Language="SFX">
-							<ShortName>BG Music\James_choice 1_frustrated_85bpm_4-4.wav</ShortName>
-							<Path>SFX/BG Music/James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem</Path>
 						</File>
 						<File Id="844424994" Language="SFX">
 							<ShortName>BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4.wav</ShortName>
@@ -77,10 +73,6 @@
 						<File Id="978080902" Language="SFX">
 							<ShortName>BG Music\Siti_choice 2_hopeful_130bpm_6-8.wav</ShortName>
 							<Path>SFX/BG Music/Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem</Path>
-						</File>
-						<File Id="1055100629" Language="SFX">
-							<ShortName>BG Music\James_choice 1_hopeful_strings_85bpm_4-4.wav</ShortName>
-							<Path>SFX/BG Music/James_choice 1_hopeful_strings_85bpm_4-4_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -144,58 +136,24 @@
 										<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
 											<Children>
 												<SwitchContainer SwitchValue="{C1A84C48-2158-4287-A72C-D46802795856}">
-													<Children>
-														<SwitchContainer SwitchValue="{8489F07A-EE72-44AE-A3B9-2205CF13AD75}">
-															<Media>
-																<File Id="546400724"/>
-															</Media>
-														</SwitchContainer>
-													</Children>
-												</SwitchContainer>
-											</Children>
-										</SwitchContainer>
-										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-											<Children>
-												<SwitchContainer SwitchValue="{EFF06FEE-306D-4607-A2A2-8669E18770DD}">
-													<Children>
-														<SwitchContainer SwitchValue="{290D31C7-0EEE-4ABA-978D-EB47AABB4358}">
-															<Media>
-																<File Id="749487272"/>
-																<File Id="692347018"/>
-															</Media>
-														</SwitchContainer>
-													</Children>
+													<Media>
+														<File Id="546400724"/>
+													</Media>
 												</SwitchContainer>
 											</Children>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
 											<Children>
 												<SwitchContainer SwitchValue="{1D26D5C1-71A1-4508-BE32-CAB8BB0115E9}">
-													<Children>
-														<SwitchContainer SwitchValue="{0076E9D1-047A-4225-B830-4877A3D201B4}">
-															<Media>
-																<File Id="1055100629"/>
-																<File Id="692347018"/>
-																<File Id="726395424"/>
-															</Media>
-														</SwitchContainer>
-													</Children>
+													<Media>
+														<File Id="427986342"/>
+														<File Id="726395424"/>
+													</Media>
 												</SwitchContainer>
 											</Children>
 										</SwitchContainer>
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-											<Children>
-												<SwitchContainer SwitchValue="{EFF06FEE-306D-4607-A2A2-8669E18770DD}">
-													<Children/>
-												</SwitchContainer>
-											</Children>
-										</SwitchContainer>
-										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-											<Children>
-												<SwitchContainer SwitchValue="{4148B15D-788B-49C9-8216-E7F2754C658E}">
-													<Children/>
-												</SwitchContainer>
-											</Children>
+											<Children/>
 										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
@@ -249,7 +207,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="558496020" Name="Canteen_stop" ObjectPath="\Events\Default Work Unit\Ambience\Canteen_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="Infinite">
+				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="OneShot" DurationMin="6.587857" DurationMax="14.410232">
 					<IncludedMemoryFiles>
 						<File Id="74720509" Language="SFX">
 							<ShortName>Dialogue\James_tired_01.wav</ShortName>
@@ -505,7 +463,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="854850843" Name="Living_room_stop" ObjectPath="\Events\Default Work Unit\Ambience\Living_room_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3399698792" Name="Main_menu_music" ObjectPath="\Events\Default Work Unit\Music\Main menu\Main_menu_music" DurationType="Infinite">
+				<Event Id="4055567060" Name="Menu_music" ObjectPath="\Events\Default Work Unit\Music\Main menu\Menu_music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="214167873" Language="SFX">
 							<ShortName>Main Menu\Heritage Jam_Title Music.wav</ShortName>
@@ -638,6 +596,10 @@
 					<ShortName>Dialogue\James_frustrated_01.wav</ShortName>
 					<Path>SFX/Dialogue/James_frustrated_01_10C4C929.wem</Path>
 				</File>
+				<File Id="427986342" Language="SFX">
+					<ShortName>BG Music\James_choice 1_hopeful_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice 1_hopeful_85bpm_4-4_D79FB2B7.wem</Path>
+				</File>
 				<File Id="431605522" Language="SFX">
 					<ShortName>Dialogue\Siti_annoyed_02.wav</ShortName>
 					<Path>SFX/Dialogue/Siti_annoyed_02_10C4C929.wem</Path>
@@ -714,10 +676,6 @@
 					<ShortName>Dialogue\James_tired_02.wav</ShortName>
 					<Path>SFX/Dialogue/James_tired_02_10C4C929.wem</Path>
 				</File>
-				<File Id="692347018" Language="SFX">
-					<ShortName>BG Music\James_choice 1_hopeful_woodwinds_85bpm_4-4.wav</ShortName>
-					<Path>SFX/BG Music/James_choice 1_hopeful_woodwinds_85bpm_4-4_D79FB2B7.wem</Path>
-				</File>
 				<File Id="722481702" Language="SFX">
 					<ShortName>Dialogue\Mrs Thiru_amused_03.wav</ShortName>
 					<Path>SFX/Dialogue/Mrs Thiru_amused_03_10C4C929.wem</Path>
@@ -729,10 +687,6 @@
 				<File Id="728963303" Language="SFX">
 					<ShortName>Dialogue\Siti_worried_01.wav</ShortName>
 					<Path>SFX/Dialogue/Siti_worried_01_10C4C929.wem</Path>
-				</File>
-				<File Id="749487272" Language="SFX">
-					<ShortName>BG Music\James_choice 1_frustrated_85bpm_4-4.wav</ShortName>
-					<Path>SFX/BG Music/James_choice 1_frustrated_85bpm_4-4_D79FB2B7.wem</Path>
 				</File>
 				<File Id="771453085" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Typing02.wav</ShortName>
@@ -790,10 +744,6 @@
 					<ShortName>Dialogue\James_disappointed_03.wav</ShortName>
 					<Path>SFX/Dialogue/James_disappointed_03_10C4C929.wem</Path>
 				</File>
-				<File Id="1055100629" Language="SFX">
-					<ShortName>BG Music\James_choice 1_hopeful_strings_85bpm_4-4.wav</ShortName>
-					<Path>SFX/BG Music/James_choice 1_hopeful_strings_85bpm_4-4_D79FB2B7.wem</Path>
-				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="725232568" Name="Dialogue_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Dialogue_Volume"/>
@@ -810,52 +760,50 @@
 						<State Id="1870080928" Name="BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\BG"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="1619247981" Name="Siti_choices" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices">
+				<StateGroup Id="1619247981" Name="Siti_choices" ObjectPath="\States\Default Work Unit\Music\Siti_choices">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices\None"/>
-						<State Id="1427264549" Name="Happy" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices\Happy"/>
-						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mon\Siti_choices\Hopeful"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Siti_choices\None"/>
+						<State Id="1427264549" Name="Happy" ObjectPath="\States\Default Work Unit\Music\Siti_choices\Happy"/>
+						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Siti_choices\Hopeful"/>
+						<State Id="1194639741" Name="Annoyed" ObjectPath="\States\Default Work Unit\Music\Siti_choices\Annoyed"/>
+						<State Id="1063915687" Name="Worried" ObjectPath="\States\Default Work Unit\Music\Siti_choices\Worried"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="2225504254" Name="Monologue_or_Mrs_Thiru" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru">
+				<StateGroup Id="2225504254" Name="Monologue_or_Mrs_Thiru" ObjectPath="\States\Default Work Unit\Music\Monologue_or_Mrs_Thiru">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\None"/>
-						<State Id="3368367120" Name="Monologue" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Monologue"/>
-						<State Id="4043819383" Name="Mrs_Thiru_mon" ObjectPath="\States\Default Work Unit\Music\Mon\Monologue_or_Mrs_Thiru\Mrs_Thiru_mon"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Monologue_or_Mrs_Thiru\None"/>
+						<State Id="3368367120" Name="Monologue" ObjectPath="\States\Default Work Unit\Music\Monologue_or_Mrs_Thiru\Monologue"/>
+						<State Id="4043819383" Name="Mrs_Thiru_mon" ObjectPath="\States\Default Work Unit\Music\Monologue_or_Mrs_Thiru\Mrs_Thiru_mon"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="2805117609" Name="Mrs_Thiru_choices" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices">
+				<StateGroup Id="2805117609" Name="Mrs_Thiru_choices" ObjectPath="\States\Default Work Unit\Music\Mrs_Thiru_choices">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\None"/>
-						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\Hopeful"/>
-						<State Id="3074533040" Name="Concerned" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\Concerned"/>
-						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\Mon\Mrs_Thiru_choices\Disappointed"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mrs_Thiru_choices\None"/>
+						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mrs_Thiru_choices\Hopeful"/>
+						<State Id="3074533040" Name="Concerned" ObjectPath="\States\Default Work Unit\Music\Mrs_Thiru_choices\Concerned"/>
+						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\Mrs_Thiru_choices\Disappointed"/>
+						<State Id="3834882752" Name="Amused" ObjectPath="\States\Default Work Unit\Music\Mrs_Thiru_choices\Amused"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="2898708738" Name="James_choices" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices">
+				<StateGroup Id="2898708738" Name="James_choices" ObjectPath="\States\Default Work Unit\Music\James_choices">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices\None"/>
-						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices\Hopeful"/>
-						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\Mon\James_choices\Disappointed"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\James_choices\None"/>
+						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\James_choices\Hopeful"/>
+						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\James_choices\Disappointed"/>
+						<State Id="1309079467" Name="Frustrated" ObjectPath="\States\Default Work Unit\Music\James_choices\Frustrated"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="2950144597" Name="James_or_Siti" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti">
+				<StateGroup Id="2950144597" Name="James_or_Siti" ObjectPath="\States\Default Work Unit\Music\James_or_Siti">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\None"/>
-						<State Id="126245619" Name="James" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\James"/>
-						<State Id="436113200" Name="Siti" ObjectPath="\States\Default Work Unit\Music\Mon\James_or_Siti\Siti"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\James_or_Siti\None"/>
+						<State Id="126245619" Name="James" ObjectPath="\States\Default Work Unit\Music\James_or_Siti\James"/>
+						<State Id="436113200" Name="Siti" ObjectPath="\States\Default Work Unit\Music\James_or_Siti\Siti"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="3215061757" Name="Jame_frustrated" ObjectPath="\States\Default Work Unit\Music\Mon\Jame_frustrated">
+				<StateGroup Id="3347180824" Name="Selected_or_not" ObjectPath="\States\Default Work Unit\Music\Selected_or_not">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Jame_frustrated\None"/>
-						<State Id="1309079467" Name="Frustrated" ObjectPath="\States\Default Work Unit\Music\Mon\Jame_frustrated\Frustrated"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="3347180824" Name="Selected_or_not" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not\None"/>
-						<State Id="363882074" Name="Selected" ObjectPath="\States\Default Work Unit\Music\Mon\Selected_or_not\Selected"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Selected_or_not\None"/>
+						<State Id="363882074" Name="Selected" ObjectPath="\States\Default Work Unit\Music\Selected_or_not\Selected"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
