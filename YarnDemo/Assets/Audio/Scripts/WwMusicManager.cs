@@ -26,6 +26,8 @@ public class WwMusicManager : MonoBehaviour
 
     public void BGMusic()
     {
+        //note: post event line for all the music in BG music goes after the set states
+        //e.g. setstate "BG", "James" then post event "BG_music"
         AkSoundEngine.SetState("Menu_or_BG", "BG"); //sets it to BG
         AkSoundEngine.PostEvent("BG_music", gameObject); //plays the music
         
@@ -51,7 +53,7 @@ public class WwMusicManager : MonoBehaviour
     public void MrsThiruMusic()
     {
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon"); //sets it to play Mrs Thiru music for mon
-        AkSoundEngine.PostEvent("BG_Music", gameObject);
+       
         //choices
         //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
         //if choice "I'm sorry" is selected set state to hopeful
@@ -62,7 +64,7 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Disappointed");
         //if a choice is not selected, will continue playing music until a choice is selected
         AkSoundEngine.SetState("Selected_or_no", "Selected"); //set the state to selected
-
+        //post event line goes after the set states
     }
 
     //will update script again when I've set it up in wwise for tue and wed
@@ -80,6 +82,7 @@ public class WwMusicManager : MonoBehaviour
 
         //set state to selected when a choice is selected
         AkSoundEngine.SetState("Selected_or_no", "Selected");
+        
 
     }
 
@@ -95,6 +98,7 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.SetState("Siti_choices", "Hopeful");
         //if option is selected, set state to selected
         AkSoundEngine.SetState("Selected_or_no", "Selected");
+        
     }
 
     public void HomeMusic()
