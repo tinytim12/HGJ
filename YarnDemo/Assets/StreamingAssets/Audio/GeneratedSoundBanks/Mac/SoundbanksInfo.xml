@@ -155,6 +155,9 @@
 										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
 											<Children/>
 										</SwitchContainer>
+										<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+											<Children/>
+										</SwitchContainer>
 									</Children>
 								</SwitchContainer>
 							</Children>
