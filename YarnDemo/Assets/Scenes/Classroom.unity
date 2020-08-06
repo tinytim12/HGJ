@@ -181,6 +181,12 @@ PrefabInstance:
       propertyPath: background
       value: 
       objectReference: {fileID: 784102444}
+    - target: {fileID: 3367439976219179394, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: homeBackground
+      value: 
+      objectReference: {fileID: 21300000, guid: f2ec7e51e58e5774e94ff627a7634be8,
+        type: 3}
     - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -328,6 +334,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 39b1b130e75a9724db8ef56318b9cd02,
         type: 3}
+    - target: {fileID: 4796837127218851208, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: PhoneTenseS
+      value: 
+      objectReference: {fileID: 21300000, guid: 5acd677763540664f8bec48f5b4c3ec2,
+        type: 3}
+    - target: {fileID: 4796837127218851208, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: Phone
+      value: 
+      objectReference: {fileID: 21300000, guid: 5acd677763540664f8bec48f5b4c3ec2,
+        type: 3}
+    - target: {fileID: 4796837127218851208, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: bg
+      value: 
+      objectReference: {fileID: 784102444}
     - target: {fileID: 5204264784589982011, guid: e02aa7143c6def340bb2d3e143962f6a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -383,6 +406,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411476483786703249, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411476483786703249, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411476483786703249, guid: e02aa7143c6def340bb2d3e143962f6a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 252419698258414816, guid: e02aa7143c6def340bb2d3e143962f6a, type: 3}

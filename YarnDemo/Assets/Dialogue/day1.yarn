@@ -58,6 +58,8 @@ Yet, she recovers her composure.
 She quickly goes through the content again, but very briefly.
 You’ve got some elbow grease waiting for you at home.
 You steel yourself to dedicate more time to your homework at night. (You have 60 seconds for a homework exercise later.)
+<<setTime GameController 60>>
+
 [[CorridorDay1]]
 
 ===
@@ -78,6 +80,8 @@ Mrs Thiru looks at you with understanding in her eyes.
 Is that a glimpse of sorrow you detect? Probably not.
 Yet, as she gives some generic advice about proper time management, you feel it ring hollow.
 You decide that you’ll allocate a usual amount of attention to your homework at night. (You have 30 seconds for a homework exercise later.)
+
+<<setTime GameController 30>>
 [[CorridorDay1]]
 
 ===
@@ -99,6 +103,7 @@ A few moments of awkward silence pass.
 You wish you had the courage to tell her that you don’t want to study...
 You leave her office, no better than when you entered it.
 The exchange has drained you emotionally. Weary, you decide to allocate less time to complete your homework at night. (You have 15 seconds for a homework exercise later.)
+<<setTime GameController 15>>
 
 
 [[CorridorDay1]]
@@ -109,8 +114,14 @@ tags:
 colorID: 8
 position: 413,-232
 ---
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 2>>
 
 <<changeScene GameController corridor>>
+<<startFadeIn GameController 1 bg>>
+<<wait 1>>
+
 
 As you step out of the staff room, you see two of your classmates.
 
@@ -144,6 +155,10 @@ position: 779,-81
 
 <<SitiHappy Sprite>>
 
+<<startFadeIn GameController 1 s>>
+
+<<wait 1>>
+
 MC: “Hey Siti, what’s up?”
 
 Siti whirls around, a pleasant smile on her face. 
@@ -167,7 +182,7 @@ MC: “Actually, I see where you are coming from, drawing from the spirit of com
 
 Siti: “Nice! Let me tell you more...” 
 
-<<SitiHappy JamesSitiIntro>>
+<<SitiHappy Sprite>>
 
 And she keeps going, telling you about all the different programmes she’s thought of.
 
@@ -208,7 +223,13 @@ position: 999,-81
 
 <<HideJamesSiti GameController>>
 
+<<SitiHappy Sprite>>
+
 <<JamesTired Sprite>>
+
+<<startFadeIn GameController 1 s>>
+
+<<wait 1>>
 
 MC: “Hi, James. You good?”
 
@@ -232,6 +253,12 @@ MC: “Sure, James. Don’t worry about it. Come, let’s eat together.”
 
 James: “Thank you so much!”
 
+<<startFadeOut GameController 1 s>>
+
+<<wait 1>>
+
+<<JamesFrustrated Sprite>>
+
 <<changeScene GameController canteen>>
 
 Over lunch, James complains about his work shift as he devours the char kway teow before him. He fishes out his phone to show you a webpage but could not get it to load. His phone notifies him that he has zero value in his prepaid card.
@@ -240,7 +267,9 @@ James: “Urgh sorry, I think I forgot to top my card up for my Internet to work
 
 MC: “Why not subscribe to a contract with Starhub or Singtel? They have really good value-for-money deals.”
 
-James sighs. (emotionJames: frustration)
+James sighs.
+
+<<JamesEvenMoreTired Sprite>>
 
 James: “...I don’t have the money for it. It’s hard for you to understand.”
 
@@ -262,7 +291,9 @@ position: 1339,-301
 ---
 MC: “I’m pretty low on cash myself. Perhaps, someday else?”
 
-James: “Yeah, sure, of course.” (emotionJames: disappointment)
+James: “Yeah, sure, of course.”
+
+<<JamesDisappointed Sprite>>
 
 James bites his lips, walks off with his hands fidgeting about in his pockets.
 
@@ -274,6 +305,30 @@ tags:
 colorID: 8
 position: 413,-232
 ---
+
+<<startFadeOut GameController 1 s>>
+
+<<startFadeOut GameController 1 bg>>
+
+<<wait 2>> 
+
+<<changeScene GameController home>>
+
+<<startFadeIn GameController 1 bg>>
+
+<<wait 1>>
+
+After a long day at school, you’re finally home.
+
+Your parents aren’t, however.
+
+Both Dad and Mom are working, and they usually don’t come back until after sunset.
+
+Sometimes, you don’t even get to see them before going to sleep.
+
+That, however, doesn’t mean they can’t communicate with you...
+
+<<PhoneTense Sprite>>
 
 Mom: “Your teacher called me today in the afternoon about your grades… didn’t you promise me you’ll work harder?”
 
@@ -322,7 +377,7 @@ She didn’t even bother to understand your struggle...
 
 
 ===
-title: Phone1.2
+title: PhoneDay1.2
 tags: 
 colorID: 0
 position: 753,-452
@@ -349,7 +404,7 @@ The expectations are high. Perhaps, unreasonably so?
 <<homework GameController>>
 
 ===
-title: Phone1.3
+title: PhoneDay1.3
 tags: 
 colorID: 0
 position: 973,-452

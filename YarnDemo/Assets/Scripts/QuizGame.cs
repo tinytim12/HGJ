@@ -41,8 +41,6 @@ public class QuizGame : MonoBehaviour
 
     void Awake()  //this whole awake function is googled in a attempt to not lose the variables. adjustable if you know what's going on, cuz i sure as hell dont
     {
-
-         DontDestroyOnLoad(gameObject);
   
     }
 
@@ -52,11 +50,8 @@ public class QuizGame : MonoBehaviour
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         time = gameController.getTime();
         timeTextGO = GameObject.Find("timeText");
-        rightScreen = GameObject.Find("questionRight");
         rightScreen.SetActive(false);
-        wrongScreen = GameObject.Find("questionWrong");
         wrongScreen.SetActive(false);
-        endQuiz = GameObject.Find("endQuiz");
         endQuiz.SetActive(false);
         
         shuffleQNA();
@@ -235,6 +230,7 @@ public class QuizGame : MonoBehaviour
     }
 
     public void goToSleep() {
+        gameController.increment();
         SceneManager.LoadScene("Classroom");
     }
  

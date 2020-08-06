@@ -666,7 +666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &491141271
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2939,10 +2939,10 @@ MonoBehaviour:
   - question three option four
   round: 0
   answeredQ: 000000000000000000000000
-  rightScreen: {fileID: 0}
-  wrongScreen: {fileID: 0}
-  endQuiz: {fileID: 0}
-  timeTextGO: {fileID: 0}
+  rightScreen: {fileID: 116712586}
+  wrongScreen: {fileID: 641809175}
+  endQuiz: {fileID: 491141270}
+  timeTextGO: {fileID: 1757295748}
 --- !u!4 &1869240938
 Transform:
   m_ObjectHideFlags: 0

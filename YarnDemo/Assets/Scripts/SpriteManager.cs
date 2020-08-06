@@ -23,12 +23,10 @@ public class SpriteManager : MonoBehaviour
     public Sprite SitiWorried2S;
     public Sprite SitiWorriedS;
     public Sprite SitiHopefulS;
-    public Sprite PhoneTenseS;
-    public Sprite PhoneDullS;
-    public Sprite PhoneRelaxedS;
-    public Sprite PhoneHopefulS;
+    public Sprite Phone;
 
     public SpriteRenderer spriteRenderer;
+    public SpriteRenderer bg;
 
     public Sprite Classroom;
 
@@ -132,21 +130,93 @@ public class SpriteManager : MonoBehaviour
 
     [YarnCommand("PhoneTense")]
     public void PhoneTense() {
-        Debug.Log("PhoneTense");
+        spriteRenderer.sprite = Phone;
+        StartCoroutine(PhoneTenseC());
+    }
+
+    public IEnumerator PhoneTenseC() {
+        Color currentColor = bg.GetComponent<SpriteRenderer>().material.color;
+        float currentRed = currentColor.r;
+        float currentGreen = currentColor.g;
+        float currentBlue = currentColor.b;
+        float currentAlpha = currentColor.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / 1) {
+            // set color with i as alpha
+            float r = Mathf.Lerp(currentRed, 0.5f, t);
+            float g = Mathf.Lerp(currentGreen, 0.1f, t);
+            float b = Mathf.Lerp(currentBlue, 0.1f, t);
+            float a = Mathf.Lerp(currentAlpha, 0.6f, t);
+            bg.GetComponent<SpriteRenderer>().material.color = new Color(r, g, b, a);
+            yield return null;
+        }
     }
 
     [YarnCommand("PhoneDull")]
     public void PhoneDull() {
+        spriteRenderer.sprite = Phone;
+        StartCoroutine(PhoneDullC());
+    }
 
+    public IEnumerator PhoneDullC() {
+        Color currentColor = bg.GetComponent<SpriteRenderer>().material.color;
+        float currentRed = currentColor.r;
+        float currentGreen = currentColor.g;
+        float currentBlue = currentColor.b;
+        float currentAlpha = currentColor.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / 1) {
+            // set color with i as alpha
+            float r = Mathf.Lerp(currentRed, 0f, t);
+            float g = Mathf.Lerp(currentGreen, 0f, t);
+            float b = Mathf.Lerp(currentBlue, 0f, t);
+            float a = Mathf.Lerp(currentAlpha, 0.6f, t);
+            bg.GetComponent<SpriteRenderer>().material.color = new Color(r, g, b, a);
+            yield return null;
+        }
     }
 
     [YarnCommand("PhoneRelaxed")]
     public void PhoneRelaxed() {
+        spriteRenderer.sprite = Phone;
+        StartCoroutine(PhoneRelaxedC());
+    }
 
+    public IEnumerator PhoneRelaxedC() {
+        Color currentColor = bg.GetComponent<SpriteRenderer>().material.color;
+        float currentRed = currentColor.r;
+        float currentGreen = currentColor.g;
+        float currentBlue = currentColor.b;
+        float currentAlpha = currentColor.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / 1) {
+            // set color with i as alpha
+            float r = Mathf.Lerp(currentRed, 0.1f, t);
+            float g = Mathf.Lerp(currentGreen, 0.1f, t);
+            float b = Mathf.Lerp(currentBlue, 0.6f, t);
+            float a = Mathf.Lerp(currentAlpha, 0.6f, t);
+            bg.GetComponent<SpriteRenderer>().material.color = new Color(r, g, b, a);
+            yield return null;
+        }
     }
 
     [YarnCommand("PhoneHopeful")]
     public void PhoneHopeful() {
+        spriteRenderer.sprite = Phone;
+        StartCoroutine(PhoneHopefulC());
+    }
 
+    public IEnumerator PhoneHopefulC() {
+        Color currentColor = bg.GetComponent<SpriteRenderer>().material.color;
+        float currentRed = currentColor.r;
+        float currentGreen = currentColor.g;
+        float currentBlue = currentColor.b;
+        float currentAlpha = currentColor.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / 1) {
+            // set color with i as alpha
+            float r = Mathf.Lerp(currentRed, 0.1f, t);
+            float g = Mathf.Lerp(currentGreen, 0.6f, t);
+            float b = Mathf.Lerp(currentBlue, 0.1f, t);
+            float a = Mathf.Lerp(currentAlpha, 0.6f, t);
+            bg.GetComponent<SpriteRenderer>().material.color = new Color(r, g, b, a);
+            yield return null;
+        }
     }
 }

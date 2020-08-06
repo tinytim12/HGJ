@@ -3,6 +3,11 @@ tags:
 colorID: 0
 position: 172,-255
 ---
+
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 2>>
+
 Another long day at school.
 
 Another day of lessons, homework, assignments, worksheets flies by.
@@ -11,9 +16,20 @@ Mrs Thiru is still concerned about you, even though she seems to have forgotten 
 
 With your class of 40 students occupying all of her time, can you really blame her?
 
+<<changeScene GameController staffroom>>
+
+<<startFadeIn GameController 1 bg>>
+
+<<wait 1>>
+
 Thiru: “How’s your preparation for the test?” 
 
-<<ThiruConcerned GameController>>
+<<ThiruConcerned Sprite>>
+
+<<startFadeIn GameController 1 s>>
+
+<<wait 1>>
+
 
 <<if $mom_standyourground is 1>> 
 
@@ -21,7 +37,7 @@ Thiru: “How’s your preparation for the test?”
 
     Mrs Thiru is taken aback. 
     
-    <<ThiruSurprised GameController>>
+    <<ThiruSurprised Sprite>>
 
     You cannot meet her glance.
 
@@ -37,7 +53,7 @@ Thiru: “How’s your preparation for the test?”
 
     Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” 
     
-    <<ThiruDisappointed GameController>>
+    <<ThiruDisappointed Sprite>>
 
     As you walk out of her office, you can’t help but feel like you'd disappointed Mrs Thiru.
 
@@ -53,7 +69,7 @@ Thiru: “How’s your preparation for the test?”
 
     You catch a glimmer of amusement in Mrs Thiru’s eye. 
     
-    <<ThiruAmused GameController>>
+    <<ThiruAmused Sprite>>
 
     Mrs Thiru: “That’s some good motivation… I’m glad you’ve decided to take charge of your own learning. But if you really do need some help preparing, do reach out to me.” 
 
@@ -71,7 +87,7 @@ Thiru: “How’s your preparation for the test?”
 
     Mrs Thiru: “Oh? You engaged a private tutor?” 
     
-    <<ThiruSurprised GameController>>
+    <<ThiruSurprised Sprite>>
 
     It’s too late for Mrs Thiru to hide a mixed tone of discontent and amusement in her voice.
 
@@ -81,7 +97,7 @@ Thiru: “How’s your preparation for the test?”
 
     Mrs Thiru: “I hope you’ll be able to grasp the learning material well for the test tomorrow.” 
     
-    << ThiruAmused GameController >>
+    << ThiruAmused Sprite >>
 
     You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
 
@@ -95,13 +111,25 @@ tags:
 colorID: 0
 position: 966,-160
 ---
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 2>>
+
+<<changeScene GameController canteen>>
+<<startFadeIn GameController 1 bg>>
+<<wait 1>>
+
 You walk down to the canteen and settle next to your friend for a meal.
 
 <<if $approach_james is 1>> 
 
 James looks stressed. The weight of all his concerns sinks his shoulders and glance, as he picks at his food.
 
-<<JamesTired GameController>>
+
+
+<<JamesTired Sprite>>
+<<startFadeIn GameController 1 s>>
+<<wait 1>>
 
 MC: “Hey, is everything alright?”
 
@@ -118,6 +146,11 @@ James: “I wish I could be like Siti - pursuing things I like and doing them we
 
 <<if $approach_siti is 1>> 
 
+<<SitiAnnoyed Sprite>>
+
+<<startFadeIn GameController 1 s>>
+<<wait 1>>
+
 Siti barely has time to eat her food.
 
 Putting aside her utensils every few seconds, she responds to a text on her phone. You recognise it as one of the higher end models.
@@ -126,7 +159,7 @@ MC: “Your new CCA working you really hard?"
 
 Siti: “I wish these texts were from my CCA... It’s this private tutor. He won’t stop messaging me about the past year papers and practice questions that I have to do when I get back home!“ 
 
-<<SitiAnnoyed GameController>>
+
 
 Siti: “I just feel so overwhelmed with everything - balancing CCAs, volunteering, engaging in leadership activities and school work... I wish I could drop this tutor.”
 
@@ -215,6 +248,17 @@ tags:
 colorID: 0
 position: 429,-260
 ---
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 2>>
+
+<<changeScene GameController staffroom>>
+
+<<startFadeIn GameController 1 bg>>
+
+<<wait 1>>
+
+
 Crashing down on the couch in your living room, you check your family WhatsApp chat.
 
 Surprisingly, it is quiet, with only the remnants of your mom’s scolding from yesterday on it.

@@ -3,6 +3,11 @@ tags:
 colorID: 0
 position: 1005,-317
 ---
+
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 2>>
+
 Test day.
 
 Regardless of how ill-prepared you might be, there is no escape from the test paper before you.
@@ -20,6 +25,15 @@ tags:
 colorID: 0
 position: 326,-296
 ---
+
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 1>>
+
+<<changeScene GameController canteen>>
+<<startFadeIn GameController 1 bg>>
+<<wait 1>>
+
 <<if $approach_siti is 1>> 
 
     [[SitiDay3]]
@@ -47,7 +61,10 @@ position: 326,-296
 
     Yet, she still frowns as you sit next to her for lunch. 
     
-    <<SitiAnnoyed GameController>>
+    <<SitiAnnoyed Sprite>>
+    
+    <<startFadeOut GameController 1 s>>
+    <<wait 1>>
 
     MC: “What’s wrong, Siti?”
 
@@ -94,7 +111,7 @@ position: 445,-523
 MC: “...”
 MC: “I know you’re strong, Siti. Perhaps treat it as extra practice?”
 Siti sighs. 
-<<SitiWorried GameController>>
+<<SitiWorried Sprite>>
 Siti: “I guess… but I would rather spend that time on my CCA. I wonder how much more of this I can tahan.”
 You fall silent.
 This doesn’t sound like the Siti you met on Monday.
@@ -117,10 +134,10 @@ MC: “Have you tried talking to the school counsellor?”
 Siti: “Only kids who actually need help go to her, right?”
 MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
 Siti hesitates a little. 
-<<SitiWorried GameController>>
+<<SitiWorried Sprite>>
 MC: “She’s paid to listen to your problems anyway.” 
 Siti chuckles a little. 
-<<SitiAmused GameController>>
+<<SitiAmused Sprite>>
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
@@ -182,7 +199,10 @@ position: 326,-296
     You sit next to him, eating a plate of Hokkien mee.
 
     He seems slightly hopeful today.  
-    <<JasonHopeful GameController>>
+    <<startFadeOut GameController 1 s>>
+    <<wait 1>>
+    
+    <<JasonHopeful Sprite>>
 
     MC: “Seems like the test went well?” 
 
@@ -198,7 +218,7 @@ position: 326,-296
 << if $work_james is 1>> 
 
     James looks even more tired than usual. 
-    <<JasonTired GameController>>
+    <<JasonTired Sprite>>
 
     He can barely eat his Hokkien mee without his eyes closing a little.
 
@@ -220,7 +240,7 @@ MC: “You’re his son, after all.”
 MC: “I know it’s cliche, but perhaps someday, after all the hard work we put in, we all get to live the lives we aspire to lead.”
 You’re not even convinced by your own statement, how would James feel about it?
 James: “That’s the kindest thing I’ve heard in school for a while.” 
-<<JamesHopeful GameController>>
+<<JamesHopeful Sprite>>
 James: “I hope this is the start of something better for me… at least I won’t have to see Mrs Thiru every week, haha.”
 We could all agree that it was a small step, but an important one nevertheless.
 
@@ -232,7 +252,7 @@ colorID: 0
 position: 935,-497
 ---
 James: “It seems worse than before. He refuses to go see a doctor about it.” 
-<<JamesWorried GameController>>
+<<JamesWorried Sprite>>
 James: “I don’t think he’ll be able to work for a while.”
 MC: “...”
 MC: “So you’re planning to cover his night shifts?”
@@ -257,7 +277,7 @@ position: 1155,-497
 ---
 MC: “Hopefully you’ll have more time to study before the next exam.”
 James falls silent. 
-<<JamesFrustrated GameController>>
+<<JamesFrustrated Sprite>>
 Deep down, both of you know that’s not the answer.
 How could he be expected to study if he had to help out at home so much?
 
@@ -275,7 +295,7 @@ James: “I’m afraid that’s non-existent when you've been dealt lousy cards 
 MC: “...”
 MC: “Whatever your choice is, I’ll be here if you need someone to talk to.”
 You both walk away from lunch, vaguely optimistic. 
-<<JamesHopeful GameController>>
+<<JamesHopeful Sprite>>
 Despite the astronomical odds, you want to hope that everyone gets a fair chance.
 Regardless of the letters or numbers on a paper.
 
@@ -287,7 +307,19 @@ tags:
 colorID: 0
 position: 565,-743
 ---
+
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 1>>
+
+<<changeScene GameController home>>
+<<startFadeIn GameController 1 bg>>
+<<wait 1>>
 You’re home again. Opening your WhatsApp chat, you’re greeted by a question from your mom.
+
+<<startFadeIn GameController 1 bg>>
+<<wait 1>>
+<<PhoneTense Sprite>>
 
 “How was the test today?”
 
@@ -371,6 +403,11 @@ tags:
 colorID: 0
 position: 387,-760
 ---
+
+<<startFadeOut GameController 1 bg>>
+<<startFadeOut GameController 1 s>>
+<<wait 1>>
+
 And thus, we end a tumultuous three days.
 
 Did things fly by too fast? Perhaps.
