@@ -5,7 +5,7 @@ using Yarn.Unity;
 
 public class WwSoundManager : MonoBehaviour
 {
-
+    Yarn.Unity.DialogueUI DialogueUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,10 @@ public class WwSoundManager : MonoBehaviour
         //when player receives msg from parents
         AkSoundEngine.PostEvent("Phone_Notification_Start", gameObject); //plays phone notification sound
         //when player is talking to parents
+        //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
+        DialogueUI = FindObjectOfType<Yarn.Unity.DialogueRunner>().GetComponent<DialogueUI>();
+        DialogueUI.textSpeed = 0f; 
+
         AkSoundEngine.PostEvent("Phone_Typing_Start", gameObject); //plays phone typing sound
         //stop sound when text isn't shown otherwise the sound will continue
         AkSoundEngine.PostEvent("Phone_Typing_Stop", gameObject); //stops phone typing sound
