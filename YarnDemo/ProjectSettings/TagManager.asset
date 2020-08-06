@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1033667813
+    locked: 0
+  - name: Dialogue
+    uniqueID: 3624238623
+    locked: 0
   - name: Sprite
     uniqueID: 881799851
     locked: 0
