@@ -3,8 +3,7 @@ tags:
 colorID: 0
 position: 1063,22
 ---
-<<startFadeOut GameController 3>>
-<<wait 3>> 
+<<NoSprite Sprite>>
 
 <<set $name to "Test">>
 
@@ -16,6 +15,12 @@ But... how true is that in this day and age?
 
 MONDAY
 
+<<changeScene GameController staffroom>>
+
+<<startFadeIn GameController 1 bg>>
+
+<<wait 1>>
+
 Class has ended.
 
 Yet, at the request of your teacher, here you are, at her cubicle.
@@ -23,6 +28,10 @@ Yet, at the request of your teacher, here you are, at her cubicle.
 Mrs Thiru motions to you to sit. Better than the other teachers who would have let you stand.
 
 <<ThiruConcerned Sprite>>
+
+<<startFadeIn GameController 1 s>>
+
+<<wait 1>>
 
 Mrs Thiru: “{$name}, I called you here to talk about your grades.”
 
