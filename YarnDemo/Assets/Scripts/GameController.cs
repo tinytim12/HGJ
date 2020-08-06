@@ -8,6 +8,8 @@ using Yarn.Unity;
 public class GameController : MonoBehaviour {
     public int day;
     // Start is called before the first frame update
+
+    public int time;
     public SpriteRenderer bg;
 
     public Sprite staffroomBackground;
@@ -39,6 +41,16 @@ public class GameController : MonoBehaviour {
         SceneManager.LoadScene("Hallway");
     }
 
+    [YarnCommand("getTime")]
+    public int getTime() {
+        return time;
+    }
+
+    [YarnCommand("setTime")]
+    public void setTime(int t) {
+        time = t; 
+    }
+
     [YarnCommand("getDay")]
     public int getDay() {
         return day;
@@ -60,7 +72,7 @@ public class GameController : MonoBehaviour {
 
     [YarnCommand("homework")]
     public void homework() {
-
+        SceneManager.LoadScene("Quiz");
     }
 
     [YarnCommand("startFadeIn")]
