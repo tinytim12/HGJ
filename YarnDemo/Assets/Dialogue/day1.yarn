@@ -7,14 +7,19 @@ position: 1180,353
 <<StaffRoom SoundManager>>
 <<changeScene GameController staffroom>>
 <<startFadeIn GameController 1 bg>>
+<<wait 1>>
+
+<<ThiruConcerned Sprite>>
 <<startFadeIn GameController 1 s>>
 <<wait 1>>
+
 <<MrsThiruDay1 MusicManager>> 
 <<SchoolBell SoundManager>> 
-<<ThiruConcerned Sprite>>
+
 
 <<BG MusicManager>> 
 <<Monologue MusicManager>> 
+
 
 Class has ended.
 
