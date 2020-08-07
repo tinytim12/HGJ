@@ -66,6 +66,10 @@
 							<ShortName>BG Music\Home_Day 1_Dull_95bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/Home_Day 1_Dull_95bpm_4-4_D79FB2B7.wem</Path>
 						</File>
+						<File Id="309220881" Language="SFX">
+							<ShortName>BG Music\Siti_choice_worried_130bpm_6-8.wav</ShortName>
+							<Path>SFX/BG Music/Siti_choice_worried_130bpm_6-8_D79FB2B7.wem</Path>
+						</File>
 						<File Id="427986342" Language="SFX">
 							<ShortName>BG Music\James_choice 1_hopeful_85bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/James_choice 1_hopeful_85bpm_4-4_D79FB2B7.wem</Path>
@@ -114,6 +118,10 @@
 							<ShortName>BG Music\Siti_choice 2_hopeful_130bpm_6-8.wav</ShortName>
 							<Path>SFX/BG Music/Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem</Path>
 						</File>
+						<File Id="998756946" Language="SFX">
+							<ShortName>BG Music\Siti_choice_annoyed_130bpm_6-8.wav</ShortName>
+							<Path>SFX/BG Music/Siti_choice_annoyed_130bpm_6-8_D79FB2B7.wem</Path>
+						</File>
 						<File Id="1063722860" Language="SFX">
 							<ShortName>BG Music\Home_Day 1_Tense_95bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/Home_Day 1_Tense_95bpm_4-4_D79FB2B7.wem</Path>
@@ -156,10 +164,22 @@
 															</Children>
 														</SwitchContainer>
 														<SwitchContainer SwitchValue="{A148F99B-5CC0-4543-8AFE-3BC7D0E4B431}">
-															<Children/>
+															<Children>
+																<SwitchContainer SwitchValue="{2E523133-9430-4ACC-8175-F3AB8A3E6223}">
+																	<Media>
+																		<File Id="309220881"/>
+																	</Media>
+																</SwitchContainer>
+															</Children>
 														</SwitchContainer>
 														<SwitchContainer SwitchValue="{A148F99B-5CC0-4543-8AFE-3BC7D0E4B431}">
-															<Children/>
+															<Children>
+																<SwitchContainer SwitchValue="{86F1A71E-5C3E-4A75-A66F-AD9520848C4B}">
+																	<Media>
+																		<File Id="998756946"/>
+																	</Media>
+																</SwitchContainer>
+															</Children>
 														</SwitchContainer>
 														<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
 															<Children/>
@@ -429,7 +449,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="558496020" Name="Canteen_stop" ObjectPath="\Events\Default Work Unit\Ambience\Canteen_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="OneShot" DurationMin="6.587857" DurationMax="14.410232">
+				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="74720509" Language="SFX">
 							<ShortName>Dialogue\James_tired_01.wav</ShortName>
@@ -839,6 +859,10 @@
 					<ShortName>BG Music\Home_Day 1_Dull_95bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/Home_Day 1_Dull_95bpm_4-4_D79FB2B7.wem</Path>
 				</File>
+				<File Id="309220881" Language="SFX">
+					<ShortName>BG Music\Siti_choice_worried_130bpm_6-8.wav</ShortName>
+					<Path>SFX/BG Music/Siti_choice_worried_130bpm_6-8_D79FB2B7.wem</Path>
+				</File>
 				<File Id="317812645" Language="SFX">
 					<ShortName>Dialogue\Mrs Thiru_surprised_02.wav</ShortName>
 					<Path>SFX/Dialogue/Mrs Thiru_surprised_02_10C4C929.wem</Path>
@@ -1006,6 +1030,10 @@
 				<File Id="978080902" Language="SFX">
 					<ShortName>BG Music\Siti_choice 2_hopeful_130bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem</Path>
+				</File>
+				<File Id="998756946" Language="SFX">
+					<ShortName>BG Music\Siti_choice_annoyed_130bpm_6-8.wav</ShortName>
+					<Path>SFX/BG Music/Siti_choice_annoyed_130bpm_6-8_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1026337781" Language="SFX">
 					<ShortName>Dialogue\James_frustrated_02.wav</ShortName>
