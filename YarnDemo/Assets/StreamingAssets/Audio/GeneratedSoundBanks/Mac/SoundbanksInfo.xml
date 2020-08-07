@@ -429,7 +429,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="558496020" Name="Canteen_stop" ObjectPath="\Events\Default Work Unit\Ambience\Canteen_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="OneShot" DurationMin="6.587857" DurationMax="14.410232">
+				<Event Id="3591387107" Name="Character_dialogue" ObjectPath="\Events\Default Work Unit\Dialogue\Character_dialogue" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="74720509" Language="SFX">
 							<ShortName>Dialogue\James_tired_01.wav</ShortName>
