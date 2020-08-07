@@ -18,12 +18,14 @@ public class WwSoundManager : MonoBehaviour
         
     }
 
+    [YarnCommand("SchoolBell")]
     public void SchoolBell()
     {
         AkSoundEngine.PostEvent("School_Bell_Start", gameObject); //plays school bell sound
     }
 
-    //play when there's dialogue with parents 
+    //play when there's dialogue with parents
+    [YarnCommand("PhoneTyping")]
     public void PhoneTyping()
     {
         //when player is talking to parents
@@ -34,12 +36,14 @@ public class WwSoundManager : MonoBehaviour
         //stop sound when text isn't shown otherwise the sound will continue
     }
 
+    [YarnCommand("PhoneNotification")]
     public void PhoneNotification()
     {
         //when player receives msg from parents
         AkSoundEngine.PostEvent("Phone_Notification_Start", gameObject); //plays phone notification sound
     }
 
+    [YarnCommand("LivingRoomAmbience")]
     public void LivingRoomAmbience()
     {
         //if at home (living room), play living room ambience
@@ -47,6 +51,7 @@ public class WwSoundManager : MonoBehaviour
         AkSoundEngine.PostEvent("Living_room_stop", gameObject); //stops playing living room ambience
     }
 
+    [YarnCommand("StaffRoomAmbience")]
     public void StaffRoomAmbience()
     {
         //if at school (staff room)
@@ -55,6 +60,7 @@ public class WwSoundManager : MonoBehaviour
 
     }
 
+    [YarnCommand("CanteenAmbience")]
     public void CanteenAmbience()
     {
         //if at school (canteen)
@@ -64,6 +70,7 @@ public class WwSoundManager : MonoBehaviour
     }
 
     //refer to writer's script in docs
+    [YarnCommand("JamesTired")]
     //if James is tired
     public void JamesTiredDialogue()
     {
@@ -82,6 +89,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if James is frustrated
+    [YarnCommand("JamesFrustrated")]
     public void JamesFrustratedDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -99,6 +107,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if James is disappointed
+    [YarnCommand("JamesDisappointed")]
     public void JamesDisappointedDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -114,8 +123,9 @@ public class WwSoundManager : MonoBehaviour
     }
 
 
-    //refer to writer's script in docs
+    //refer to writer's script 
     //if James is tired
+    [YarnCommand("JamesHopeful")]
     public void JamesHopefulDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -133,6 +143,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if James is tired
+    [YarnCommand("JamesWorried")]
     public void JamesWorriedDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -149,6 +160,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Siti is happy
+    [YarnCommand("SitiHappy")]
     public void SitiHappyDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -165,6 +177,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Siti is hopeful
+    [YarnCommand("SitiHopeful")]
     public void SitiHopefulDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -181,6 +194,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Siti is annoyed
+    [YarnCommand("SitiAnnoyed")]
     public void SitiAnnoyedDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -197,6 +211,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Siti is happy
+    [YarnCommand("SitiWorried")]
     public void SitiWorriedDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -213,6 +228,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Mrs Thiru is disappointed
+    [YarnCommand("ThiruDisappointed")]
     public void MrsThiruDisappointedialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -229,6 +245,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Mrs Thiru is concerned
+    [YarnCommand("ThiruConcerned")]
     public void MrsThiruConcernedDialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -245,6 +262,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Mrs Thiru is surprised
+    [YarnCommand("ThiruSurprised")]
     public void MrsThiruSurprisedialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
@@ -261,6 +279,7 @@ public class WwSoundManager : MonoBehaviour
 
     //refer to writer's script in docs
     //if Mrs Thiru is amused
+    [YarnCommand("ThiruAmused")]
     public void MrsThiruAmusedialogue()
     {
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up

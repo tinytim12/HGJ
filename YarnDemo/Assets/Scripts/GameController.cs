@@ -23,6 +23,8 @@ public class GameController : MonoBehaviour {
 
     public DialogueRunner dialogue;
 
+    public boolean finalTest;
+
     void Awake() {
         day = 1;
         DontDestroyOnLoad(this.gameObject);
@@ -85,6 +87,9 @@ public class GameController : MonoBehaviour {
 
     [YarnCommand("homework")]
     public void homework() {
+        if(day == 3) {
+            finalTest = true;
+        }
         SceneManager.LoadScene("Quiz");
     }
 
@@ -143,6 +148,10 @@ public class GameController : MonoBehaviour {
             bg.material.color = new Color(1, 1, 1, t);
             yield return null;
         }
+    }
+
+    public bool getTest() {
+        return finalTest;
     }
 
 }

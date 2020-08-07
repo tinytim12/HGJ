@@ -232,6 +232,15 @@ public class QuizGame : MonoBehaviour
     public void goToSleep() {
         gameController.increment();
         SceneManager.LoadScene("Classroom");
+
+        if (gameController.getTest()) {
+
+            if (score / 100 < 10) {
+
+            } else {
+
+            }
+        }
     }
  
 }
