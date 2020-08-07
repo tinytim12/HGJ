@@ -7,6 +7,8 @@ position: 1180,353
 
 <<set $name to "Test">>
 
+<<MrsThiruDay1 MusicManager>>
+
 Meritocracy has long been prized as one of our garden city's shining principles.
 
 If you work hard enough, you'll be able to attain success.
