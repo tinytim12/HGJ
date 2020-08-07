@@ -229,7 +229,7 @@ position: 999,-81
 ---
 <<set $approach_james to 1>>
 
-<<HideJamesSiti GameController>>
+<<HideJamesSiti JamesSitiIntro>>
 
 <<SitiHappy Sprite>>
 
