@@ -736,6 +736,24 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &704873408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4068380849537614946, guid: 4ec3df5875e7347beb6176b545b8fb39,
+    type: 3}
+  m_PrefabInstance: {fileID: 5935829474939389189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &704873410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704873408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a109e7e8d0856439e41404b0d53590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &769391233
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Thiru
-  talkToNode: Start
+  talkToNode: HomeDay1
   scriptToLoad1: {fileID: 2480198943629176163, guid: af80e6bcf591df84eb433d43df841f8f,
     type: 3}
   scriptToLoad2: {fileID: 2480198943629176163, guid: b43b517c6e61a9c479872b9c938558bc,

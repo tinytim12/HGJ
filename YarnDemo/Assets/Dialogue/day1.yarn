@@ -1,4 +1,4 @@
-title: Start
+title: Start1
 tags: 
 colorID: 0
 position: 1063,22
@@ -93,11 +93,7 @@ tags:
 colorID: 0
 position: 1623,-198
 ---
-title: You say nothing.
-tags: 
-colorID: 3
-position: 1194,91
----
+
 It’s easier.
 Mrs Thiru: “Is everything alright? You can always tell me if anything is the matter at home.”
 You cannot bear to stare into her eyes. 
@@ -125,7 +121,6 @@ position: 413,-232
 <<changeScene GameController corridor>>
 <<startFadeIn GameController 1 bg>>
 <<wait 1>>
-
 
 As you step out of the staff room, you see two of your classmates.
 
@@ -335,6 +330,8 @@ Both Dad and Mom are working, and they usually don’t come back until after sun
 Sometimes, you don’t even get to see them before going to sleep.
 
 <<PhoneTense Sprite>>
+
+<<startFadeIn GameController 1 s>>
 
 That, however, doesn’t mean they can’t communicate with you...
 

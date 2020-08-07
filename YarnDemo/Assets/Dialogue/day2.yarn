@@ -1,4 +1,4 @@
-title: Start
+title: Start2
 tags: 
 colorID: 0
 position: 172,-255
@@ -159,14 +159,14 @@ Siti: “I wish these texts were from my CCA... It’s this private tutor. He wo
 
 Siti: “I just feel so overwhelmed with everything - balancing CCAs, volunteering, engaging in leadership activities and school work... I wish I could drop this tutor.”
 
-[[ But the test is tomorrow. | SitiDay1.1 ]]
-[[ Perhaps you should. | SitiDay1.2 ]]
+[[ But the test is tomorrow. | SitiDay2.1 ]]
+[[ Perhaps you should. | SitiDay2.2 ]]
 
 <<endif>>
 
 ===
 
-title: SitiDay1.1
+title: SitiDay2.1
 tags: 
 colorID: 0
 position: 779,-403
@@ -180,7 +180,7 @@ You nod. You don’t necessarily agree that tuition is the best way, but the alt
 
 [[ The school bell rings as students pack up to go home. | HomeDay2 ]]
 ===
-title: SitiDay1.2
+title: SitiDay2.2
 tags: 
 colorID: 0
 position: 999,-403
@@ -239,7 +239,7 @@ MC: “Whatever you choose, I’ll be here for you.”
 
 [[ The school bell rings as students pack up to go home. | HomeDay2 ]]
 ===
-title: HomeDay1
+title: HomeDay2
 tags: 
 colorID: 0
 position: 429,-260
@@ -260,6 +260,8 @@ Crashing down on the couch in your living room, you check your family WhatsApp c
 Surprisingly, it is quiet, with only the remnants of your mom’s scolding from yesterday on it.
 
 <<PhoneDull Sprite>>
+
+<<startFadeIn GameController 1 s>>
 
 You get a new message:
 

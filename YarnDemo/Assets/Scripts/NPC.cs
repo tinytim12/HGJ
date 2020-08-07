@@ -25,6 +25,7 @@ SOFTWARE.
 */
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 namespace Yarn.Unity.Example {
@@ -46,21 +47,24 @@ namespace Yarn.Unity.Example {
         public YarnProgram scriptToLoad2;
         public YarnProgram scriptToLoad3;
 
+
         void Start() {
             dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+            // do whatever you like
             int day = GameObject.Find("GameController").GetComponent<GameController>().getDay();
             if (day == 1) {
                 dialogueRunner.Add(scriptToLoad1);
-            } else if (day == 2){
+                talkToNode = "HomeDay1";
+            } else if (day == 2) {
                 dialogueRunner.Add(scriptToLoad2);
-            } else if (day == 3){
+                talkToNode = "Start2";
+            } else if (day == 3) {
                 dialogueRunner.Add(scriptToLoad3);
+                talkToNode = "Start3";
             }
 
             dialogueRunner.StartDialogue(talkToNode);
-
         }
-
 
     }
 

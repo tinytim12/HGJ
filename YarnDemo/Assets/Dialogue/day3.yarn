@@ -1,4 +1,4 @@
-title: Start
+title: Start3
 tags: 
 colorID: 0
 position: 1005,-317
@@ -320,6 +320,7 @@ position: 565,-743
 You’re home again. Opening your WhatsApp chat, you’re greeted by a question from your mom.
 
 <<startFadeIn GameController 1 bg>>
+<<startFadeIn GameController 1 s>>
 <<wait 1>>
 <<Phone Sprite>>
 
@@ -420,7 +421,6 @@ Did things fly by too fast? Perhaps.
 But school does, too.
 
 Even more so when you’re educated in Singapore.
-
 
 Unlike other Visual Novels, we don’t have a good and bad ending.
 
