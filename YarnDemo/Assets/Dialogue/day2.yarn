@@ -110,12 +110,12 @@ Thiru: “How’s your preparation for the test?”
 title: CanteenDay2
 tags: 
 colorID: 0
-position: 966,-160
+position: 1050,68
 ---
 <<startFadeOut GameController 1 bg>>
 <<startFadeOut GameController 1 s>>
 <<wait 2>>
-
+<<Canteen SoundManager>> 
 <<changeScene GameController canteen>>
 <<startFadeIn GameController 1 bg>>
 <<wait 1>>
@@ -138,8 +138,8 @@ James: "My family needs the money so I have to do another shift at his workplace
 
 James: “I wish I could be like Siti - pursuing things I like and doing them well."
 
-[[ Your dad would not want to see you struggle with his work. | JamesDay2.1 ]]
-[[ The test is not that important anyway. | JamesDay2.2 ]]
+[[ Your dad would not want to see you struggle with his work. |JamesDay2.1]]
+[[ The test is not that important anyway. |JamesDay2.2]]
 
 <<endif>>
 
@@ -161,16 +161,16 @@ Siti: “I wish these texts were from my CCA... It’s this private tutor. He wo
 
 Siti: “I just feel so overwhelmed with everything - balancing CCAs, volunteering, engaging in leadership activities and school work... I wish I could drop this tutor.”
 
-[[ But the test is tomorrow. | SitiDay2.1 ]]
-[[ Perhaps you should. | SitiDay2.2 ]]
+[[ But the test is tomorrow. |SitiDay2.1]]
+[[ Perhaps you should. |SitiDay2.2]]
 
 <<endif>>
-
+<<StopCanteen SoundManager>>
 ===
 title: SitiDay2.1
 tags: 
 colorID: 0
-position: 779,-403
+position: 727,-130
 ---
 <<set $continuetuition_siti to 1>>
 
@@ -185,7 +185,7 @@ You nod. You don’t necessarily agree that tuition is the best way, but the alt
 title: SitiDay2.2
 tags: 
 colorID: 0
-position: 999,-403
+position: 1121,-274
 ---
 
 <<SitiAnnoyed MusicManager>>
@@ -209,7 +209,7 @@ You nod, concurring with the grandiose notion of a fun way to learn without the 
 title: JamesDay2.1
 tags: 
 colorID: 0
-position: 1086,-380
+position: 1377,-56
 ---
 <<set $study_james to 1>>
 
@@ -231,7 +231,7 @@ MC: “Whatever you choose, I’ll be here for you.”
 title: JamesDay2.2
 tags: 
 colorID: 0
-position: 1306,-380
+position: 1761,-213
 ---
 <<set $work_james to 1>>
 
@@ -249,7 +249,7 @@ MC: “Whatever you choose, I’ll be here for you.”
 title: HomeDay2
 tags: 
 colorID: 0
-position: 429,-260
+position: 379,7
 ---
 <<startFadeOut GameController 1 bg>>
 <<startFadeOut GameController 1 s>>
@@ -316,7 +316,7 @@ Dad: “Mom and I have been really busy with work…”
 title: DadDay2.1
 tags: 
 colorID: 0
-position: 549,-482
+position: 503,-422
 ---
 <<Phone SoundManager>> 
 MC: “I will apologise to mom.”
@@ -335,7 +335,7 @@ In the end, you decide that you’ll allocate the usual amount of time to your h
 title: DadDay2.2
 tags: 
 colorID: 0
-position: 769,-480
+position: 828,-375
 ---
 <<Phone SoundManager>> 
 MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
@@ -349,7 +349,7 @@ Your exchange with dad drained you emotionally. You doubt that you’ll have the
 title: DadDay2.3
 tags: 
 colorID: 0
-position: 989,-480
+position: 1031,-776
 ---
 <<Phone SoundManager>> 
 MC: "I really tried this time.”
@@ -369,7 +369,7 @@ In the end, you decide that you’ll allocate the usual amount of time to your h
 title: DadDay2.4
 tags: 
 colorID: 0
-position: 1209,-480
+position: 1263,-722
 ---
 MC: “The more I study, the more confused I get… :(”
 Dad: “ :( ”
