@@ -3,10 +3,16 @@ tags:
 colorID: 0
 position: 1180,353
 ---
-<<NoSprite Sprite>>
+<<ThiruConcerned Sprite>>
+
+<<startFadeIn GameController 1 s>>
+<<MrsThiruDay1 MusicManager>> 
+
+<<wait 1>>
+
+
 <<BG MusicManager>> 
 << Monologue MusicManager>> 
-<<set $name to "Test">>
 
 MONDAY
 <<changeScene GameController staffroom>>
@@ -19,18 +25,10 @@ MONDAY
 Class has ended.
 
 Yet, at the request of your teacher, here you are, at her cubicle.
-
+<<MrsThiruConcerned SoundManager>> 
 Mrs Thiru motions to you to sit. Better than the other teachers who would have let you stand.
 
-<<ThiruConcerned Sprite>>
-
-<<startFadeIn GameController 1 s>>
-<<MrsThiruDay1 MusicManager>> 
-
-<<wait 1>>
-<<MrsThiruConcerned SoundManager>> 
-
-Mrs Thiru: “{$name}, I called you here to talk about your grades.”
+Mrs Thiru: “I called you here to talk about your grades.”
 
 <<StopDialogue SoundManager>>
 
@@ -58,7 +56,7 @@ She probably wasn’t expecting such a quick and easy reply from you.
 Yet, she recovers her composure. 
 <<ThiruConcerned Sprite>>
 <<MrsThiruConcerned SoundManager>> 
-“Okay, {$name}. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:”
+“Okay. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:”
 <<StopDialogue SoundManager>>
 She quickly goes through the content again, but very briefly.
 You’ve got some elbow grease waiting for you at home.
