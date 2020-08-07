@@ -321,7 +321,7 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 
 <<startFadeIn GameController 1 bg>>
 <<wait 1>>
-<<PhoneTense Sprite>>
+<<Phone Sprite>>
 
 “How was the test today?”
 
@@ -341,6 +341,7 @@ position: 267,-540
 
 MC: “I could answer most of the questions...”
 Mom: “Good to hear!”
+<<PhoneRelaxed Sprite>>
 MC: “I was pleasantly surprised too.”
 Mom: “So who should you thank for helping you?”
 MC: “...”
@@ -353,6 +354,7 @@ Perhaps, someday when you grow up, they’ll see the success in you that they ha
 << if $mom_angry is 1 >>
 MC: “I could answer most of the questions...”
 Mom: “When you say that, your results always end up otherwise.”
+<<PhoneTense Sprite>>
 MC: “Mom, please believe me. The test was okay. If the results are lousy, we’ll talk again.”
 Mom: “I’m not convinced. And this is about your attitude to learn, not just your results.”
 MC: “There’s always something you have to nitpick me on. Why can’t you just be nice and supportive for once?”
@@ -369,7 +371,7 @@ colorID: 0
 position: 487,-540
 ---
 << if $mom_angry is 1 >>
-
+<<PhoneTense Sprite>>
 MC: “I’ll do better next time, I promise.”
 Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
 Mom: “You will start your private tuition next week.”
@@ -381,6 +383,7 @@ Only time will tell.
 <<endif>>
 
 << if $mom_happy is 1 >>
+<<PhoneDull Sprite>>
 MC: “I’m sorry mom, I really tried but the questions were too tricky.”
 MC: “The tuition didn’t really help.”
 Mom: “So now you are blaming it on the tuition?”

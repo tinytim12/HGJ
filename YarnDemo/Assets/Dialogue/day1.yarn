@@ -334,6 +334,8 @@ Both Dad and Mom are working, and they usually don’t come back until after sun
 
 Sometimes, you don’t even get to see them before going to sleep.
 
+<<PhoneTense Sprite>>
+
 That, however, doesn’t mean they can’t communicate with you...
 
 Mom: “Your teacher called me today in the afternoon about your grades… didn’t you promise me you’ll work harder?”
@@ -417,6 +419,8 @@ position: 973,-452
 <<set $mom_submit to 1>>
 
 MC: “I want to be better.”
+
+<<PhoneHopeful Sprite>>
 
 Mom: “I’m not a monster. I’m glad you understand... This tutor is the daughter of one of my colleague’s friends who graduated from a top school. She knows how best to score in exams.”
 

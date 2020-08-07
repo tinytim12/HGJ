@@ -259,6 +259,8 @@ Crashing down on the couch in your living room, you check your family WhatsApp c
 
 Surprisingly, it is quiet, with only the remnants of your mom’s scolding from yesterday on it.
 
+<<PhoneDull Sprite>>
+
 You get a new message:
 
 Dad: “Hey kid. Sorry about what happened yesterday…”
@@ -330,6 +332,8 @@ colorID: 0
 position: 989,-480
 ---
 MC: "I really tried this time.”
+
+<<PhoneHopeful Sprite>>
 Dad: “That’s good :)”
 Dad: “Go sleep early. All the best!”
 You smile a little as you lock your phone.
@@ -365,6 +369,8 @@ MC: “I’ll be fine.”
 MC: “Hopefully I can get better grades and not disappoint mom again...”
 Dad: “That’s good...”
 Dad: “Well, all the best kiddo! Do us proud :)”
+
+<<PhoneHopeful Sprite>>
 You lock your phone.
 Closing your eyes, you summon your mental strength to keep going.
 You steel yourself to dedicate more time to your homework at night. (You have 60 seconds for a homework exercise later.)
@@ -381,6 +387,8 @@ MC: “I’m trying really hard to like it, but I don’t. It’s in the way of 
 Dad: “I really want to take a break, but I can’t because I have to earn money for the family. You have to learn that in life, we often don’t get to do the things we like.”
 Dad: “If you had listened to your mom, perhaps you’ll have understood this already. She knows what’s best for you.”
 You don’t even want to continue this exchange with dad.
+
+<<PhoneTense Sprite>>
 You lock your phone, and throw it aside.
 Why can’t your parents ever see how tough it is to be a student?
 Did they forget?
