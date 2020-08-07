@@ -74,7 +74,6 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("MrsThiruSorry")]
     public void MrsThiruChoiceSorry()
     {
-        AkSoundEngine.SetState("Days", "Day_1");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Hopeful");
         BGMusic();
@@ -84,7 +83,6 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("MrsThiruDiscuss")]
     public void MrsThiruDiscuss()
     {
-        AkSoundEngine.SetState("Days", "Day_1");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Concerned");
         BGMusic();
@@ -94,10 +92,9 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("MrsThiruDontCare")]
     public void MrsThiruDontCare()
     {
-        AkSoundEngine.SetState("Menu_or_BG", "BG");
-        AkSoundEngine.SetState("Days", "Day_1");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Disappointed");
+        BGMusic();
     }
 
     //James day 1
