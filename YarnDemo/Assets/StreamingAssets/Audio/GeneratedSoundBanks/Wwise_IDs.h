@@ -26,6 +26,8 @@ namespace AK
         static const AkUniqueID PHONE_NOTIFICATION_STOP = 1777606602U;
         static const AkUniqueID PHONE_TYPING_START = 1019347030U;
         static const AkUniqueID PHONE_TYPING_STOP = 1714883926U;
+        static const AkUniqueID SCHOOL_BELL_START = 2667415058U;
+        static const AkUniqueID SCHOOL_BELL_STOP = 2908458442U;
         static const AkUniqueID STAFF_ROOM = 137461965U;
         static const AkUniqueID STAFF_ROOM_STOP = 428856256U;
     } // namespace EVENTS
@@ -94,7 +96,6 @@ namespace AK
                 static const AkUniqueID HOPEFUL = 2757808320U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID TIRED = 3386657621U;
-                static const AkUniqueID WORRIED = 1063915687U;
             } // namespace STATE
         } // namespace JAMES_CHOICES
 

@@ -59,6 +59,15 @@ public class WwMusicManager : MonoBehaviour
    
     }
 
+    public void MrsThiruMusicDay2()
+    {
+        //day 1
+        AkSoundEngine.SetState("Days", "Day_2");
+        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
+        BGMusic();
+
+    }
+
     //mrs thiru options
     //choice: "I'm sorry"
     [YarnCommand("MrsThiruSorry")]
