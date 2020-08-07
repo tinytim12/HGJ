@@ -316,49 +316,55 @@ Dad: “Mom and I have been really busy with work…”
 title: DadDay2.1
 tags: 
 colorID: 0
-position: 549,-480
+position: 549,-482
 ---
+<<Phone SoundManager>> 
 MC: “I will apologise to mom.”
 MC: “But I still hope she understands where I come from.”
 Dad: “I do... That feeling of being forced on a path you see no end to... Use it as fuel to study.”
 Dad: “The sooner you graduate, the sooner you can get a job and the more independent you can be.”
 Dad: “Okay kid, gotta bounce. See you soon.”
+<<PhoneStop SoundManager>> 
 And now, time to spend 10 minutes crafting a message for your mom.
 Will she even see it? And how will she respond when she does?
 Internally, you cringe a little as you type a generic apology. 
 In the end, you decide that you’ll allocate the usual amount of time to your homework at night. (You have 30 seconds for a homework exercise later.)
 << set $mom_angry to 1 >>
-[[ homework minigame 2 | homework2 ]]
+[[ homework minigame 2 |homework2]]
 ===
 title: DadDay2.2
 tags: 
 colorID: 0
 position: 769,-480
 ---
+<<Phone SoundManager>> 
 MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
 Dad: “You have to try and understand. She was very tired from her own work yesterday. If you offer peace first, she’ll take it.”
 MC: “So I have to apologise for how she communicates with me when she's angry?”
+<<PhoneStop SoundManager>> 
 Your exchange with dad drained you emotionally. You doubt that you’ll have the energy to complete your homework when you inevitably have to do it. (You have 15 seconds for the homework exercise later.)
 << set $mom_angry to 1 >>
-[[ homework minigame 2 | homework2 ]]
+[[ homework minigame 2 |homework2]]
 ===
 title: DadDay2.3
 tags: 
 colorID: 0
 position: 989,-480
 ---
+<<Phone SoundManager>> 
 MC: "I really tried this time.”
 
 <<PhoneHopeful Sprite>>
 Dad: “That’s good :)”
 Dad: “Go sleep early. All the best!”
+<<PhoneStop SoundManager>> 
 You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t show you support like this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
 
 In the end, you decide that you’ll allocate the usual amount of time to your homework at night. (You have 30 seconds for a homework exercise later.)
 << set $mom_happy to 1 >>
-[[ homework minigame 2 | homework2 ]]
+[[ homework minigame 2 |homework2]]
 ===
 title: DadDay2.4
 tags: 
