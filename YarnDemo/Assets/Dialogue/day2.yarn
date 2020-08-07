@@ -33,7 +33,7 @@ Thiru: “How’s your preparation for the test?”
 
 
 <<if $mom_standyourground is 1>> 
-
+<<MrsThiruConcerned MusicManager>> 
     MC: “I… didn’t really prepare.”
 
     Mrs Thiru is taken aback. 
@@ -51,19 +51,20 @@ Thiru: “How’s your preparation for the test?”
     What will she say? Can anything she say help?
 
     MC: “Yeah, everything is fine.”
-<<MrsThiruConcernedVoice SoundManager>> 
+<<MrsThiruDisappointedVoice SoundManager>> 
     Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” 
-    
+<<StopDialogue SoundManager>> 
     <<ThiruDisappointed Sprite>>
 
     As you walk out of her office, you can’t help but feel like you'd disappointed Mrs Thiru.
 
     [[corridorDay2]]
+<<BGStop MusicManager>> 
 
 <<endif>> 
 
 << if $mom_negotiate is 1>> 
-
+<<MrsTHiruAmused MusicManager>> 
     MC: “Well, it’s… I’m trying my best. I made a deal with my mum.”
 
     MC: “If I do well, she won’t force me to attend new tuition classes.”
@@ -77,13 +78,13 @@ Thiru: “How’s your preparation for the test?”
     Mrs Thiru smiles kindly at you. Her wording makes you feel somewhat better than anything your parents have told you.
 
     You leave her office, cautiously optimistic.
-
+ 
     [[corridorDay2]]
-
+<<BGStop MusicManager>>
 <<endif>>
 
 << if $mom_submit is 1>> 
-
+<<MrsThiruHopeful MusicManager>> 
     MC: “I’m going to meet with my tutor today.”
 
     Mrs Thiru: “Oh? You engaged a private tutor?” 
@@ -103,6 +104,7 @@ Thiru: “How’s your preparation for the test?”
     You leave her office, optimistic about your chances, yet still wondering how much the private tutor can help.
 
     [[CanteenDay2]]
+<<BGStop MusicManager>> 
 <<endif>>
 ===
 title: CanteenDay2
@@ -258,7 +260,7 @@ position: 429,-260
 <<startFadeIn GameController 1 bg>>
 
 <<wait 1>>
-
+<<LivingRoom SoundManager>> 
 <<HomeRelaxed MusicManager>>
 
 Crashing down on the couch in your living room, you check your family WhatsApp chat.
@@ -283,8 +285,8 @@ Dad: “Mom and I have been really busy with work…”
 
     Dad: “But she cares for you. You’ve got to understand where she comes from. She is working hard to give you everything you have now.”
 
-    [[ I thought about it yesterday. | DadDay2.1 ]] ]]
-    [[ She does not understand where I come from… | DadDay2.2 ]] ]]
+    [[ I thought about it yesterday. |DadDay2.1]] ]]
+    [[ She does not understand where I come from… |DadDay2.2]] ]]
 
 <<endif>> 
 
@@ -294,8 +296,8 @@ Dad: “Mom and I have been really busy with work…”
 
     Dad: “I heard you have a test tomorrow... are you ready?”
 
-    [[ I hope I can do well. | DadDay2.3 ]]
-    [[ Not really... | DadDay2.4 ]] ]]
+    [[ I hope I can do well. |DadDay2.3]]
+    [[ Not really... |DadDay2.4]] ]]
 
 <<endif>>
 
@@ -305,58 +307,64 @@ Dad: “Mom and I have been really busy with work…”
 
     Dad: “Wanted to ask if tuition went well today… there’s gonna be more work for you.”
 
-    [[ Thanks dad. | DadDay2.5 ]]
-    [[ Sighs | DadDay2.6 ]]
+    [[ Thanks dad. |DadDay2.5]]
+    [[ Sighs |DadDay2.6]]
 
 <<endif>>
-
+<<StopLivingRoom SoundManager>>
 ===
 title: DadDay2.1
 tags: 
 colorID: 0
-position: 549,-480
+position: 549,-482
 ---
+<<Phone SoundManager>> 
 MC: “I will apologise to mom.”
 MC: “But I still hope she understands where I come from.”
 Dad: “I do... That feeling of being forced on a path you see no end to... Use it as fuel to study.”
 Dad: “The sooner you graduate, the sooner you can get a job and the more independent you can be.”
 Dad: “Okay kid, gotta bounce. See you soon.”
+<<PhoneStop SoundManager>> 
 And now, time to spend 10 minutes crafting a message for your mom.
 Will she even see it? And how will she respond when she does?
 Internally, you cringe a little as you type a generic apology. 
 In the end, you decide that you’ll allocate the usual amount of time to your homework at night. (You have 30 seconds for a homework exercise later.)
 << set $mom_angry to 1 >>
-[[ homework minigame 2 | homework2 ]]
+[[ homework minigame 2 |homework2]]
 ===
 title: DadDay2.2
 tags: 
 colorID: 0
 position: 769,-480
 ---
+<<Phone SoundManager>> 
 MC: “Does she even listen to what I have to say? Every time she talks, it’s about her hopes, her dreams. Nothing about me and how I feel about this.”
 Dad: “You have to try and understand. She was very tired from her own work yesterday. If you offer peace first, she’ll take it.”
 MC: “So I have to apologise for how she communicates with me when she's angry?”
+<<PhoneStop SoundManager>> 
 Your exchange with dad drained you emotionally. You doubt that you’ll have the energy to complete your homework when you inevitably have to do it. (You have 15 seconds for the homework exercise later.)
 << set $mom_angry to 1 >>
-[[ homework minigame 2 | homework2 ]]
+[[ homework minigame 2 |homework2]]
 ===
 title: DadDay2.3
 tags: 
 colorID: 0
 position: 989,-480
 ---
+<<Phone SoundManager>> 
 MC: "I really tried this time.”
 
 <<PhoneHopeful Sprite>>
 Dad: “That’s good :)”
 Dad: “Go sleep early. All the best!”
+<<PhoneStop SoundManager>> 
 You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t show you support like this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
 
 In the end, you decide that you’ll allocate the usual amount of time to your homework at night. (You have 30 seconds for a homework exercise later.)
 << set $mom_happy to 1 >>
-[[ homework minigame 2 | homework2 ]]
+[[ homework minigame 2 |homework2]]
 ===
 title: DadDay2.4
 tags: 
