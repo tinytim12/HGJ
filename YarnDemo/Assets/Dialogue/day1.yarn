@@ -7,12 +7,6 @@ position: 1180,353
 << Monologue MusicManager>> 
 <<set $name to "Test">>
 
-Meritocracy has long been prized as one of our garden city's shining principles.
-
-If you work hard enough, you'll be able to attain success.
-
-But... how true is that in this day and age?
-
 MONDAY
 <<changeScene GameController staffroom>>
 <<StaffRoom SoundManager>> 
