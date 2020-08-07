@@ -1,9 +1,8 @@
 title: Start2
 tags: 
 colorID: 0
-position: 172,-255
+position: 172,-260
 ---
-
 <<startFadeOut GameController 1 bg>>
 <<startFadeOut GameController 1 s>>
 <<wait 2>>
@@ -23,9 +22,9 @@ With your class of 40 students occupying all of her time, can you really blame h
 <<startFadeIn GameController 1 bg>>
 
 <<wait 1>>
-
+<<MrsThiruConcernedVoice SoundManager>> 
 Thiru: “How’s your preparation for the test?” 
-
+<<StopDialogue SoundManager>> 
 <<ThiruConcerned Sprite>>
 
 <<startFadeIn GameController 1 s>>
@@ -42,9 +41,9 @@ Thiru: “How’s your preparation for the test?”
     <<ThiruSurprised Sprite>>
 
     You cannot meet her glance.
-
+<<MrsThiruConcernedVoice SoundManager>> 
     Thiru: “Is everything okay at home?”
-
+<<StopDialogue SoundManager>> 
     You want to tell her about that argument you and mom had.
 
     But yet, there’s still that level of doubt and distrust…
@@ -52,7 +51,7 @@ Thiru: “How’s your preparation for the test?”
     What will she say? Can anything she say help?
 
     MC: “Yeah, everything is fine.”
-
+<<MrsThiruConcernedVoice SoundManager>> 
     Mrs Thiru: “Then please study for the test tomorrow. It’s not too late - you have one more day to prepare.” 
     
     <<ThiruDisappointed Sprite>>
@@ -105,9 +104,7 @@ Thiru: “How’s your preparation for the test?”
 
     [[CanteenDay2]]
 <<endif>>
-
 ===
-
 title: CanteenDay2
 tags: 
 colorID: 0
@@ -168,7 +165,6 @@ Siti: “I just feel so overwhelmed with everything - balancing CCAs, volunteeri
 <<endif>>
 
 ===
-
 title: SitiDay2.1
 tags: 
 colorID: 0
@@ -208,7 +204,6 @@ You nod, concurring with the grandiose notion of a fun way to learn without the 
  ]]
 
 ===
-
 title: JamesDay2.1
 tags: 
 colorID: 0
@@ -424,4 +419,10 @@ After talking to dad, it’s time to do your homework. The stakes are raised thi
 
 <<homework GameController>>
 ===
-
+title: corridorDay2
+tags: 
+colorID: 0
+position: 292,-480
+---
+Empty Text
+===
