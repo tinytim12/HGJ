@@ -49,7 +49,8 @@ public class WwMusicManager : MonoBehaviour
     //Mrs Thiru
     public void MrsThiruMusic()
     {
-        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon"); 
+        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon");
+
        
         //choices
         //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
@@ -60,8 +61,7 @@ public class WwMusicManager : MonoBehaviour
         //if choice "I don't really care" is selected set state to disappointed
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Disappointed");
         //if a choice is not selected, will continue playing music until a choice is selected
-        AkSoundEngine.SetState("Selected_or_no", "Selected"); //set the state to selected
-      
+        
     }
 
     //will update script again when I've set it up in wwise for tue and wed
@@ -77,8 +77,6 @@ public class WwMusicManager : MonoBehaviour
         //if choice "I'm sorry, I don't" is selected set state to disappointed
         AkSoundEngine.SetState("James_choices", "Disappointed");
 
-        //set state to selected when a choice is selected
-        AkSoundEngine.SetState("Selected_or_no", "Selected");
         
 
     }
@@ -93,8 +91,7 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.SetState("Siti_choices", "Happy");
         //if choice "No, sorry" set state to hopeful
         AkSoundEngine.SetState("Siti_choices", "Hopeful");
-        //if option is selected, set state to selected
-        AkSoundEngine.SetState("Selected_or_no", "Selected");
+        
         
     }
 

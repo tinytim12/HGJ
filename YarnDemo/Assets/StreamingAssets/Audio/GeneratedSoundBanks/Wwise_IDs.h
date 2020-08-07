@@ -32,6 +32,19 @@ namespace AK
 
     namespace STATES
     {
+        namespace DAYS
+        {
+            static const AkUniqueID GROUP = 2043358152U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DAY_1 = 2664830941U;
+                static const AkUniqueID DAY_2 = 2664830942U;
+                static const AkUniqueID DAY_3 = 2664830943U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace DAYS
+
         namespace HOME
         {
             static const AkUniqueID GROUP = 3181406844U;
@@ -80,6 +93,8 @@ namespace AK
                 static const AkUniqueID FRUSTRATED = 1309079467U;
                 static const AkUniqueID HOPEFUL = 2757808320U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TIRED = 3386657621U;
+                static const AkUniqueID WORRIED = 1063915687U;
             } // namespace STATE
         } // namespace JAMES_CHOICES
 
@@ -132,17 +147,6 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MRS_THIRU_CHOICES
-
-        namespace SELECTED_OR_NOT
-        {
-            static const AkUniqueID GROUP = 3347180824U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID SELECTED = 363882074U;
-            } // namespace STATE
-        } // namespace SELECTED_OR_NOT
 
         namespace SITI_CHOICES
         {

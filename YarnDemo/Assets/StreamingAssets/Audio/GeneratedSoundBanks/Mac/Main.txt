@@ -42,13 +42,13 @@ Switch	ID	Name	Switch Group			Notes
 State Group	ID	Name			Wwise Object Path	Notes
 	879329718	Menu_or_BG			\Default Work Unit\Music\Menu_or_BG	
 	1619247981	Siti_choices			\Default Work Unit\Music\Siti_choices	
+	2043358152	Days			\Default Work Unit\Music\Days	
 	2091970017	Home_choices			\Default Work Unit\Music\Home_choices	
 	2225504254	Monologue_or_Mrs_Thiru			\Default Work Unit\Music\Monologue_or_Mrs_Thiru	
 	2805117609	Mrs_Thiru_choices			\Default Work Unit\Music\Mrs_Thiru_choices	
 	2898708738	James_choices			\Default Work Unit\Music\James_choices	
 	2950144597	James_or_Siti			\Default Work Unit\Music\James_or_Siti	
 	3181406844	Home			\Default Work Unit\Music\Home	
-	3347180824	Selected_or_not			\Default Work Unit\Music\Selected_or_not	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Menu_or_BG			
@@ -59,6 +59,10 @@ State	ID	Name	State Group			Notes
 	1194639741	Annoyed	Siti_choices			
 	1427264549	Happy	Siti_choices			
 	2757808320	Hopeful	Siti_choices			
+	748895195	None	Days			
+	2664830941	Day_1	Days			
+	2664830942	Day_2	Days			
+	2664830943	Day_3	Days			
 	391998042	Tense	Home_choices			
 	748895195	None	Home_choices			
 	1778460554	Relaxed	Home_choices			
@@ -74,15 +78,15 @@ State	ID	Name	State Group			Notes
 	3834882752	Amused	Mrs_Thiru_choices			
 	82996173	Disappointed	James_choices			
 	748895195	None	James_choices			
+	1063915687	Worried	James_choices			
 	1309079467	Frustrated	James_choices			
 	2757808320	Hopeful	James_choices			
+	3386657621	Tired	James_choices			
 	126245619	James	James_or_Siti			
 	436113200	Siti	James_or_Siti			
 	748895195	None	James_or_Siti			
 	748895195	None	Home			
 	3181406844	Home	Home			
-	363882074	Selected	Selected_or_not			
-	748895195	None	Selected_or_not			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	725232568	Dialogue_Volume			\Default Work Unit\Volume\Dialogue_Volume	
@@ -99,13 +103,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	40769514	Mrs Thiru_choice 3_disappointed_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice 3_disappointed_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 3_disappointed_108bpm_4-4		3929236
+	40769514	Mrs Thiru_choice 3_disappointed_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice 3_disappointed_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Choices\Mrs Thiru disappointed\Mrs Thiru disappointed\Mrs Thiru_choice 3_disappointed_108bpm_4-4		3929236
 	63651311	SFX_Phone_Notification_Vibrate03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Phone\SFX_Phone_Notification_Vibrate03_74DD6AAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate03		208192
 	66002388	Monologue_115bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Monologue_115bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\01 Monologue\01 Monologue\Monologue_115bpm_6-8\Monologue_115bpm_6-8		2880820
 	74720509	James_tired_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_tired_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Tired\James_tired_01		1305598
 	120780929	SFX_Phone_Typing03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Phone\SFX_Phone_Typing03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing03		612144
 	150231209	Siti_happy_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_happy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Happy\Siti_happy_03		814544
 	166172062	Mrs Thiru_concerned_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_concerned_03_87EEE814.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Concerned\Mrs Thiru_concerned_03		1075826
+	172394823	Mrs Thiru_choice_amused_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice_amused_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Choices\Mrs Thiru amused\Mrs Thiru_choice_amused_108bpm_4-4\Mrs Thiru_choice_amused_108bpm_4-4		3929220
 	181677387	Home_Day 3_Hopeful_100bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Home_Day 3_Hopeful_100bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Home\Home hopeful\Home_Day 3_Hopeful_100bpm_4-4\Home_Day 3_Hopeful_100bpm_4-4		3686592
 	186034236	James_hopeful_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_hopeful_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Hopeful\James_hopeful_02		1038018
 	201990229	Siti_worried_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_worried_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Worried\Siti_worried_03		907910
@@ -116,46 +121,46 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	273312989	James_hopeful_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_hopeful_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Hopeful\James_hopeful_01		1188192
 	275634585	Siti_hopeful_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_hopeful_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Hopeful\Siti_hopeful_03		857450
 	280432446	SFX_Phone_Notification_Vibrate02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Phone\SFX_Phone_Notification_Vibrate02_103DCC65.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate02		216192
-	291338911	Mrs Thiru_Day 1_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Mrs Thiru_Concerned\Mrs Thiru_concerned\Mrs Thiru_Day 1_108bpm_4-4		1706876
+	291338911	Mrs Thiru_Day 1_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Mrs Thiru Day 1_concerned\Mrs Thiru_concerned\Mrs Thiru_Day 1_108bpm_4-4		1706876
 	295105423	Home_Day 1_Dull_95bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Home_Day 1_Dull_95bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Home\Home dull\Home_Day 1_Dull_95bpm_4-4\Home_Day 1_Dull_95bpm_4-4		4453556
 	317812645	Mrs Thiru_surprised_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_surprised_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Surprised\Mrs Thiru_surprised_02		1055172
 	363991119	Mrs Thiru_concerned_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_concerned_01_1DB8D250.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Concerned\Mrs Thiru_concerned_01		1003928
 	391889051	James_disappointed_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_disappointed_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Disappointed\James_disappointed_01		1344192
 	401041285	James_frustrated_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_frustrated_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Frustrated\James_frustrated_01		1314416
-	427986342	James_choice 1_hopeful_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\James_choice 1_hopeful_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\James\James_Choices\James_Choices_Segment\James_choice 1_hopeful_85bpm_4-4		4715684
+	427986342	James_choice 1_hopeful_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\James_choice 1_hopeful_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\James\Choices\James hopeful\James hopeful\James_choice 1_hopeful_85bpm_4-4		4715684
 	431605522	Siti_annoyed_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_annoyed_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Annoyed\Siti_annoyed_02		769500
 	435082855	Mrs Thiru_concerned_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_concerned_02_69AF8EF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Concerned\Mrs Thiru_concerned_02		1038550
-	435751986	Mrs Thiru_choice 2_concerned_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 2_concerned_108bpm_4-4		3929284
+	435751986	Mrs Thiru_choice 2_concerned_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice 2_concerned_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Choices\Mrs Thiru concerned\Mrs Thiru concerned\Mrs Thiru_choice 2_concerned_108bpm_4-4		3929284
 	504516339	Mrs Thiru_surprised_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_surprised_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Surprised\Mrs Thiru_surprised_01		986142
 	511028233	James_frustrated_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_frustrated_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Frustrated\James_frustrated_03		987482
 	513468682	Staff Room	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Ambience\Ambience_Staff Room_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\School\Staff Room		4416192
 	526690727	Siti_hopeful_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_hopeful_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Hopeful\Siti_hopeful_02		853142
-	546400724	James_Day 1_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\James_Day 1_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\James\James_Tired\James_Tired\James_Day 1_85bpm_4-4		2618500
+	546400724	James_Day 1_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\James_Day 1_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\James\James Day 1_tired\James_Day 1_85bpm_4-4\James_Day 1_85bpm_4-4		2618500
 	556810316	Siti_worried_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_worried_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Worried\Siti_worried_02		663792
-	568803031	Siti_choice 1_happy_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Siti\Siti_Choices\Siti_Choices_Segment\Siti_choice 1_happy_130bpm_6-8		2618500
+	568803031	Siti_choice 1_happy_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Siti\Choices\Siti happy\Siti happy\Siti_choice 1_happy_130bpm_6-8		2618500
 	595249296	Mrs Thiru_amused_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_amused_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Amused\Mrs Thiru_amused_02		1075662
 	596229375	James_hopeful_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_hopeful_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Hopeful\James_hopeful_03		860456
 	623589535	SFX_Phone_Typing01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Phone\SFX_Phone_Typing01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing01		518144
 	624295064	Siti_annoyed_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_annoyed_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Annoyed\Siti_annoyed_01		651158
-	645410858	Siti_Day 1_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Siti_Day 1_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Siti\Siti_Happy\Siti_Day 1\Siti_Day 1_130bpm_6-8		1569972
+	645410858	Siti_Day 1_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Siti_Day 1_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Siti\Siti Day 1_happy\Siti_Day 1\Siti_Day 1_130bpm_6-8		1569972
 	648339471	Mrs Thiru_amused_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_amused_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Amused\Mrs Thiru_amused_01		1093792
 	654000457	Ambience_Canteen	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Ambience\Ambience_Canteen_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\School\Ambience_Canteen		3652128
 	687078840	Mrs Thiru_disappointed_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_disappointed_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Disappointed\Mrs Thiru_disappointed_03		1095842
 	690544362	James_tired_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_tired_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Tired\James_tired_02		1164692
 	722481702	Mrs Thiru_amused_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_amused_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Amused\Mrs Thiru_amused_03		1089372
-	726395424	James_choice 2_disappointed_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\James\James_Choices\James_Choices_Segment\James_choice 2_disappointed_85bpm_4-4		4715668
+	726395424	James_choice 2_disappointed_85bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\James\Choices\James disappointed\James disappointed\James_choice 2_disappointed_85bpm_4-4		4715668
 	728963303	Siti_worried_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_worried_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Worried\Siti_worried_01		787584
 	771453085	SFX_Phone_Typing02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Phone\SFX_Phone_Typing02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Typing\SFX_Phone_Typing02		552144
 	776807800	James_tired_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_tired_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Tired\James_tired_03		966332
 	782449726	James_disappointed_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_disappointed_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Disappointed\James_disappointed_02		1272342
 	801581992	Mrs Thiru_disappointed_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_disappointed_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Disappointed\Mrs Thiru_disappointed_02		1052842
-	844424994	Mrs Thiru_choice 1_hopeful_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Mrs Thiru_Choices\Mrs Thiru_Choices_Segment\Mrs Thiru_choice 1_hopeful_108bpm_4-4		3929220
+	844424994	Mrs Thiru_choice 1_hopeful_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Choices\Mrs Thiru hopeful\Mrs Thiru hopeful\Mrs Thiru_choice 1_hopeful_108bpm_4-4		3929220
 	875495006	Siti_annoyed_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_annoyed_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Annoyed\Siti_annoyed_03		780144
 	885914092	SFX_Phone_Notification_Vibrate01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Phone\SFX_Phone_Notification_Vibrate01_1C13E6F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate01		216192
 	909695388	Mrs Thiru_surprised_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Mrs Thiru_surprised_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Surprised\Mrs Thiru_surprised_03		1067056
 	937115243	Siti_happy_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_happy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Happy\Siti_happy_01		720192
 	944229703	Siti_hopeful_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\Siti_hopeful_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Hopeful\Siti_hopeful_01		720192
-	978080902	Siti_choice 2_hopeful_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Siti\Siti_Choices\Siti_Choices_Segment\Siti_choice 2_hopeful_130bpm_6-8		2618516
+	978080902	Siti_choice 2_hopeful_130bpm_6-8	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\BG Music\Siti_choice 2_hopeful_130bpm_6-8_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Siti\Choices\Siti hopeful\Siti hopeful\Siti_choice 2_hopeful_130bpm_6-8		2618516
 	1026337781	James_frustrated_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_frustrated_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Frustrated\James_frustrated_02		1217246
 	1032996371	Living Room	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Ambience\Ambience_Living Room_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Home\Living Room		7296192
 	1034320989	James_disappointed_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Mac\SFX\Dialogue\James_disappointed_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Disappointed\James_disappointed_03		887522

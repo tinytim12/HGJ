@@ -38,6 +38,10 @@
 							<ShortName>BG Music\Monologue_115bpm_6-8.wav</ShortName>
 							<Path>SFX/BG Music/Monologue_115bpm_6-8_D79FB2B7.wem</Path>
 						</File>
+						<File Id="172394823" Language="SFX">
+							<ShortName>BG Music\Mrs Thiru_choice_amused_108bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/Mrs Thiru_choice_amused_108bpm_4-4_D79FB2B7.wem</Path>
+						</File>
 						<File Id="181677387" Language="SFX">
 							<ShortName>BG Music\Home_Day 3_Hopeful_100bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/Home_Day 3_Hopeful_100bpm_4-4_D79FB2B7.wem</Path>
@@ -98,17 +102,7 @@
 									<Children>
 										<SwitchContainer SwitchValue="{D97D4CFC-7E45-417B-843B-D3C31E97FA31}">
 											<Children>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-													<Children>
-														<SwitchContainer SwitchValue="{F2DD1AF3-E4C1-4165-A043-4E4128F8AD1F}">
-															<Media>
-																<File Id="568803031"/>
-																<File Id="978080902"/>
-															</Media>
-														</SwitchContainer>
-													</Children>
-												</SwitchContainer>
-												<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children>
 														<SwitchContainer SwitchValue="{F2DD1AF3-E4C1-4165-A043-4E4128F8AD1F}">
 															<Media>
@@ -117,13 +111,25 @@
 														</SwitchContainer>
 													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-													<Children/>
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
+													<Children>
+														<SwitchContainer SwitchValue="{9B571270-DBF6-42E7-B1C5-7716E62471F9}">
+															<Media>
+																<File Id="568803031"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-													<Children/>
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
+													<Children>
+														<SwitchContainer SwitchValue="{FC9341DA-477F-4401-8660-D3B5CF1A8796}">
+															<Media>
+																<File Id="978080902"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children/>
 												</SwitchContainer>
 											</Children>
@@ -138,7 +144,7 @@
 									<Children>
 										<SwitchContainer SwitchValue="{D97D4CFC-7E45-417B-843B-D3C31E97FA31}">
 											<Children>
-												<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children>
 														<SwitchContainer SwitchValue="{C1A84C48-2158-4287-A72C-D46802795856}">
 															<Media>
@@ -147,20 +153,25 @@
 														</SwitchContainer>
 													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children>
 														<SwitchContainer SwitchValue="{1D26D5C1-71A1-4508-BE32-CAB8BB0115E9}">
 															<Media>
-																<File Id="427986342"/>
 																<File Id="726395424"/>
 															</Media>
 														</SwitchContainer>
 													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
-													<Children/>
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
+													<Children>
+														<SwitchContainer SwitchValue="{EFF06FEE-306D-4607-A2A2-8669E18770DD}">
+															<Media>
+																<File Id="427986342"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children/>
 												</SwitchContainer>
 											</Children>
@@ -192,36 +203,61 @@
 									<Children>
 										<SwitchContainer SwitchValue="{D97D4CFC-7E45-417B-843B-D3C31E97FA31}">
 											<Children>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children>
-														<SwitchContainer SwitchValue="{4A1A7B12-8A1F-4713-A78D-EF47AD8D501D}">
-															<Media>
-																<File Id="844424994"/>
-																<File Id="435751986"/>
-																<File Id="40769514"/>
-															</Media>
-														</SwitchContainer>
-													</Children>
-												</SwitchContainer>
-												<SwitchContainer SwitchValue="{79C5762C-E75B-47A4-BC3A-F023DB875CA1}">
-													<Children>
-														<SwitchContainer SwitchValue="{4A1A7B12-8A1F-4713-A78D-EF47AD8D501D}">
+														<SwitchContainer SwitchValue="{6CEC5888-F7B6-48EC-B907-FF19AC0A8177}">
 															<Media>
 																<File Id="291338911"/>
 															</Media>
 														</SwitchContainer>
 													</Children>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
+													<Children>
+														<SwitchContainer SwitchValue="{242096D8-96FB-4005-BFAF-49569BB698C2}">
+															<Media>
+																<File Id="435751986"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
+													<Children>
+														<SwitchContainer SwitchValue="{ADBCC2FC-D0BB-4717-A1BF-092F5AB797AA}">
+															<Media>
+																<File Id="40769514"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
+													<Children>
+														<SwitchContainer SwitchValue="{3518200F-217B-48DF-937A-739D37096800}">
+															<Media>
+																<File Id="844424994"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
+													<Children>
+														<SwitchContainer SwitchValue="{24C38B4D-0E86-49FF-97E7-1CF514F53B04}">
+															<Media>
+																<File Id="172394823"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
 													<Children/>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
 													<Children/>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
 													<Children/>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{FC4516F6-C137-4BDF-8253-4BC59FB14909}">
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
 													<Children/>
 												</SwitchContainer>
 											</Children>
@@ -611,6 +647,10 @@
 					<ShortName>Dialogue\Mrs Thiru_concerned_03.wav</ShortName>
 					<Path>SFX/Dialogue/Mrs Thiru_concerned_03_87EEE814.wem</Path>
 				</File>
+				<File Id="172394823" Language="SFX">
+					<ShortName>BG Music\Mrs Thiru_choice_amused_108bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Mrs Thiru_choice_amused_108bpm_4-4_D79FB2B7.wem</Path>
+				</File>
 				<File Id="181677387" Language="SFX">
 					<ShortName>BG Music\Home_Day 3_Hopeful_100bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/Home_Day 3_Hopeful_100bpm_4-4_D79FB2B7.wem</Path>
@@ -852,6 +892,14 @@
 						<State Id="1063915687" Name="Worried" ObjectPath="\States\Default Work Unit\Music\Siti_choices\Worried"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="2043358152" Name="Days" ObjectPath="\States\Default Work Unit\Music\Days">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Days\None"/>
+						<State Id="2664830941" Name="Day_1" ObjectPath="\States\Default Work Unit\Music\Days\Day_1"/>
+						<State Id="2664830942" Name="Day_2" ObjectPath="\States\Default Work Unit\Music\Days\Day_2"/>
+						<State Id="2664830943" Name="Day_3" ObjectPath="\States\Default Work Unit\Music\Days\Day_3"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="2091970017" Name="Home_choices" ObjectPath="\States\Default Work Unit\Music\Home_choices">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Home_choices\None"/>
@@ -883,6 +931,8 @@
 						<State Id="2757808320" Name="Hopeful" ObjectPath="\States\Default Work Unit\Music\James_choices\Hopeful"/>
 						<State Id="82996173" Name="Disappointed" ObjectPath="\States\Default Work Unit\Music\James_choices\Disappointed"/>
 						<State Id="1309079467" Name="Frustrated" ObjectPath="\States\Default Work Unit\Music\James_choices\Frustrated"/>
+						<State Id="3386657621" Name="Tired" ObjectPath="\States\Default Work Unit\Music\James_choices\Tired"/>
+						<State Id="1063915687" Name="Worried" ObjectPath="\States\Default Work Unit\Music\James_choices\Worried"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="2950144597" Name="James_or_Siti" ObjectPath="\States\Default Work Unit\Music\James_or_Siti">
@@ -896,12 +946,6 @@
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Home\None"/>
 						<State Id="3181406844" Name="Home" ObjectPath="\States\Default Work Unit\Music\Home\Home"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="3347180824" Name="Selected_or_not" ObjectPath="\States\Default Work Unit\Music\Selected_or_not">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Selected_or_not\None"/>
-						<State Id="363882074" Name="Selected" ObjectPath="\States\Default Work Unit\Music\Selected_or_not\Selected"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
