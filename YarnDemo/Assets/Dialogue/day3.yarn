@@ -1,7 +1,7 @@
 title: Start3
 tags: 
 colorID: 0
-position: 1005,-317
+position: 1410,-29
 ---
 
 <<startFadeOut GameController 1 bg>>
@@ -23,7 +23,7 @@ The test has just ended. Your favourite period of the day is here!
 title: Day3Friends
 tags: 
 colorID: 0
-position: 326,-296
+position: -16,-295
 ---
 
 <<startFadeOut GameController 1 bg>>
@@ -47,12 +47,10 @@ position: 326,-296
 <<endif>>
 
 ===
-
 title: SitiDay3
 tags: 
 colorID: 0
-position: 326,-296
-
+position: 196,-81
 ---
 
 << if $continuetuition_siti is 1>> 
@@ -127,7 +125,7 @@ She had sounded hopeful.
 title: SitiDay3.2
 tags: 
 colorID: 0
-position: 665,-523
+position: 806,-295
 ---
 MC: “I guess talking to your parents is not an option.”
 Siti laughs, but her chortle is void of humor.
@@ -194,8 +192,7 @@ How do we even begin chanigng a way of thinking that runs in our blood?
 title: Day3James
 tags: 
 colorID: 0
-position: 326,-296
-
+position: 540,-46
 ---
 
 << if $study_james is 1>> 
@@ -244,7 +241,7 @@ position: 326,-296
 title: JamesDay3.1
 tags: 
 colorID: 0
-position: 715,-497
+position: 887,-43
 ---
 MC: “You’re his son, after all.”
 MC: “I know it’s cliche, but perhaps someday, after all the hard work we put in, we all get to live the lives we aspire to lead.”
@@ -259,7 +256,7 @@ We could all agree that it was a small step, but an important one nevertheless.
 title: JamesDay3.2
 tags: 
 colorID: 0
-position: 935,-497
+position: 1141,-232
 ---
 James: “It seems worse than before. He refuses to go see a doctor about it.” 
 <<JamesWorried Sprite>>
@@ -283,7 +280,7 @@ Where had the years gone?
 title: James3.3
 tags: 
 colorID: 0
-position: 1155,-497
+position: 1243,-105
 ---
 MC: “Hopefully you’ll have more time to study before the next exam.”
 James falls silent. 
@@ -296,7 +293,7 @@ How could he be expected to study if he had to help out at home so much?
 title: James3.4
 tags: 
 colorID: 0
-position: 1375,-497
+position: 1630,-408
 ---
 MC: “Look at the big picture, years down the line, you won’t even remember having taken this test...”
 James: “I screw this one up and I bid my future goodbye. My parents have always told me to get a good job with my education so I don’t have to worry about money as much as they are now.”
@@ -311,7 +308,6 @@ Regardless of the letters or numbers on a paper.
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
-
 title: HomeDay3
 tags: 
 colorID: 0
@@ -381,15 +377,17 @@ And as your mom types a long message, definitely intended to lecture you over Wh
 title: MomDay3.2
 tags: 
 colorID: 0
-position: 487,-540
+position: 573,-316
 ---
 << if $mom_angry is 1 >>
 <<PhoneTense Sprite>>
 <<HomeTense MusicManager>>
+<<Phone SoundManager>> 
 MC: “I’ll do better next time, I promise.”
 Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
 Mom: “You will start your private tuition next week.”
 MC: “...”
+<<PhoneStop SoundManager>> 
 Maybe mom is right.
 Who knows?
 Only time will tell.
@@ -399,6 +397,7 @@ Only time will tell.
 << if $mom_happy is 1 >>
 <<PhoneDull Sprite>>
 <<HomeDull MusicManager>>
+<<Phone SoundManager>> 
 MC: “I’m sorry mom, I really tried but the questions were too tricky.”
 MC: “The tuition didn’t really help.”
 Mom: “So now you are blaming it on the tuition?”
@@ -410,18 +409,19 @@ Dad: “Dear, please. School is not all entirely about grades.”
 Dad: “Maybe we should start emphasizing other things and listen more to our child.”
 Mom: “You’ve always kept quiet and... now, you’ve decided to speak up and play the good cop card?”
 Mom: “Fine, listen to your dad, but don’t come crying back to me when you fail.”
+<<PhoneStop SoundManager>> 
 Well, some things just don’t change.
 Mom has always been a tad abrasive.
 But it was nice to see Dad finally have the time to step up for you.
 
 [[ ending: |ending]]
 <<endif>>
-
+<<BGStop MusicManager>>
 ===
 title: ending
 tags: 
 colorID: 0
-position: 387,-760
+position: 1315,-854
 ---
 
 <<startFadeOut GameController 1 bg>>
@@ -465,4 +465,3 @@ But please, think about what, and who, we have to sacrifice for it.
 
 END
 ===
-
