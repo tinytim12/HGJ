@@ -26,8 +26,12 @@ public class GameController : MonoBehaviour {
     void Awake() {
         day = 1;
         DontDestroyOnLoad(this.gameObject);
-        bg.material.color = new Color(1, 1, 1, 0);
-        SpriteManager.GetComponent<SpriteRenderer>().material.color = new Color(1, 1, 1, 0);
+        if(bg != null) {
+            bg.material.color = new Color(1, 1, 1, 0);
+        }
+        if(SpriteManager != null) {
+            SpriteManager.GetComponent<SpriteRenderer>().material.color = new Color(1, 1, 1, 0);
+        }
     }
 
     void Start() {
