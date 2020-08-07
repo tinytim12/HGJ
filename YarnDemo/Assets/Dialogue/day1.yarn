@@ -1,7 +1,7 @@
 title: Start1
 tags: 
 colorID: 0
-position: 1063,22
+position: 1180,353
 ---
 <<NoSprite Sprite>>
 
@@ -43,11 +43,10 @@ Mrs Thiru: “You haven’t been handing in homework on time. If you maintain th
 
 [[You say nothing.|ThiruDay1.3]]
 ===
-
 title: ThiruDay1.1
 tags: 
 colorID: 3
-position: 641,16
+position: 440,308
 ---
 MC: “I will hand in my homework next time.” 
 Yet, even that sounded reluctant.
@@ -68,7 +67,7 @@ You steel yourself to dedicate more time to your homework at night. (You have 60
 title: ThiruDay1.2
 tags: 
 colorID: 0
-position: 1403,-198
+position: 1724,8
 ---
 
 MC: “But I’m stressed from the workload.”
@@ -91,7 +90,7 @@ You decide that you’ll allocate a usual amount of attention to your homework a
 title: ThiruDay1.3
 tags: 
 colorID: 0
-position: 1623,-198
+position: 2026,-15
 ---
 
 It’s easier.
@@ -108,11 +107,10 @@ The exchange has drained you emotionally. Weary, you decide to allocate less tim
 
 [[CorridorDay1]]
 ===
-
 title: CorridorDay1
 tags: 
 colorID: 8
-position: 413,-232
+position: 158,-261
 ---
 <<startFadeOut GameController 1 bg>>
 <<startFadeOut GameController 1 s>>
@@ -146,11 +144,10 @@ Who will you approach?
 [[Approach Siti | SitiDay1]]
 
 ===
-
 title: SitiDay1
 tags: 
 colorID: 4
-position: 779,-81
+position: 605,78
 ---
 <<set $approach_siti to 1>>
 
@@ -179,7 +176,7 @@ Siti: “I know it sounds a little idealistic… you wanna join?”
 title: SitiDay1.1
 tags: 
 colorID: 4
-position: 899,-301
+position: 912,-199
 ---
 MC: “Actually, I see where you are coming from, drawing from the spirit of community.”
 
@@ -199,7 +196,7 @@ Yet, as she rattles on, you can’t help but wonder who would sign up for these.
 title: SitiDay1.2
 tags: 
 colorID: 0
-position: 1119,-301
+position: 1405,-533
 ---
 MC: “That sounds exciting, but I’m already bogged down by my homework.” 
 
@@ -216,11 +213,10 @@ Siti: “We’ll try to have a place open for you if you change your mind, thoug
 [[HomeDay1]]
 
 ===
-
 title: JamesDay1
 tags: 
 colorID: 2
-position: 999,-81
+position: 1018,99
 ---
 <<set $approach_james to 1>>
 
@@ -249,7 +245,7 @@ James: “Do you have $2 to spare? It’s for lunch... I promise I’ll make it 
 title: JamesDay1.1
 tags: 
 colorID: 2
-position: 1120,-301
+position: 1375,-248
 ---
 
 MC: “Sure, James. Don’t worry about it. Come, let’s eat together.”
@@ -290,7 +286,7 @@ After a hearty meal, both of you head home.
 title: JamesDay1.2
 tags: 
 colorID: 2
-position: 1339,-301
+position: 1717,-328
 ---
 MC: “I’m pretty low on cash myself. Perhaps, someday else?”
 
@@ -302,11 +298,10 @@ James bites his lips, walks off with his hands fidgeting about in his pockets.
 
 [[HomeDay1]]
 ===
-
 title: HomeDay1
 tags: 
 colorID: 8
-position: 413,-232
+position: 132,74
 ---
 
 <<startFadeOut GameController 1 s>>
