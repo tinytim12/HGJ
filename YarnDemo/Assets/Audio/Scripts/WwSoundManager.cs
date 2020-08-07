@@ -5,6 +5,7 @@ using Yarn.Unity;
 
 public class WwSoundManager : MonoBehaviour
 {
+    public GameObject SoundManager;
     //Yarn.Unity.DialogueUI DialogueUI;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class WwSoundManager : MonoBehaviour
 
     public void SchoolBell()
     {
-        AkSoundEngine.PostEvent("School_Bell_Start", gameObject); //plays school bell sound
+        AkSoundEngine.PostEvent("School_Bell_Start", SoundManager); //plays school bell sound
     }
 
     //play when there's dialogue with parents 
@@ -30,54 +31,54 @@ public class WwSoundManager : MonoBehaviour
         //need to set text speed to 0f (ignores text speed) in order for sound to be played correctly, otherwise audio will be sped up
         //DialogueUI = FindObjectOfType<Yarn.Unity.DialogueRunner>().GetComponent<DialogueUI>();
         //DialogueUI.textSpeed = 0f;
-        AkSoundEngine.PostEvent("Phone_Typing_Start", gameObject); //plays phone typing sound
+        AkSoundEngine.PostEvent("Phone_Typing_Start", SoundManager); //plays phone typing sound
         //stop sound when text isn't shown otherwise the sound will continue
     }
 
     public void PhoneNotification()
     {
         //when player receives msg from parents
-        AkSoundEngine.PostEvent("Phone_Notification_Start", gameObject); //plays phone notification sound
+        AkSoundEngine.PostEvent("Phone_Notification_Start", SoundManager); //plays phone notification sound
     }
 
     public void LivingRoomAmbience()
     {
         //if at home (living room), play living room ambience
-        AkSoundEngine.PostEvent("Living_room", gameObject); //plays living room ambience
+        AkSoundEngine.PostEvent("Living_room", SoundManager); //plays living room ambience
     }
 
     public void StopLivingRoomAmbience()
     {
-        AkSoundEngine.PostEvent("Living_room_stop", gameObject); //stops playing living room ambience
+        AkSoundEngine.PostEvent("Living_room_stop", SoundManager); //stops playing living room ambience
     }
 
     public void StaffRoomAmbience()
     {
         //if at school (staff room)
-        AkSoundEngine.PostEvent("Staff_room", gameObject); //plays staff room ambience
+        AkSoundEngine.PostEvent("Staff_room", SoundManager); //plays staff room ambience
 
     }
 
     public void StopStaffRoomAmbience()
     {
-        AkSoundEngine.PostEvent("Staff_room_stop", gameObject); // stops playing staff room ambience
+        AkSoundEngine.PostEvent("Staff_room_stop", SoundManager); // stops playing staff room ambience
     }
 
     public void CanteenAmbience()
     {
         //if at school (canteen)
-        AkSoundEngine.PostEvent("Canteen", gameObject); //plays canteen ambience
+        AkSoundEngine.PostEvent("Canteen", SoundManager); //plays canteen ambience
 
     }
 
     public void StopCanteenAmbience()
     {
-        AkSoundEngine.PostEvent("Staff_room_stop", gameObject); // stops playing staff room ambience
+        AkSoundEngine.PostEvent("Staff_room_stop", SoundManager); // stops playing staff room ambience
     }
 
     public void StopDialogueSound()
     {
-        AkSoundEngine.PostEvent("Character_dialogue_stop", gameObject); //stops dialogue sound
+        AkSoundEngine.PostEvent("Character_dialogue_stop", SoundManager); //stops dialogue sound
     }
 
     //refer to writer's script in docs
@@ -89,10 +90,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if James is speaking
-        AkSoundEngine.SetSwitch("Characters", "James", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "James", SoundManager);
 
-        AkSoundEngine.SetSwitch("James_emotion", "Tired", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("James_emotion", "Tired", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -106,10 +107,10 @@ public class WwSoundManager : MonoBehaviour
        // DialogueUI.textSpeed = 0f;
 
         //if James is speaking
-        AkSoundEngine.SetSwitch("Characters", "James", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "James", SoundManager);
 
-        AkSoundEngine.SetSwitch("James_emotion", "Frustrated", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("James_emotion", "Frustrated", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -123,10 +124,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if James is speaking
-        AkSoundEngine.SetSwitch("Characters", "James", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "James", SoundManager);
 
-        AkSoundEngine.SetSwitch("James_emotion", "Disappointed", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("James_emotion", "Disappointed", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -140,10 +141,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if James is speaking
-        AkSoundEngine.SetSwitch("Characters", "James", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "James", SoundManager);
 
-        AkSoundEngine.SetSwitch("James_emotion", "Hopeful", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("James_emotion", "Hopeful", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -157,10 +158,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if James is speaking
-        AkSoundEngine.SetSwitch("Characters", "James", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "James", SoundManager);
 
-        AkSoundEngine.SetSwitch("James_emotion", "Worried", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("James_emotion", "Worried", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -173,10 +174,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Siti", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Siti", SoundManager);
 
-        AkSoundEngine.SetSwitch("Siti_emotion", "Happy", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("Siti_emotion", "Happy", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -189,10 +190,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Siti", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Siti", SoundManager);
 
-        AkSoundEngine.SetSwitch("Siti_emotion", "Hopeful", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("Siti_emotion", "Hopeful", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -205,10 +206,10 @@ public class WwSoundManager : MonoBehaviour
        // DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Siti", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Siti", SoundManager);
 
-        AkSoundEngine.SetSwitch("Siti_emotion", "Annoyed", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("Siti_emotion", "Annoyed", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -221,10 +222,10 @@ public class WwSoundManager : MonoBehaviour
        // DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Siti", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Siti", SoundManager);
 
-        AkSoundEngine.SetSwitch("Siti_emotion", "Worried", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("Siti_emotion", "Worried", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -237,10 +238,10 @@ public class WwSoundManager : MonoBehaviour
        // DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", SoundManager);
 
         AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Disappointed", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -253,10 +254,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", SoundManager);
 
-        AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Concerned", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Concerned", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
@@ -269,9 +270,9 @@ public class WwSoundManager : MonoBehaviour
        // DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", SoundManager);
 
-        AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Surprised", gameObject);
+        AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Surprised", SoundManager);
         AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
 
     }
@@ -285,10 +286,10 @@ public class WwSoundManager : MonoBehaviour
         //DialogueUI.textSpeed = 0f;
 
         //if Siti is speaking
-        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", gameObject);
+        AkSoundEngine.SetSwitch("Characters", "Mrs_Thiru", SoundManager);
 
-        AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Amused", gameObject);
-        AkSoundEngine.PostEvent("Character_dialogue", gameObject); //plays dialogue
+        AkSoundEngine.SetSwitch("Mrs_Thiru_emotion", "Amused", SoundManager);
+        AkSoundEngine.PostEvent("Character_dialogue", SoundManager); //plays dialogue
 
     }
 
