@@ -30,7 +30,6 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("Monologue")]
     public void MonologueMusic()
     {
-        AkSoundEngine.SetState("Menu_or_BG", "BG");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Monologue");
         BGMusic();
     }
@@ -200,6 +199,7 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("SitiHappy")]
     public void SitiHappy()
     {
+        AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Siti_choices", "Happy");
         BGMusic();
     }
@@ -211,6 +211,7 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("SitiHopeful")]
     public void SitiHopeful()
     {
+        AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Siti_choices", "Hopeful");
         BGMusic();
     }
@@ -220,6 +221,7 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("SitiAnnoyed")]
     public void SitiAnnoyed()
     {
+        AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Siti_choices", "Annoyed");
         BGMusic();
     }
