@@ -1,4 +1,3 @@
-===
 title: Start1
 tags: 
 colorID: 0
@@ -29,7 +28,7 @@ Mrs Thiru: “I called you here to talk about your grades.”
 
 Mrs Thiru: “You haven’t been handing in homework on time. If you maintain this, how are you supposed to learn anything?”
 
-[[ Sorry Mrs Thiru|ThiruDay1.1]]
+[[ Sorry Mrs Thiru.|ThiruDay1.1]]
 
 [[I want to improve.|ThiruDay1.2]]
 
