@@ -1,0 +1,65 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	879329718	Menu_or_BG			\Default Work Unit\Music\Menu_or_BG	
+	1271655340	Homework_mini_game			\Default Work Unit\Music\Homework_mini_game	
+	1619247981	Siti_choices			\Default Work Unit\Music\Siti_choices	
+	2091970017	Home_choices			\Default Work Unit\Music\Home_choices	
+	2225504254	Monologue_or_Mrs_Thiru			\Default Work Unit\Music\Monologue_or_Mrs_Thiru	
+	2805117609	Mrs_Thiru_choices			\Default Work Unit\Music\Mrs_Thiru_choices	
+	2898708738	James_choices			\Default Work Unit\Music\James_choices	
+	2950144597	James_or_Siti			\Default Work Unit\Music\James_or_Siti	
+	3347180824	Selected_or_not			\Default Work Unit\Music\Selected_or_not	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_or_BG			
+	1870080928	BG	Menu_or_BG			
+	2607556080	Menu	Menu_or_BG			
+	391998042	Tense	Homework_mini_game			
+	748895195	None	Homework_mini_game			
+	1074973636	Rushed	Homework_mini_game			
+	1247662336	Zen	Homework_mini_game			
+	748895195	None	Siti_choices			
+	1063915687	Worried	Siti_choices			
+	1194639741	Annoyed	Siti_choices			
+	1427264549	Happy	Siti_choices			
+	2757808320	Hopeful	Siti_choices			
+	391998042	Tense	Home_choices			
+	748895195	None	Home_choices			
+	1778460554	Relaxed	Home_choices			
+	2365384220	Dull	Home_choices			
+	2757808320	Hopeful	Home_choices			
+	748895195	None	Monologue_or_Mrs_Thiru			
+	3368367120	Monologue	Monologue_or_Mrs_Thiru			
+	4043819383	Mrs_Thiru_mon	Monologue_or_Mrs_Thiru			
+	82996173	Disappointed	Mrs_Thiru_choices			
+	748895195	None	Mrs_Thiru_choices			
+	2757808320	Hopeful	Mrs_Thiru_choices			
+	3074533040	Concerned	Mrs_Thiru_choices			
+	3834882752	Amused	Mrs_Thiru_choices			
+	82996173	Disappointed	James_choices			
+	748895195	None	James_choices			
+	1309079467	Frustrated	James_choices			
+	2757808320	Hopeful	James_choices			
+	126245619	James	James_or_Siti			
+	436113200	Siti	James_or_Siti			
+	748895195	None	James_or_Siti			
+	363882074	Selected	Selected_or_not			
+	748895195	None	Selected_or_not			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	725232568	Dialogue_Volume			\Default Work Unit\Volume\Dialogue_Volume	
+	1006694123	Music_Volume			\Default Work Unit\Volume\Music_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\Volume\SFX_Volume	
+	2901143258	Ambience_Volume			\Default Work Unit\Volume\Ambience_Volume	
+	4179668880	Master_Volume			\Default Work Unit\Volume\Master_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
