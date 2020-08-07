@@ -32,6 +32,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Menu_or_BG", "BG");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Monologue");
+        BGMusic();
     }
 
     [YarnCommand("BG")]
@@ -59,6 +60,7 @@ public class WwMusicManager : MonoBehaviour
    
     }
 
+    [YarnCommand("MrsThiruDay2")]
     public void MrsThiruMusicDay2()
     {
         //day 1

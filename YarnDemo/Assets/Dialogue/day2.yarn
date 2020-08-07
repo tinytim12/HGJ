@@ -8,6 +8,8 @@ position: 172,-255
 <<startFadeOut GameController 1 s>>
 <<wait 2>>
 
+<<MrsThiruDay2 MusicManager>>
+
 Another long day at school.
 
 Another day of lessons, homework, assignments, worksheets flies by.
@@ -124,7 +126,7 @@ You walk down to the canteen and settle next to your friend for a meal.
 <<if $approach_james is 1>> 
 
 James looks stressed. The weight of all his concerns sinks his shoulders and glance, as he picks at his food.
-
+<<JamesTired MusicManager>>
 <<JamesTired Sprite>>
 <<startFadeIn GameController 1 s>>
 <<wait 1>>
@@ -144,6 +146,7 @@ James: “I wish I could be like Siti - pursuing things I like and doing them we
 
 <<if $approach_siti is 1>> 
 
+<<SitiDay2 MusicManager>>
 <<SitiAnnoyed Sprite>>
 
 <<startFadeIn GameController 1 s>>
@@ -173,6 +176,7 @@ position: 779,-403
 ---
 <<set $continuetuition_siti to 1>>
 
+<<SitiHopeful MusicManager>>
 MC: “How about dropping it after?” 
 Siti: “But I feel quite prepared for it…”
 Siti: “Well, I guess I shouldn’t risk it. It’s better to be safe than sorry right?”
@@ -185,6 +189,8 @@ tags:
 colorID: 0
 position: 999,-403
 ---
+
+<<SitiAnnoyed MusicManager>>
 <<set $droptuition_siti to 1>>
 
 MC: “It’ll give you some room to breathe.”
@@ -210,6 +216,8 @@ position: 1086,-380
 ---
 <<set $study_james to 1>>
 
+<<JamesFrustrated MusicManager>>
+
 MC: “You have to study for tomorrow’s test. Perhaps, if you study, you can rise above where you are now.”
 James sighs and shakes his head. 
 <<JamesFrustrated Sprite>>
@@ -229,6 +237,8 @@ colorID: 0
 position: 1306,-380
 ---
 <<set $work_james to 1>>
+
+<<JamesTired MusicManager>>
 
 MC: “Besides, if you help your dad out tonight, I’m sure he’ll be really grateful.”
 James: “Yeah, I guess… I wish I don’t have to make a choice between school or work.” 
@@ -254,6 +264,7 @@ position: 429,-260
 
 <<wait 1>>
 
+<<HomeRelaxed MusicManager>>
 
 Crashing down on the couch in your living room, you check your family WhatsApp chat.
 
@@ -271,6 +282,8 @@ Dad: “Mom and I have been really busy with work…”
 
 <<if $mom_standyourground is 1>> 
 
+    <<HomeTense MusicManager>>
+
     Dad: “I know mom can be a little forceful.” 
 
     Dad: “But she cares for you. You’ve got to understand where she comes from. She is working hard to give you everything you have now.”
@@ -282,6 +295,8 @@ Dad: “Mom and I have been really busy with work…”
 
 << if $mom_negotiate is 1>> 
 
+    <<HomeTense MusicManager>>
+
     Dad: “I heard you have a test tomorrow... are you ready?”
 
     [[ I hope I can do well. | DadDay2.3 ]]
@@ -290,6 +305,8 @@ Dad: “Mom and I have been really busy with work…”
 <<endif>>
 
 << if $mom_submit is 1>> 
+
+    <<HomeDull MusicManager>>
 
     Dad: “Wanted to ask if tuition went well today… there’s gonna be more work for you.”
 

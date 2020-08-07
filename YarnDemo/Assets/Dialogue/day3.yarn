@@ -57,6 +57,8 @@ position: 326,-296
 
 << if $continuetuition_siti is 1>> 
 
+    <<SitiAnnoyed MusicManager>>
+
     As one of the top students in your class, you’d expect that Siti wouldn’t be too concerned about the test.
 
     Yet, she still frowns as you sit next to her for lunch. 
@@ -81,6 +83,8 @@ position: 326,-296
 <<endif>>
 
 <<if $droptuition_siti is 1>> 
+
+    <<SitiHopeful MusicManager>>
 
     Siti looks more relaxed today.
 
@@ -195,6 +199,8 @@ position: 326,-296
 ---
 
 << if $study_james is 1>> 
+   
+    <<JamesHopeful MusicManager>>
 
     It looks like James remembered to bring his wallet today.
 
@@ -218,6 +224,8 @@ position: 326,-296
 <<endif>>
 
 << if $work_james is 1>> 
+
+    <<JamesTired MusicManager>>
 
     James looks even more tired than usual. 
     <<JasonTired Sprite>>
@@ -324,6 +332,8 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 <<wait 1>>
 <<Phone Sprite>>
 
+<<HomeDull MusicManager>>
+
 “How was the test today?”
 
 So deceptively simple, yet worrying, at the same time.
@@ -342,7 +352,8 @@ position: 267,-540
 
 MC: “I could answer most of the questions...”
 Mom: “Good to hear!”
-<<PhoneRelaxed Sprite>>
+<<PhoneHopeful Sprite>>
+<<HomeHopeful MusicManager>>
 MC: “I was pleasantly surprised too.”
 Mom: “So who should you thank for helping you?”
 MC: “...”
@@ -356,6 +367,7 @@ Perhaps, someday when you grow up, they’ll see the success in you that they ha
 MC: “I could answer most of the questions...”
 Mom: “When you say that, your results always end up otherwise.”
 <<PhoneTense Sprite>>
+<<HomeTense MusicManager>>
 MC: “Mom, please believe me. The test was okay. If the results are lousy, we’ll talk again.”
 Mom: “I’m not convinced. And this is about your attitude to learn, not just your results.”
 MC: “There’s always something you have to nitpick me on. Why can’t you just be nice and supportive for once?”
@@ -373,6 +385,7 @@ position: 487,-540
 ---
 << if $mom_angry is 1 >>
 <<PhoneTense Sprite>>
+<<HomeTense MusicManager>>
 MC: “I’ll do better next time, I promise.”
 Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
 Mom: “You will start your private tuition next week.”
@@ -385,6 +398,7 @@ Only time will tell.
 
 << if $mom_happy is 1 >>
 <<PhoneDull Sprite>>
+<<HomeDull MusicManager>>
 MC: “I’m sorry mom, I really tried but the questions were too tricky.”
 MC: “The tuition didn’t really help.”
 Mom: “So now you are blaming it on the tuition?”

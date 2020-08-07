@@ -50,6 +50,8 @@ tags:
 colorID: 3
 position: 440,308
 ---
+
+<<MrsThiruSorry MusicManager>>
 MC: “I will hand in my homework next time.” 
 Yet, even that sounded reluctant.
 Mrs Thiru looks caught off-guard, for perhaps even the slightest moment. 
@@ -71,6 +73,7 @@ tags:
 colorID: 0
 position: 1724,8
 ---
+<<MrsThiruDiscuss MusicManager>>
 
 MC: “But I’m stressed from the workload.”
 Thiru: “Okay. What don’t you understand - ”
@@ -94,6 +97,8 @@ tags:
 colorID: 0
 position: 2026,-15
 ---
+
+<<MrsThiruDontCare MusicManager>>
 
 It’s easier.
 Mrs Thiru: “Is everything alright? You can always tell me if anything is the matter at home.”
@@ -153,6 +158,8 @@ position: 605,78
 ---
 <<set $approach_siti to 1>>
 
+<<SitiDay1 MusicManager>>
+
 <<HideJamesSiti JamesSitiIntro>>
 
 <<SitiHappy Sprite>>
@@ -180,6 +187,8 @@ tags:
 colorID: 4
 position: 912,-199
 ---
+
+<<SitiHappy MusicManager>>
 MC: “Actually, I see where you are coming from, drawing from the spirit of community.”
 
 Siti: “Nice! Let me tell you more...” 
@@ -200,6 +209,8 @@ tags:
 colorID: 0
 position: 1405,-533
 ---
+
+<<SitiHopeful MusicManager>>
 MC: “That sounds exciting, but I’m already bogged down by my homework.” 
 
 MC: “Mrs Thiru is already scolding me about my grades, haha.”
@@ -220,6 +231,9 @@ tags:
 colorID: 2
 position: 1018,99
 ---
+
+<<JamesDay1 MusicManager>>
+
 <<set $approach_james to 1>>
 
 <<HideJamesSiti JamesSitiIntro>>
@@ -249,6 +263,8 @@ tags:
 colorID: 2
 position: 1375,-248
 ---
+
+<<JamesHopeful MusicManager>>
 
 MC: “Sure, James. Don’t worry about it. Come, let’s eat together.”
 
@@ -290,6 +306,9 @@ tags:
 colorID: 2
 position: 1717,-328
 ---
+
+<<JamesDisappointed MusicManager>>
+
 MC: “I’m pretty low on cash myself. Perhaps, someday else?”
 
 James: “Yeah, sure, of course.”
@@ -318,6 +337,8 @@ position: 132,74
 
 <<wait 1>>
 
+<<PhoneDull MusicManager>>
+
 After a long day at school, you’re finally home.
 
 Your parents aren’t, however.
@@ -326,7 +347,9 @@ Both Dad and Mom are working, and they usually don’t come back until after sun
 
 Sometimes, you don’t even get to see them before going to sleep.
 
+
 <<PhoneTense Sprite>>
+
 
 <<startFadeIn GameController 1 s>>
 
@@ -354,6 +377,8 @@ colorID: 0
 position: 533,-452
 ---
 <<set $mom_standyourground to 1>>
+<<HomeTense MusicManager>>
+
 
 MC: “Maybe dad and you shouldn’t pin your hopes on me. I’m not your puppet.”
 
@@ -386,6 +411,8 @@ position: 753,-452
 ---
 <<set $mom_negotiate to 1>>
 
+<<HomeTense MusicManager>>
+
 MC: “I know how hard you and papa work. ”
 
 MC: “Just give me a bit more time to get my grades back up.”
@@ -412,9 +439,11 @@ position: 973,-452
 ---
 <<set $mom_submit to 1>>
 
+<<HomeDull MusicManager>>
+
 MC: “I want to be better.”
 
-<<PhoneHopeful Sprite>>
+<<PhoneDull Sprite>>
 
 Mom: “I’m not a monster. I’m glad you understand... This tutor is the daughter of one of my colleague’s friends who graduated from a top school. She knows how best to score in exams.”
 
