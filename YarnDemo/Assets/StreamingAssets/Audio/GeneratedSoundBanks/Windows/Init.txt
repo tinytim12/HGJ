@@ -32,9 +32,9 @@ State	ID	Name	State Group			Notes
 	1778460554	Relaxed	Home_choices			
 	2365384220	Dull	Home_choices			
 	2757808320	Hopeful	Home_choices			
+	63700100	Mrs_Thiru	Monologue_or_Mrs_Thiru			
 	748895195	None	Monologue_or_Mrs_Thiru			
 	3368367120	Monologue	Monologue_or_Mrs_Thiru			
-	4043819383	Mrs_Thiru_mon	Monologue_or_Mrs_Thiru			
 	82996173	Disappointed	Mrs_Thiru_choices			
 	748895195	None	Mrs_Thiru_choices			
 	2757808320	Hopeful	Mrs_Thiru_choices			
@@ -42,7 +42,6 @@ State	ID	Name	State Group			Notes
 	3834882752	Amused	Mrs_Thiru_choices			
 	82996173	Disappointed	James_choices			
 	748895195	None	James_choices			
-	1063915687	Worried	James_choices			
 	1309079467	Frustrated	James_choices			
 	2757808320	Hopeful	James_choices			
 	3386657621	Tired	James_choices			

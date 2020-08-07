@@ -8,7 +8,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1777606602	Phone_Notification_Stop			\Default Work Unit\SFX\Phone\Phone_Notification_Stop	
 	2200656914	Phone_Notification_Start			\Default Work Unit\SFX\Phone\Phone_Notification_Start	
 	2619506084	BG_music			\Default Work Unit\Music\BG\BG_music	
+	2667415058	School_Bell_Start			\Default Work Unit\SFX\School\School_Bell_Start	
 	2839607491	BG_music_stop			\Default Work Unit\Music\BG\BG_music_stop	
+	2908458442	School_Bell_Stop			\Default Work Unit\SFX\School\School_Bell_Stop	
 	3281032945	Canteen			\Default Work Unit\Ambience\Canteen	
 	3355232812	Living_room			\Default Work Unit\Ambience\Living_room	
 	3591387107	Character_dialogue			\Default Work Unit\Dialogue\Character_dialogue	
@@ -83,7 +85,6 @@ State	ID	Name	State Group			Notes
 	3834882752	Amused	Mrs_Thiru_choices			
 	82996173	Disappointed	James_choices			
 	748895195	None	James_choices			
-	1063915687	Worried	James_choices			
 	1309079467	Frustrated	James_choices			
 	2757808320	Hopeful	James_choices			
 	3386657621	Tired	James_choices			
@@ -128,6 +129,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	273312989	James_hopeful_01	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Dialogue\James_hopeful_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\James\Hopeful\James_hopeful_01		1188192
 	275634585	Siti_hopeful_03	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Dialogue\Siti_hopeful_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Siti\Hopeful\Siti_hopeful_03		857450
 	280432446	SFX_Phone_Notification_Vibrate02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Phone\SFX_Phone_Notification_Vibrate02_103DCC65.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phone\Phone_Notification\SFX_Phone_Notification_Vibrate02		216192
+	281896471	Bell, School, Ring SND0342 1	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Bell, School, Ring SND0342 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\School\Bell, School, Ring SND0342 1		376048
 	291338911	Mrs Thiru_Day 1_108bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Mrs Thiru_Day 1_108bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Mrs Thiru\Mrs Thiru Day 1_concerned\Mrs Thiru_concerned\Mrs Thiru_Day 1_108bpm_4-4		1706876
 	295105423	Home_Day 1_Dull_95bpm_4-4	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\BG Music\Home_Day 1_Dull_95bpm_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music Switch\BG Music\Home\Home dull\Home_Day 1_Dull_95bpm_4-4\Home_Day 1_Dull_95bpm_4-4		4453556
 	317812645	Mrs Thiru_surprised_02	Y:\Music\Game Audio\WWise\HGJ_Wwise\.cache\Windows\SFX\Dialogue\Mrs Thiru_surprised_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Characters\Mrs Thiru\Surprised\Mrs Thiru_surprised_02		1055172
