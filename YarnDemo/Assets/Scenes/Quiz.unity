@@ -852,7 +852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &641809176
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1909,8 +1909,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1167746490}
-        m_MethodName: SetActive
+      - m_Target: {fileID: 1869240936}
+        m_MethodName: 
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3133,37 +3133,150 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23122cad77cca2348b8be5a1f4410883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameController: {fileID: 2074737105}
   score: 0
-  time: 0
+  timeMain: 60
   timeActive: 1
-  fullScore: 0
+  time: 60
+  questionNumber: 0
+  exam: 0
   questionsArray:
-  - insert question one here
-  - insert question two here
-  - insert question three here
+  - Which of these is not a Uniformed Group in Singapore?
+  - Which of these figures is represented with a statue at Raffles' Landing Site?
+  - 'In 2018, Leong Sze Hian was sued for defamation. He had previously said:'
+  - "What is Singapore\u2019s aim to cut its carbon emissions?"
+  - Which of these are not gazetted National Monuments in Singapore?
+  - This play was written by Stella Kon, detailing the life of a Peranakan matriarch
+    in Singapore. What is it called?
+  - Which of these plants is not native to Singapore?
+  - One of the first five MRT stations was
+  - The water agreement that was signed in 1962 between Singapore and Malaysia expired
+    in
+  - In __, Malaysia and Indonesia conducted Operation Pukul Habis near the Singaporean
+    border during National Day.
+  - 'The Jackson Plan is:'
+  - What is the name of the national flower of Singapore?
+  - 'The theme of the $100 bill is:'
+  - Wilmar International, a company dealing in _, is headquartered in Singapore.
+  - Singapore won an Olympic medal in __ during the Rome Olympics in 1960.
+  - "Which of these men was not a founder of the People\u2019s Action Party?"
+  - In 2013, AWARE protested the lyrics of this famous army marching song.
+  - "To order a hot double shot Americano with no sugar, you\u2019d tell the coffee
+    shop:"
+  - 'In 1980, the University of Singapore and Nanyang University merged to form:'
+  - "This film, produced by Ramasamy Madhavan depicting a migrant worker\u2019s expenses
+    in Singapore, is called:"
   optionOneArray:
-  - question one option one (correct)
-  - question two option one
-  - question three option one
+  - "Boys\u2019 Brigade"
+  - Naraina Pillai
+  - The PAP was anti-Christian, Chinese and chauvinist
+  - Zero net emissions before 2050
+  - Haw Par Villa
+  - Notes from An Even Smaller Island
+  - Rattleweed
+  - Nee Soon
+  - 2002
+  - 1980
+  - "DPM Heng Swee Kiat\u2019s first draft for the East Coast Plan"
+  - Verandah Miss Joaquin
+  - Youth
+  - Diesel
+  - Weightlifting
+  - Lim Kim San
+  - I Saw My Girl
+  - Teh O Siu Dai
+  - NUS
+  - Stranger to Myself
   optionTwoArray:
-  - question one option two
-  - question two option two
-  - question three option two(correct)
+  - "St Andrew\u2019s First Aid"
+  - Tan Kah Kee
+  - PM Lee had misused CPF
+  - Reduce emissions to 100 million tonnes by 2020
+  - Chung Cheng High School (Main)
+  - The Coffin Is Too Big For The Hole
+  - Rain tree
+  - Orchard Road
+  - 2007
+  - 1991
+  - A stimulus package intended to bail Singapore out of the Asian Financial Crisis
+  - Vanda Miss Joaquim
+  - Education
+  - Palm oil
+  - Swimming
+  - Lim Chin Siong
+  - Training to be Soldiers
+  - Kopi C Peng
+  - NTU
+  - $alary Day
   optionThreeArray:
-  - question one option three
-  - question two option three(correct)
-  - question three option three
+  - Red Cross
+  - William Pickering
+  - PM Lee had helped Malaysian PM Najib Razak launder money
+  - Reduce emissions by 50 million tonnes before 2045
+  - Prinsep Street Presbyterian Church
+  - Emily of Emerald Hill
+  - Lipstick Plant
+  - Jurong East
+  - 2011
+  - 1996
+  - The roadmap for British troops to leave Singapore before 1971
+  - Vantah Miss Joaquim
+  - Garden City
+  - Rubber
+  - Table tennis
+  - Lim Yew Hock
+  - Bookout Day
+  - Kopi O Kosong Gao
+  - SMU
+  - Long Long Time Ago
   optionFourArray:
-  - question one option four
-  - question two option four
-  - question three option four
+  - National Civil Defence Cadet Corps
+  - Yusof Ishak
+  - A PAP minister was a liar
+  - Limit emissions to 65 million tonnes by 2030
+  - Sri Temasek
+  - Everything but the Brain
+  - Orange Crepe Ginger
+  - Braddell
+  - 2012
+  - 1998
+  - The first city plan drawn for colonial Singapore
+  - Venta Miss Joaquin
+  - Sports
+  - Fisheries
+  - Gymnastics
+  - Lee Kuan Yew
+  - Purple Light
+  - Teh O Kosong Peng
+  - SUSS
+  - Crazy Rich Asians
+  allAnswersArray:
+  - "St Andrew\u2019s First Aid"
+  - Naraina Pillai
+  - PM Lee had helped Malaysian PM Najib Razak launder money
+  - Limit emissions to 65 million tonnes by 2030
+  - Haw Par Villa
+  - Emily of Emerald Hill
+  - Rain tree
+  - Braddell
+  - 2011
+  - 1991
+  - The first city plan drawn for colonial Singapore
+  - Vanda Miss Joaquim
+  - Youth
+  - Palm oil
+  - Weightlifting
+  - Lim Yew Hock
+  - Purple Light
+  - Kopi O Kosong Gao
+  - NUS
+  - $alary Day
   round: 0
-  answeredQ: 000000000000000000000000
+  answeredQ: 1500000015000000150000001500000015000000150000001500000015000000150000001500000015000000150000001500000015000000150000001500000015000000150000001500000015000000
   rightScreen: {fileID: 116712586}
   wrongScreen: {fileID: 641809175}
-  endQuiz: {fileID: 1167746490}
+  finalScreen: {fileID: 1167746490}
   timeTextGO: {fileID: 1757295748}
+  gameController: {fileID: 0}
 --- !u!4 &1869240938
 Transform:
   m_ObjectHideFlags: 0
@@ -3178,80 +3291,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1983786324
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3367439976219179393, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_Name
-      value: GameController
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 357.8627
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 287.9246
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -130.60817
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439976219179395, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3367439977023392529, guid: e02aa7143c6def340bb2d3e143962f6a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e02aa7143c6def340bb2d3e143962f6a, type: 3}
 --- !u!1 &2050640208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,7 +3504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 14a9e5bd7ddb3bb44a12323360581f57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3483,18 +3522,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066152212}
   m_CullTransparentMesh: 0
---- !u!114 &2074737105 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3367439976219179394, guid: e02aa7143c6def340bb2d3e143962f6a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1983786324}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 994c071a8cdb9b947a0c50107e258cfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2090712731
 GameObject:
   m_ObjectHideFlags: 0
