@@ -34,7 +34,10 @@ Mrs Thiru motions to you to sit. Better than the other teachers who would have l
 
 <<wait 1>>
 <<MrsThiruConcerned SoundManager>> 
+
 Mrs Thiru: “{$name}, I called you here to talk about your grades.”
+
+<<StopDialogue SoundManager>>
 
 Mrs Thiru: “You haven’t been handing in homework on time. If you maintain this, how are you supposed to learn anything?”
 
@@ -54,11 +57,14 @@ MC: “I will hand in my homework next time.”
 Yet, even that sounded reluctant.
 Mrs Thiru looks caught off-guard, for perhaps even the slightest moment. 
 <<ThiruSurprised Sprite>>
+<<MrsThiruSurprised SoundManager>>
 She probably wasn’t expecting such a quick and easy reply from you.
+<<StopDialogue SoundManager>>
 Yet, she recovers her composure. 
 <<ThiruConcerned Sprite>>
 <<MrsThiruConcerned SoundManager>> 
 “Okay, {$name}. The test is in 2 days’ time. I’ll repeat all the topics you need to revise:”
+<<StopDialogue SoundManager>>
 She quickly goes through the content again, but very briefly.
 You’ve got some elbow grease waiting for you at home.
 You steel yourself to dedicate more time to your homework at night. (You have 60 seconds for a homework exercise later.)
@@ -107,6 +113,7 @@ position: 1194,91
 It’s easier.
 <<MrsThiruConcerned SoundManager>> 
 Mrs Thiru: “Is everything alright? You can always tell me if anything is the matter at home.”
+<<StopDialogue SoundManager>>
 You cannot bear to stare into her eyes. 
 <<ThiruDisappointed Sprite>>
 Perhaps it’s the disappointment in her gaze that puts you off.
