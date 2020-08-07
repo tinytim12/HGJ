@@ -72,11 +72,11 @@ position: 326,-296
     
     <<SitiAnnoyedVoice SoundManager>>
     Siti: “My parents signed me up for English tuition...”
-    
-    MC: “But… you topped the school cohort for English!” 
-
-    Siti: “It doesn’t matter to them. Now, my only free afternoon - Tuesday - is gone. They didn’t even bother asking me about it.”
     <<StopDialogue SoundManager>>
+    MC: “But… you topped the school cohort for English!” 
+    <<SitiAnnoyedVoice SoundManager>>
+    Siti: “It doesn’t matter to them. Now, my only free afternoon - Tuesday - is gone. They didn’t even bother asking me about it.”
+     <<StopDialogue SoundManager>>
 
     [[ I had an argument with my parents about tuition too... | SitiDay3.1 ]]
     [[ That sucks. | SitiDay3.2 ]]
@@ -86,13 +86,13 @@ position: 326,-296
 <<if $droptuition_siti is 1>> 
 
     <<SitiHopeful MusicManager>>
-    <<SitiHopefulVoice SoundManager>>
+    
     Siti looks more relaxed today.
 
     You’re not seeing the same enthusiastic girl who encouraged you to join her new CCA.
 
     As you sit next to her, she smiles weakly at you.
-
+    <<SitiHopefulVoice SoundManager>>
     Siti: “I did it… I told my parents I didn’t need an English tutor.”
 
     Siti: “They didn’t handle it so well at first, but I made enough noise that they eventually listened.”
@@ -120,12 +120,13 @@ Siti sighs.
 <<SitiWorried Sprite>>
  <<SitiWorriedVoice SoundManager>>
 Siti: “I guess… but I would rather spend that time on my CCA. I wonder how much more of this I can tahan.”
+ <<StopDialogue SoundManager>>
 You fall silent.
 This doesn’t sound like the Siti you met on Monday.
 She’s starting to look a little like James, isn’t she? Tired, burdened by something out of her control.
 She had sounded hopeful.
 
- <<StopDialogue SoundManager>>
+
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: SitiDay3.2
@@ -135,18 +136,20 @@ position: 665,-523
 ---
 MC: “I guess talking to your parents is not an option.”
 Siti laughs, but her chortle is void of humor.
+ <<SitiWorriedVoice SoundManager>>
 Siti: “If only it was that easy…”
 Siti: “I wish there was someone else to talk to, someone who can actually help.”
 Siti: “Everyone in class thinks I’m arrogant. People like James avoid me, while others want to get into my good books for whatever reason...”
+ <<StopDialogue SoundManager>>
 MC: “Have you tried talking to the school counsellor?”
-Siti: “Only kids who actually need help go to her, right?”
-MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
-Siti hesitates a little. 
-<<SitiWorried Sprite>>
  <<SitiWorriedVoice SoundManager>>
+Siti: “Only kids who actually need help go to her, right?”
+ <<StopDialogue SoundManager>>
+MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
+Siti hesitates a little.
 MC: “She’s paid to listen to your problems anyway.” 
 Siti chuckles a little. 
- <<StopDialogue SoundManager>>
+
 <<SitiAmused Sprite>>
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
@@ -157,20 +160,27 @@ colorID: 0
 position: 885,-523
 ---
 MC: “and took charge of their own studies.”
+ <<SitiWorriedVoice SoundManager>>
 Siti: “… but is hard work alone enough?”
 Siti: “Some people still struggle no matter the amount of effort they put in.” 
+ <<StopDialogue SoundManager>>
 <<SitiWorried GameController>>
 MC: “... the system isn’t entirely meritocratic, not so much like in the past.”
+ <<SitiWorriedVoice SoundManager>>
 Siti: “Now every parent who can afford an advantage for his or her kid would gladly do so. The kid who has a less fortunate parent… loses out.”
+ <<StopDialogue SoundManager>>
 You’re reminded of your own struggle against your parents.
 Siti might come from a more prosperous family than you, but in the long run…
 Are the two of you so different? 
 And, what about kids who were not dealt such a good hand in life?
+ <<SitiWorriedVoice SoundManager>>
 Siti: “Look at James... he tries so hard but still struggles with schoolwork, mainly because of things out of his control.”
+ <<StopDialogue SoundManager>>
 MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance.”
-Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” 
 <<SitiHopeful Sprite>>
  <<SitiHopefulVoice SoundManager>>
+Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” 
+ <<StopDialogue SoundManager>>
 You resist scoffing at that.
 If we can’t even influence our own parents...
 MC: “They are still very much valid. I’m glad you freed up some time for yourself Siti. You deserve some rest too.”
@@ -178,7 +188,7 @@ As Siti leaves the canteen, you realise that you've learned so much about her.
 So much more than who she was in class.
 She wasn’t just at the top of the mountain.
 She was struggling to breathe on top, too.
- <<StopDialogue SoundManager>>
+
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: SitiDay3.4
@@ -187,11 +197,15 @@ colorID: 0
 position: 1105,-523
 ---
 MC: “Academic pathways are still, for the most part, prided as guarantees to job security and success, as compared to alternative ones. As long as that mentality exists, I doubt we can bid goodbye to that business.” 
-Siti: “But it’s better now than in the past right? We can choose to pursue a practical diploma in a polytechnic or continue on the academic pathway in junior college.”
+ <<SitiHopefulVoice SoundManager>>
+ Siti: “But it’s better now than in the past right? We can choose to pursue a practical diploma in a polytechnic or continue on the academic pathway in junior college.”
+ <<StopDialogue SoundManager>>
 MC: “Technically, those options are available. But, mentally, people are still closed off towards their kids choosing that route.”
 MC: “You could use your CCA to help these people.”
 MC: “What about people like James? Perhaps the route he wants to take is not through school.”
+ <<SitiWorriedVoice SoundManager>>
 Siti: “But…” 
+ <<StopDialogue SoundManager>>
 <<SitiWorried Sprite>>
 Siti falls silent next to you as both of you ponder over the issue at hand.
 How do we even begin chanigng a way of thinking that runs in our blood?
@@ -260,8 +274,9 @@ James: “That’s the kindest thing I’ve heard in school for a while.”
 <<JamesHopeful Sprite>>
 <<JamesHopefulVoice SoundManager>>
 James: “I hope this is the start of something better for me… at least I won’t have to see Mrs Thiru every week, haha.”
-We could all agree that it was a small step, but an important one nevertheless.
 <<StopDialogue SoundManager>>
+We could all agree that it was a small step, but an important one nevertheless.
+
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: JamesDay3.2
@@ -273,20 +288,22 @@ James: “It seems worse than before. He refuses to go see a doctor about it.”
 <<JamesWorried Sprite>>
 <<JamesWorriedVoice SoundManager>>
 James: “I don’t think he’ll be able to work for a while.”
+<<StopDialogue SoundManager>>
 MC: “...”
 MC: “So you’re planning to cover his night shifts?”
 Instantly, you feel like you shouldn’t have said that.
 Was it a sensitive issue for him? 
 Did you consider that perhaps he wouldn’t be okay with talking about it?
+<<JamesWorriedVoice SoundManager>>
 James: “I have to for now. My mom and I are trying to apply for additional government assistance too… but it’s not easy.” 
 James: “The forms are a nightmare to go through. Have you ever heard of Comcare? It’s great, but we’re still left hanging about our application.”
+<<StopDialogue SoundManager>>
 MC: “What’s that?”
 You have never heard of such a programme.
 Maybe you were lucky enough to not have to.
-James: “Exactly…”
 And just like that, it’s as though he’s aged decades before your eyes.
 Where had the years gone?
-<<StopDialogue SoundManager>>
+
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: James3.3
@@ -308,9 +325,13 @@ colorID: 0
 position: 1375,-497
 ---
 MC: “Look at the big picture, years down the line, you won’t even remember having taken this test...”
+<<JamesWorriedVoice SoundManager>>
 James: “I screw this one up and I bid my future goodbye. My parents have always told me to get a good job with my education so I don’t have to worry about money as much as they are now.”
+<<StopDialogue SoundManager>>
 MC: “... what about beyond the job, like what do you do in your free time?”
+<<JamesWorriedVoice SoundManager>>
 James: “I’m afraid that’s non-existent when you've been dealt lousy cards in life. You have to spend every minute overturning the bad ones.”
+<<StopDialogue SoundManager>>
 MC: “...”
 MC: “Whatever your choice is, I’ll be here if you need someone to talk to.”
 You both walk away from lunch, vaguely optimistic. 

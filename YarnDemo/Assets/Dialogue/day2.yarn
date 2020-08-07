@@ -64,7 +64,7 @@ Thiru: “How’s your preparation for the test?”
 <<endif>> 
 
 << if $mom_negotiate is 1>> 
-<<MrsTHiruAmused MusicManager>> 
+<<MrsThiruAmused MusicManager>> 
     MC: “Well, it’s… I’m trying my best. I made a deal with my mum.”
 
     MC: “If I do well, she won’t force me to attend new tuition classes.”
@@ -87,9 +87,13 @@ Thiru: “How’s your preparation for the test?”
 <<MrsThiruHopeful MusicManager>> 
     MC: “I’m going to meet with my tutor today.”
 
+    <<ThiruSurprised Sprite>>
+    
+    <<MrsThiruSurprisedVoice SoundManager>> 
+
     Mrs Thiru: “Oh? You engaged a private tutor?” 
     
-    <<ThiruSurprised Sprite>>
+    <<StopDialogue SoundManager>> 
 
     It’s too late for Mrs Thiru to hide a mixed tone of discontent and amusement in her voice.
 
@@ -132,11 +136,15 @@ James looks stressed. The weight of all his concerns sinks his shoulders and gla
 
 MC: “Hey, is everything alright?”
 
+<<JamesTired SoundManager>>
+
 James: “Yeah, it’s just… my dad injured himself."
 
 James: "My family needs the money so I have to do another shift at his workplace tonight.” 
 
 James: “I wish I could be like Siti - pursuing things I like and doing them well."
+
+<<StopDialogue SoundManager>>
 
 [[ Your dad would not want to see you struggle with his work. |JamesDay2.1]]
 [[ The test is not that important anyway. |JamesDay2.2]]
@@ -157,9 +165,13 @@ Putting aside her utensils every few seconds, she responds to a text on her phon
 
 MC: “Your new CCA working you really hard?"
 
+<<SitiAnnoyedVoice SoundManager>>
+
 Siti: “I wish these texts were from my CCA... It’s this private tutor. He won’t stop messaging me about the past year papers and practice questions that I have to do when I get back home!“ 
 
 Siti: “I just feel so overwhelmed with everything - balancing CCAs, volunteering, engaging in leadership activities and school work... I wish I could drop this tutor.”
+
+<<StopDialogue SoundManager>>
 
 [[ But the test is tomorrow. |SitiDay2.1]]
 [[ Perhaps you should. |SitiDay2.2]]
@@ -196,10 +208,12 @@ Siti: “Wait, really?”
 <<SitiHopeful Sprite>>
 MC: “It’s stressing you out, isn’t it?”
 MC: “Besides, if there’s one person in this class who is ready for the test, it’s definitely you.”
+<<SitiHopefulVoice SoundManager>>
 Siti: “I guess you’re right. I do feel quite prepared for the test.”
 Siti: “If there’s one opportunity for me to voice my thoughts to my parents, it’s now.”
 Siti: “They really do believe that tuition equals better grades, which equal better job opportunities… I get it, but it gets stale, you know?”
 Siti: “Shouldn’t there be more to learning than just tuition classes?”
+<<StopDialogue SoundManager>>
 You nod, concurring with the grandiose notion of a fun way to learn without the pressure of having to take an excessive amount of tuition classes...
 
 [[ The school bell rings as students pack up to go home. | HomeDay2 ]]
@@ -218,15 +232,19 @@ position: 1377,-56
 MC: “You have to study for tomorrow’s test. Perhaps, if you study, you can rise above where you are now.”
 James sighs and shakes his head. 
 <<JamesFrustrated Sprite>>
+<<JamesFrustratedVoice SoundManager>>
 James: “It’s easy for you to say. My dad does not earn enough to cover basic expenses… It’s not a choice, like how you see it.”
 MC: “That is not what I meant - ”
 James: “I don’t see any way to escape this... Why does my life have to be much harder than others?”
 James: “Look at Siti over there. She does well on all her tests, is popular among classmates, holds many student leadership positions...” 
 James: “Why can't my life be more like hers?"
+<<StopDialogue SoundManager>>
 You don’t have an answer.
 MC: “Whatever you choose, I’ll be here for you.”
 
 [[ The school bell rings as students pack up to go home. | HomeDay2 ]]
+<<BGStop MusicManager>>
+
 ===
 title: JamesDay2.2
 tags: 
@@ -235,12 +253,15 @@ position: 1761,-213
 ---
 <<set $work_james to 1>>
 
+
 <<JamesTired MusicManager>>
 
 MC: “Besides, if you help your dad out tonight, I’m sure he’ll be really grateful.”
 James: “Yeah, I guess… I wish I don’t have to make a choice between school or work.” 
 <<JamesTired Sprite>>
+<<JamesTiredVoice SoundManager>>
 James: “Will that day ever arrive?”
+<<StopDialogue SoundManager>>
 You don’t have an answer.
 MC: “Whatever you choose, I’ll be here for you.”
 
@@ -281,9 +302,13 @@ Dad: “Mom and I have been really busy with work…”
 
     <<HomeTense MusicManager>>
 
+<<Phone SoundManager>>
+
     Dad: “I know mom can be a little forceful.” 
 
     Dad: “But she cares for you. You’ve got to understand where she comes from. She is working hard to give you everything you have now.”
+
+<<PhoneStop SoundManager>>
 
     [[ I thought about it yesterday. |DadDay2.1]] ]]
     [[ She does not understand where I come from… |DadDay2.2]] ]]
@@ -294,7 +319,11 @@ Dad: “Mom and I have been really busy with work…”
 
     <<HomeTense MusicManager>>
 
+<<Phone SoundManager>>
+
     Dad: “I heard you have a test tomorrow... are you ready?”
+
+<<PhoneStop SoundManager>>
 
     [[ I hope I can do well. |DadDay2.3]]
     [[ Not really... |DadDay2.4]] ]]
@@ -305,7 +334,11 @@ Dad: “Mom and I have been really busy with work…”
 
     <<HomeDull MusicManager>>
 
+<<Phone SoundManager>>
+
     Dad: “Wanted to ask if tuition went well today… there’s gonna be more work for you.”
+
+<<PhoneStop SoundManager>>
 
     [[ Thanks dad. |DadDay2.5]]
     [[ Sighs |DadDay2.6]]
@@ -353,7 +386,6 @@ position: 1031,-776
 ---
 <<Phone SoundManager>> 
 MC: "I really tried this time.”
-
 <<PhoneHopeful Sprite>>
 Dad: “That’s good :)”
 Dad: “Go sleep early. All the best!”
@@ -372,8 +404,10 @@ colorID: 0
 position: 1263,-722
 ---
 MC: “The more I study, the more confused I get… :(”
+<<Phone SoundManager>>
 Dad: “ :( ”
 Dad: “I know you always try to do your best. Dad is still proud of you no matter what okay?”
+<<PhoneStop SoundManager>>
 You smile a little as you lock your phone.
 Yet, you wonder why dad didn’t do this yesterday.
 Or 3 months ago when your last exam got you ripped apart by mom.
@@ -389,9 +423,10 @@ position: 1429,-480
 ---
 MC: “I’ll be fine.”
 MC: “Hopefully I can get better grades and not disappoint mom again...”
+<<Phone SoundManager>>
 Dad: “That’s good...”
 Dad: “Well, all the best kiddo! Do us proud :)”
-
+<<PhoneStop SoundManager>>
 <<PhoneHopeful Sprite>>
 You lock your phone.
 Closing your eyes, you summon your mental strength to keep going.
@@ -406,10 +441,11 @@ position: 1649,-480
 ---
 MC: “But what can I do?”
 MC: “I’m trying really hard to like it, but I don’t. It’s in the way of things I really want to do.”
+<<Phone SoundManager>>
 Dad: “I really want to take a break, but I can’t because I have to earn money for the family. You have to learn that in life, we often don’t get to do the things we like.”
 Dad: “If you had listened to your mom, perhaps you’ll have understood this already. She knows what’s best for you.”
+<<PhoneStop SoundManager>>
 You don’t even want to continue this exchange with dad.
-
 <<PhoneTense Sprite>>
 You lock your phone, and throw it aside.
 Why can’t your parents ever see how tough it is to be a student?

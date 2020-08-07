@@ -4,14 +4,9 @@ colorID: 0
 position: 1180,353
 ---
 <<NoSprite Sprite>>
+<<BG MusicManager>> 
 << Monologue MusicManager>> 
 <<set $name to "Test">>
-
-Meritocracy has long been prized as one of our garden city's shining principles.
-
-If you work hard enough, you'll be able to attain success.
-
-But... how true is that in this day and age?
 
 MONDAY
 <<changeScene GameController staffroom>>
@@ -129,7 +124,7 @@ The exchange has drained you emotionally. Weary, you decide to allocate less tim
 title: CorridorDay1
 tags: 
 colorID: 8
-position: 158,-261
+position: 156,-262
 ---
 <<startFadeOut GameController 1 bg>>
 <<startFadeOut GameController 1 s>>
@@ -168,6 +163,7 @@ tags:
 colorID: 4
 position: 605,78
 ---
+<<BG MusicManager>> 
 <<set $approach_siti to 1>>
 <<SitiDay1 MusicManager>> 
 
@@ -242,6 +238,7 @@ tags:
 colorID: 2
 position: 1018,99
 ---
+<<BG MusicManager>> 
 <<set $approach_james to 1>>
 <<JamesDay1 MusicManager>> 
 
