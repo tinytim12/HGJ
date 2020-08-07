@@ -55,7 +55,7 @@ public class WwMusicManager : MonoBehaviour
         //day 1
         AkSoundEngine.SetState("Days", "Day_1");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
-        BGMusic();
+   
    
     }
 
@@ -65,7 +65,7 @@ public class WwMusicManager : MonoBehaviour
         //day 1
         AkSoundEngine.SetState("Days", "Day_2");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
-        BGMusic();
+        
 
     }
 
@@ -76,7 +76,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Hopeful");
-        BGMusic();
+        
     }
 
     //choice: "Let's discuss
@@ -85,7 +85,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Concerned");
-        BGMusic();
+        
     }
 
     //choice: "I don't really care
@@ -94,7 +94,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru");
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Disappointed");
-        BGMusic();
+       
     }
 
     //James day 1
@@ -103,8 +103,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "James");
         AkSoundEngine.SetState("Days", "Day_1");
-        BGMusic();
-
+       
     }
 
     //James day 2
@@ -113,7 +112,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "James");
         AkSoundEngine.SetState("Days", "Day_2");
-        BGMusic();
+        
         
     }
     //james day 3
@@ -122,7 +121,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "James");
         AkSoundEngine.SetState("Days", "Day_3");
-        BGMusic();
+       
 
     }
 
@@ -133,7 +132,7 @@ public class WwMusicManager : MonoBehaviour
     public void JamesHopeful()
     {
         AkSoundEngine.SetState("James_choices", "Hopeful");
-        BGMusic();
+       
     }
 
     //james choice: "I'm sorry, I don't"
@@ -142,7 +141,7 @@ public class WwMusicManager : MonoBehaviour
     public void JamesDisappointed()
     {
         AkSoundEngine.SetState("James_choices", "Disappointed");
-        BGMusic();
+        
     }
 
     //day 2 - "work"
@@ -150,7 +149,7 @@ public class WwMusicManager : MonoBehaviour
     public void JamesTired()
     {
         AkSoundEngine.SetState("James_choices", "Tired");
-        BGMusic();
+     
     }
 
     //day 2 - study
@@ -159,7 +158,7 @@ public class WwMusicManager : MonoBehaviour
     public void JamesFrustrated()
     {
         AkSoundEngine.SetState("James_choices", "Frustrated");
-        BGMusic();
+       
     }
 
     //Siti day 1
@@ -168,7 +167,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Days", "Day_1");
-        BGMusic();
+       
 
     }
 
@@ -178,7 +177,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Days", "Day_2");
-        BGMusic();
+       
 
     }
     //james day 3
@@ -187,7 +186,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Days", "Day_3");
-        BGMusic();
+    
 
     }
 
@@ -198,7 +197,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Siti_choices", "Happy");
-        BGMusic();
+       
     }
 
     //day 1 - "no sorry"
@@ -210,7 +209,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Siti_choices", "Hopeful");
-        BGMusic();
+       
     }
 
     //day 2 - "bear with it"
@@ -220,7 +219,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("James_or_Siti", "Siti");
         AkSoundEngine.SetState("Siti_choices", "Annoyed");
-        BGMusic();
+        
     }
 
     //home music
@@ -232,7 +231,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Home", "Home");
         AkSoundEngine.SetState("Home_choices", "Dull");
-        BGMusic();
+        
     }
 
     //day 1 "stand your ground" & "negotiate"
@@ -243,7 +242,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Home", "Home");
         AkSoundEngine.SetState("Home_choices", "Tense");
-        BGMusic();
+      
     }
 
     //day 2 "apologise", "quite prepared", "too tired"
@@ -252,7 +251,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Home", "Home");
         AkSoundEngine.SetState("Home_choices", "Relaxed");
-        BGMusic();
+      
     }
 
     //day 3 if defeatd, prepared
@@ -261,7 +260,7 @@ public class WwMusicManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Home", "Home");
         AkSoundEngine.SetState("Home_choices", "Hopeful");
-        BGMusic();
+        
     }
 
     //homework mini game
