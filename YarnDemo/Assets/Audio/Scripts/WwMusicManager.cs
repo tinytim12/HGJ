@@ -30,7 +30,6 @@ public class WwMusicManager : MonoBehaviour
     [YarnCommand("Monologue")]
     public void MonologueMusic()
     {
-        AkSoundEngine.SetState("Menu_or_BG", "BG");
         AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Monologue");
         BGMusic();
     }
