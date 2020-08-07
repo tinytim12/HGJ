@@ -54,7 +54,7 @@ namespace Yarn.Unity.Example {
             int day = GameObject.Find("GameController").GetComponent<GameController>().getDay();
             if (day == 1) {
                 dialogueRunner.Add(scriptToLoad1);
-                talkToNode = "Start";
+                talkToNode = "ThiruDay1.1";
             } else if (day == 2) {
                 dialogueRunner.Add(scriptToLoad2);
                 talkToNode = "Start2";

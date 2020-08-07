@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Yarn.Unity;
+using System;
+
 
 
 public class GameController : MonoBehaviour {
@@ -54,8 +56,9 @@ public class GameController : MonoBehaviour {
     }
 
     [YarnCommand("setTime")]
-    public void setTime(int t) {
-        time = t; 
+    public void setTime(string t) {
+        Debug.Log("SETTIME");
+        time = Int32.Parse(t);
     }
 
     [YarnCommand("getDay")]

@@ -245,7 +245,7 @@ position: 1018,99
 <<set $approach_james to 1>>
 <<JamesDay1 MusicManager>> 
 
-<<HideJamesSiti GameController>>
+<<HideJamesSiti Sprite>>
 
 <<SitiHappy Sprite>>
 

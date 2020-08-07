@@ -180,7 +180,6 @@ public class QuizGame : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        time = timeMain;
         timeTextGO = GameObject.Find("timeText");
 
         rightScreen = GameObject.Find("questionRight");
