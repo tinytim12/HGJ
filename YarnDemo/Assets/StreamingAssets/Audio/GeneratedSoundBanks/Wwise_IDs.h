@@ -32,6 +32,17 @@ namespace AK
 
     namespace STATES
     {
+        namespace HOME
+        {
+            static const AkUniqueID GROUP = 3181406844U;
+
+            namespace STATE
+            {
+                static const AkUniqueID HOME = 3181406844U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace HOME
+
         namespace HOME_CHOICES
         {
             static const AkUniqueID GROUP = 2091970017U;
