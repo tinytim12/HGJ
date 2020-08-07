@@ -39,20 +39,17 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.PostEvent("BG_music_stop", gameObject); //stops the background music
     }
 
-    [YarnCommand("MonologueMusic")]
     public void MonologueMusic()
     {
         //need to set "Menu_or_BG" state to "BG" in order for monologue music to play
-        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Monologue"); // sets it so it plays monologue music
-        //need to put post event after set state
+        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Monologue"); 
 
     }
 
-    //Mrs Thiru Monday
-    //make sure "BG_Music" post event is called after setting state to "BG" and after other set states
+    //Mrs Thiru
     public void MrsThiruMusic()
     {
-        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon"); //sets it to play Mrs Thiru music for mon
+        AkSoundEngine.SetState("Monologue_or_Mrs_Thiru", "Mrs_Thiru_mon"); 
        
         //choices
         //set the choice of music first before the set selected, don't know if it works differently in code but works that way in wwise
@@ -64,7 +61,7 @@ public class WwMusicManager : MonoBehaviour
         AkSoundEngine.SetState("Mrs_Thiru_choices", "Disappointed");
         //if a choice is not selected, will continue playing music until a choice is selected
         AkSoundEngine.SetState("Selected_or_no", "Selected"); //set the state to selected
-        //post event line goes after the set states
+      
     }
 
     //will update script again when I've set it up in wwise for tue and wed
