@@ -1,26 +1,21 @@
+===
 title: Start1
 tags: 
 colorID: 0
 position: 1180,353
 ---
+
+<<StaffRoom SoundManager>>
+<<changeScene GameController staffroom>>
+<<startFadeIn GameController 1 bg>>
+<<startFadeIn GameController 1 s>>
+<<wait 1>>
+<<MrsThiruDay1 MusicManager>> 
+<<SchoolBell SoundManager>> 
 <<ThiruConcerned Sprite>>
 
-<<startFadeIn GameController 1 s>>
-<<MrsThiruDay1 MusicManager>> 
-
-<<wait 1>>
-
-
 <<BG MusicManager>> 
-<< Monologue MusicManager>> 
-
-MONDAY
-<<changeScene GameController staffroom>>
-<<StaffRoom SoundManager>> 
-<<startFadeIn GameController 1 bg>>
-
-<<wait 1>>
-<<SchoolBell SoundManager>> 
+<<Monologue MusicManager>> 
 
 Class has ended.
 
