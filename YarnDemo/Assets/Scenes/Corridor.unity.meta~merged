@@ -1,10 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 0ec5fc7d64dcb9343989c7c5e9a59622
+=======
 <<<<<<< HEAD:YarnDemo/Assets/Audio/1.2.6.meta
 guid: 513964f5a8d9b06439d4cef344008c7d
 folderAsset: yes
 =======
 guid: 0ec5fc7d64dcb9343989c7c5e9a59622
 >>>>>>> 5c74cfd65080322d59a3818dce654489390ebcd8:YarnDemo/Assets/Scenes/Corridor.unity.meta
+>>>>>>> 5c74cfd65080322d59a3818dce654489390ebcd8
 DefaultImporter:
   externalObjects: {}
   userData: 

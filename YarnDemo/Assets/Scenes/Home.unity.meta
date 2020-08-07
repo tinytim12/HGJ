@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:YarnDemo/Assets/Art/Bg/Staffroom_1.pdf.meta
+guid: 5a81168ef36b427439297b4cdb527b86
+=======
 guid: 0ed692a9e2bf93e41922f157fc0af4eb
+>>>>>>> 5c74cfd65080322d59a3818dce654489390ebcd8:YarnDemo/Assets/Scenes/Home.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
