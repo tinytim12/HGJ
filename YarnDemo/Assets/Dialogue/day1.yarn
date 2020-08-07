@@ -4,6 +4,7 @@ colorID: 0
 position: 1180,353
 ---
 <<NoSprite Sprite>>
+<<BG MusicManager>> 
 << Monologue MusicManager>> 
 <<set $name to "Test">>
 
@@ -162,6 +163,7 @@ tags:
 colorID: 4
 position: 605,78
 ---
+<<BG MusicManager>> 
 <<set $approach_siti to 1>>
 <<SitiDay1 MusicManager>> 
 
@@ -236,6 +238,7 @@ tags:
 colorID: 2
 position: 1018,99
 ---
+<<BG MusicManager>> 
 <<set $approach_james to 1>>
 <<JamesDay1 MusicManager>> 
 
