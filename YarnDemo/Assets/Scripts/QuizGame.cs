@@ -48,7 +48,11 @@ public class QuizGame : MonoBehaviour
     void Start()
     {
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-        time = gameController.getTime();
+        if (gameController.getTest()) {
+            time = 30;
+        } else {
+            time = gameController.getTime();
+        }
         timeTextGO = GameObject.Find("timeText");
         rightScreen.SetActive(false);
         wrongScreen.SetActive(false);

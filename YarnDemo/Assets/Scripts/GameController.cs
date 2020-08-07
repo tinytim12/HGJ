@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour {
 
     public DialogueRunner dialogue;
 
-    public boolean finalTest;
+    public bool finalTest;
 
     void Awake() {
         day = 1;
