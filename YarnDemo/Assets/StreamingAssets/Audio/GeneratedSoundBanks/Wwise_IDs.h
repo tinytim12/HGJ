@@ -129,7 +129,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID MONOLOGUE = 3368367120U;
-                static const AkUniqueID MRS_THIRU_MON = 4043819383U;
+                static const AkUniqueID MRS_THIRU = 63700100U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MONOLOGUE_OR_MRS_THIRU
