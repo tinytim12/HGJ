@@ -82,6 +82,14 @@
 							<ShortName>BG Music\James_choice 2_disappointed_85bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/James_choice 2_disappointed_85bpm_4-4_D79FB2B7.wem</Path>
 						</File>
+						<File Id="790892464" Language="SFX">
+							<ShortName>BG Music\James_choice_tired_85bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice_tired_85bpm_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="796130930" Language="SFX">
+							<ShortName>BG Music\James_choice_frustrated_90bpm_4-4.wav</ShortName>
+							<Path>SFX/BG Music/James_choice_frustrated_90bpm_4-4_D79FB2B7.wem</Path>
+						</File>
 						<File Id="844424994" Language="SFX">
 							<ShortName>BG Music\Mrs Thiru_choice 1_hopeful_108bpm_4-4.wav</ShortName>
 							<Path>SFX/BG Music/Mrs Thiru_choice 1_hopeful_108bpm_4-4_D79FB2B7.wem</Path>
@@ -173,6 +181,27 @@
 												</SwitchContainer>
 												<SwitchContainer SwitchValue="{1740E40A-021A-4926-ACD6-19F3F60C3D88}">
 													<Children/>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
+													<Children/>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
+													<Children>
+														<SwitchContainer SwitchValue="{15F51D17-56DA-4EE1-9F7F-76ECB9338030}">
+															<Media>
+																<File Id="790892464"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{0EE87209-43AF-409A-9A59-708E5D765B13}">
+													<Children>
+														<SwitchContainer SwitchValue="{63098EB1-6848-4C34-8E93-14AE1DF9F8FF}">
+															<Media>
+																<File Id="796130930"/>
+															</Media>
+														</SwitchContainer>
+													</Children>
 												</SwitchContainer>
 											</Children>
 										</SwitchContainer>
@@ -277,11 +306,6 @@
 														<File Id="295105423"/>
 													</Media>
 												</SwitchContainer>
-												<SwitchContainer SwitchValue="{6638F2C4-4866-41EF-8CC2-DF238808364A}">
-													<Media>
-														<File Id="181677387"/>
-													</Media>
-												</SwitchContainer>
 												<SwitchContainer SwitchValue="{BB8AC425-FD84-4815-A32F-D9713AB27C72}">
 													<Media>
 														<File Id="228720956"/>
@@ -290,6 +314,11 @@
 												<SwitchContainer SwitchValue="{AE51B304-E669-4362-91D4-A65F762250D3}">
 													<Media>
 														<File Id="1063722860"/>
+													</Media>
+												</SwitchContainer>
+												<SwitchContainer SwitchValue="{6638F2C4-4866-41EF-8CC2-DF238808364A}">
+													<Media>
+														<File Id="181677387"/>
 													</Media>
 												</SwitchContainer>
 											</Children>
@@ -619,6 +648,10 @@
 				<Event Id="428856256" Name="Staff_room_stop" ObjectPath="\Events\Default Work Unit\Ambience\Staff_room_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="21356977" Language="SFX">
+					<ShortName>BG Music\Homework mini game_Rushed_103bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Homework mini game_Rushed_103bpm_4-4_D79FB2B7.wem</Path>
+				</File>
 				<File Id="40769514" Language="SFX">
 					<ShortName>BG Music\Mrs Thiru_choice 3_disappointed_108bpm_4-4.wav</ShortName>
 					<Path>SFX/BG Music/Mrs Thiru_choice 3_disappointed_108bpm_4-4_D79FB2B7.wem</Path>
@@ -634,6 +667,10 @@
 				<File Id="74720509" Language="SFX">
 					<ShortName>Dialogue\James_tired_01.wav</ShortName>
 					<Path>SFX/Dialogue/James_tired_01_10C4C929.wem</Path>
+				</File>
+				<File Id="87161990" Language="SFX">
+					<ShortName>BG Music\Homework mini game_Zen_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Homework mini game_Zen_85bpm_4-4_D79FB2B7.wem</Path>
 				</File>
 				<File Id="120780929" Language="SFX">
 					<ShortName>Phone\SFX_Phone_Typing03.wav</ShortName>
@@ -759,6 +796,10 @@
 					<ShortName>BG Music\Siti_choice 1_happy_130bpm_6-8.wav</ShortName>
 					<Path>SFX/BG Music/Siti_choice 1_happy_130bpm_6-8_D79FB2B7.wem</Path>
 				</File>
+				<File Id="589974238" Language="SFX">
+					<ShortName>Homework mini game_Tense_95bpm_4-4.wav</ShortName>
+					<Path>SFX/Homework mini game_Tense_95bpm_4-4_D79FB2B7.wem</Path>
+				</File>
 				<File Id="595249296" Language="SFX">
 					<ShortName>Dialogue\Mrs Thiru_amused_02.wav</ShortName>
 					<Path>SFX/Dialogue/Mrs Thiru_amused_02_10C4C929.wem</Path>
@@ -786,6 +827,10 @@
 				<File Id="654000457" Language="SFX">
 					<ShortName>Ambience\Ambience_Canteen.wav</ShortName>
 					<Path>SFX/Ambience/Ambience_Canteen_D79FB2B7.wem</Path>
+				</File>
+				<File Id="673611248" Language="SFX">
+					<ShortName>BG Music\Homework mini game_Tense_95bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/Homework mini game_Tense_95bpm_4-4_D79FB2B7.wem</Path>
 				</File>
 				<File Id="687078840" Language="SFX">
 					<ShortName>Dialogue\Mrs Thiru_disappointed_03.wav</ShortName>
@@ -818,6 +863,14 @@
 				<File Id="782449726" Language="SFX">
 					<ShortName>Dialogue\James_disappointed_02.wav</ShortName>
 					<Path>SFX/Dialogue/James_disappointed_02_10C4C929.wem</Path>
+				</File>
+				<File Id="790892464" Language="SFX">
+					<ShortName>BG Music\James_choice_tired_85bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice_tired_85bpm_4-4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="796130930" Language="SFX">
+					<ShortName>BG Music\James_choice_frustrated_90bpm_4-4.wav</ShortName>
+					<Path>SFX/BG Music/James_choice_frustrated_90bpm_4-4_D79FB2B7.wem</Path>
 				</File>
 				<File Id="801581992" Language="SFX">
 					<ShortName>Dialogue\Mrs Thiru_disappointed_02.wav</ShortName>
@@ -881,6 +934,14 @@
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\None"/>
 						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\Menu"/>
 						<State Id="1870080928" Name="BG" ObjectPath="\States\Default Work Unit\Music\Menu_or_BG\BG"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1271655340" Name="Homework_mini_game" ObjectPath="\States\Default Work Unit\Music\Homework_mini_game">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\Homework_mini_game\None"/>
+						<State Id="1074973636" Name="Rushed" ObjectPath="\States\Default Work Unit\Music\Homework_mini_game\Rushed"/>
+						<State Id="391998042" Name="Tense" ObjectPath="\States\Default Work Unit\Music\Homework_mini_game\Tense"/>
+						<State Id="1247662336" Name="Zen" ObjectPath="\States\Default Work Unit\Music\Homework_mini_game\Zen"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="1619247981" Name="Siti_choices" ObjectPath="\States\Default Work Unit\Music\Siti_choices">
