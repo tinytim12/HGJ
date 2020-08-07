@@ -1,7 +1,7 @@
 title: Start3
 tags: 
 colorID: 0
-position: 1410,-29
+position: 1005,-317
 ---
 
 <<startFadeOut GameController 1 bg>>
@@ -23,7 +23,7 @@ The test has just ended. Your favourite period of the day is here!
 title: Day3Friends
 tags: 
 colorID: 0
-position: -16,-295
+position: 326,-296
 ---
 
 <<startFadeOut GameController 1 bg>>
@@ -47,10 +47,12 @@ position: -16,-295
 <<endif>>
 
 ===
+
 title: SitiDay3
 tags: 
 colorID: 0
-position: 196,-81
+position: 326,-296
+
 ---
 
 << if $continuetuition_siti is 1>> 
@@ -67,13 +69,14 @@ position: 196,-81
     <<wait 1>>
 
     MC: “What’s wrong, Siti?”
-
+    
+    <<SitiAnnoyedVoice SoundManager>>
     Siti: “My parents signed me up for English tuition...”
-
+    
     MC: “But… you topped the school cohort for English!” 
 
     Siti: “It doesn’t matter to them. Now, my only free afternoon - Tuesday - is gone. They didn’t even bother asking me about it.”
-
+    <<StopDialogue SoundManager>>
 
     [[ I had an argument with my parents about tuition too... | SitiDay3.1 ]]
     [[ That sucks. | SitiDay3.2 ]]
@@ -83,7 +86,7 @@ position: 196,-81
 <<if $droptuition_siti is 1>> 
 
     <<SitiHopeful MusicManager>>
-
+    <<SitiHopefulVoice SoundManager>>
     Siti looks more relaxed today.
 
     You’re not seeing the same enthusiastic girl who encouraged you to join her new CCA.
@@ -98,6 +101,7 @@ position: 196,-81
 
     Siti: “Do you think it’s possible that one day, we’ll be rid of this whole tuition business?”
 
+     <<StopDialogue SoundManager>>
 
     [[ Maybe if everyone worked hard... | SitiDay3.3 ]]
     [[ The issue is a little more complex... | SitiDay3.4 ]] ]]
@@ -114,18 +118,20 @@ MC: “...”
 MC: “I know you’re strong, Siti. Perhaps treat it as extra practice?”
 Siti sighs. 
 <<SitiWorried Sprite>>
+ <<SitiWorriedVoice SoundManager>>
 Siti: “I guess… but I would rather spend that time on my CCA. I wonder how much more of this I can tahan.”
 You fall silent.
 This doesn’t sound like the Siti you met on Monday.
 She’s starting to look a little like James, isn’t she? Tired, burdened by something out of her control.
 She had sounded hopeful.
 
+ <<StopDialogue SoundManager>>
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: SitiDay3.2
 tags: 
 colorID: 0
-position: 806,-295
+position: 665,-523
 ---
 MC: “I guess talking to your parents is not an option.”
 Siti laughs, but her chortle is void of humor.
@@ -137,8 +143,10 @@ Siti: “Only kids who actually need help go to her, right?”
 MC: “Everyone can get by a little better with some help. Perhaps you should give it a try, treat her as a friend.”
 Siti hesitates a little. 
 <<SitiWorried Sprite>>
+ <<SitiWorriedVoice SoundManager>>
 MC: “She’s paid to listen to your problems anyway.” 
 Siti chuckles a little. 
+ <<StopDialogue SoundManager>>
 <<SitiAmused Sprite>>
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
@@ -162,6 +170,7 @@ Siti: “Look at James... he tries so hard but still struggles with schoolwork, 
 MC: “Yeah… kids who need to work for their family, or those trapped in an abusive family drama - they won’t stand a chance.”
 Siti: “My problems seem small compared to theirs. I hope someone changes the system in future...” 
 <<SitiHopeful Sprite>>
+ <<SitiHopefulVoice SoundManager>>
 You resist scoffing at that.
 If we can’t even influence our own parents...
 MC: “They are still very much valid. I’m glad you freed up some time for yourself Siti. You deserve some rest too.”
@@ -169,7 +178,7 @@ As Siti leaves the canteen, you realise that you've learned so much about her.
 So much more than who she was in class.
 She wasn’t just at the top of the mountain.
 She was struggling to breathe on top, too.
-
+ <<StopDialogue SoundManager>>
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: SitiDay3.4
@@ -192,7 +201,8 @@ How do we even begin chanigng a way of thinking that runs in our blood?
 title: Day3James
 tags: 
 colorID: 0
-position: 540,-46
+position: 326,-296
+
 ---
 
 << if $study_james is 1>> 
@@ -208,13 +218,13 @@ position: 540,-46
     <<wait 1>>
     
     <<JasonHopeful Sprite>>
-
+    
     MC: “Seems like the test went well?” 
-
+    <<JamesHopefulVoice SoundManager>>
     James: “Yeah. I could answer most of the questions.”
 
     James: “I feel bad for not helping my dad out yesterday… I hope he’s still proud of me.”
-
+     <<StopDialogue SoundManager>>
     [[ Of course he will be. | JamesDay3.1 ]]
     [[ Is your dad feeling better? | JamesDay3.2 ]]
 
@@ -230,9 +240,9 @@ position: 540,-46
     He can barely eat his Hokkien mee without his eyes closing a little.
 
     MC: “Hey James, you okay?”
-
+    <<JamesTiredVoice SoundManager>>
     James: “Barely slept for an hour last night...”
-
+    <<StopDialogue SoundManager>>
     [[ You must be really tired. | James3.3 ]]
     [[ Maybe studying is not the only thing you can do. | James3.4 ]]
 
@@ -241,25 +251,27 @@ position: 540,-46
 title: JamesDay3.1
 tags: 
 colorID: 0
-position: 887,-43
+position: 715,-497
 ---
 MC: “You’re his son, after all.”
 MC: “I know it’s cliche, but perhaps someday, after all the hard work we put in, we all get to live the lives we aspire to lead.”
 You’re not even convinced by your own statement, how would James feel about it?
 James: “That’s the kindest thing I’ve heard in school for a while.” 
 <<JamesHopeful Sprite>>
+<<JamesHopefulVoice SoundManager>>
 James: “I hope this is the start of something better for me… at least I won’t have to see Mrs Thiru every week, haha.”
 We could all agree that it was a small step, but an important one nevertheless.
-
+<<StopDialogue SoundManager>>
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: JamesDay3.2
 tags: 
 colorID: 0
-position: 1141,-232
+position: 935,-497
 ---
 James: “It seems worse than before. He refuses to go see a doctor about it.” 
 <<JamesWorried Sprite>>
+<<JamesWorriedVoice SoundManager>>
 James: “I don’t think he’ll be able to work for a while.”
 MC: “...”
 MC: “So you’re planning to cover his night shifts?”
@@ -274,13 +286,13 @@ Maybe you were lucky enough to not have to.
 James: “Exactly…”
 And just like that, it’s as though he’s aged decades before your eyes.
 Where had the years gone?
-
+<<StopDialogue SoundManager>>
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
 title: James3.3
 tags: 
 colorID: 0
-position: 1243,-105
+position: 1155,-497
 ---
 MC: “Hopefully you’ll have more time to study before the next exam.”
 James falls silent. 
@@ -293,7 +305,7 @@ How could he be expected to study if he had to help out at home so much?
 title: James3.4
 tags: 
 colorID: 0
-position: 1630,-408
+position: 1375,-497
 ---
 MC: “Look at the big picture, years down the line, you won’t even remember having taken this test...”
 James: “I screw this one up and I bid my future goodbye. My parents have always told me to get a good job with my education so I don’t have to worry about money as much as they are now.”
@@ -308,6 +320,7 @@ Regardless of the letters or numbers on a paper.
 
 [[ You look at the time and realise you need to head home. | HomeDay3 ]]
 ===
+
 title: HomeDay3
 tags: 
 colorID: 0
@@ -329,11 +342,11 @@ You’re home again. Opening your WhatsApp chat, you’re greeted by a question 
 <<Phone Sprite>>
 
 <<HomeDull MusicManager>>
-
+<<PhoneDull SoundManager>>
 “How was the test today?”
 
 So deceptively simple, yet worrying, at the same time.
-
+<<PhoneStop SoundManager>>
 (if you scored > 10 questions right, I think I did well will be your option. If not, It did not go so well)
 
 [[ I think I did well | MomDay3.1]] ]]
@@ -350,6 +363,7 @@ MC: “I could answer most of the questions...”
 Mom: “Good to hear!”
 <<PhoneHopeful Sprite>>
 <<HomeHopeful MusicManager>>
+<<PhoneHopeful SoundManager>>
 MC: “I was pleasantly surprised too.”
 Mom: “So who should you thank for helping you?”
 MC: “...”
@@ -357,6 +371,7 @@ You open your mouth to rebut, but quickly decide against it - it’ll only lead 
 Perhaps, someday when you grow up, they’ll see the success in you that they have drilled in your head to aspire towards. Perhaps, you should be thankful, maybe far into the future when you’re actually a “successful person”...
 … whatever that means.
 [[ ending: |ending]]
+<<PhoneStop SoundManager>>
 <<endif>>
 
 << if $mom_angry is 1 >>
@@ -364,12 +379,13 @@ MC: “I could answer most of the questions...”
 Mom: “When you say that, your results always end up otherwise.”
 <<PhoneTense Sprite>>
 <<HomeTense MusicManager>>
+<<PhoneTense SoundManager>>
 MC: “Mom, please believe me. The test was okay. If the results are lousy, we’ll talk again.”
 Mom: “I’m not convinced. And this is about your attitude to learn, not just your results.”
 MC: “There’s always something you have to nitpick me on. Why can’t you just be nice and supportive for once?”
 You realise that this probably isn’t the best thing to say.
 And as your mom types a long message, definitely intended to lecture you over WhatsApp, you throw your phone aside and sigh.
-
+<<PhoneStop SoundManager>>
 [[ ending: |ending]]
 <<endif>>
 
@@ -377,27 +393,27 @@ And as your mom types a long message, definitely intended to lecture you over Wh
 title: MomDay3.2
 tags: 
 colorID: 0
-position: 573,-316
+position: 487,-540
 ---
 << if $mom_angry is 1 >>
 <<PhoneTense Sprite>>
 <<HomeTense MusicManager>>
-<<Phone SoundManager>> 
+<<PhoneTense SoundManager>>
 MC: “I’ll do better next time, I promise.”
 Mom: “That’s what I told you how it’ll end up if you don’t follow my way.”
 Mom: “You will start your private tuition next week.”
 MC: “...”
-<<PhoneStop SoundManager>> 
 Maybe mom is right.
 Who knows?
 Only time will tell.
 [[ ending: |ending]]
+<<PhoneStop SoundManager>>
 <<endif>>
 
 << if $mom_happy is 1 >>
 <<PhoneDull Sprite>>
 <<HomeDull MusicManager>>
-<<Phone SoundManager>> 
+<<PhoneDull SoundManager>>
 MC: “I’m sorry mom, I really tried but the questions were too tricky.”
 MC: “The tuition didn’t really help.”
 Mom: “So now you are blaming it on the tuition?”
@@ -409,19 +425,18 @@ Dad: “Dear, please. School is not all entirely about grades.”
 Dad: “Maybe we should start emphasizing other things and listen more to our child.”
 Mom: “You’ve always kept quiet and... now, you’ve decided to speak up and play the good cop card?”
 Mom: “Fine, listen to your dad, but don’t come crying back to me when you fail.”
-<<PhoneStop SoundManager>> 
 Well, some things just don’t change.
 Mom has always been a tad abrasive.
 But it was nice to see Dad finally have the time to step up for you.
-
+<<PhoneStop SoundManager>>
 [[ ending: |ending]]
 <<endif>>
-<<BGStop MusicManager>>
+
 ===
 title: ending
 tags: 
 colorID: 0
-position: 1315,-854
+position: 387,-760
 ---
 
 <<startFadeOut GameController 1 bg>>
@@ -465,3 +480,4 @@ But please, think about what, and who, we have to sacrifice for it.
 
 END
 ===
+
